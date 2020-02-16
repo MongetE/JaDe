@@ -1,0 +1,28 @@
+1. A cool small evening shrunk to a dog bark and the clank of a bucket -
+2. And you listening.
+3. A spider's web, tense for the dew's touch.
+4. A pail lifted, still and brimming - mirror
+5. To tempt a first star to a tremor.
+
+6. Cows are going home in the lane there, looping the hedges with their warm
+7. wreaths of breath -
+8. A dark river of blood, many boulders,
+9. Balancing unspilled milk.
+10. 'Moon!' you cry suddenly, 'Moon!  Moon!'
+
+11. The moon has stepped back like an artist gazing amazed at a work
+12. That points at him amazed.
+
+01 02 [] [] []
+02 03 [] [] []
+03 04 [] [] []
+04 05 [pb_noun_prep] [suave] [=retro]
+05 06 [] [] []
+
+06 07 [pb_noun_adj] [suave] [pro]
+07 08 [] [] []
+08 09 [] [] []
+09 10 [] [] []
+10 11 [] [] []
+
+11 12 [cc_cross_clause] [suave] [=retro]

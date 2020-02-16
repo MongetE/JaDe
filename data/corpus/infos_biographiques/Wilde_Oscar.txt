@@ -1,0 +1,6 @@
+Name: Wilde
+Fname: Oscar
+Birth: 16/10/1854, Dublin (IR)
+Death: 30/11/1900, Paris (FR)
+Century: 19th
+Nationality: Irish

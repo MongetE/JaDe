@@ -1,0 +1,6 @@
+Name: Jonson
+Fname: Ben
+Birth: ~11/6/1572, London (UK)
+Death: ~16/8/1637, London (UK)
+Century: 16/17th
+Nationality: British

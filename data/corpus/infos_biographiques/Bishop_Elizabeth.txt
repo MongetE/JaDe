@@ -1,0 +1,7 @@
+Name: Bishop
+Fname: Elizabeth
+Birth: 8/2/1911, Worcester (US)
+Death: 6/10/1979, Boston (US)
+Century: 20th
+Nationality: American
+

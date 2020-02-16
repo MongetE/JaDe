@@ -1,0 +1,32 @@
+1. We are getting to the end of visioning
+2. The impossible within this universe,
+3. Such as that better whiles may follow worse,
+4. And that our race may mend by reasoning.
+
+5. We know that even as larks in cages sing
+6. Unthoughtful of deliverance from the curse
+7. That holds them lifelong in a latticed hearse,
+8. We ply spasmodically our pleasuring.
+
+9. And that when nations set them to lay waste
+10. Their neighbours' heritage by foot and horse,
+11. And hack their pleasant plains in festering seams,
+12. They may again, - not warily, or from taste,
+13. But tickled mad by some demonic force. -
+14. Yes. We are getting to the end of dreams!
+
+01 02 [ex_dobj_verb] [suave] [retro]
+02 03 [] [] []
+03 04 [] [] []
+04 05 [] [] []
+
+05 06 [] [] []
+06 07 [cc_cross_clause] [suave] [pro] 
+07 08 [] [] []
+08 09 [] [] []
+
+09 10 [ex_verb_dobj] [suave] [pro]
+10 11 [] [] []
+11 12 [] [] []
+12 13 [] [] []
+13 14 [] [] []

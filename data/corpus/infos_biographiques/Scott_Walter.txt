@@ -1,0 +1,6 @@
+Name: Scott
+Fname: Walter
+Birth: 15/8/1771, Edinburgh (UK)
+Death: 21/9/1832, Abbotsford (UK)
+Century: 18/19th
+Nationality: Scottish

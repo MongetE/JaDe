@@ -1,0 +1,28 @@
+1. These are the letters which Endymion wrote
+2. To one he loved in secret and apart,
+3. And now the brawlers of the auction-mart
+4. Bargain and bid for each poor blotted note,
+5. Aye! for each separate pulse of passion quote
+6. The merchant's price! I think they love not art
+7. Who break the crystal of a poet's heart,
+8. That small and sickly eyes may glare or gloat.
+9. Is it not said, that many years ago,
+10. In a far Eastern town some soldiers ran
+11. With torches through the midnight, and began
+12. To wrangle for mean raiment, and to throw
+13. Dice for the garments of a wretched man,
+14. Not knowing the God's wonder, or his woe?
+
+01 02 [ex_iobj_verb] [suave] [=retro]
+02 03 [] [] []
+03 04 [ex_subj_verb] [suave] [pro]
+04 05 [] [] []
+05 06 [] [] [pro] # if you're quick enough to realize the meaning of "quote" here it's prospective as you'll expect the object
+06 07 [cc_cross_clause] [suave] [pro] # i thought was gonna be "not art but ..."
+07 08 [] [] []
+08 09 [] [] []
+09 10 [] [] []
+10 11 [] [] [pro] # put pro since i expected additional details # adjunt of instrument
+11 12 [pb_verb_chain] [abrupt] [pro]
+12 13 [ex_verb_dobj] [suave] [pro]
+13 14 [] [] []

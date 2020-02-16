@@ -1,0 +1,34 @@
+1. Do you know what I was, how I lived?  You know
+2. what despair is; then
+3. winter should have meaning for you.
+
+4. I did not expect to survive,
+5. earth suppressing me. I didn't expect
+6. to waken again, to feel
+7. in damp earth my body
+8. able to respond again, remembering
+9. after so long how to open again
+10. in the cold light
+11. of earliest spring--
+
+12. afraid, yes, but among you again
+13. crying yes risk joy
+
+14. in the raw wind of the new world.
+
+01 02 [ex_dobj_verb] [abrupt] [pro] # clause as dobj
+02 03 [pb_adv_verb] [suave] [pro]
+03 04 [] [] []
+
+04 05 [] [] []
+05 06 [pb_verb_chain] [abrupt] [pro] # or is it dobj?
+06 07 [ex_dobj_verb] [suave] [pro]
+07 08 [pb_noun_adj] [abrupt] [pro]
+08 09 [ex_dobj_verb] [suave] [pro]
+09 10 [] [suave] [=retro] # location adjunct
+10 11 [pb_noun_prep] [] [retro]
+11 12 [] [] []
+
+12 13 [] [] []
+13 14 [pb_noun_prep] [suave] [retro]
+

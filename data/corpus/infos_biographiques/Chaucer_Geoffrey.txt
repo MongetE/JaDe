@@ -1,0 +1,6 @@
+Name: Chaucer
+Fname: Geoffrey
+Birth: 1343, London (UK)
+Death: 25/10/1400, London (UK)
+Century: 14th
+Nationality: British

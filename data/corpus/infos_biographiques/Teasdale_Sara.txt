@@ -1,0 +1,6 @@
+Name: Teasdale
+Fname: Sara 
+Birth: 8/8/1884, St Louis (US)
+Death: 29/1/1933, NYC (US)
+Century: 19/20th
+Nationality: American

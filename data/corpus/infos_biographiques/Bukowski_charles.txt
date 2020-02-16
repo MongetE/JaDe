@@ -1,0 +1,7 @@
+Name: Bukowski
+Fname: Charles
+Birth: 6/8/1920, Andernach (Prussia)
+Death: 9/3/1994
+Century: 20th
+Nationality: German-American
+

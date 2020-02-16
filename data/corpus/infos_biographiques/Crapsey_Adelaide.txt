@@ -1,0 +1,6 @@
+Name: Crapsey
+Fname: Adelaide
+Birth: 9/9/1878, NYC (US)
+Death: 8/10/1914, NYC (US)
+Century: 19/20th
+Nationality: American

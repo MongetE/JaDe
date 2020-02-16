@@ -1,0 +1,6 @@
+Name: Barrett Browning
+Fname: Elizabeth
+Birth: 6/3/1806, Durham (UK)
+Death: 29/6/1861, Florence (IT)
+Century: 19th
+Nationality: British

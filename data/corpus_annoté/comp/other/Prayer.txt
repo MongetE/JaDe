@@ -1,0 +1,30 @@
+1. Great God, I ask for no meaner pelf
+2. Than that I may not disappoint myself,
+3. That in my action I may soar as high
+4. As I can now discern with this clear eye.
+5. And next in value, which thy kindness lends,
+6. That I may greatly disappoint my friends,
+7. Howe'er they think or hope that it may be,
+8. They may not dream how thou'st distinguished me.
+
+9. That my weak hand may equal my firm faith
+10. And my life practice what my tongue saith
+11. That my low conduct may not show
+12. Nor my relenting lines
+13. That I thy purpose did not know
+14. Or overrated thy designs.
+
+01 02 [pb_relword] [suave] [retro]
+02 03 [] [] []
+03 04 [pb_relword] [suave] [pro]
+04 05 [] [] []
+05 06 [] [] []
+06 07 [] [] []
+07 08 [] [] []
+08 09 [] [] []
+
+09 10 [] [] []
+10 11 [] [] []
+11 12 [ex_dobj_verb] [suave] []
+12 13 [] [] []
+13 14 [] [] []

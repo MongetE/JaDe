@@ -1,0 +1,330 @@
+A Sonnet, To The Noble Lady, The Lady Mary Wroth
+    13. Her joys, her smiles, her loves, as readers take
+    14. For Venus' ceston, every line you make.
+Take for ---> phrasal verb (que les lecteurs [pensent être] le ceston [...])
+Take for ---> verb + prep (que les lecteurs prennent [pour le ceston [...]])
+
+--------------------------------------------------------------------------
+A virginal - Pound 
+    4. Slight are her arms, yet they have bound me straitly
+    5. And left me cloaked as with a gauze of aether;
+Conj - ellipse du they grâce à la conjonction
+
+    7. Oh, I have picked up magic in her nearness
+    8. To sheathe me half in half the things that sheathe her.
+Circonstancielle de but 
+
+--------------------------------------------------------------------------
+Absence 
+    5. But a silence vasty-deep, oh deeper than all these ties
+    6. Now, through the menacing miles, brooding between us lies.
+---> si == now deeper than all these ties, pb_adj_adv ?
+
+--------------------------------------------------------------------------
+Admonition - Plath
+    1. If you dissect a bird
+    2. To diagram the tongue
+
+    If you flay a beast
+    6. To marvel at the mane
+Circonstancielle de but
+
+--------------------------------------------------------------------------
+An Almost Made Up Poem - Bukowski
+    2. blue hands, no, your hands are not tiny
+    3. they are small, and the fountain is in France
+Missing ","
+
+    3. they are small, and the fountain is in France
+    4. where you wrote me that last letter and
+Circonstancielle de lieu
+
+    10. go ahead, enter their lives, I' not jealous
+    11. because we' never met. we got close once in
+Conjonction
+
+    11. because we' never met. we got close once in
+    12. New Orleans, one half block, but never met, never
+Séparation NP/PREP au sein de la circonstancielle de lieu
+
+    15. is that the famous are worried about
+    16. their fame -  not the beautiful young girl in bed
+---> be worried about semble correspondre à verb_cprep donc pb_verb_cprep,
+     sinon ex_iobj_verb 
+    
+    17. with them, who gives them that, and then awakens
+    18. in the morning to write upper case poems about
+Circonstancielle de temps
+
+    20. us. but listening to you I wasn' sure. maybe
+    21 it was the upper case. you were one of the 
+Maybe = adv de phrase 
+
+    23. editors, " her, print her, she' mad but she's
+    24. magic. there' no lie in her fire." I loved you
+be = verbe d'état et attribut != obj
+
+    24. magic. there' no lie in her fire." I loved you
+    25. like a man loves a woman he never touches, only
+Circonstancielle de manière
+
+    36. heard again. a friend wrote me of your suicide
+    37. 3 or 4 months after it happened. if I had met you
+Circonstancielle de temps ? 
+
+    37. 3 or 4 months after it happened. if I had met you
+    38. I would probably have been unfair to you or you
+Conditionnelle/principale
+
+    38. I would probably have been unfair to you or you
+    39. to me. it was best like this.
+---> ellipse de unfair la 2ème fois = pb_adj_prep / sinon
+    pb_noun_prep
+
+--------------------------------------------------------------------------
+An Enigma 
+    3. Through all the flimsy things we see at once
+    4. As easily as through a Naples bonnet-
+Adverbe rattaché à see
+
+13. Stable, opaque, immortal- all by dint
+14. Of the dear names that he concealed within 't.
+---> by dint of = a priori expression figée (=à force de) so lex ?
+
+--------------------------------------------------------------------------
+Anthem for Doomed Youth - Owen
+    10. Not in the hands of boys, but in their eyes
+    11. Shall shine the holy glimmers of good-byes.
+Circonstancielle de lieu
+
+--------------------------------------------------------------------------
+At A Lunar Eclispe - Hardy
+    2. Now steals along upon the Moon's meek shine
+    3. In even monochrome and curving line
+Circonstancielle de manière
+
+--------------------------------------------------------------------------
+Bayonet
+    7. It was made
+    8. in my dream
+    9. for you.
+Circonstancielles (lieu, but)
+
+    11. I was curled fetally
+    12. and yet I held a bayonet
+Conjonction (contrastive)
+
+    16. It was made to enter you
+    17. as you have entered me
+Adverbe rattaché à enter
+
+    17. as you have entered me
+    18. and to cut the daylight into you
+    19. and let out your buried heartland,
+Conjonctions, ellipse de made
+
+--------------------------------------------------------------------------
+Bric à brac
+    9. Lonely folk have lines of days
+    10. Long and faltering and thin;
+Si adj rattachés à days, pb_adj_noun, mais rattachés à lines ?(+ probable)
+
+--------------------------------------------------------------------------
+Canal Bank Walk - Kavanagh
+    11. Feed the gaping need of my senses, give me ad lib
+    12. To pray unselfconsciously with overflowing speech
+Circonstancielle de but 
+
+    12. To pray unselfconsciously with overflowing speech
+    13. For this soul needs to be honoured with a new dress woven 
+Conjonction (but)
+
+--------------------------------------------------------------------------
+Cold Are The Crabs - Edward Lear
+    9. Yet much remains - to weave a solemn strain
+    10. That lingering sadly - slowly dies away,
+    11. Daily departing with departing day
+    12. A pea-green gamut on a distant plain
+    13. When wily walrusses in congresses meet -
+9-10 = cc_cross_clause 
+11-12/12-13 ???
+
+--------------------------------------------------------------------------
+Complete Destruction 
+    3. then took her box
+    4. and set fire to it
+Conjonction
+
+    6. Those fleas that escaped
+    7. earth and fire
+    8. died by the cold.
+Those fleas (6) = sujet de died (8)
+
+--------------------------------------------------------------------------
+Cradle Song
+
+    10. From the poppy-bole
+    11. For you I stole
+    12. A little lovely dream.
+
+    14. In golden light
+    15. The stars around you gleam;
+Circonstancielle de manière ? 
+
+
+    16. On you I press
+    17. With soft caress
+    18. A little lovely dream.
+17 = circonstancielle de manière de [On you I press a little lovely dream]
+18 = objet de 16
+
+--------------------------------------------------------------------------
+Crowned
+    2. And go my lifted royal way apart
+    3. Since you have crowned me softly in your heart
+Conjonction subordination (raison)
+
+--------------------------------------------------------------------------
+Dreams - Langston Hughes 
+Question des conjonctions de raison (for if dreams...)
+
+--------------------------------------------------------------------------
+Futility
+    6. If anything might rouse him now
+    7. The kind old sun will know.
+The kind old sun will know [if anything might rouse him now]
+---> Gprep = objet de know so ex_dobj_verb ? 
+
+    13. --O what made fatuous sunbeams toil
+    14. To break earth's sleep at all?
+Circonstancielle de but ? 
+
+--------------------------------------------------------------------------
+God 
+    3. Alone in my purity
+    4. World without end.
+Purity = noun et world = noun mais purity agit comme adjectif so ?
+
+    12. Better to be human
+    13. Than God—and lonely.
+Relword mais pas vraiment relword - than introduit God et better to be human
+mais still pb parce que séparation des comparatifs ??
+
+--------------------------------------------------------------------------
+Her Voice
+    1. THE wild bee reels from bough to bough
+    2. With his furry coat and his gauzy wing
+Circonstancielle de manière
+
+    8. Swore that two lives should be like one
+    9. As long as the sea-gull loved the sea,
+Circonstancielle de condition
+
+    18. Scatters the thistledown, but there
+    19. Great winds blow fair
+There = adv et Great = adj mais there rattaché à blow donc pas enj entre v/adv
+ni adj/adv yet éclatement du verbe et de son adverbe 
+
+    26. Ah! can it be
+    27. We have lived our lives in a land of dreams!
+Eclatement de la subordonnée avec marqueur zéro ; techniquement, peut être 
+syntaxiquement complet (can it be - cela se peut-il) -> retro mais pb_relword?
+
+--------------------------------------------------------------------------
+In the old theater, Fiesol
+    12. Whom common simples cure, her act flashed home
+    13. In that mute moment to my opened mind
+    14. The power, the pride, the reach of perished Rome.
+Son geste rappela brièvement à mon esprit ouvert la puissance, la fierté, 
+la portée de Rome.
+Entre 12 et 13, séparation du Gprep rattaché à la flashed, mais entre 
+13 et 14, il y a rien, mais 12 contient le verbe auquel 14 est rattaché.
+
+--------------------------------------------------------------------------
+Man in Black
+    2. Breakwaters take the shove
+    3. And suck of the grey sea
+ex_subj_verb nonetheless ? 
+
+    3. And suck of the grey sea
+
+    4. To the left
+pb_noun_prep ou pb_verb_prep
+--------------------------------------------------------------------------
+Mowing
+    11. Not without feeble-pointed spikes of flowers
+    12. (Pale orchises)
+Pale orchises rattaché à flowers, mais pas enjambement je pense
+
+--------------------------------------------------------------------------
+Prayer - Thoreau
+Tout la dernière strophe
+
+--------------------------------------------------------------------------
+September
+    12. Minutes uproaring with our heads
+
+    13. Like an unfortunate King's and his Queen's 
+
+--------------------------------------------------------------------------
+Sonnet in search of an author
+    4. under the trees in full excess
+    5. matching the cushion of
+
+--------------------------------------------------------------------------
+Before he went
+    Good King of Cats Young Daniel -> Good King of Cats GAdj de Young Daniel
+
+--------------------------------------------------------------------------
+On Leigh Hunt's poem
+Not sure for seek/for given there is no evidence for it to be correct except
+google Ngram viewers shows it was used throughout the centuries
+
+--------------------------------------------------------------------------
+The Lynching
+    5. All night a bright and solitary star
+    6. (Perchance the one that ever guided him,
+    7. Yet gave him up at last to Fate's wild whim)
+    8. Hung pitifully o'er the swinging char.
+
+--------------------------------------------------------------------------
+The silken tent 
+    12. And only by one's going slightly taut
+    13. In the capriciousness of summer air
+    14. Is of the slightlest bondage made aware.
+
+--------------------------------------------------------------------------
+Trollius and Trellises 
+    2. and I’m ready for that
+    3. but what I’m really worried about is
+    4. that my editor-publisher might retire
+ex_attr_verb
+
+    17. that he will opt for warm and pleasant
+    18. afternoons  
+    19. in the garden
+    20. long before I.
+long before dépend de opt
+
+    67. typed
+    68. triple-spaced on rice
+
+    72. and all you
+    73. have left
+    74. is a
+
+    84. my present editor-publisher
+    85. and I
+    86. at times
+    87. did discuss the thirties,
+    88. the Depression
+    89. and
+
+    109. and thank you
+    110. for locating me there at
+    
+----------------------------------------------------------------------
+If we must die
+
+    6. So that our precious blood may not be shed
+    7. In vain; then even the monsters we defy

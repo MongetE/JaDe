@@ -1,0 +1,6 @@
+Name: Guest
+Fname: Edgar
+Birth: 20/8/1881, Birmingham (UK)
+Death: 5/8/1959, Detroit (US)
+Century: 19/20th
+Nationality: British

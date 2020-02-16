@@ -1,0 +1,6 @@
+Name: Lear
+Fname: Edward
+Birth: 12/5/1812, Holloway (UK)
+Death: 29/1/1888, Sanremo (IT)
+Century: 19th
+Nationality: British/Italian

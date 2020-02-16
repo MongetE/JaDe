@@ -1,0 +1,8 @@
+Lines,Syntactic_type,Style_type,Meaning_type
+01-02,[pb_phrasal_verb],[suave],[pro]
+02-03,[ex_dobj_verb],[suave],[pro]
+03-04,[lex_lexical],[suave],[retro]
+04-05,[pb_noun_adj],[suave],[retro]
+05-06,[lex_lexical],[suave],[retro]
+06-07,[],[],[]
+07-08,[pb_noun_adj],[suave],[pro]

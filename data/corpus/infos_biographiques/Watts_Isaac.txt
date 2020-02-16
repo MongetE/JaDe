@@ -1,0 +1,7 @@
+Name: Watts
+Fname: Isaac
+Birth: 17/7/1674, Southampton (UK)
+Death: 25/11/1748, Stoke Newington (London, UK)
+Century: 17/18th
+Nationality: British
+

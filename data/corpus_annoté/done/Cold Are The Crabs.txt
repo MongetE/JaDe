@@ -1,0 +1,28 @@
+1. Cold are the crabs that crawl on yonder hills,
+2. Colder the cucumbers that grow beneath,
+3. And colder still the brazen chops that wreathe
+4. The tedious gloom of philosophic pills!
+5. For when the tardy film of nectar fills
+6. The simple bowls of demons and of men,
+7. There lurks the feeble mouse, the homely hen,
+8. And there the porcupine with all her quills.
+9. Yet much remains - to weave a solemn strain
+10. That lingering sadly - slowly dies away,
+11. Daily departing with departing day
+12. A pea-green gamut on a distant plain
+13. When wily walrusses in congresses meet -
+14. Such such is life -
+
+01 02 [] [] []
+02 03 [] [] []
+03 04 [ex_dobj_verb] [suave] [pro]
+04 05 [] [] []
+05 06 [ex_dobj_verb] [suave] [pro]
+06 07 [] [] []
+07 08 [] [] []
+08 09 [cc_cross_clause] [abrupt] [pro]
+09 10 [cc_cross_clause] [abrupt] [pro]
+10 11 [] [] []
+11 12 [] [] []
+12 13 [] [suave] [=retro] # adjunct, time expression
+13 14 [] [] []

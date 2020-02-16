@@ -1,0 +1,28 @@
+1. Who loves to peer up at the morning sun,
+2. With half-shut eyes and comfortable cheek,
+3. Let him with this sweet tale full often seek
+4. For meadows where the little rivers run;
+5. Who loves to linger with that brightest one
+6. Of Heaven -- Hesperus -- let him lowly speak
+7. These numbers to the night and starlight meek,
+8. Or moon, if that her hunting be begun.
+9. He who knows these delights, and, too, is prone
+10. To moralize upon a smile or tear,
+11. Will find at once a region of his own,
+12. A bower for his spirit, and will steer
+13. To alleys where the fir-tree drops its cone,
+14. Where robins hop, and fallen leaves are sear.
+
+01 02 [] [] []
+02 03 [] [] []
+03 04 [pb_verb_cprep] [suave] [pro]
+04 05 [] [] []
+05 06 [pb_noun_prep] [abrupt] [retro]
+06 07 [ex_dobj_verb] [suave] [retro]
+07 08 [] [] []
+08 09 [] [] []
+09 10 [pb_adj_prep] [suave] [retro]
+10 11 [] [] []
+11 12 [] [] []
+12 13 [] [] []
+13 14 [] [] []

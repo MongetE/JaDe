@@ -1,0 +1,6 @@
+Name: Lovelace
+Fname: Richard
+Birth: 1617
+Death: 1657, London (UK)
+Century: 17th
+Nationality: British

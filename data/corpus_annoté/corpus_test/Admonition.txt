@@ -1,0 +1,28 @@
+1. If you dissect a bird
+2. To diagram the tongue
+3. You'll cut the chord
+4. Articulating song.
+
+5. If you flay a beast
+6. To marvel at the mane
+7. You'll wreck the rest
+8. From which the fur began.
+
+9. If you pluck out the heart
+10. To find what makes it move,
+11. You'll halt the clock
+12. That syncopates our love. 
+
+01 02 [ex_verb_adjunct_goal] [smooth] [retro]
+02 03 [] [] []
+03 04 [cc_cross_clause] [smooth] [retro]
+04 05 [] [] []
+
+05 06 [ex_verb_adjunct_goal] [smooth] [retro]
+06 07 [] [] []
+07 08 [pb_noun_prep] [smooth] [retro]
+08 09 [] [] []
+
+09 10 [ex_verb_adjunct_goal] [smooth] [retro]
+10 11 [] [] []
+11 12 [cc_cross_clause] [smooth] [retro]

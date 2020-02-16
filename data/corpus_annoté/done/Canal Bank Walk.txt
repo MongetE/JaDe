@@ -1,0 +1,28 @@
+1. Leafy-with-love banks and the green waters of the canal
+2. Pouring redemption for me, that I do
+3. The will of God, wallow in the habitual, the banal,
+4. Grow with nature again as before I grew.
+5. The bright stick trapped, the breeze adding a third
+6. Party to the couple kissing on an old seat,
+7. And a bird gathering materials for the nest for the Word
+8. Eloquently new and abandoned to its delirious beat.
+9. O unworn world enrapture me, encapture me in a web
+10. Of fabulous grass and eternal voices by a beech,
+11. Feed the gaping need of my senses, give me ad lib
+12. To pray unselfconsciously with overflowing speech
+13. For this soul needs to be honoured with a new dress woven 
+14. From green and blue things and arguments that cannot be proven.
+
+01 02 [ex_subj_verb] [abrupt] [?+pro] # expecting this to be an adjunct of line 2
+02 03 [ex_dobj_verb] [abrupt] [pro]
+03 04 [] [] []
+04 05 [] [] []
+05 06 [pb_noun_adj] [suave] [pro] # numerals differnt from adj? Put together with determiners?
+06 07 [] [] []
+07 08 [pb_noun_adj] [suave] [=retro]
+08 09 [] [] []
+09 10 [pb_noun_prep] [suave] [=retro]
+10 11 [] [] []
+11 12 [pb_adj_prep] [suave] [=retro]
+12 13 [pb_verb_cprep] [suave] [retro]
+13 14 [pb_verb_cprep] [suave] [pro] # woven asked for continuation

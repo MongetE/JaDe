@@ -1,0 +1,28 @@
+1. I lift my heavy heart up solemnly,
+2. As once Electra her sepulchral urn,
+3. And, looking in thine eyes, I overturn
+4. The ashes at thy feet. Behold and see
+5. What a great heap of grief lay hid in me,
+6. And how the red wild sparkles dimly burn
+7. Through the ashen grayness. If thy foot in scorn
+8. Could tread them out to darkness utterly,
+9. It might be well perhaps. But if instead
+10. Thou wait beside me for the wind to blow
+11. The gray dust up, . . . those laurels on thine head,
+12. O my Beloved, will not shield thee so,
+13. That none of all the fires shall scorch and shred
+14. The hair beneath. Stand farther off then! go.
+
+01 02 [] [] []
+02 03 [] [] []
+03 04 [ex_dobj_verb] [abrupt] [pro]
+04 05 [ex_dobj_verb] [smooth] [retro]
+05 06 [] [] []
+06 07 [ex_verb_adjunct_location] [smooth] [retro]
+07 08 [ex_subj_verb] [smooth] [pro]
+08 09 [] [] []
+09 10 [] [] []
+10 11 [ex_dobj_verb] [abrupt] [retro]
+11 12 [] [] []
+12 13 [] [] []
+13 14 [ex_subj_verb] [abrupt] [pro]

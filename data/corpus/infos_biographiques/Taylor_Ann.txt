@@ -1,0 +1,6 @@
+Name: Taylor
+Fname: Ann
+Birth: 30/1/1782, London (UK)
+Death: 20/12/1866
+Century: 18/19th
+Nationality: British

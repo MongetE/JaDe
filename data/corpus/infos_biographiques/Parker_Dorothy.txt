@@ -1,0 +1,6 @@
+Name: Parker
+Fname: Dorothy
+Birth: 22/8/1893, Long Branch (US)
+Death: 7/6/1967, NYC (US)
+Century: 20th
+Nationality: American

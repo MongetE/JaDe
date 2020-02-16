@@ -1,0 +1,32 @@
+1. About me young careless feet
+2. Linger along the garish street;
+3. Above, a hundred shouting signs
+4. Shed down their bright fantastic glow
+5. Upon the merry crowd and lines
+6. Of moving carriages below.
+7. Oh wonderful is Broadway -- only
+8. My heart, my heart is lonely.
+9. Desire naked, linked with Passion,
+10. Goes trutting by in brazen fashion;
+11. From playhouse, cabaret and inn
+12. The rainbow lights of Broadway blaze
+13. All gay without, all glad within;
+14. As in a dream I stand and gaze
+15. At Broadway, shining Broadway -- only
+16. My heart, my heart is lonely.
+
+01 02 [ex_subj_verb] [smooth] [pro]
+02 03 [] [] []
+03 04 [ex_subj_verb] [smooth] [pro]
+04 05 [ex_verb_adjunct_location] [smooth] [retro]
+05 06 [pb_noun_prep] [smooth] [retro]
+06 07 [] [] []
+07 08 [pb_noun_adv] [abrupt] [pro]
+08 09 [] [] []
+09 10 [] [] []
+10 11 [] [] []
+11 12 [] [] []
+12 13 [] [] []
+13 14 [] [] []
+14 15 [pb_verb_cprep] [abrupt] [pro]
+15 16 [pb_noun_adv] [abrupt] [pro]

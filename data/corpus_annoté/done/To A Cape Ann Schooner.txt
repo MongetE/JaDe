@@ -1,0 +1,28 @@
+1. Luck to the craft that bears this name of mine,
+2. Good fortune follow with her golden spoon
+3. The glazed hat and tarry pantaloon;
+4. And wheresoe'er her keel shall cut the brine,
+5. Cod, hake and haddock quarrel for her line.
+6. Shipped with her crew, whatever wind may blow,
+7. Or tides delay, my wish with her shall go,
+8. Fishing by proxy. Would that it might show
+9. At need her course, in lack of sun and star,
+10. Where icebergs threaten, and the sharp reefs are;
+11. Lift the blind fog on Anticosti's lee
+12. And Avalon's rock; make populous the sea
+13. Round Grand Manan with eager finny swarms,
+14. Break the long calms, and charm away the storms.
+
+01 02 [] [] []
+02 03 [ex_dobj_verb] [suave] [pro] # was expecting an object for "follow"
+03 04 [] [] []
+04 05 [] [] []
+05 06 [] [] []
+06 07 [] [] []
+07 08 [] [] []
+08 09 [ex_dobj_verb] [abrupt] [pro]
+09 10 [] [] []
+10 11 [] [] []
+11 12 [] [abrupt] [=retro] # coordination inside a phrase
+12 13 [pb_noun_prep] [suave] [=retro]
+13 14 [] [] []

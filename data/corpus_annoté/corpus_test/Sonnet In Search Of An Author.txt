@@ -1,0 +1,36 @@
+1. Nude bodies like peeled logs
+2. sometimes give off a sweetest
+3. odor, man and woman
+
+4. under the trees in full excess
+5. matching the cushion of
+
+6. aromatic pine-drift fallen
+7. threaded with trailing woodbine
+8. a sonnet might be made of it
+
+9. Might be made of it! odor of excess
+10. odor of pine needles, odor of
+11. peeled logs, odor of no odor
+12. other than trailing woodbine that
+
+13. has no odor, odor of a nude woman
+14. sometimes, odor of a man.
+
+01 02 [ex_subj_verb] [smooth] [pro]
+02 03 [pb_noun_adj] [abrupt] [pro]
+03 04 [pb_noun_prep] [smooth] [pro]
+
+04 05 [] [] []
+05 06 [pb_noun_prep] [smooth] [pro]
+
+06 07 [] [] []
+07 08 [] [] []
+08 09 [] [] []
+
+09 10 [] [] []
+10 11 [pb_noun_prep] [abrupt] [pro]
+11 12 [pb_noun_adj] [smooth] [retro]
+12 13 [pb_relword] [abrupt] [pro]
+
+13 14 [] [] []

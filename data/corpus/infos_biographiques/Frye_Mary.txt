@@ -1,0 +1,6 @@
+Name: Frye
+Fname: Mary
+Birth: 13/11/1905, Dayton (US)
+Death: 15/9/2004, Baltimore (US)
+Century: 20th
+Nationality: American

@@ -1,0 +1,6 @@
+Name: Kipling
+Fname: Rudyard
+Birth: 30/12/1865, Bombay (IN)
+Death: 18/1/1936, London (UK)
+Century: 19/20th
+Nationality: British
