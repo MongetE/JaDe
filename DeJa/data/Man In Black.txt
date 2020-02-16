@@ -1,0 +1,54 @@
+1. Where the three magenta
+2. Breakwaters take the shove
+3. And suck of the grey sea
+
+4. To the left, and the wave
+5. Unfists against the dun
+6. Barb-wired headland of
+
+7. The Deer Island prison
+8. With its trim piggeries,
+9. Hen huts and cattle green
+
+10. To the right, and March ice
+11. Glazes the rock pools yet,
+12. Snuff-colored sand cliffs rise
+
+13. Over a great stone spit
+14. Bared by each falling tide,
+15. And you, across those white
+
+16. Stones, strode out in you dead
+17. Black coat, black shoes, and your
+18. Black hair till there you stood,
+
+19. Fixed vortex on the far
+20. Tip, riveting stones, air,
+21. All of it, together.
+
+01 02 [pb_noun_adj] [smooth] [pro]
+02 03 [ex_subj_verb] [smooth] [retro]
+03 04 [pb_noun_prep] [smooth] [retro]
+
+04 05 [ex_subj_verb] [smooth] [pro]
+05 06 [pb_adj_adj] [smooth] [pro]
+06 07 [pb_relword] [smooth] [pro]
+
+07 08 [pb_noun_prep] [smooth] [retro]
+08 09 [] [] []
+09 10 [pb_noun_prep] [smooth] [retro]
+
+10 11 [ex_subj_verb] [smooth] [pro]
+11 12 [] [] []
+12 13 [ex_verb_adjunct_location] [smooth] [retro]
+
+13 14 [pb_noun_adj] [smooth] [retro]
+14 15 [] [] []
+15 16 [pb_noun_adj] [abrupt] [pro]
+
+16 17 [pb_adj_adj] [abrupt] [pro]
+17 18 [pb_det_noun] [smooth] [pro]
+18 19 [] [] []
+
+19 20 [pb_noun_adj] [abrupt] [pro]
+20 21 [] [] []

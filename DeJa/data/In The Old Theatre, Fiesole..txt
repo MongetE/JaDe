@@ -1,0 +1,32 @@
+1. I traced the Circus whose gray stones incline
+2. Where Rome and dim Etruria interjoin,
+3. Till came a child who showed an ancient coin
+4. That bore the image of a Constantine.
+
+5. She lightly passed; nor did she once opine
+6. How, better than all books, she had raised for me
+7. In swift perspective Europe's history
+8. Through the vast years of Caesar's sceptred line.
+
+9. For in my distant plot of English loam
+10. 'Twas but to delve, and straightway there to find
+11. Coins of like impress.  As with one half blind
+12. Whom common simples cure, her act flashed home
+13. In that mute moment to my opened mind
+14. The power, the pride, the reach of perished Rome.
+
+01 02 [ex_adjunct_verb_location] [smooth] [retro]
+02 03 [] [] []
+03 04 [cc_cross_clause] [smooth] [retro]
+04 05 [] [] []
+
+05 06 [ex_dobj_verb] [abrupt] [retro]
+06 07 [ex_adjunct_verb_manner] [smooth] [pro]
+07 08 [pb_verb_prep] [smooth] [pro]
+08 09 [] [] []
+
+09 10 [] [] []
+10 11 [ex_dobj_verb] [abrupt] [pro]
+11 12 [cc_cross_clause] [abrupt] [retro]
+12 13 [ex_adjunct_verb_time] [smooth] [retro]
+13 14 [] [] []
