@@ -1,8 +1,9 @@
 import os
+import sys
 import pathlib
 
-DIRPATH = '/home/rhodri/Documents/memoire/corpus/preprocess_corpus'
-MAIN_DIR = '/home/rhodri/Documents/memoire/corpus/raw_corpus/per_author'
+DIRPATH = sys.argv[1] # output dirpath
+MAIN_DIR = sys.argv[2] #input dirpath
 
 
 def number_lines(file, author_dir):
