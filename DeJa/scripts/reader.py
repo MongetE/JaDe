@@ -13,17 +13,18 @@ def reader():
                 .replace(':', '').replace('?', '').lower()
             content = curfile.readlines()
             cleaned = cleaner(content, filename)
-            # enj_checker(content)
+            enj_checker(cleaned)
 
 
 def enj_checker(content):
+    checked = ""
     for line in content:
         if len(line) > 0:
-            if re.search(r'[\.,\!\?;-]$', line):
-                continue
+            if re.search(r'[\.,\!\?;-]$', line) or line == "\n":
+                checked += line + ''
             else:
-                line += '%%'
-                print(line)
+                checked += line + '%%'
+    print(checked)
 
 
 def cleaner(content, filename):
@@ -32,8 +33,12 @@ def cleaner(content, filename):
 
     for line in content:
         line_pair = {}
-        if re.search(r'^\d{1,}\. ', line) or line == '\n':
+        if re.search(r'(?<=\n)\n\d{2,}|\n\d{2,}', line):
+            continue
+        elif re.search(r'^\d{1,}\. ', line):
             line = re.sub(r'\d{1,}\. ', '', line)
+            poem.append(line.strip())
+        elif line == "\n":
             poem.append(line)
         elif re.search(r'(\d{,3} ){2}', line):
             line_pair['linePair'] = re.search(r'(\d{,3} ){2}', line).group(0)
@@ -45,9 +50,14 @@ def cleaner(content, filename):
         os.makedirs('data/annotations')
 
     json_path = annot_dir + '/' + filename + '.json'
-    with open(json_path, 'w', encoding='utf-8') as jsonfile:
-        # jsonfile.writelines(annotations)
-        json.dump(annotations, jsonfile)
+    if not pathlib.Path(json_path).exists():
+        with open(json_path, 'w', encoding='utf-8') as jsonfile:
+            json.dump(annotations, jsonfile)
+
+    while poem[-1] == "\n":
+        del poem[-1]
+
+    return poem
 
 
 if __name__ == '__main__':
