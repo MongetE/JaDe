@@ -5,7 +5,6 @@ import re
 
 DIR = pathlib.Path('data/annotated_poems')
 
-
 def reader():
     for file in DIR.iterdir():
         with open(str(file), 'r', encoding='utf-8') as curfile:
@@ -27,6 +26,11 @@ def enj_marker(content):
 
 
 def cleaner(content):
+    """
+    :param content: str, numbered + annotated poem
+    :return: a dict organized according to line pairs. Keys include the lines, the annotations and whether it is an
+            an enjambment or not
+    """
     json_dict = []
 
     textsPairs = re.findall(r'(^\d{1,}\.)(.*)', content, flags=re.MULTILINE)
@@ -44,9 +48,9 @@ def cleaner(content):
         tmp_dict['nbPair'], tmp_dict['text'], tmp_dict['annot'] = tmp[i][0], pairs[i], tmp[i][1]
 
         if '%%' in pairs[i]:
-            tmp_dict['isEnj'] = 'yes'
+            tmp_dict['isEnj'] = True
         else:
-            tmp_dict['isEnj'] = 'no'
+            tmp_dict['isEnj'] = False
 
         json_dict.append(tmp_dict)
 
