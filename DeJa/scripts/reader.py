@@ -11,8 +11,8 @@ def reader():
             filename = str(file)[21:-4].replace(',', '').replace('\'', '').replace('.', '').replace(' ', '_')\
                 .replace(':', '').replace('?', '').lower()
             content = curfile.read()
-            json_dict = cleaner(content)
-            writer(json_dict, filename)
+            json_dict, poem = cleaner(content)
+            writer(json_dict, filename, poem)
 
 
 def enj_marker(content):
@@ -37,7 +37,7 @@ def cleaner(content):
     pairs = [enj_marker(textsPairs[i][1].lstrip()) + textsPairs[i+1][1] for i in range(len(textsPairs))
              if textsPairs[i] != textsPairs[-1]]
 
-    # poem = [textsPairs[i][1].strip() for i in range(len(textsPairs))]
+    poem = [enj_marker(textsPairs[i][1].strip())+'\n' for i in range(len(textsPairs))]
 
     annotPairs = re.findall(r'(\d{2,} \d{2,})(.*)', content, flags=re.MULTILINE)
     tmp = [(match[0], match[1]) for match in annotPairs]
@@ -54,17 +54,26 @@ def cleaner(content):
 
         json_dict.append(tmp_dict)
 
-    return json_dict
+    return json_dict, poem
 
 
-def writer(json_dict, filename):
+def writer(json_dict, filename, poem):
     annot_dir = 'data/annotations'
     if not pathlib.Path(annot_dir).exists():
-        os.makedirs('data/annotations')
+        os.makedirs(annot_dir)
 
     json_path = annot_dir + '/' + filename + '.json'
     with open(json_path, 'w', encoding='utf-8') as jsonfile:
         json.dump(json_dict, jsonfile)
+
+    # those might be useless, but better safe than sorry, will probably disappear later on
+    marked_dir = 'data/marked_poems'
+    if not pathlib.Path(marked_dir).exists():
+        os.makedirs(marked_dir)
+
+    marked_path = marked_dir + '/' + filename + '.txt'
+    with open(marked_path, 'w', encoding='utf-8') as file:
+        file.writelines(poem)
 
 
 if __name__ == '__main__':
