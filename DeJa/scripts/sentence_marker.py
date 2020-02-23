@@ -2,6 +2,9 @@ import json
 import pathlib
 import spacy
 
+# TODO: change how load_file is executed bc iter on only one file
+# TODO: mark sentence with && and %% depending on how original line ends
+# TODO: create preprocess pipeline or file → need POS and dependencies
 
 def load_file():
     dir = 'data/annotations'
