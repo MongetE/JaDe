@@ -1,0 +1,202 @@
+<<<<<<< HEAD
+[{"before": ["hold", "fast", "to", "dreams"], "after": ["for", "if", "dreams", "die", "life", "is", "a", "broken", "-", "winged", "bird", "that", "can", "not", "fly", "."]}, {"before": ["hold", "fast", "to", "dreams", "for", "if", "dreams", "die"], "after": ["life", "is", "a", "broken", "-", "winged", "bird", "that", "can", "not", "fly", "."]}, {"before": ["hold", "fast", "to", "dreams", "for", "if", "dreams", "die", "life", "is", "a", "broken", "-", "winged", "bird"], "after": ["that", "can", "not", "fly", "."]}, {"before": ["hold", "fast", "to", "dreams"], "after": ["for", "if", "dreams", "die", "life", "is", "a", "broken", "-", "winged", "bird", "that", "can", "not", "fly", "."]}, {"before": ["hold", "fast", "to", "dreams"], "after": ["for", "when", "dreams", "go", "life", "is", "a", "barren", "field", "frozen", "with", "snow", "."]}, {"before": ["hold", "fast", "to", "dreams"], "after": ["for", "when", "dreams", "go", "life", "is", "a", "barren", "field", "frozen", "with", "snow", "."]}, {"before": ["hold", "fast", "to", "dreams", "for", "when", "dreams", "go"], "after": ["life", "is", "a", "barren", "field", "frozen", "with", "snow", "."]}, {"before": ["hold", "fast", "to", "dreams", "for", "when", "dreams", "go", "life", "is", "a", "barren", "field"], "after": ["frozen", "with", "snow", "."]}]
+=======
+[
+  {
+    "before": [
+      "hold",
+      "fast",
+      "to",
+      "dreams"
+    ],
+    "after": [
+      "for",
+      "if",
+      "dreams",
+      "die",
+      "life",
+      "is",
+      "a",
+      "broken",
+      "-",
+      "winged",
+      "bird",
+      "that",
+      "can",
+      "not",
+      "fly",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "hold",
+      "fast",
+      "to",
+      "dreams",
+      "for",
+      "if",
+      "dreams",
+      "die"
+    ],
+    "after": [
+      "life",
+      "is",
+      "a",
+      "broken",
+      "-",
+      "winged",
+      "bird",
+      "that",
+      "can",
+      "not",
+      "fly",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "hold",
+      "fast",
+      "to",
+      "dreams",
+      "for",
+      "if",
+      "dreams",
+      "die",
+      "life",
+      "is",
+      "a",
+      "broken",
+      "-",
+      "winged",
+      "bird"
+    ],
+    "after": [
+      "that",
+      "can",
+      "not",
+      "fly",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "hold",
+      "fast",
+      "to",
+      "dreams"
+    ],
+    "after": [
+      "for",
+      "if",
+      "dreams",
+      "die",
+      "life",
+      "is",
+      "a",
+      "broken",
+      "-",
+      "winged",
+      "bird",
+      "that",
+      "can",
+      "not",
+      "fly",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "hold",
+      "fast",
+      "to",
+      "dreams"
+    ],
+    "after": [
+      "for",
+      "when",
+      "dreams",
+      "go",
+      "life",
+      "is",
+      "a",
+      "barren",
+      "field",
+      "frozen",
+      "with",
+      "snow",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "hold",
+      "fast",
+      "to",
+      "dreams"
+    ],
+    "after": [
+      "for",
+      "when",
+      "dreams",
+      "go",
+      "life",
+      "is",
+      "a",
+      "barren",
+      "field",
+      "frozen",
+      "with",
+      "snow",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "hold",
+      "fast",
+      "to",
+      "dreams",
+      "for",
+      "when",
+      "dreams",
+      "go"
+    ],
+    "after": [
+      "life",
+      "is",
+      "a",
+      "barren",
+      "field",
+      "frozen",
+      "with",
+      "snow",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "hold",
+      "fast",
+      "to",
+      "dreams",
+      "for",
+      "when",
+      "dreams",
+      "go",
+      "life",
+      "is",
+      "a",
+      "barren",
+      "field"
+    ],
+    "after": [
+      "frozen",
+      "with",
+      "snow",
+      "."
+    ]
+  }
+]
+>>>>>>> a44053d37c5fdedd7644098cef1b970c9bcbf4c3

@@ -1,0 +1,84 @@
+<<<<<<< HEAD
+[{"before": ["in", "your"], "after": ["curled", "petals", "what", "ghosts", "of", "blue", "headlands", "and", "seas", ",", "what", "perfumed", "immortal", "breath", "sighing", "of", "greece", "."]}, {"before": ["in", "your", "curled", "petals", "what", "ghosts"], "after": ["of", "blue", "headlands", "and", "seas", ",", "what", "perfumed", "immortal", "breath", "sighing", "of", "greece", "."]}, {"before": ["in", "your", "curled", "petals", "what", "ghosts", "of", "blue", "headlands", "and", "seas", ",", "what", "perfumed", "immortal", "breath", "sighing"], "after": ["of", "greece", "."]}]
+=======
+[
+  {
+    "before": [
+      "in",
+      "your"
+    ],
+    "after": [
+      "curled",
+      "petals",
+      "what",
+      "ghosts",
+      "of",
+      "blue",
+      "headlands",
+      "and",
+      "seas",
+      ",",
+      "what",
+      "perfumed",
+      "immortal",
+      "breath",
+      "sighing",
+      "of",
+      "greece",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "in",
+      "your",
+      "curled",
+      "petals",
+      "what",
+      "ghosts"
+    ],
+    "after": [
+      "of",
+      "blue",
+      "headlands",
+      "and",
+      "seas",
+      ",",
+      "what",
+      "perfumed",
+      "immortal",
+      "breath",
+      "sighing",
+      "of",
+      "greece",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "in",
+      "your",
+      "curled",
+      "petals",
+      "what",
+      "ghosts",
+      "of",
+      "blue",
+      "headlands",
+      "and",
+      "seas",
+      ",",
+      "what",
+      "perfumed",
+      "immortal",
+      "breath",
+      "sighing"
+    ],
+    "after": [
+      "of",
+      "greece",
+      "."
+    ]
+  }
+]
+>>>>>>> a44053d37c5fdedd7644098cef1b970c9bcbf4c3

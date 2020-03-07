@@ -1,0 +1,125 @@
+<<<<<<< HEAD
+[{"before": ["notice", "how", "he", "has", "numbered", "the", "blue", "veins"], "after": ["in", "my", "breast", "."]}, {"before": ["he", "has", "starved", "in", "cellars"], "after": ["and", ",", "ladies", "and", "gentlemen", ",", "he", "'s", "been", "broken", "by", "iron", ",", "by", "the", "blood", ",", "by", "the", "metal", ",", "by", "the", "triumphant", "iron", "of", "his", "mother", "'s", "death", "."]}, {"before": ["he", "has", "starved", "in", "cellars", "and", ",", "ladies", "and", "gentlemen", ",", "he", "'s", "been", "broken", "by", "iron", ",", "by", "the", "blood", ",", "by", "the", "metal", ",", "by", "the", "triumphant"], "after": ["iron", "of", "his", "mother", "'s", "death", "."]}, {"before": ["for", "traffic", "lights", "he", "handed", "at", "red", "and", "green"], "after": ["lollipops", "."]}]
+=======
+[
+  {
+    "before": [
+      "notice",
+      "how",
+      "he",
+      "has",
+      "numbered",
+      "the",
+      "blue",
+      "veins"
+    ],
+    "after": [
+      "in",
+      "my",
+      "breast",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "he",
+      "has",
+      "starved",
+      "in",
+      "cellars"
+    ],
+    "after": [
+      "and",
+      ",",
+      "ladies",
+      "and",
+      "gentlemen",
+      ",",
+      "he",
+      "'s",
+      "been",
+      "broken",
+      "by",
+      "iron",
+      ",",
+      "by",
+      "the",
+      "blood",
+      ",",
+      "by",
+      "the",
+      "metal",
+      ",",
+      "by",
+      "the",
+      "triumphant",
+      "iron",
+      "of",
+      "his",
+      "mother",
+      "'s",
+      "death",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "he",
+      "has",
+      "starved",
+      "in",
+      "cellars",
+      "and",
+      ",",
+      "ladies",
+      "and",
+      "gentlemen",
+      ",",
+      "he",
+      "'s",
+      "been",
+      "broken",
+      "by",
+      "iron",
+      ",",
+      "by",
+      "the",
+      "blood",
+      ",",
+      "by",
+      "the",
+      "metal",
+      ",",
+      "by",
+      "the",
+      "triumphant"
+    ],
+    "after": [
+      "iron",
+      "of",
+      "his",
+      "mother",
+      "'s",
+      "death",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "for",
+      "traffic",
+      "lights",
+      "he",
+      "handed",
+      "at",
+      "red",
+      "and",
+      "green"
+    ],
+    "after": [
+      "lollipops",
+      "."
+    ]
+  }
+]
+>>>>>>> a44053d37c5fdedd7644098cef1b970c9bcbf4c3
