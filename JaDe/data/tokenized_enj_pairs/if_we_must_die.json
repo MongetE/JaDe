@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-[{"before": ["if", "we", "must", "die", ",", "let", "it", "not", "be", "like", "hogs"], "after": ["hunted", "and", "penned", "in", "an", "inglorious", "spot", ",", "while", "round", "us", "bark", "the", "mad", "and", "hungry", "dogs", ",", "making", "their", "mock", "at", "our", "accurs\u00e8d", "lot", "."]}, {"before": ["if", "we", "must", "die", ",", "o", "let", "us", "nobly", "die", ",", "so", "that", "our", "precious", "blood", "may", "not", "be", "shed"], "after": ["in", "vain", ";", "then", "even", "the", "monsters", "we", "defy", "shall", "be", "constrained", "to", "honor", "us", "though", "dead", "!"]}, {"before": ["if", "we", "must", "die", ",", "o", "let", "us", "nobly", "die", ",", "so", "that", "our", "precious", "blood", "may", "not", "be", "shed", "in", "vain", ";", "then", "even", "the", "monsters", "we", "defy"], "after": ["shall", "be", "constrained", "to", "honor", "us", "though", "dead", "!"]}]
-=======
 [
   {
     "before": [
@@ -134,4 +131,3 @@
     ]
   }
 ]
->>>>>>> a44053d37c5fdedd7644098cef1b970c9bcbf4c3
