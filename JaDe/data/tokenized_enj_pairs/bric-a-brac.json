@@ -1,1 +1,96 @@
+<<<<<<< HEAD
 [{"before": ["little", "morals", ",", "woven", "out", ",", "little", "wreaths", "of", "gilded", "grass", ",", "little", "brigs", "of", "whittled", "oak"], "after": ["bottled", "painfully", "in", "glass", ";", "these", "are", "made", "by", "lonely", "folk", "."]}, {"before": ["lonely", "folk", "have", "lines", "of", "days"], "after": ["long", "and", "faltering", "and", "thin", ";", "therefore", "--", "little", "wax", "bouquets", ",", "prayers", "cut", "upon", "a", "pin", ",", "little", "maps", "of", "pinkish", "lands", ",", "little", "charts", "of", "curly", "seas", ",", "little", "plats", "of", "linen", "strands", ",", "little", "verses", ",", "such", "as", "these", "."]}]
+=======
+[
+  {
+    "before": [
+      "little",
+      "morals",
+      ",",
+      "woven",
+      "out",
+      ",",
+      "little",
+      "wreaths",
+      "of",
+      "gilded",
+      "grass",
+      ",",
+      "little",
+      "brigs",
+      "of",
+      "whittled",
+      "oak"
+    ],
+    "after": [
+      "bottled",
+      "painfully",
+      "in",
+      "glass",
+      ";",
+      "these",
+      "are",
+      "made",
+      "by",
+      "lonely",
+      "folk",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "lonely",
+      "folk",
+      "have",
+      "lines",
+      "of",
+      "days"
+    ],
+    "after": [
+      "long",
+      "and",
+      "faltering",
+      "and",
+      "thin",
+      ";",
+      "therefore",
+      "--",
+      "little",
+      "wax",
+      "bouquets",
+      ",",
+      "prayers",
+      "cut",
+      "upon",
+      "a",
+      "pin",
+      ",",
+      "little",
+      "maps",
+      "of",
+      "pinkish",
+      "lands",
+      ",",
+      "little",
+      "charts",
+      "of",
+      "curly",
+      "seas",
+      ",",
+      "little",
+      "plats",
+      "of",
+      "linen",
+      "strands",
+      ",",
+      "little",
+      "verses",
+      ",",
+      "such",
+      "as",
+      "these",
+      "."
+    ]
+  }
+]
+>>>>>>> a44053d37c5fdedd7644098cef1b970c9bcbf4c3

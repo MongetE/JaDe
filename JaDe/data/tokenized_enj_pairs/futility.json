@@ -1,1 +1,67 @@
+<<<<<<< HEAD
 [{"before": ["if", "anything", "might", "rouse", "him", "now"], "after": ["the", "kind", "old", "sun", "will", "know", "."]}, {"before": ["are", "limbs", "so", "dear", "-", "achieved", ",", "are", "sides"], "after": ["full", "-", "nerved,--still", "warm,--too", "hard", "to", "stir", "?"]}, {"before": ["what", "made", "fatuous", "sunbeams", "toil"], "after": ["to", "break", "earth", "'s", "sleep", "at", "all", "?"]}]
+=======
+[
+  {
+    "before": [
+      "if",
+      "anything",
+      "might",
+      "rouse",
+      "him",
+      "now"
+    ],
+    "after": [
+      "the",
+      "kind",
+      "old",
+      "sun",
+      "will",
+      "know",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "are",
+      "limbs",
+      "so",
+      "dear",
+      "-",
+      "achieved",
+      ",",
+      "are",
+      "sides"
+    ],
+    "after": [
+      "full",
+      "-",
+      "nerved,--still",
+      "warm,--too",
+      "hard",
+      "to",
+      "stir",
+      "?"
+    ]
+  },
+  {
+    "before": [
+      "what",
+      "made",
+      "fatuous",
+      "sunbeams",
+      "toil"
+    ],
+    "after": [
+      "to",
+      "break",
+      "earth",
+      "'s",
+      "sleep",
+      "at",
+      "all",
+      "?"
+    ]
+  }
+]
+>>>>>>> a44053d37c5fdedd7644098cef1b970c9bcbf4c3
