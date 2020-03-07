@@ -1,0 +1,10 @@
+1. In your
+2. Curled petals what ghosts
+3. Of blue headlands and seas,
+4. What perfumed immortal breath sighing
+5. Of Greece.
+
+01 02 [pb_det_noun] [smooth] [pro]
+02 03 [pb_noun_prep] [smooth] [pro]
+03 04 [] [] []
+04 05 [pb_adj_prep] [smooth] [retro]

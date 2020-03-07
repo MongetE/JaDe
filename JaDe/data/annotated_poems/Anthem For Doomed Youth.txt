@@ -1,0 +1,28 @@
+1. What passing-bells for these who die as cattle?
+2. Only the monstrous anger of the guns.
+3. Only the stuttering rifles' rapid rattle
+4. Can patter out their hasty orisons.
+5. No mockeries now for them; no prayers nor bells;
+6. Nor any voice of mourning save the choirs,
+7. The shrill, demented choirs of wailing shells;
+8. And bugles calling for them from sad shires.
+9. What candles may be held to speed them all?
+10. Not in the hands of boys, but in their eyes
+11. Shall shine the holy glimmers of good-byes.
+12. The pallor of girls' brows shall be their pall;
+13. Their flowers the tenderness of patient minds,
+14. And each slow dusk a drawing-down of blinds.
+
+01 02 [] [] []
+02 03 [] [] []
+03 04 [ex_subj_verb] [smooth] [pro]
+04 05 [] [] []
+05 06 [] [] []
+06 07 [] [] []
+07 08 [] [] []
+08 09 [] [] []
+09 10 [] [] []
+10 11 [pb_verb_prep] [smooth] [pro]
+11 12 [] [] []
+12 13 [] [] []
+13 14 [] [] []
