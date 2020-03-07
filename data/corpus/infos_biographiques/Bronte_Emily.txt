@@ -1,6 +1,0 @@
-Name: Brontë
-Fname: Emily Jane
-Birth: 30/7/1818, Thornton (UK)
-Death: 19/12/1848, Haworth (UK)
-Century: 19th
-Nationality: British

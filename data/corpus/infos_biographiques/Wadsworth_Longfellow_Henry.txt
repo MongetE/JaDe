@@ -1,6 +1,0 @@
-Name: Wadsworth Longfellow
-Fname: Henry
-Birth: 27/2/1807, Portland (US)
-Death: 24/3/1882, Cambridge (US)
-Century: 19th
-Nationality: American

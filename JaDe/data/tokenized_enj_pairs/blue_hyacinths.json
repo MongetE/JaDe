@@ -1,0 +1,80 @@
+[
+  {
+    "before": [
+      "in",
+      "your"
+    ],
+    "after": [
+      "curled",
+      "petals",
+      "what",
+      "ghosts",
+      "of",
+      "blue",
+      "headlands",
+      "and",
+      "seas",
+      ",",
+      "what",
+      "perfumed",
+      "immortal",
+      "breath",
+      "sighing",
+      "of",
+      "greece",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "in",
+      "your",
+      "curled",
+      "petals",
+      "what",
+      "ghosts"
+    ],
+    "after": [
+      "of",
+      "blue",
+      "headlands",
+      "and",
+      "seas",
+      ",",
+      "what",
+      "perfumed",
+      "immortal",
+      "breath",
+      "sighing",
+      "of",
+      "greece",
+      "."
+    ]
+  },
+  {
+    "before": [
+      "in",
+      "your",
+      "curled",
+      "petals",
+      "what",
+      "ghosts",
+      "of",
+      "blue",
+      "headlands",
+      "and",
+      "seas",
+      ",",
+      "what",
+      "perfumed",
+      "immortal",
+      "breath",
+      "sighing"
+    ],
+    "after": [
+      "of",
+      "greece",
+      "."
+    ]
+  }
+]

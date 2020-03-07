@@ -1,7 +1,0 @@
-Name: Dodgson
-Fname: Charles
-Pseudo: Lewis Carroll
-Birth: 27/1/1832, Daresbury (UK)
-Death: 14/1/1898, Guildford (UK)
-Century: 19th
-Nationality: British

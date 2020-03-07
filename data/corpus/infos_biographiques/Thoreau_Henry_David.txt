@@ -1,6 +1,0 @@
-Name: Thoreau
-Fname: Henry David
-Birth: 12/7/1817, Concord (US)
-Death: 6/5/1862, Concord (US)
-Century: 19th
-Nationality: American

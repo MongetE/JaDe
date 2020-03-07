@@ -1,6 +1,0 @@
-Name: Walcott
-Fname: Derek
-Birth: 23/1/1930, Castries (St Lucia) 
-Death: 17/3/2017
-Century: 20/21th
-Nationality: St Lucian

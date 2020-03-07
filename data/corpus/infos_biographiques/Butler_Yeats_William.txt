@@ -1,6 +1,0 @@
-Name: Butler Yeats
-Fname: William
-Birth: 13/6/1865, Dublin (IR)
-Death: 28/1/1939, Menton (FR)
-Century: 19/20th
-Nationality: Irish

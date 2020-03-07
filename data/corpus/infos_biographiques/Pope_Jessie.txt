@@ -1,6 +1,0 @@
-Name: Pope
-Fname: Jessie
-Birth: 18/3/1868, Leicester (UK)
-Death: 14/12/1941, Devon (UK)
-Century: 19/20th
-Nationality: British

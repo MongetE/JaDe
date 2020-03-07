@@ -1,6 +1,0 @@
-Name: Landon
-Fname: Letitia Elizabeth
-Birth: 14/8/1802, London (UK)
-Death: 15/10/1838, Cape Coast Castle (GH)
-Century: 19th
-Nationality: British

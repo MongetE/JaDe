@@ -1,6 +1,0 @@
-Name: Stevenson
-Fname: Robert Louis
-Birth: 13/11/1850, Edinburgh (UK)
-Death: 3/12/1894, Vailima (Samoa)
-Century: 19th
-Nationality: Scottish

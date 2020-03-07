@@ -1,6 +1,0 @@
-Name: Sexton
-Fname: Anne
-Birth: 9/11/1928, Newton (US)
-Death: 4/10/1974, Weston (US)
-Century: 20th
-Nationality: American

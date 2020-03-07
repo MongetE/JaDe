@@ -1,6 +1,0 @@
-Name: Bradstreet
-Fname: Anne
-Birth: 1612, Northampton (UK)
-Death: 16/9/1672, Andover (US)
-Century: 17th
-Nationality: British

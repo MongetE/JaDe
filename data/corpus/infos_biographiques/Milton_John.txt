@@ -1,6 +1,0 @@
-Name: Milton
-Fname: John
-Birth: 9/12/1608, London (UK)
-Death: 8/11/1674, London (UK)
-Century: 17th
-Nationality: British

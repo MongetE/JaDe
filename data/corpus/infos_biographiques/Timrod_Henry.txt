@@ -1,6 +1,0 @@
-Name: Timrod
-Fname: Henry
-Birth: 8/12/1829, Charleston (US)
-Death: 7/10/1867
-Century: 19th
-Nationality: American
