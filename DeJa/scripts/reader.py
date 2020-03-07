@@ -18,7 +18,7 @@ def reader():
 def enj_marker(content):
     marked = ""
     if re.search(r'[\.,\!\?;\-:]$', content) or content == "\n":
-        marked += content + ''
+        marked += content + '&&'
     else:
         marked += content + '%%'
 
