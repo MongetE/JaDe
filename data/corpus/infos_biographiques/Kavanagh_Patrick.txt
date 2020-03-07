@@ -1,0 +1,6 @@
+Name: Kavanagh
+Fname: Patrick
+Birth: 21/10/1904, Inniskeen (IR)
+Death: 30/11/1967, Dublin (IR)
+Century: 20th
+Nationality: Irish

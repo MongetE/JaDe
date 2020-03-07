@@ -1,0 +1,6 @@
+Name: Edgar Poe
+Fname: Allan
+Birth: 19/1/1809, Boston (US)
+Death: 7/10/1849, Baltimore (US)
+Century: 19th
+Nationality: American

@@ -1,0 +1,6 @@
+Name: Blake
+Fname: William
+Birth: 28/11/1757, London (UK)
+Death: 12/8/1827, London (UK)
+Century: 18/19th
+Nationality: British

@@ -1,0 +1,28 @@
+1. BEFORE he went to feed with owls and bats
+2. Nebuchadnezzar had an ugly dream,
+3. Worse than an Hus'if's when she thinks her cream
+4. Made a Naumachia for mice and rats.
+5. So scared, he sent for that 'Good King of Cats'
+6. Young Daniel, who soon did pluck away the beam
+7. From out his eye, and said he did not deem
+8. The sceptre worth a straw his Cushions old door-mats.
+9. A horrid nightmare similar somewhat
+10. Of late has haunted a most motley crew,
+11. Most loggerheads and Chapmen we are told
+12. That any Daniel tho' he be a sot
+13. Can make the lying lips turn pale of hue
+14. By belching out 'ye are that head of Gold.'
+
+01 02 [] [] []
+02 03 [] [] []
+03 04 [ex_subj_verb] [suave] [pro]
+04 05 [ex_dobj_verb] [suave] [pro]
+05 06 [] [] []
+06 07 [] [] []
+07 08 [] [] []
+08 09 [] [] []
+09 10 [pb_adj_prep] [suave] [pro]
+10 11 [] [] []
+11 12 [ex_dobj_verb] [suave] [pro]
+12 13 [ex_subj_verb] [suave] [pro]
+13 14 [] [] []

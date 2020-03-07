@@ -1,0 +1,6 @@
+Name: Keats
+Fname: John
+Birth: 31/10/1795, London (UK)
+Death: 23/2/1821, Rome (IT)
+Century: 19th
+Nationality: British

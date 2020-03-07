@@ -1,0 +1,6 @@
+Name: Hughes
+Fname: Ted
+Birth: 17/8/1930, Mytholmroyd (UK)
+Death: 28/10/1998, London (UK)
+Century: 20th
+Nationality: British

@@ -1,0 +1,6 @@
+Name: Brontë
+Fname: Anne
+Birth: 17/1/1820, Thornton (UK)
+Death: 28/5/1849, Scarborough (UK)
+Century: 19th
+Nationality: British

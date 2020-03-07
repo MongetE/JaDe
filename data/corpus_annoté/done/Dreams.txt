@@ -1,0 +1,16 @@
+1. Hold fast to dreams
+2. For if dreams die
+3. Life is a broken-winged bird
+4. That cannot fly.
+5. Hold fast to dreams
+6. For when dreams go
+7. Life is a barren field
+8. Frozen with snow.
+
+01 02 [] [] [=retro] # adjunct
+02 03 [] [] [pro] # add type related to conditionals 
+03 04 [cc_cross_clause] [suave] [retro]
+04 05 [] [] []
+05 06 [] [] [] # cause
+06 07 [] [] [] 
+07 08 [] [] [retro] # how tag these compressed clauses?

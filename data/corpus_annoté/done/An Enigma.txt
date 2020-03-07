@@ -1,0 +1,28 @@
+1. "Seldom we find," says Solomon Don Dunce,
+2. "Half an idea in the profoundest sonnet.
+3. Through all the flimsy things we see at once
+4. As easily as through a Naples bonnet-
+5. Trash of all trash!- how can a lady don it?
+6. Yet heavier far than your Petrarchan stuff-
+7. Owl-downy nonsense that the faintest puff
+8. Twirls into trunk-paper the while you con it."
+9. And, veritably, Sol is right enough.
+10. The general tuckermanities are arrant
+11. Bubbles- ephemeral and so transparent-
+12. But this is, now- you may depend upon it-
+13. Stable, opaque, immortal- all by dint
+14. Of the dear names that he concealed within 't.
+
+01 02 [] [] []
+02 03 [] [] []
+03 04 [] [suave] [=retro]
+04 05 [] [] []
+05 06 [] [] []
+06 07 [] [] []
+07 08 [ex_subj_verb] [suave] [pro]
+08 09 [] [] []
+09 10 [] [] []
+10 11 [pb_noun_adj] [abrupt] [pro]
+11 12 [] [] []
+12 13 [] [] [] 
+13 14 [pb_noun_prep] [] [] # could also be relword in that "by dint of" is a phrase meaning "via"

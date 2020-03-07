@@ -1,0 +1,6 @@
+Name: Waldo Emerson
+Fname: Ralph
+Birth: 25/5/1803, Boston (US)
+Death: 27/4/1882, Concord (US)
+Century: 19th
+Nationality: American

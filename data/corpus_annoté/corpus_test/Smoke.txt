@@ -1,0 +1,20 @@
+1. Light-winged Smoke, Icarian bird,
+2. Melting thy pinions in thy upward flight,
+3. Lark without song, and messenger of dawn
+4. Circling above the hamlets as they nest;
+5. Or else, departing dream, and shadowy form
+6. Of midnight vision, gathering up thy skirts;
+7. By night star-veiling, and by day
+8. Darkening the light and blotting out the sun;
+9. Go thou my incense upward from this hearth,
+10. And ask the gods to pardon this clear flame.
+
+01 02 [] [] []
+02 03 [] [] []
+03 04 [cc_cross_clause] [smooth] [pro]
+04 05 [] [] []
+05 06 [pb_noun_prep] [abrupt] [retro]
+06 07 [] [] []
+07 08 [] [] []
+08 09 [] [] []
+09 10 [] [] []

@@ -1,0 +1,54 @@
+1. What can I do with this bayonet?
+2. Make a rose bush of it?
+3. Poke it into the moon?
+4. Shave my legs with its silver?
+5. Spear a goldfish?
+6. No. No.
+
+7. It was made
+8. in my dream
+9. for you.
+10. My eyes were closed.
+11. I was curled fetally
+12. and yet I held a bayonet
+13. that was for the earth of your stomach.
+14. The belly button singing its puzzle.
+15. The intestines winding like alpine roads.
+16. It was made to enter you
+17. as you have entered me
+18. and to cut the daylight into you
+19. and let out your buried heartland,
+20. to let out the spoon you have fed me with,
+21. to let out the bird that said fuck you,
+22. to carve him onto a sculpture until he is white
+23. and I could put him on a shelf,
+24. an object unthinking as a stone,
+25. but with all the vibrations
+26. of a crucifix.
+
+01 02 [] [] []
+02 03 [] [] []
+03 04 [] [] []
+04 05 [] [] []
+05 06 [] [] []
+06 07 [] [] []
+
+07 08 [] [suave] [pro] # adjunt of location
+08 09 [] [suave] [=retro] # adjunct beneficiary. would come from line 7 though ....
+09 10 [] [] []
+10 11 [] [] []
+11 12 [] [] [retro] # coordinate clauses
+12 13 [cc_cross_clause] [suave] [retro]
+13 14 [] [] []
+14 15 [] [] []
+15 16 [] [] []
+16 17 [] [suave] [retro] # subordinate clause of comparison
+17 18 [] [suave] [retro] # coordinate
+18 19 [] [suave] [retro] # coordinate
+19 20 [] [] []
+20 21 [] [] []
+21 22 [] [] []
+22 23 [] [suave] [pro] # coordinate
+23 24 [] [] []
+24 25 [] [] []
+25 26 [] [pb_noun_prep] [pro]

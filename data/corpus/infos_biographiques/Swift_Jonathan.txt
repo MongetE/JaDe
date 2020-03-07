@@ -1,0 +1,6 @@
+Name: Swift
+Fname: Jonathan
+Birth: 30/11/1667, Dublin (IR)
+Death: 19/10/1745, Dublin (IR)
+Century: 17/18th
+Nationality: Irish

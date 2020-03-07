@@ -1,0 +1,6 @@
+Name: Hughes
+Fname: Langston
+Birth: 1/2/1902, Joplin (US)
+Death: 22/5/1967, NYC (US)
+Century: 20th
+Nationality: American

@@ -1,0 +1,6 @@
+Name: Burns
+Fname: Robert
+Birth: Alloway (UK)
+Death: 21/7/1796, Dumfries (UK)
+Century: 18th
+Nationality: Scottish

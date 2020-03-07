@@ -1,0 +1,6 @@
+Name: Joyce
+Fname: James
+Birth: 2/2/1882, Dublin (IR)
+Death: 13/1/1941, Zurich (SW)
+Century: 19/20th
+Nationality: Irish

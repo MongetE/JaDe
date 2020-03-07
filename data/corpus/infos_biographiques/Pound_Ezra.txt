@@ -1,0 +1,7 @@
+Name: Pound
+Fname: Ezra
+Birth: 30/10/1885, Hailey (US)
+Death: 1/11/1972, Venice (IT)
+Century: 20th
+Nationality: American
+

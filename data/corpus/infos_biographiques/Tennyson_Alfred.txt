@@ -1,0 +1,6 @@
+Name: Tennyson
+Fname: Alfred
+Birth: 6/8/1809, Somersby (UK)
+Death: 6/10/1892, Lurgashall (UK)
+Century: 19th
+Nationality: British

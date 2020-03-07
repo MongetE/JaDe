@@ -1,0 +1,22 @@
+1. so much depends
+2. upon
+
+3. a red wheel
+4. barrow
+
+5. glazed with rain
+6. water
+
+7. beside the white
+8. chickens.
+
+01 02 [pb_verb_cprep] [suave] [pro]
+02 03 [relword] [suave] [pro]
+
+03 04 [lx_lexical] [suave] [retro]
+04 05 [?pb_noun_adj] [suave] [retro] # participle vs adj
+
+05 06 [lx_lexical] [suave] [retro]
+06 07 [] [suave] [=retro] # adjunct
+
+07 08 [pb_noun_adj] [suave] [pro]

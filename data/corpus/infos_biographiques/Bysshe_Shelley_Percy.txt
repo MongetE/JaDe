@@ -1,0 +1,6 @@
+Name: Bysshe Shelley
+Fname: Percy
+Birth: 4/8/1792, Horsham (UK)
+Death: 8/7/1822, Gulf of La Spezia (IT)
+Century: 19th
+Nationality: British

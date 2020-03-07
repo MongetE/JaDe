@@ -1,0 +1,276 @@
+1. of course, I may die in the next ten minutes
+2. and I’m ready for that
+3. but what I’m really worried about is
+4. that my editor-publisher might retire
+5. even though he is ten years younger than
+6. I.
+7. it was just 25 years ago (I was at that ripe
+8. old age of 45)
+9. when we began our unholy alliance to
+10. test the literary waters,
+11. neither of us being much
+12. known.
+
+13. I think we had some luck and still have some
+14. of same
+15. yet
+16. the odds are pretty fair
+17. that he will opt for warm and pleasant
+18. afternoons
+19. in the garden
+20. long before I.
+
+21. writing is its own intoxication
+22. while publishing and editing,
+23. attempting to collect bills
+24. carries its own
+25. attrition
+26. which also includes dealing with the
+27. petty bitchings and demands
+28. of many
+29. so-called genius darlings who are
+30. not.
+
+31. I won’t blame him for getting
+32. out
+33. and hope he sends me photos of his
+34. Rose Lane, his
+35. Gardenia Avenue.
+
+36. will I have to seek other
+37. promulgators?
+38. that fellow in the Russian
+39. fur hat?
+40. or that beast in the East
+41. with all that hair
+42. in his ears, with those wet and
+43. greasy lips?
+
+44. or will my editor-publisher
+45. upon exiting for that world of Trollius and
+46. trellis
+47. hand over the
+48. machinery
+49. of his former trade to a
+50. cousin, a
+51. daughter or
+52. some Poundian from Big
+53. Sur?
+
+54. or will he just pass the legacy on
+55. to the
+56. Shipping Clerk
+57. who will rise like
+58. Lazarus,
+59. fingering new-found
+60. importance?
+
+61. one can imagine terrible
+62. things:
+63. “Mr. Chinaski, all your work
+64. must now be submitted in
+65. Rondo form
+66. and
+67. typed
+68. triple-spaced on rice
+69. paper.”
+
+70. power corrupts,
+71. life aborts
+72. and all you
+73. have left
+74. is a
+75. bunch of
+76. warts.
+
+77. “no, no, Mr. Chinaski:
+78. Rondo form!”
+
+79. “hey, man,” I’ll ask,
+80. “haven’t you heard of
+81. the thirties?”
+
+82. “the thirties? what’s
+83. that?”
+
+84. my present editor-publisher
+85. and I
+86. at times
+87. did discuss the thirties,
+88. the Depression
+89. and
+90. some of the little tricks it
+91. taught us—
+92. like how to endure on almost
+93. nothing
+94. and move forward
+95. anyhow.
+
+96. well, John, if it happens enjoy your
+97. divertissement to
+98. plant husbandry,
+99. cultivate and aerate
+100. between
+101. bushes, water only in the
+102. early morning, spread
+103. shredding to discourage
+104. weed growth
+105. and
+106. as I do in my writing:
+107. use plenty of
+108. manure.
+
+109. and thank you
+110. for locating me there at
+111. 5124 DeLongpre Avenue
+112. somewhere between
+113. alcoholism and
+114. madness.
+
+115. together we
+116. laid down the gauntlet
+117. and there are takers
+118. even at this late date
+119. still to be
+120. found
+121. as the fire sings
+122. through the
+123. trees.
+
+01-02 [] [] [] # coordination
+02-03 [] [] []
+03-04 [ex_subj_verb] [suave] [pro] # subj as clause ok?
+04-05 [?] [] [=retro] # adjunct clause
+05-06 [relword] [suave] [pro] # only one token
+06-07 [] [] []
+07-08 [pb_adj_adj] [suave] [pro]
+08-09 [] [] []
+09-10 [?] [suave] [pro]
+10-11 [] [] []
+11-12 [pb_adv_adj] [suave] [pro]
+12-13 [] [] []
+
+13-14 [?pb_noun_prep] [suave] [=retro] # assuming noun as pronoun
+14-15 [] [] []
+15-16 [] [] [] # sentence level adjunct, pause is ok
+16-17 [?cc_cross_clause] [suave] [=retro]
+17-18 [pb_noun_adj] [suave] [pro]
+18-19 [] [suave] [=retro] # location adjunct
+19-20 [] [suave] [=retro] # time adjunct
+20-21 [] [] []
+
+21-22 [] [suave] [=retro] # adjunct
+22-23 [] [] []
+23-24 [ex_subj_verb] [suave] [retro] # assuming clause possible as subject
+24-25 [pb_noun_adj] [suave] [=retro]
+25-26 [] [] [] # pause before this non-defining clasue
+26-27 [relword] [suave] [pro]
+27-28 [pb_noun_prep] [] [pro]
+28-29 [?relword] [suave] [=retro] # quantifiers? # could also be pro. it's similar to "same"
+29-30 [pb_verb_adv] [suave] [pro]
+30-31 [] [] []
+
+31-32 [pb_verb_adv] [suave] [pro]
+32-33 [] [] []
+33-34 [relword] [abrupt] [pro]
+34-35 [relword] [suave] [pro]
+35-36 [] [] []
+
+36-37 [?relword] [suave] [pro]
+37-38 [] [] []
+38-39 [pb_noun_adj] [suave] [pro]
+39-40 [] [] []
+40-41 [] [suave] [=retro] # adjunct of manner
+41-42 [] [abrupt] [retro] # adjunct location
+42-43 [relword] [] [pro]
+43-44 [] [] []
+
+44-45 [] [] []
+45-46 [?] [suave] [pro] # coordination
+46-47 [] [] []
+47-48 [relword] [suave] [pro]
+48-49 [relword] [suave] [retro]
+49-50 [relword] [abrupt] [pro]
+50-51 [relword] [abrupt] [pro] # pause after "daughter"
+51-52 [] [suave] [pro] # coordination
+52-53 [pb_noun_adj] [suave] [pro] # strange to break up a proper noun
+53-54 [] [] []
+
+54-55 [ex_iobj_verb] [suave] [=retro]
+55-56 [relword] [suave] [pro]
+56-57 [cc_cross_clause] [suave] [=retro]
+57-58 [relword] [suave] [pro]
+58-59 [] [] []
+59-60 [pb_adj_noun] [suave] [pro] # adj or participle?
+60-61 [] [] []
+
+61-62 [pb_adj_noun] [suave] [pro]
+62-63 [] [] []
+63-64 [ex_subj_verb] [suave] [pro] # you do expect the predicate
+64-65 [?] [suave] pro] # prep + noun
+65-66 [] [] [=retro] # coordination
+66-67 [relword] [suave] [pro] # coordination, conjunction is the complete line
+67-68 [pb_adj_adj] [suave] [pro]
+68-69 [lx_lexical] [suave] [pro]
+69-70 [] [] []
+
+70-71 [] [] []
+71-72 [] [] [=retro] # coordination
+72-73 [ex_subj_verb] [suave] [pro]
+73-74 [?] [] [pro] # the clause here can be seen as the subject of "is" on line 74
+74-75 [relword] [] [pro]
+75-76 [?] [suave] [pro] # prep + noun
+76-77 [] [] []
+
+77-78 [] [] []
+78-79 [] [] []
+
+79-80 [] [] []
+80-81 [?] [suave] [pro] # prep + noun
+81-82 [] [] []
+
+82-83 [ex_subj_verb] [suave] [pro] # subj of copulative verbs vs attribute??
+83-84 [] [] []
+
+84-85 [?] [] [pro] # coordination
+85-86 [] [] [] # ???
+86-87 [] [] [pro] # time adjunct
+87-88 [] [] []
+88-89 [?] [] [] # coordination line-first
+89-90 [relword] [] []
+90-91 [ex_subj_verb] [suave] [pro]
+91-92 [] [] []
+92-93 [pb_adv_noun] [suave] [pro] # use this also with pronouns?
+93-94 [?] [suave] [=retro] # coordination line first
+94-95 [pb_verb_adv] [suave] [=retro]
+95-96 [] [] []
+
+96-97 [relword] [suave] [pro]
+97-98 [?] [suave] [pro] # prep + noun
+98-99 [] [] []
+99-100 [] [suave] [pro]
+100-101 [?] [abrupt] [pro] # prep + noun # the preposition takes up the whole line
+101-102 [relword] [abrupt] [pro]
+102-103 [ex_dobj_verb] [suave] [pro]
+103-104 [ex_dobj_verb] [suave] [pro]
+104-105 [?] [suave] [=retro] # coordination line-first
+105-106 [relword] [suave] [pro]
+106-107 [] [] []
+107-108 [?] [suave] [pro] # prep + noun
+108-109 [] [] []
+
+109-110 [] [suave] [pro] # adjunct
+110-111 [?] [suave] [pro] # prep + noun
+111-112 [] [] []
+112-113 [?] [] [] # prep + noun
+113-114 [relword] [suave] [pro]
+114-115 [] [] []
+
+115-116 [ex_subj_verb] [suave] [pro]
+116-117 [] [] [] # coordination line-first
+117-118 [] [suave] [=retro] # adjunct
+118-119 [?] [] [=retro]
+119-120 [pb_verb_chain] [suave] [pro]
+120-121 [] [suave] [=retro] # adjunct clause
+121-122 [?] [suave] [=retro] # adjunct
+122-123 [relword] [suave] [pro]

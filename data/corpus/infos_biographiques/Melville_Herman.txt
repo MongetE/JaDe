@@ -1,0 +1,6 @@
+Name: Melville
+Fname: Herman
+Birth: 1/8/1819, NYC (US)
+Death: 28/9/1891, NYC (US)
+Century: 19th
+Nationality: American

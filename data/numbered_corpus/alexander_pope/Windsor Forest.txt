@@ -1,0 +1,432 @@
+1. Thy forests, Windsor! and thy green retreats,
+2. At once the Monarch's and the Muse's seats,
+3. Invite my lays. Be present, sylvan maids!
+4. Unlock your springs, and open all your shades.
+5. Granville commands; your aid O Muses bring!
+6. What Muse for Granville can refuse to sing?
+7. The groves of Eden, vanish'd now so long,
+8. Live in description, and look green in song:
+9. These, were my breast inspir'd with equal flame,
+10. Like them in beauty, should be like in fame.
+11. Here hills and vales, the woodland and the plain,
+12. Here earth and water, seem to strive again;
+13. Not Chaos like together crush'd and bruis'd,
+14. But as the world, harmoniously confus'd:
+15. Where order in variety we see,
+16. And where, tho' all things differ, all agree.
+17. Here waving groves a checquer'd scene display,
+18. And part admit, and part exclude the day;
+19. As some coy nymph her lover's warm address
+20. Nor quite indulges, nor can quite repress.
+21. There, interspers'd in lawns and opening glades,
+22. Thin trees arise that shun each other's shades.
+23. Here in full light the russet plains extend;
+24. There wrapt in clouds the blueish hills ascend.
+25. Ev'n the wild heath displays her purple dyes,
+26. And 'midst the desart fruitful fields arise,
+27. That crown'd with tufted trees and springing corn,
+28. Like verdant isles the sable waste adorn.
+29. Let India boast her plants, nor envy we
+30. The weeping amber or the balmy tree,
+31. While by our oaks the precious loads are born,
+32. And realms commanded which those trees adorn.
+33. Not proud Olympus yields a nobler sight,
+34. Tho' Gods assembled grace his tow'ring height,
+35. Than what more humble mountains offer here,
+36. Where, in their blessings, all those Gods appear.
+37. See Pan with flocks, with fruits Pomona crown'd,
+38. Here blushing Flora paints th' enamel'd ground,
+39. Here Ceres' gifts in waving prospect stand,
+40. And nodding tempt the joyful reaper's hand;
+41. Rich Industry sits smiling on the plains,
+42. And peace and plenty tell, a Stuart reigns.
+43. Not thus the land appear'd in ages past,
+44. A dreary desart and a gloomy waste,
+45. To savage beasts and savage laws a prey,
+46. And kings more furious and severe than they;
+47. Who claim'd the skies, dispeopled air and floods,
+48. The lonely lords of empty wilds and woods:
+49. Cities laid waste, they storm'd the dens and caves,
+50. (For wiser brutes were backward to be slaves):
+51. What could be free, when lawless beasts obey'd,
+52. And ev'n the elements a Tyrant sway'd?
+53. In vain kind seasons swell'd the teeming grain,
+54. Soft show'rs distill'd, and suns grew warm in vain;
+55. The swain with tears his frustrate labour yields,
+56. And famish'd dies amidst his ripen'd fields.
+57. What wonder then, a beast or subject slain
+58. Were equal crimes in a despotick reign?
+59. Both doom'd alike, for sportive Tyrants bled,
+60. But that the subject starv'd, the beast was fed.
+61. Proud Nimrod first the bloody chace began,
+62. A mighty hunter, and his prey was man:
+63. Our haughty Norman boasts that barb'rous name,
+64. And makes his trembling slaves the royal game.
+65. The fields are ravish'd from th' industrious swains,
+66. From men their cities, and from Gods their fanes:
+67. The levell'd towns with weeds lie cover'd o'er;
+68. The hollow winds thro' naked temples roar;
+69. Round broken columns clasping ivy twin'd;
+70. O'er heaps of ruin stalk'd the stately hind;
+71. The fox obscene to gaping tombs retires,
+72. And savage howlings fill the sacred quires.
+73. Aw'd by his Nobles, by his Commons curst,
+74. Th' Oppressor rul'd tyrannic where he durst,
+75. Stretch'd o'er the Poor and Church his iron rod,
+76. And serv'd alike his Vassals and his God.
+77. Whom ev'n the Saxon spar'd, and bloody Dane,
+78. The wanton victims of his sport remain.
+79. But see, the man who spacious regions gave
+80. A waste for beasts, himself deny'd a grave!
+81. Stretch'd on the lawn, his second hope survey,
+82. At once the chaser, and at once the prey:
+83. Lo Rufus, tugging at the deadly dart,
+84. Bleeds in the forest, like a wounded hart.
+85. Succeeding Monarchs heard the subjects cries,
+86. Nor saw displeas'd the peaceful cottage rise.
+87. Then gath'ring flocks on unknown mountains fed,
+88. O'er sandy wilds were yellow harvests spread,
+89. The forests wonder'd at th' unusual grain,
+90. And secret transport touch'd the conscious swain.
+91. Fair Liberty, Britannia's Goddess, rears
+92. Her chearful head, and leads the golden years.
+93. Ye vig'rous swains! while youth ferments your blood,
+94. And purer spirits swell the sprightly flood,
+95. Now range the hills, the thickest woods beset,
+96. Wind the shrill horn, or spread the waving net.
+97. When milder autumn summer's heat succeeds,
+98. And in the new-shorn field the partridge feeds,
+99. Before his lord the ready spaniel bounds,
+100. Panting with hope, he tries the furrow'd grounds;
+101. But when the tainted gales the game betray,
+102. Couch'd close he lies, and meditates the prey:
+103. Secure they trust th' unfaithful field, beset,
+104. Till hov'ring o'er 'em sweeps the swelling net.
+105. Thus (if small things we may with great compare)
+106. When Albion sends her eager sons to war,
+107. Some thoughtless Town, with ease and plenty blest,
+108. Near, and more near, the closing lines invest;
+109. Sudden they seize th' amaz'd, defenceless prize,
+110. And high in air Britannia's standard flies.
+111. See! from the brake the whirring pheasant springs,
+112. And mounts exulting on triumphant wings:
+113. Short is his joy; he feels the fiery wound,
+114. Flutters in blood, and panting beats the ground.
+115. Ah! what avail his glossy, varying dyes,
+116. His purple crest, and scarlet-circled eyes,
+117. The vivid green his shining plumes unfold,
+118. His painted wings, and breast that flames with gold?
+119. Nor yet, when moist Arcturus clouds the sky,
+120. The woods and fields their pleasing toils deny.
+121. To plains with well-breath'd beagles we repair,
+122. And trace the mazes of the circling hare:
+123. (Beasts, urg'd by us, their fellow-beasts pursue,
+124. And learn of man each other to undo.)
+125. With slaught'ring guns th' unweary'd fowler roves,
+126. When frosts have whiten'd all the naked groves;
+127. Where doves in flocks the leafless trees o'ershade,
+128. And lonely woodcocks haunt the wat'ry glade.
+129. He lifts the tube, and levels with his eye;
+130. Strait a short thunder breaks the frozen sky:
+131. Oft', as in airy rings they skim the heath,
+132. The clam'rous plovers feel the leaden death:
+133. Oft', as the mounting larks their notes prepare,
+134. They fall, and leave their little lives in air.
+135. In genial spring, beneath the quiv'ring shade,
+136. Where cooling vapours breathe along the mead,
+137. The patient fisher takes his silent stand,
+138. Intent, his angle trembling in his hand;
+139. With looks unmov'd, he hopes the scaly breed,
+140. And eyes the dancing cork, and bending reed.
+141. Our plenteous streams a various race supply,
+142. The bright-ey'd perch with fins of Tyrian dye,
+143. The silver eel, in shining volumes roll'd,
+144. The yellow carp, in scales bedrop'd with gold,
+145. Swift trouts, diversify'd with crimson stains,
+146. And pykes, the tyrants of the watry plains.
+147. Now Cancer glows with Phoebus' fiery car;
+148. The youth rush eager to the sylvan war,
+149. Swarm o'er the lawns, the forest walks surround,
+150. Rouze the fleet hart, and chear the opening hound.
+151. Th' impatient courser pants in ev'ry vein,
+152. And pawing, seems to beat the distant plain;
+153. Hills, vales, and floods appear already cross'd,
+154. And e'er he starts, a thousand steps are lost.
+155. See! the bold youth strain up the threat'ning steep,
+156. Rush thro' the thickets, down the valleys sweep,
+157. Hang o'er their coursers heads with eager speed,
+158. And earth rolls back beneath the flying steed.
+159. Let old Arcadia boast her ample plain,
+160. Th' immortal huntress, and her virgin-train;
+161. Nor envy, Windsor! since thy shades have seen
+162. As bright a Goddess, and as chaste a Queen;
+163. Whose care, like hers, protects the sylvan reign,
+164. The Earth's fair light, and Empress of the main.
+165. Here, as old bards have sung, Diana stray'd,
+166. Bath'd in the springs, or sought the cooling shade;
+167. Here arm'd with silver bows, in early dawn,
+168. Her buskin'd Virgins trac'd the dewy lawn.
+169. Above the rest a rural nymph was fam'd,
+170. Thy offspring, Thames! the fair Lodona nam'd;
+171. (Lodona's fate, in long oblivion cast,
+172. The Muse shall sing, and what she sings shall last.)
+173. Scarce could the Goddess from her nymph be known,
+174. But by the crescent and the golden zone.
+175. She scorn'd the praise of beauty, and the care,
+176. A belt her waist, a fillet binds her hair,
+177. A painted quiver on her shoulder sounds,
+178. And with her dart the flying deer she wounds.
+179. It chanc'd, as eager of the chace, the maid
+180. Beyond the forest's verdant limits stray'd,
+181. Pan saw and lov'd, and burning with desire
+182. Pursu'd her flight, her flight increas'd his fire.
+183. Not half so swift the trembling doves can fly,
+184. When the fierce eagle cleaves the liquid sky;
+185. Not half so swiftly the fierce eagle moves,
+186. When thro' the clouds he drives the trembling doves;
+187. As from the God she flew with furious pace,
+188. Or as the God, more furious, urg'd the chace.
+189. Now fainting, sinking, pale, the nymph appears;
+190. Now close behind, his sounding steps she hears;
+191. And now his shadow reach'd her as she run,
+192. His shadow lengthen'd by the setting sun;
+193. And now his shorter breath, with sultry air,
+194. Pants on her neck, and fans her parting hair.
+195. In vain on father Thames she call'd for aid,
+196. Nor could Diana help her injur'd maid.
+197. Faint, breathless, thus she pray'd, nor pray'd in vain;
+198. 'Ah Cynthia! ah tho' banish'd from thy train,
+199. 'Let me, O let me, to the shades repair,
+200. 'My native shades there weep, and murmur there.
+201. She said, and melting as in tears she lay,
+202. In a soft, silver stream dissolv'd away.
+203. The silver stream her virgin coldness keeps,
+204. For ever murmurs, and for ever weeps;
+205. Still bears the name the hapless virgin bore,
+206. And bathes the forest where she rang'd before.
+207. In her chaste current oft' the Goddess laves,
+208. And with celestial tears augments the waves.
+209. Oft' in her glass the musing shepherd spies
+210. The headlong mountains and the downward skies,
+211. The watry landskip of the pendant woods,
+212. And absent trees that tremble in the floods;
+213. In the clear azure gleam the flocks are seen,
+214. And floating forests paint the waves with green.
+215. Thro' the fair scene rowl slow the ling'ring streams,
+216. Then foaming pour along, and rush into the Thames.
+217. Thou too, great father of the British floods!
+218. With joyful pride survey'st our lofty woods;
+219. Where tow'ring oaks their spreading honours rear,
+220. And future navies on thy shores appear.
+221. Not Neptune's self from all his streams receives
+222. A wealthier tribute, than to thine he gives.
+223. No seas so rich, so gay no banks appear,
+224. No lake so gentle, and no spring so clear.
+225. Not fabled Po more swells the poet's lays,
+226. While thro' the skies his shining current strays,
+227. Than thine, which visits Windsor's fam'd abodes,
+228. To grace the mansion of our earthly Gods:
+229. Nor all his stars a brighter lustre show,
+230. Than the fair nymphs that grace thy side below:
+231. Here Jove himself, subdu'd by beauty still,
+232. Might change Olympus for a nobler hill.
+233. Happy the man whom this bright Court approves,
+234. His Sov'reign favours, and his Country loves:
+235. Happy next him, who to these shades retires,
+236. Whom Nature charms, and whom the Muse inspires;
+237. Whom humbler joys of home-felt quiet please,
+238. Successive study, exercise, and ease.
+239. He gathers health from herbs the forest yields,
+240. And of their fragrant physic spoils the fields:
+241. With chymic art exalts the min'ral pow'rs,
+242. And draws the aromatic souls of flow'rs:
+243. Now marks the course of rolling orbs on high;
+244. O'er figur'd worlds now travels with his eye:
+245. Of ancient writ unlocks the learned store,
+246. Consults the dead, and lives past ages o'er:
+247. Or wand'ring thoughtful in the silent wood,
+248. Attends the duties of the wise and good,
+249. T'observe a mean, be to himself a friend,
+250. To follow nature, and regard his end;
+251. Or looks on heav'n with more than mortal eyes,
+252. Bids his free soul expatiate in the skies,
+253. Amid her kindred stars familiar roam,
+254. Survey the region, and confess her home!
+255. Such was the life great Scipio once admir'd,
+256. Thus Atticus, and Trumbal thus retir'd.
+257. Ye sacred Nine! that all my soul possess,
+258. Whose raptures fire me, and whose visions bless,
+259. Bear me, oh bear me to sequester'd scenes,
+260. The bow'ry mazes, and surrounding greens;
+261. To Thames's banks which fragrant breezes fill,
+262. Or where ye Muses sport on Cooper's hill.
+263. (On Cooper's hill eternal wreaths shall grow,
+264. While lasts the mountain, or while Thames shall flow)
+265. I seem thro' consecrated walks to rove,
+266. I hear soft music die along the grove;
+267. Led by the sound, I roam from shade to shade,
+268. By god-like Poets venerable made:
+269. Here his first lays majestic Denham sung;
+270. There the last numbers flow'd from Cowley's tongue.
+271. O early lost! what tears the river shed,
+272. When the sad pomp along his banks was led?
+273. His drooping swans on ev'ry note expire,
+274. And on his willows hung each Muse's lyre.
+275. Since fate relentless stop'd their heav'nly voice,
+276. No more the forests ring, or groves rejoice;
+277. Who now shall charm the shades, where Cowley strung
+278. His living harp, and lofty Denham sung?
+279. But hark! the groves rejoice, the forest rings!
+280. Are these reviv'd? or is it Granville sings?
+281. 'Tis yours, my Lord, to bless our soft retreats,
+282. And call the Muses to their ancient seats;
+283. To paint anew the flow'ry sylvan scenes,
+284. To crown the forests with immortal greens,
+285. Make Windsor-hills in lofty numbers rise,
+286. And lift her turrets nearer to the skies;
+287. To sing those honours you deserve to wear,
+288. And add new lustre to her silver star.
+289. Here noble Surrey felt the sacred rage,
+290. Surrey, the Granville of a former age:
+291. Matchless his pen, victorious was his lance,
+292. Bold in the lists, and graceful in the dance:
+293. In the same shades the Cupids tun'd his lyre,
+294. To the same notes, of love, and soft desire:
+295. Fair Geraldine, bright object of his vow,
+296. Then fill'd the groves, as heav'nly Myra now.
+297. Oh would'st thou sing what Heroes Windsor bore,
+298. What Kings first breath'd upon her winding shore,
+299. Or raise old warriours, whose ador'd remains
+300. In weeping vaults her hallow'd earth contains!
+301. With Edward's acts adorn the shining page,
+302. Stretch his long triumphs down thro' ev'ry age,
+303. Draw Monarchs chain'd, and Cressi's glorious field,
+304. The lillies blazing on the regal shield:
+305. Then, from her roofs when Verrio's colours fall,
+306. And leave inanimate the naked wall,
+307. Still in thy song should vanquish'd France appear,
+308. And bleed for ever under Britain's spear.
+309. Let softer strains ill-fated Henry mourn,
+310. And palms eternal flourish round his urn,
+311. Here o'er the martyr-King the marble weeps,
+312. And fast beside him, once-fear'd Edward sleeps:
+313. Whom not th' extended Albion could contain,
+314. From old Belerium to the northern main,
+315. The grave unites; where ev'n the Great find rest,
+316. And blended lie th' oppressor and th' opprest!
+317. Make sacred Charles's tomb for ever known,
+318. (Obscure the place, and un-inscrib'd the stone)
+319. Oh fact accurst! what tears has Albion shed,
+320. Heav'ns, what new wounds! and how her old have bled?
+321. She saw her sons with purple deaths expire,
+322. Her sacred domes involv'd in rolling fire,
+323. A dreadful series of intestine wars,
+324. Inglorious triumphs, and dishonest scars.
+325. At length great Anna said 'Let Discord cease!'
+326. She said, the World obey'd, and all was Peace!
+327. In that blest moment, from his oozy bed
+328. Old father Thames advanc'd his rev'rend head.
+329. His tresses drop'd with dews, and o'er the stream
+330. His shining horns diffus'd a golden gleam:
+331. Grav'd on his urn, appear'd the Moon that guides
+332. His swelling waters, and alternate tydes;
+333. The figur'd streams in waves of silver roll'd,
+334. And on their banks Augusta rose in gold.
+335. Around his throne the sea-born brothers stood,
+336. Who swell with tributary urns his flood:
+337. First the fam'd authors of his ancient name,
+338. The winding Isis and the fruitful Tame:
+339. The Kennet swift, for silver eels renown'd;
+340. The Loddon slow, with verdant alders crown'd;
+341. Cole, whose clear streams his flow'ry islands lave;
+342. And chalky Wey, that rolls a milky wave:
+343. The blue, transparent Vandalis appears;
+344. The gulphy Lee his sedgy tresses rears;
+345. And sullen Mole, that hides his diving flood;
+346. And silent Darent, stain'd with Danish blood.
+347. High in the midst, upon his urn reclin'd,
+348. (His sea-green mantle waving with the wind)
+349. The God appear'd: he turn'd his azure eyes
+350. Where Windsor-domes and pompous turrets rise;
+351. Then bow'd and spoke; the winds forget to roar,
+352. And the hush'd waves glide softly to the shore.
+353. Hail, sacred Peace! hail long-expected days,
+354. That Thames's glory to the stars shall raise!
+355. Tho' Tyber's streams immortal Rome behold,
+356. Tho' foaming Hermus swells with tydes of gold,
+357. From heav'n itself tho' sev'n-fold Nilus flows,
+358. And harvests on a hundred realms bestows;
+359. These now no more shall be the Muse's themes,
+360. Lost in my fame, as in the sea their streams.
+361. Let Volga's banks with iron squadrons shine,
+362. And groves of lances glitter on the Rhine,
+363. Let barb'rous Ganges arm a servile train;
+364. Be mine the blessings of a peaceful reign.
+365. No more my sons shall dye with British blood
+366. Red Iber's sands, or Ister's foaming flood;
+367. Safe on my shore each unmolested swain
+368. Shall tend the flocks, or reap the bearded grain;
+369. The shady empire shall retain no trace
+370. Of war or blood, but in the sylvan chace;
+371. The trumpet sleep, while chearful horns are blown,
+372. And arms employ'd on birds and beasts alone.
+373. Behold! th' ascending Villa's on my side,
+374. Project long shadows o'er the crystal tyde.
+375. Behold! Augusta's glitt'ring spires increase,
+376. And temples rise, the beauteous works of Peace.
+377. I see, I see where two fair cities bend
+378. Their ample bow, a new White-ball ascend!
+379. There mighty nations shall enquire their doom,
+380. The world's great Oracle in times to come;
+381. There Kings shall sue, and suppliant States be seen
+382. Once more to bend before a British Queen.
+383. Thy trees, fair Windsor! now shall leave their woods,
+384. And half thy forests rush into my floods,
+385. Bear Britain's thunder, and her Cross display,
+386. To the bright regions of the rising day;
+387. Tempt icy seas, where scarce the waters roll,
+388. Where clearer flames glow round the frozen Pole;
+389. Or under southern skies exalt their sails,
+390. Led by new stars, and borne by spicy gales!
+391. For me the balm shall bleed, and amber flow,
+392. The coral redden, and the ruby glow,
+393. The pearly shell its lucid globe infold,
+394. And Phoebus warm the ripening ore to gold.
+395. The time shall come, when free as seas or wind
+396. Unbounded Thames shall flow for all mankind,
+397. Whole nations enter with each swelling tyde,
+398. And seas but join the regions they divide;
+399. Earth's distant ends our glory shall behold,
+400. And the new world launch forth to seek the old.
+401. Then ships of uncouth form shall stem the tyde,
+402. And feather'd people croud my wealthy side,
+403. And naked youths and painted chiefs admire
+404. Our speech, our colour, and our strange attire!
+405. Oh stretch thy reign, fair Peace! from shore to shore,
+406. 'Till Conquest cease, and slav'ry be no more;
+407. 'Till the freed Indians in their native groves
+408. Reap their own fruits, and woo their sable loves,
+409. Peru once more a race of Kings behold,
+410. And other Mexico's be roof'd with gold.
+411. Exil'd by thee from earth to deepest hell,
+412. In brazen bonds shall barb'rous Discord dwell:
+413. Gigantic Pride, pale Terror, gloomy Care,
+414. And mad Ambition, shall attend her there:
+415. There purple Vengeance bath'd in gore retires,
+416. Her weapons blunted, and extinct her fires:
+417. There hateful Envy her own snakes shall feel,
+418. And Persecution mourn her broken wheel:
+419. There Faction roar, Rebellion bite her chain,
+420. And gasping Furies thirst for blood in vain.
+421. Here cease thy flight, nor with unhallow'd lays
+422. Touch the fair fame of Albion's golden days:
+423. The thoughts of Gods let Granville's verse recite,
+424. And bring the scenes of opening fate to light.
+425. My humble Muse, in unambitious strains,
+426. Paints the green forests and the flow'ry plains,
+427. Where Peace descending bids her olives spring,
+428. And scatters blessings from her dove-like wing.
+429. Ev'n I more sweetly pass my careless days,
+430. Pleas'd in the silent shade with empty praise;
+431. Enough for me, that to the list'ning swains
+432. First in these fields I sung the sylvan strains.
