@@ -25,4 +25,4 @@
 10 11 [pb_noun_adj] [abrupt] [pro]
 11 12 [] [] []
 12 13 [] [] []
-13 14 [?] [smooth] [pro]
+13 14 [pb_noun_prep] [smooth] [pro]

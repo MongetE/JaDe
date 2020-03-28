@@ -1,1 +1,80 @@
-[{"nbPair": "01 02", "text": "Can it be right to give what I can give?&& To let thee sit beneath the fall of tears", "annot": " [] [] []", "isEnj": false}, {"nbPair": "02 03", "text": "To let thee sit beneath the fall of tears%% As salt as mine, and hear the sighing years", "annot": " [pb_noun_adj] [abrupt] [retro]", "isEnj": true}, {"nbPair": "03 04", "text": "As salt as mine, and hear the sighing years%% Re-sighing on my lips renunciative", "annot": " [ex_subj_verb] [smooth] [pro]", "isEnj": true}, {"nbPair": "04 05", "text": "Re-sighing on my lips renunciative%% Through those infrequent smiles which fail to live", "annot": " [] [] []", "isEnj": true}, {"nbPair": "05 06", "text": "Through those infrequent smiles which fail to live%% For all thy adjurations? O my fears,", "annot": " [pb_phrasal_verb] [abrupt] [retro]", "isEnj": true}, {"nbPair": "06 07", "text": "For all thy adjurations? O my fears,&& That this can scarce be right! We are not peers,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "07 08", "text": "That this can scarce be right! We are not peers,&& So to be lovers; and I own, and grieve,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "08 09", "text": "So to be lovers; and I own, and grieve,&& That givers of such gifts as mine are, must", "annot": " [] [] []", "isEnj": false}, {"nbPair": "09 10", "text": "That givers of such gifts as mine are, must%% Be counted with the ungenerous. Out, alas!", "annot": " [pb_verb_chain] [abrupt] [pro]", "isEnj": true}, {"nbPair": "10 11", "text": "Be counted with the ungenerous. Out, alas!&& I will not soil thy purple with my dust,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "11 12", "text": "I will not soil thy purple with my dust,&& Nor breathe my poison on thy Venice-glass,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "12 13", "text": "Nor breathe my poison on thy Venice-glass,&& Nor give thee any love\u2014which were unjust.", "annot": " [] [] []", "isEnj": false}, {"nbPair": "13 14", "text": "Nor give thee any love\u2014which were unjust.&& Beloved, I only love thee! let it pass.", "annot": " [] [] []", "isEnj": false}]
+[
+  {
+    "nbPair": "01 02",
+    "text": "Can it be right to give what I can give?&& To let thee sit beneath the fall of tears",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "02 03",
+    "text": "To let thee sit beneath the fall of tears%% As salt as mine, and hear the sighing years",
+    "annot": " [pb_noun_adj] [abrupt] [retro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "03 04",
+    "text": "As salt as mine, and hear the sighing years%% Re-sighing on my lips renunciative",
+    "annot": " [ex_subj_verb] [smooth] [pro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "04 05",
+    "text": "Re-sighing on my lips renunciative%% Through those infrequent smiles which fail to live",
+    "annot": " [] [] []",
+    "isEnj": true
+  },
+  {
+    "nbPair": "05 06",
+    "text": "Through those infrequent smiles which fail to live%% For all thy adjurations? O my fears,",
+    "annot": " [pb_phrasal_verb] [abrupt] [retro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "06 07",
+    "text": "For all thy adjurations? O my fears,&& That this can scarce be right! We are not peers,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "07 08",
+    "text": "That this can scarce be right! We are not peers,&& So to be lovers; and I own, and grieve,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "08 09",
+    "text": "So to be lovers; and I own, and grieve,&& That givers of such gifts as mine are, must",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "09 10",
+    "text": "That givers of such gifts as mine are, must%% Be counted with the ungenerous. Out, alas!",
+    "annot": " [pb_verb_chain] [abrupt] [pro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "10 11",
+    "text": "Be counted with the ungenerous. Out, alas!&& I will not soil thy purple with my dust,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "11 12",
+    "text": "I will not soil thy purple with my dust,&& Nor breathe my poison on thy Venice-glass,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "12 13",
+    "text": "Nor breathe my poison on thy Venice-glass,&& Nor give thee any love\u2014which were unjust.",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "13 14",
+    "text": "Nor give thee any love\u2014which were unjust.&& Beloved, I only love thee! let it pass.",
+    "annot": " [] [] []",
+    "isEnj": false
+  }
+]

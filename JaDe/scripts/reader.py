@@ -5,6 +5,7 @@ import re
 
 DIR = pathlib.Path('data/annotated_poems')
 
+
 def reader():
     for file in DIR.iterdir():
         with open(str(file), 'r', encoding='utf-8') as curfile:

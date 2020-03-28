@@ -1,1 +1,74 @@
-[{"nbPair": "01 02", "text": "I am God\u2014%% Without one friend,", "annot": " [] [] []", "isEnj": true}, {"nbPair": "02 03", "text": "Without one friend,&& Alone in my purity", "annot": " [] [] []", "isEnj": false}, {"nbPair": "03 04", "text": "Alone in my purity%% World without end.", "annot": " [pb_noun_noun] [smooth] [retro]", "isEnj": true}, {"nbPair": "04 05", "text": "World without end.&& Below me young lovers", "annot": " [] [] []", "isEnj": false}, {"nbPair": "05 06", "text": "Below me young lovers%% Tread the sweet ground\u2014", "annot": " [ex_subj_verb] [smooth] [pro]", "isEnj": true}, {"nbPair": "06 07", "text": "Tread the sweet ground\u2014%% But I am God\u2014", "annot": " [] [] []", "isEnj": true}, {"nbPair": "07 08", "text": "But I am God\u2014%% I cannot come down.", "annot": " [] [] []", "isEnj": true}, {"nbPair": "08 09", "text": "I cannot come down.&& Spring!", "annot": " [] [] []", "isEnj": false}, {"nbPair": "09 10", "text": "Spring!&& Life is love!", "annot": " [] [] []", "isEnj": false}, {"nbPair": "10 11", "text": "Life is love!&& Love is life only!", "annot": " [] [] []", "isEnj": false}, {"nbPair": "11 12", "text": "Love is life only!&& Better to be human", "annot": " [] [] []", "isEnj": false}, {"nbPair": "12 13", "text": "Better to be human%% Than God\u2014and lonely.", "annot": " [pb_comp] [smooth] [retro]", "isEnj": true}]
+[
+  {
+    "nbPair": "01 02",
+    "text": "I am God\u2014%% Without one friend,",
+    "annot": " [] [] []",
+    "isEnj": true
+  },
+  {
+    "nbPair": "02 03",
+    "text": "Without one friend,&& Alone in my purity",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "03 04",
+    "text": "Alone in my purity%% World without end.",
+    "annot": " [pb_noun_noun] [smooth] [retro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "04 05",
+    "text": "World without end.&& Below me young lovers",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "05 06",
+    "text": "Below me young lovers%% Tread the sweet ground\u2014",
+    "annot": " [ex_subj_verb] [smooth] [pro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "06 07",
+    "text": "Tread the sweet ground\u2014%% But I am God\u2014",
+    "annot": " [] [] []",
+    "isEnj": true
+  },
+  {
+    "nbPair": "07 08",
+    "text": "But I am God\u2014%% I cannot come down.",
+    "annot": " [] [] []",
+    "isEnj": true
+  },
+  {
+    "nbPair": "08 09",
+    "text": "I cannot come down.&& Spring!",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "09 10",
+    "text": "Spring!&& Life is love!",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "10 11",
+    "text": "Life is love!&& Love is life only!",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "11 12",
+    "text": "Love is life only!&& Better to be human",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "12 13",
+    "text": "Better to be human%% Than God\u2014and lonely.",
+    "annot": " [pb_comp] [smooth] [retro]",
+    "isEnj": true
+  }
+]

@@ -1,1 +1,116 @@
-[{"nbPair": "01 02", "text": "A word will fill the little heart%% With pleasure and with pride;", "annot": " [pb_phrasal_verb] [smooth] [retro]", "isEnj": true}, {"nbPair": "02 03", "text": "With pleasure and with pride;&& It is a harsh, a cruel thing,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "03 04", "text": "It is a harsh, a cruel thing,&& That such can be denied.", "annot": " [] [] []", "isEnj": false}, {"nbPair": "04 05", "text": "That such can be denied.&& And yet how many weary hours", "annot": " [] [] []", "isEnj": false}, {"nbPair": "05 06", "text": "And yet how many weary hours%% Those joyous creatures know;", "annot": " [ex_dobj_verb] [smooth] [pro]", "isEnj": true}, {"nbPair": "06 07", "text": "Those joyous creatures know;&& How much of sorrow and restraint", "annot": " [] [] []", "isEnj": false}, {"nbPair": "07 08", "text": "How much of sorrow and restraint%% They to their elders owe!", "annot": " [ex_dobj_verb] [smooth] [pro]", "isEnj": true}, {"nbPair": "08 09", "text": "They to their elders owe!&& How much they suffer from our faults!", "annot": " [] [] []", "isEnj": false}, {"nbPair": "09 10", "text": "How much they suffer from our faults!&& How much from our mistakes!", "annot": " [] [] []", "isEnj": false}, {"nbPair": "10 11", "text": "How much from our mistakes!&& How often, too, mistaken zeal", "annot": " [] [] []", "isEnj": false}, {"nbPair": "11 12", "text": "How often, too, mistaken zeal%% An infant's misery makes!", "annot": " [ex_subj_verb] [smooth] [pro]", "isEnj": true}, {"nbPair": "12 13", "text": "An infant's misery makes!&& We overrule and overteach,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "13 14", "text": "We overrule and overteach,&& We curb and we confine,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "14 15", "text": "We curb and we confine,&& And put the heart to school too soon,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "15 16", "text": "And put the heart to school too soon,&& To learn our narrow line.", "annot": " [] [] []", "isEnj": false}, {"nbPair": "16 17", "text": "To learn our narrow line.&& No: only taught by love to love,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "17 18", "text": "No: only taught by love to love,&& Seems childhood's natural task;", "annot": " [] [] []", "isEnj": false}, {"nbPair": "18 19", "text": "Seems childhood's natural task;&& Affection, gentleness, and hope,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "19 20", "text": "Affection, gentleness, and hope,&& Are all its brief years ask.", "annot": " [] [] []", "isEnj": false}]
+[
+  {
+    "nbPair": "01 02",
+    "text": "A word will fill the little heart%% With pleasure and with pride;",
+    "annot": " [pb_phrasal_verb] [smooth] [retro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "02 03",
+    "text": "With pleasure and with pride;&& It is a harsh, a cruel thing,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "03 04",
+    "text": "It is a harsh, a cruel thing,&& That such can be denied.",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "04 05",
+    "text": "That such can be denied.&& And yet how many weary hours",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "05 06",
+    "text": "And yet how many weary hours%% Those joyous creatures know;",
+    "annot": " [ex_dobj_verb] [smooth] [pro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "06 07",
+    "text": "Those joyous creatures know;&& How much of sorrow and restraint",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "07 08",
+    "text": "How much of sorrow and restraint%% They to their elders owe!",
+    "annot": " [ex_dobj_verb] [smooth] [pro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "08 09",
+    "text": "They to their elders owe!&& How much they suffer from our faults!",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "09 10",
+    "text": "How much they suffer from our faults!&& How much from our mistakes!",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "10 11",
+    "text": "How much from our mistakes!&& How often, too, mistaken zeal",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "11 12",
+    "text": "How often, too, mistaken zeal%% An infant's misery makes!",
+    "annot": " [ex_subj_verb] [smooth] [pro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "12 13",
+    "text": "An infant's misery makes!&& We overrule and overteach,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "13 14",
+    "text": "We overrule and overteach,&& We curb and we confine,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "14 15",
+    "text": "We curb and we confine,&& And put the heart to school too soon,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "15 16",
+    "text": "And put the heart to school too soon,&& To learn our narrow line.",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "16 17",
+    "text": "To learn our narrow line.&& No: only taught by love to love,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "17 18",
+    "text": "No: only taught by love to love,&& Seems childhood's natural task;",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "18 19",
+    "text": "Seems childhood's natural task;&& Affection, gentleness, and hope,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "19 20",
+    "text": "Affection, gentleness, and hope,&& Are all its brief years ask.",
+    "annot": " [] [] []",
+    "isEnj": false
+  }
+]

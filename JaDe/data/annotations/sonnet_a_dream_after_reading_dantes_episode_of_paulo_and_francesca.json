@@ -1,1 +1,80 @@
-[{"nbPair": "01 02", "text": "As Hermes once took to his feathers light,&& When lulled Argus, baffled, swooned and slept,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "02 03", "text": "When lulled Argus, baffled, swooned and slept,&& So on a Delphic reed, my idle spright", "annot": " [] [] []", "isEnj": false}, {"nbPair": "03 04", "text": "So on a Delphic reed, my idle spright%% So played, so charmed, so conquered, so bereft", "annot": " [ex_subj_verb] [abrupt] [pro]", "isEnj": true}, {"nbPair": "04 05", "text": "So played, so charmed, so conquered, so bereft%% The dragon-world of all its hundred eyes;", "annot": " [ex_dobj_verb] [smooth] [pro]", "isEnj": true}, {"nbPair": "05 06", "text": "The dragon-world of all its hundred eyes;&& And seeing it asleep, so fled away--", "annot": " [] [] []", "isEnj": false}, {"nbPair": "06 07", "text": "And seeing it asleep, so fled away--&& Not to pure Ida with its snow-cold skies,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "07 08", "text": "Not to pure Ida with its snow-cold skies,&& Nor unto Tempe, where Jove grieved a day;", "annot": " [] [] []", "isEnj": false}, {"nbPair": "08 09", "text": "Nor unto Tempe, where Jove grieved a day;&& But to that second circle of sad Hell,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "09 10", "text": "But to that second circle of sad Hell,&& Where in the gust, the whirlwind, and the flaw", "annot": " [] [] []", "isEnj": false}, {"nbPair": "10 11", "text": "Where in the gust, the whirlwind, and the flaw%% Of rain and hail-stones, lovers need not tell", "annot": " [pb_noun_prep] [abrupt] [retro]", "isEnj": true}, {"nbPair": "11 12", "text": "Of rain and hail-stones, lovers need not tell%% Their sorrows. Pale were the sweet lips I saw,", "annot": " [ex_dobj_verb] [abrupt] [retro]", "isEnj": true}, {"nbPair": "12 13", "text": "Their sorrows. Pale were the sweet lips I saw,&& Pale were the lips I kissed, and fair the form", "annot": " [] [] []", "isEnj": false}, {"nbPair": "13 14", "text": "Pale were the lips I kissed, and fair the form%% I floated with, about that melancholy storm.", "annot": " [cc_cross_clause] [abrupt] [retro]", "isEnj": true}]
+[
+  {
+    "nbPair": "01 02",
+    "text": "As Hermes once took to his feathers light,&& When lulled Argus, baffled, swooned and slept,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "02 03",
+    "text": "When lulled Argus, baffled, swooned and slept,&& So on a Delphic reed, my idle spright",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "03 04",
+    "text": "So on a Delphic reed, my idle spright%% So played, so charmed, so conquered, so bereft",
+    "annot": " [ex_subj_verb] [abrupt] [pro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "04 05",
+    "text": "So played, so charmed, so conquered, so bereft%% The dragon-world of all its hundred eyes;",
+    "annot": " [ex_dobj_verb] [smooth] [pro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "05 06",
+    "text": "The dragon-world of all its hundred eyes;&& And seeing it asleep, so fled away--",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "06 07",
+    "text": "And seeing it asleep, so fled away--&& Not to pure Ida with its snow-cold skies,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "07 08",
+    "text": "Not to pure Ida with its snow-cold skies,&& Nor unto Tempe, where Jove grieved a day;",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "08 09",
+    "text": "Nor unto Tempe, where Jove grieved a day;&& But to that second circle of sad Hell,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "09 10",
+    "text": "But to that second circle of sad Hell,&& Where in the gust, the whirlwind, and the flaw",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "10 11",
+    "text": "Where in the gust, the whirlwind, and the flaw%% Of rain and hail-stones, lovers need not tell",
+    "annot": " [pb_noun_prep] [abrupt] [retro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "11 12",
+    "text": "Of rain and hail-stones, lovers need not tell%% Their sorrows. Pale were the sweet lips I saw,",
+    "annot": " [ex_dobj_verb] [abrupt] [retro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "12 13",
+    "text": "Their sorrows. Pale were the sweet lips I saw,&& Pale were the lips I kissed, and fair the form",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "13 14",
+    "text": "Pale were the lips I kissed, and fair the form%% I floated with, about that melancholy storm.",
+    "annot": " [cc_cross_clause] [abrupt] [retro]",
+    "isEnj": true
+  }
+]

@@ -1,1 +1,44 @@
-[{"nbPair": "01 02", "text": "Hold fast to dreams%% For if dreams die", "annot": " [] [] []", "isEnj": true}, {"nbPair": "02 03", "text": "For if dreams die%% Life is a broken-winged bird", "annot": " [] [] []", "isEnj": true}, {"nbPair": "03 04", "text": "Life is a broken-winged bird%% That cannot fly.", "annot": " [cc_cross_clause] [smooth] [retro]", "isEnj": true}, {"nbPair": "04 05", "text": "That cannot fly.&& Hold fast to dreams", "annot": " [] [] []", "isEnj": false}, {"nbPair": "05 06", "text": "Hold fast to dreams%% For when dreams go", "annot": " [] [] []", "isEnj": true}, {"nbPair": "06 07", "text": "For when dreams go%% Life is a barren field", "annot": " [] [] []", "isEnj": true}, {"nbPair": "07 08", "text": "Life is a barren field%% Frozen with snow.", "annot": " [pb_noun_adj] [smooth] [retro]", "isEnj": true}]
+[
+  {
+    "nbPair": "01 02",
+    "text": "Hold fast to dreams%% For if dreams die",
+    "annot": " [] [] []",
+    "isEnj": true
+  },
+  {
+    "nbPair": "02 03",
+    "text": "For if dreams die%% Life is a broken-winged bird",
+    "annot": " [] [] []",
+    "isEnj": true
+  },
+  {
+    "nbPair": "03 04",
+    "text": "Life is a broken-winged bird%% That cannot fly.",
+    "annot": " [cc_cross_clause] [smooth] [retro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "04 05",
+    "text": "That cannot fly.&& Hold fast to dreams",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "05 06",
+    "text": "Hold fast to dreams%% For when dreams go",
+    "annot": " [] [] []",
+    "isEnj": true
+  },
+  {
+    "nbPair": "06 07",
+    "text": "For when dreams go%% Life is a barren field",
+    "annot": " [] [] []",
+    "isEnj": true
+  },
+  {
+    "nbPair": "07 08",
+    "text": "Life is a barren field%% Frozen with snow.",
+    "annot": " [pb_noun_adj] [smooth] [retro]",
+    "isEnj": true
+  }
+]

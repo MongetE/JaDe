@@ -1,6 +1,6 @@
 [
   {
-    "before": [
+    "tok_before": [
       "through",
       "all",
       "the",
@@ -11,7 +11,18 @@
       "at",
       "once"
     ],
-    "after": [
+    "pos_before": [
+      "ADP",
+      "DET",
+      "DET",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "ADP",
+      "ADV"
+    ],
+    "tok_after": [
       "as",
       "easily",
       "as",
@@ -30,10 +41,30 @@
       "don",
       "it",
       "?"
+    ],
+    "pos_after": [
+      "ADV",
+      "ADV",
+      "SCONJ",
+      "ADP",
+      "DET",
+      "PROPN",
+      "ADJ",
+      "NOUN",
+      "ADP",
+      "DET",
+      "PROPN",
+      "ADV",
+      "VERB",
+      "DET",
+      "NOUN",
+      "VERB",
+      "PRON",
+      "PUNCT"
     ]
   },
   {
-    "before": [
+    "tok_before": [
       "yet",
       "heavier",
       "far",
@@ -50,7 +81,24 @@
       "faintest",
       "puff"
     ],
-    "after": [
+    "pos_before": [
+      "CCONJ",
+      "ADV",
+      "ADV",
+      "SCONJ",
+      "DET",
+      "X",
+      "ADJ",
+      "ADJ",
+      "PUNCT",
+      "NOUN",
+      "NOUN",
+      "DET",
+      "DET",
+      "ADJ",
+      "NOUN"
+    ],
+    "tok_after": [
       "twirls",
       "into",
       "trunk",
@@ -63,22 +111,52 @@
       "it",
       ".",
       "\""
+    ],
+    "pos_after": [
+      "NOUN",
+      "ADP",
+      "NOUN",
+      "PUNCT",
+      "NOUN",
+      "DET",
+      "SCONJ",
+      "PRON",
+      "VERB",
+      "PRON",
+      "PUNCT",
+      "PUNCT"
     ]
   },
   {
-    "before": [
+    "tok_before": [
       "the",
       "general",
       "tuckermanities",
       "are",
       "arrant"
     ],
-    "after": [
-      "bubbles-"
+    "pos_before": [
+      "DET",
+      "ADJ",
+      "NOUN",
+      "AUX",
+      "ADJ"
+    ],
+    "tok_after": [
+      "bubbles",
+      "-",
+      "ephemeral",
+      "and"
+    ],
+    "pos_after": [
+      "NOUN",
+      "PUNCT",
+      "ADJ",
+      "CCONJ"
     ]
   },
   {
-    "before": [
+    "tok_before": [
       "you",
       "may",
       "depend",
@@ -93,7 +171,22 @@
       "by",
       "dint"
     ],
-    "after": [
+    "pos_before": [
+      "PRON",
+      "VERB",
+      "VERB",
+      "SCONJ",
+      "PROPN",
+      "ADJ",
+      "PUNCT",
+      "PROPN",
+      "PUNCT",
+      "VERB",
+      "ADV",
+      "ADP",
+      "NOUN"
+    ],
+    "tok_after": [
       "of",
       "the",
       "dear",
@@ -104,6 +197,18 @@
       "within",
       "'",
       "t."
+    ],
+    "pos_after": [
+      "ADP",
+      "DET",
+      "ADJ",
+      "NOUN",
+      "SCONJ",
+      "PRON",
+      "VERB",
+      "ADP",
+      "PUNCT",
+      "NOUN"
     ]
   }
 ]

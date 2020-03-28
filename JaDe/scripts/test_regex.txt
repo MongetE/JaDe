@@ -1,0 +1,991 @@
+data/tokenized_enj_pairs/sonnet_01.json
+i thought once how theocritus had sung && of the sweet years , the dear and wished - for years , who each one in a gracious hand appears to bear a gift for mortals , old or young : and , as i mused it in his antique tongue , i saw , in gradual vision through my tears , the sweet , sad years , the melancholy years , those of my own life , who by turns had flung a shadow across me .
+PRON VERB ADV ADV PROPN AUX VERB && ADP DET ADJ NOUN PUNCT DET ADJ CCONJ VERB PUNCT ADP NOUN PUNCT PRON DET NUM ADP DET ADJ NOUN VERB PART VERB DET NOUN ADP NOUN PUNCT ADJ CCONJ ADJ PUNCT CCONJ PUNCT SCONJ PRON VERB PRON ADP DET ADJ NOUN PUNCT PRON VERB PUNCT ADP ADJ NOUN ADP DET NOUN PUNCT DET ADJ PUNCT ADJ NOUN PUNCT DET ADJ NOUN PUNCT DET ADP DET ADJ NOUN PUNCT PRON ADP NOUN AUX VERB DET NOUN ADP PRON PUNCT
+i thought once how theocritus had sung of the sweet years , the dear and wished - for years , who each one in a gracious hand appears && to bear a gift for mortals , old or young : and , as i mused it in his antique tongue , i saw , in gradual vision through my tears , the sweet , sad years , the melancholy years , those of my own life , who by turns had flung a shadow across me .
+PRON VERB ADV ADV PROPN AUX VERB ADP DET ADJ NOUN PUNCT DET ADJ CCONJ VERB PUNCT ADP NOUN PUNCT PRON DET NUM ADP DET ADJ NOUN VERB && PART VERB DET NOUN ADP NOUN PUNCT ADJ CCONJ ADJ PUNCT CCONJ PUNCT SCONJ PRON VERB PRON ADP DET ADJ NOUN PUNCT PRON VERB PUNCT ADP ADJ NOUN ADP DET NOUN PUNCT DET ADJ PUNCT ADJ NOUN PUNCT DET ADJ NOUN PUNCT DET ADP DET ADJ NOUN PUNCT PRON ADP NOUN AUX VERB DET NOUN ADP PRON PUNCT
+i thought once how theocritus had sung of the sweet years , the dear and wished - for years , who each one in a gracious hand appears to bear a gift for mortals , old or young : and , as i mused it in his antique tongue , i saw , in gradual vision through my tears , the sweet , sad years , the melancholy years , those of my own life , who by turns had flung && a shadow across me .
+PRON VERB ADV ADV PROPN AUX VERB ADP DET ADJ NOUN PUNCT DET ADJ CCONJ VERB PUNCT ADP NOUN PUNCT PRON DET NUM ADP DET ADJ NOUN VERB PART VERB DET NOUN ADP NOUN PUNCT ADJ CCONJ ADJ PUNCT CCONJ PUNCT SCONJ PRON VERB PRON ADP DET ADJ NOUN PUNCT PRON VERB PUNCT ADP ADJ NOUN ADP DET NOUN PUNCT DET ADJ PUNCT ADJ NOUN PUNCT DET ADJ NOUN PUNCT DET ADP DET ADJ NOUN PUNCT PRON ADP NOUN AUX VERB && DET NOUN ADP PRON PUNCT
+how a mystic shape did move && behind me , and drew me backward by the hair : and a voice said in mastery , while i strove , — ' guess now who holds thee ? '
+ADV DET ADJ NOUN AUX VERB && ADP PRON PUNCT CCONJ VERB PRON ADJ ADP DET NOUN PUNCT CCONJ DET NOUN VERB ADP NOUN PUNCT SCONJ PRON VERB PUNCT PUNCT PUNCT NOUN ADV PRON VERB PRON PUNCT PUNCT
+data/tokenized_enj_pairs/song_of_a_dream.json
+once in the dream of a night i stood && lone in the light of a magical wood , soul - deep in visions that poppy - like sprang ; and spirits of truth were the birds that sang , and spirits of love were the stars that glowed , and spirits of peace were the streams that flowed in that magical wood in the land of sleep .
+ADV ADP DET NOUN ADP DET NOUN PRON VERB && ADJ ADP DET NOUN ADP DET ADJ NOUN PUNCT NOUN PUNCT ADV ADP NOUN DET NOUN PUNCT ADJ VERB PUNCT CCONJ NOUN ADP NOUN AUX DET NOUN DET VERB PUNCT CCONJ NOUN ADP NOUN AUX DET NOUN DET VERB PUNCT CCONJ NOUN ADP NOUN AUX DET NOUN DET VERB ADP DET ADJ NOUN ADP DET NOUN ADP NOUN PUNCT
+once in the dream of a night i stood lone in the light of a magical wood , soul - deep in visions that poppy - like sprang ; and spirits of truth were the birds that sang , and spirits of love were the stars that glowed , and spirits of peace were the streams that flowed && in that magical wood in the land of sleep .
+ADV ADP DET NOUN ADP DET NOUN PRON VERB ADJ ADP DET NOUN ADP DET ADJ NOUN PUNCT NOUN PUNCT ADV ADP NOUN DET NOUN PUNCT ADJ VERB PUNCT CCONJ NOUN ADP NOUN AUX DET NOUN DET VERB PUNCT CCONJ NOUN ADP NOUN AUX DET NOUN DET VERB PUNCT CCONJ NOUN ADP NOUN AUX DET NOUN DET VERB && ADP DET ADJ NOUN ADP DET NOUN ADP NOUN PUNCT
+lone in the light of that magical grove , i felt the stars of the spirits of love gather and gleam round my delicate youth , and i heard the song of the spirits of truth ; to quench my longing i bent me low && by the streams of the spirits of peace that flow in that magical wood in the land of sleep .
+ADJ ADP DET NOUN ADP DET ADJ PROPN PUNCT PRON VERB DET NOUN ADP DET NOUN ADP NOUN VERB CCONJ VERB ADP DET ADJ NOUN PUNCT CCONJ PRON VERB DET NOUN ADP DET NOUN ADP NOUN PUNCT PART VERB DET NOUN PRON VERB PRON ADJ && ADP DET NOUN ADP DET NOUN ADP NOUN DET VERB ADP DET ADJ NOUN ADP DET NOUN ADP NOUN PUNCT
+lone in the light of that magical grove , i felt the stars of the spirits of love gather and gleam round my delicate youth , and i heard the song of the spirits of truth ; to quench my longing i bent me low by the streams of the spirits of peace that flow && in that magical wood in the land of sleep .
+ADJ ADP DET NOUN ADP DET ADJ PROPN PUNCT PRON VERB DET NOUN ADP DET NOUN ADP NOUN VERB CCONJ VERB ADP DET ADJ NOUN PUNCT CCONJ PRON VERB DET NOUN ADP DET NOUN ADP NOUN PUNCT PART VERB DET NOUN PRON VERB PRON ADJ ADP DET NOUN ADP DET NOUN ADP NOUN DET VERB && ADP DET ADJ NOUN ADP DET NOUN ADP NOUN PUNCT
+data/tokenized_enj_pairs/the_silken_tent.json
+she is as in a field a silken tent && at midday when the sunny summer breeze has dried the dew and all its ropes relent , so that in guys it gently sways at ease , and its supporting central cedar pole , that is its pinnacle to heavenward and signifies the sureness of the soul , seems to owe naught to any single cord , but strictly held by none , is loosely bound by countless silken ties of love and thought to every thing on earth the compass round , and only by one 's going slightly taut in the capriciousness of summer air is of the slightlest bondage made aware .
+PRON AUX SCONJ ADP DET NOUN DET ADJ NOUN && ADP NOUN ADV DET ADJ NOUN NOUN AUX VERB DET NOUN CCONJ DET DET NOUN VERB PUNCT SCONJ SCONJ ADP NOUN PRON ADV VERB ADP NOUN PUNCT CCONJ DET VERB ADJ NOUN PROPN PUNCT DET AUX DET NOUN ADP NOUN CCONJ VERB DET NOUN ADP DET NOUN PUNCT VERB PART VERB ADJ ADP DET ADJ NOUN PUNCT CCONJ ADV VERB ADP NOUN PUNCT AUX ADV VERB ADP ADJ NOUN NOUN ADP NOUN CCONJ VERB ADP DET NOUN ADP NOUN DET NOUN NOUN PUNCT CCONJ ADV ADP PRON AUX VERB ADV ADJ ADP DET NOUN ADP NOUN NOUN AUX ADP DET PROPN NOUN VERB ADJ PUNCT
+she is as in a field a silken tent at midday when the sunny summer breeze && has dried the dew and all its ropes relent , so that in guys it gently sways at ease , and its supporting central cedar pole , that is its pinnacle to heavenward and signifies the sureness of the soul , seems to owe naught to any single cord , but strictly held by none , is loosely bound by countless silken ties of love and thought to every thing on earth the compass round , and only by one 's going slightly taut in the capriciousness of summer air is of the slightlest bondage made aware .
+PRON AUX SCONJ ADP DET NOUN DET ADJ NOUN ADP NOUN ADV DET ADJ NOUN NOUN && AUX VERB DET NOUN CCONJ DET DET NOUN VERB PUNCT SCONJ SCONJ ADP NOUN PRON ADV VERB ADP NOUN PUNCT CCONJ DET VERB ADJ NOUN PROPN PUNCT DET AUX DET NOUN ADP NOUN CCONJ VERB DET NOUN ADP DET NOUN PUNCT VERB PART VERB ADJ ADP DET ADJ NOUN PUNCT CCONJ ADV VERB ADP NOUN PUNCT AUX ADV VERB ADP ADJ NOUN NOUN ADP NOUN CCONJ VERB ADP DET NOUN ADP NOUN DET NOUN NOUN PUNCT CCONJ ADV ADP PRON AUX VERB ADV ADJ ADP DET NOUN ADP NOUN NOUN AUX ADP DET PROPN NOUN VERB ADJ PUNCT
+she is as in a field a silken tent at midday when the sunny summer breeze has dried the dew and all its ropes relent , so that in guys it gently sways at ease , and its supporting central cedar pole , that is its pinnacle to heavenward && and signifies the sureness of the soul , seems to owe naught to any single cord , but strictly held by none , is loosely bound by countless silken ties of love and thought to every thing on earth the compass round , and only by one 's going slightly taut in the capriciousness of summer air is of the slightlest bondage made aware .
+PRON AUX SCONJ ADP DET NOUN DET ADJ NOUN ADP NOUN ADV DET ADJ NOUN NOUN AUX VERB DET NOUN CCONJ DET DET NOUN VERB PUNCT SCONJ SCONJ ADP NOUN PRON ADV VERB ADP NOUN PUNCT CCONJ DET VERB ADJ NOUN PROPN PUNCT DET AUX DET NOUN ADP NOUN && CCONJ VERB DET NOUN ADP DET NOUN PUNCT VERB PART VERB ADJ ADP DET ADJ NOUN PUNCT CCONJ ADV VERB ADP NOUN PUNCT AUX ADV VERB ADP ADJ NOUN NOUN ADP NOUN CCONJ VERB ADP DET NOUN ADP NOUN DET NOUN NOUN PUNCT CCONJ ADV ADP PRON AUX VERB ADV ADJ ADP DET NOUN ADP NOUN NOUN AUX ADP DET PROPN NOUN VERB ADJ PUNCT
+she is as in a field a silken tent at midday when the sunny summer breeze has dried the dew and all its ropes relent , so that in guys it gently sways at ease , and its supporting central cedar pole , that is its pinnacle to heavenward and signifies the sureness of the soul , seems to owe naught to any single cord , but strictly held by none , is loosely bound && by countless silken ties of love and thought to every thing on earth the compass round , and only by one 's going slightly taut in the capriciousness of summer air is of the slightlest bondage made aware .
+PRON AUX SCONJ ADP DET NOUN DET ADJ NOUN ADP NOUN ADV DET ADJ NOUN NOUN AUX VERB DET NOUN CCONJ DET DET NOUN VERB PUNCT SCONJ SCONJ ADP NOUN PRON ADV VERB ADP NOUN PUNCT CCONJ DET VERB ADJ NOUN PROPN PUNCT DET AUX DET NOUN ADP NOUN CCONJ VERB DET NOUN ADP DET NOUN PUNCT VERB PART VERB ADJ ADP DET ADJ NOUN PUNCT CCONJ ADV VERB ADP NOUN PUNCT AUX ADV VERB && ADP ADJ NOUN NOUN ADP NOUN CCONJ VERB ADP DET NOUN ADP NOUN DET NOUN NOUN PUNCT CCONJ ADV ADP PRON AUX VERB ADV ADJ ADP DET NOUN ADP NOUN NOUN AUX ADP DET PROPN NOUN VERB ADJ PUNCT
+she is as in a field a silken tent at midday when the sunny summer breeze has dried the dew and all its ropes relent , so that in guys it gently sways at ease , and its supporting central cedar pole , that is its pinnacle to heavenward and signifies the sureness of the soul , seems to owe naught to any single cord , but strictly held by none , is loosely bound by countless silken ties of love and thought && to every thing on earth the compass round , and only by one 's going slightly taut in the capriciousness of summer air is of the slightlest bondage made aware .
+PRON AUX SCONJ ADP DET NOUN DET ADJ NOUN ADP NOUN ADV DET ADJ NOUN NOUN AUX VERB DET NOUN CCONJ DET DET NOUN VERB PUNCT SCONJ SCONJ ADP NOUN PRON ADV VERB ADP NOUN PUNCT CCONJ DET VERB ADJ NOUN PROPN PUNCT DET AUX DET NOUN ADP NOUN CCONJ VERB DET NOUN ADP DET NOUN PUNCT VERB PART VERB ADJ ADP DET ADJ NOUN PUNCT CCONJ ADV VERB ADP NOUN PUNCT AUX ADV VERB ADP ADJ NOUN NOUN ADP NOUN CCONJ VERB && ADP DET NOUN ADP NOUN DET NOUN NOUN PUNCT CCONJ ADV ADP PRON AUX VERB ADV ADJ ADP DET NOUN ADP NOUN NOUN AUX ADP DET PROPN NOUN VERB ADJ PUNCT
+she is as in a field a silken tent at midday when the sunny summer breeze has dried the dew and all its ropes relent , so that in guys it gently sways at ease , and its supporting central cedar pole , that is its pinnacle to heavenward and signifies the sureness of the soul , seems to owe naught to any single cord , but strictly held by none , is loosely bound by countless silken ties of love and thought to every thing on earth the compass round , and only by one 's going slightly taut && in the capriciousness of summer air is of the slightlest bondage made aware .
+PRON AUX SCONJ ADP DET NOUN DET ADJ NOUN ADP NOUN ADV DET ADJ NOUN NOUN AUX VERB DET NOUN CCONJ DET DET NOUN VERB PUNCT SCONJ SCONJ ADP NOUN PRON ADV VERB ADP NOUN PUNCT CCONJ DET VERB ADJ NOUN PROPN PUNCT DET AUX DET NOUN ADP NOUN CCONJ VERB DET NOUN ADP DET NOUN PUNCT VERB PART VERB ADJ ADP DET ADJ NOUN PUNCT CCONJ ADV VERB ADP NOUN PUNCT AUX ADV VERB ADP ADJ NOUN NOUN ADP NOUN CCONJ VERB ADP DET NOUN ADP NOUN DET NOUN NOUN PUNCT CCONJ ADV ADP PRON AUX VERB ADV ADJ && ADP DET NOUN ADP NOUN NOUN AUX ADP DET PROPN NOUN VERB ADJ PUNCT
+she is as in a field a silken tent at midday when the sunny summer breeze has dried the dew and all its ropes relent , so that in guys it gently sways at ease , and its supporting central cedar pole , that is its pinnacle to heavenward and signifies the sureness of the soul , seems to owe naught to any single cord , but strictly held by none , is loosely bound by countless silken ties of love and thought to every thing on earth the compass round , and only by one 's going slightly taut in the capriciousness of summer air && is of the slightlest bondage made aware .
+PRON AUX SCONJ ADP DET NOUN DET ADJ NOUN ADP NOUN ADV DET ADJ NOUN NOUN AUX VERB DET NOUN CCONJ DET DET NOUN VERB PUNCT SCONJ SCONJ ADP NOUN PRON ADV VERB ADP NOUN PUNCT CCONJ DET VERB ADJ NOUN PROPN PUNCT DET AUX DET NOUN ADP NOUN CCONJ VERB DET NOUN ADP DET NOUN PUNCT VERB PART VERB ADJ ADP DET ADJ NOUN PUNCT CCONJ ADV VERB ADP NOUN PUNCT AUX ADV VERB ADP ADJ NOUN NOUN ADP NOUN CCONJ VERB ADP DET NOUN ADP NOUN DET NOUN NOUN PUNCT CCONJ ADV ADP PRON AUX VERB ADV ADJ ADP DET NOUN ADP NOUN NOUN && AUX ADP DET PROPN NOUN VERB ADJ PUNCT
+data/tokenized_enj_pairs/anthem_for_doomed_youth.json
+only the stuttering rifles ' rapid rattle && can patter out their hasty orisons .
+ADV DET VERB NOUN PART ADJ NOUN && VERB VERB ADP DET ADJ NOUN PUNCT
+not in the hands of boys , but in their eyes && shall shine the holy glimmers of good - byes .
+PART ADP DET NOUN ADP NOUN PUNCT CCONJ ADP DET NOUN && VERB VERB DET ADJ NOUN ADP NOUN PUNCT NOUN PUNCT
+data/tokenized_enj_pairs/sonnet_before_he_went.json
+before he went to feed with owls and bats && nebuchadnezzar had an ugly dream , worse than an hus'if 's when she thinks her cream made a naumachia for mice and rats .
+ADP PRON VERB PART VERB ADP NOUN CCONJ NOUN && PROPN AUX DET ADJ NOUN PUNCT ADJ SCONJ DET PROPN PART ADV PRON VERB DET NOUN VERB DET NOUN ADP NOUN CCONJ NOUN PUNCT
+before he went to feed with owls and bats nebuchadnezzar had an ugly dream , worse than an hus'if 's when she thinks her cream && made a naumachia for mice and rats .
+ADP PRON VERB PART VERB ADP NOUN CCONJ NOUN PROPN AUX DET ADJ NOUN PUNCT ADJ SCONJ DET PROPN PART ADV PRON VERB DET NOUN && VERB DET NOUN ADP NOUN CCONJ NOUN PUNCT
+so scared , he sent for that ' good king of cats ' young daniel , who soon did pluck away the beam && from out his eye , and said he did not deem the sceptre worth a straw his cushions old door - mats .
+ADV ADJ PUNCT PRON VERB ADP DET PUNCT ADJ NOUN ADP NOUN PART ADJ PROPN PUNCT PRON ADV AUX VERB ADP DET NOUN && ADP ADV DET NOUN PUNCT CCONJ VERB PRON AUX PART VERB DET NOUN ADJ DET NOUN DET NOUN ADJ NOUN PUNCT NOUN PUNCT
+so scared , he sent for that ' good king of cats ' young daniel , who soon did pluck away the beam from out his eye , and said he did not deem && the sceptre worth a straw his cushions old door - mats .
+ADV ADJ PUNCT PRON VERB ADP DET PUNCT ADJ NOUN ADP NOUN PART ADJ PROPN PUNCT PRON ADV AUX VERB ADP DET NOUN ADP ADV DET NOUN PUNCT CCONJ VERB PRON AUX PART VERB && DET NOUN ADJ DET NOUN DET NOUN ADJ NOUN PUNCT NOUN PUNCT
+a horrid nightmare similar somewhat && of late has haunted a most motley crew , most loggerheads and chapmen we are told that any daniel tho ' he be a sot can make the lying lips turn pale of hue by belching out ' ye are that head of gold . '
+DET ADJ NOUN ADJ ADV && ADP ADJ AUX VERB DET ADV ADJ NOUN PUNCT ADJ NOUN CCONJ PROPN PRON AUX VERB SCONJ DET PROPN PROPN PUNCT PRON VERB DET NOUN VERB VERB DET VERB NOUN VERB ADJ ADP NOUN ADP VERB ADP PUNCT PRON AUX DET NOUN ADP NOUN PUNCT PUNCT
+a horrid nightmare similar somewhat of late has haunted a most motley crew , most loggerheads and chapmen we are told && that any daniel tho ' he be a sot can make the lying lips turn pale of hue by belching out ' ye are that head of gold . '
+DET ADJ NOUN ADJ ADV ADP ADJ AUX VERB DET ADV ADJ NOUN PUNCT ADJ NOUN CCONJ PROPN PRON AUX VERB && SCONJ DET PROPN PROPN PUNCT PRON VERB DET NOUN VERB VERB DET VERB NOUN VERB ADJ ADP NOUN ADP VERB ADP PUNCT PRON AUX DET NOUN ADP NOUN PUNCT PUNCT
+a horrid nightmare similar somewhat of late has haunted a most motley crew , most loggerheads and chapmen we are told that any daniel tho ' he be a sot && can make the lying lips turn pale of hue by belching out ' ye are that head of gold . '
+DET ADJ NOUN ADJ ADV ADP ADJ AUX VERB DET ADV ADJ NOUN PUNCT ADJ NOUN CCONJ PROPN PRON AUX VERB SCONJ DET PROPN PROPN PUNCT PRON VERB DET NOUN && VERB VERB DET VERB NOUN VERB ADJ ADP NOUN ADP VERB ADP PUNCT PRON AUX DET NOUN ADP NOUN PUNCT PUNCT
+a horrid nightmare similar somewhat of late has haunted a most motley crew , most loggerheads and chapmen we are told that any daniel tho ' he be a sot can make the lying lips turn pale of hue && by belching out ' ye are that head of gold . '
+DET ADJ NOUN ADJ ADV ADP ADJ AUX VERB DET ADV ADJ NOUN PUNCT ADJ NOUN CCONJ PROPN PRON AUX VERB SCONJ DET PROPN PROPN PUNCT PRON VERB DET NOUN VERB VERB DET VERB NOUN VERB ADJ ADP NOUN && ADP VERB ADP PUNCT PRON AUX DET NOUN ADP NOUN PUNCT PUNCT
+data/tokenized_enj_pairs/the_minster.json
+dim thro ' the sculptured aisles the sunbeam falls && more like a dream of some imagined beam , than actual daylight over mortal walls .
+ADJ PROPN PUNCT DET VERB NOUN DET NOUN VERB && ADV SCONJ DET NOUN ADP DET VERB NOUN PUNCT SCONJ ADJ NOUN ADP ADJ NOUN PUNCT
+dim thro ' the sculptured aisles the sunbeam falls more like a dream && of some imagined beam , than actual daylight over mortal walls .
+ADJ PROPN PUNCT DET VERB NOUN DET NOUN VERB ADV SCONJ DET NOUN && ADP DET VERB NOUN PUNCT SCONJ ADJ NOUN ADP ADJ NOUN PUNCT
+a strain of music like the rushing wind , but deep and sweet && as when the waters meet in one mysterious harmony combined .
+DET NOUN ADP NOUN SCONJ DET VERB NOUN PUNCT CCONJ ADJ CCONJ ADJ && SCONJ ADV DET NOUN VERB ADP NUM ADJ NOUN VERB PUNCT
+a strain of music like the rushing wind , but deep and sweet as when the waters meet && in one mysterious harmony combined .
+DET NOUN ADP NOUN SCONJ DET VERB NOUN PUNCT CCONJ ADJ CCONJ ADJ SCONJ ADV DET NOUN VERB && ADP NUM ADJ NOUN VERB PUNCT
+so swells the mighty organ , rich and full , as if it were the soul && which raised the glorious whole of that fair building , vast and wonderful .
+ADV VERB DET ADJ NOUN PUNCT ADJ CCONJ ADJ PUNCT SCONJ SCONJ PRON AUX DET NOUN && DET VERB DET ADJ NOUN ADP DET ADJ NOUN PUNCT ADJ CCONJ ADJ PUNCT
+so swells the mighty organ , rich and full , as if it were the soul which raised the glorious whole && of that fair building , vast and wonderful .
+ADV VERB DET ADJ NOUN PUNCT ADJ CCONJ ADJ PUNCT SCONJ SCONJ PRON AUX DET NOUN DET VERB DET ADJ NOUN && ADP DET ADJ NOUN PUNCT ADJ CCONJ ADJ PUNCT
+the world is put aside , within the heart && those hopes arise thrice sacred mysteries , in which our earthly nature has no part .
+DET NOUN AUX VERB ADV PUNCT ADP DET NOUN && DET NOUN VERB ADP ADJ NOUN PUNCT ADP DET DET ADJ NOUN AUX DET NOUN PUNCT
+the world is put aside , within the heart those hopes arise && thrice sacred mysteries , in which our earthly nature has no part .
+DET NOUN AUX VERB ADV PUNCT ADP DET NOUN DET NOUN VERB && ADP ADJ NOUN PUNCT ADP DET DET ADJ NOUN AUX DET NOUN PUNCT
+oh , christian fane , the soul && expands in thee , thine altar and thy tomb
+INTJ PUNCT ADJ PROPN PUNCT DET NOUN && VERB ADP PRON PUNCT DET NOUN CCONJ DET NOUN
+oh , christian fane , the soul expands in thee , thine altar and thy tomb && 
+INTJ PUNCT ADJ PROPN PUNCT DET NOUN VERB ADP PRON PUNCT DET NOUN CCONJ DET NOUN && 
+speak of the hope and doom && which leads and cheers man to eternity .
+VERB ADP DET NOUN CCONJ NOUN && DET VERB CCONJ NOUN NOUN ADP NOUN PUNCT
+data/tokenized_enj_pairs/dreams.json
+hold fast to dreams && for if dreams die life is a broken - winged bird that can not fly .
+VERB ADV ADP NOUN && ADP SCONJ NOUN VERB NOUN AUX DET VERB PUNCT ADJ NOUN DET VERB PART VERB PUNCT
+hold fast to dreams for if dreams die && life is a broken - winged bird that can not fly .
+VERB ADV ADP NOUN ADP SCONJ NOUN VERB && NOUN AUX DET VERB PUNCT ADJ NOUN DET VERB PART VERB PUNCT
+hold fast to dreams for if dreams die life is a broken - winged bird && that can not fly .
+VERB ADV ADP NOUN ADP SCONJ NOUN VERB NOUN AUX DET VERB PUNCT ADJ NOUN && DET VERB PART VERB PUNCT
+hold fast to dreams && for when dreams go life is a barren field frozen with snow .
+VERB ADV ADP NOUN && ADP ADV NOUN VERB NOUN AUX DET ADJ NOUN VERB ADP NOUN PUNCT
+hold fast to dreams for when dreams go && life is a barren field frozen with snow .
+VERB ADV ADP NOUN ADP ADV NOUN VERB && NOUN AUX DET ADJ NOUN VERB ADP NOUN PUNCT
+hold fast to dreams for when dreams go life is a barren field && frozen with snow .
+VERB ADV ADP NOUN ADP ADV NOUN VERB NOUN AUX DET ADJ NOUN && VERB ADP NOUN PUNCT
+data/tokenized_enj_pairs/september.json
+it is midsummer : the leaves hang big and still : behind the eye a star , under the silk of the wrist a sea , tell && time is nowhere .
+PRON AUX NOUN PUNCT DET NOUN VERB ADJ CCONJ ADV PUNCT ADP DET NOUN DET NOUN PUNCT ADP DET NOUN ADP DET NOUN DET NOUN PUNCT VERB && NOUN AUX ADV PUNCT
+no clock now needs tell && we have only what we remember : minutes uproaring with our heads like an unfortunate king 's and his queen 's   when the senseless mob rules ; and quietly the trees casting their crowns into the pools .
+DET NOUN ADV VERB VERB && PRON AUX ADV PRON PRON VERB PUNCT NOUN VERB ADP DET NOUN SCONJ DET ADJ NOUN PART CCONJ DET NOUN PART SPACE ADV DET ADJ NOUN NOUN PUNCT CCONJ ADV DET NOUN VERB DET NOUN ADP DET NOUN PUNCT
+no clock now needs && tell we have only what we remember : minutes uproaring with our heads like an unfortunate king 's and his queen 's   when the senseless mob rules ; and quietly the trees casting their crowns into the pools .
+DET NOUN ADV VERB && VERB PRON AUX ADV PRON PRON VERB PUNCT NOUN VERB ADP DET NOUN SCONJ DET ADJ NOUN PART CCONJ DET NOUN PART SPACE ADV DET ADJ NOUN NOUN PUNCT CCONJ ADV DET NOUN VERB DET NOUN ADP DET NOUN PUNCT
+no clock now needs tell we have only what we remember : minutes uproaring with our heads && like an unfortunate king 's and his queen 's   when the senseless mob rules ; and quietly the trees casting their crowns into the pools .
+DET NOUN ADV VERB VERB PRON AUX ADV PRON PRON VERB PUNCT NOUN VERB ADP DET NOUN && SCONJ DET ADJ NOUN PART CCONJ DET NOUN PART SPACE ADV DET ADJ NOUN NOUN PUNCT CCONJ ADV DET NOUN VERB DET NOUN ADP DET NOUN PUNCT
+no clock now needs tell we have only what we remember : minutes uproaring with our heads like an unfortunate king 's and his queen 's   when the senseless mob rules ; and quietly the trees casting their crowns && into the pools .
+DET NOUN ADV VERB VERB PRON AUX ADV PRON PRON VERB PUNCT NOUN VERB ADP DET NOUN SCONJ DET ADJ NOUN PART CCONJ DET NOUN PART SPACE ADV DET ADJ NOUN NOUN PUNCT CCONJ ADV DET NOUN VERB DET NOUN && ADP DET NOUN PUNCT
+data/tokenized_enj_pairs/sonnet_09.json
+to let thee sit beneath the fall of tears && as salt as mine , and hear the sighing years re - sighing on my lips renunciative through those infrequent smiles which fail to live for all thy adjurations ?
+PART VERB PRON VERB ADP DET NOUN ADP NOUN && SCONJ NOUN SCONJ NOUN PUNCT CCONJ VERB DET VERB NOUN NOUN NOUN VERB ADP DET NOUN NOUN ADP DET ADJ NOUN DET VERB PART VERB ADP DET DET NOUN PUNCT
+to let thee sit beneath the fall of tears as salt as mine , and hear the sighing years && re - sighing on my lips renunciative through those infrequent smiles which fail to live for all thy adjurations ?
+PART VERB PRON VERB ADP DET NOUN ADP NOUN SCONJ NOUN SCONJ NOUN PUNCT CCONJ VERB DET VERB NOUN && NOUN NOUN VERB ADP DET NOUN NOUN ADP DET ADJ NOUN DET VERB PART VERB ADP DET DET NOUN PUNCT
+to let thee sit beneath the fall of tears as salt as mine , and hear the sighing years re - sighing on my lips renunciative && through those infrequent smiles which fail to live for all thy adjurations ?
+PART VERB PRON VERB ADP DET NOUN ADP NOUN SCONJ NOUN SCONJ NOUN PUNCT CCONJ VERB DET VERB NOUN NOUN NOUN VERB ADP DET NOUN NOUN && ADP DET ADJ NOUN DET VERB PART VERB ADP DET DET NOUN PUNCT
+to let thee sit beneath the fall of tears as salt as mine , and hear the sighing years re - sighing on my lips renunciative through those infrequent smiles which fail to live && for all thy adjurations ?
+PART VERB PRON VERB ADP DET NOUN ADP NOUN SCONJ NOUN SCONJ NOUN PUNCT CCONJ VERB DET VERB NOUN NOUN NOUN VERB ADP DET NOUN NOUN ADP DET ADJ NOUN DET VERB PART VERB && ADP DET DET NOUN PUNCT
+we are not peers , so to be lovers ; and i own , and grieve , that givers of such gifts as mine are , must && be counted with the ungenerous .
+PRON AUX PART NOUN PUNCT ADV PART AUX NOUN PUNCT CCONJ PRON VERB PUNCT CCONJ NOUN PUNCT SCONJ NOUN ADP ADJ NOUN SCONJ NOUN AUX PUNCT VERB && AUX VERB ADP DET ADJ PUNCT
+data/tokenized_enj_pairs/cold_are_the_crabs.json
+cold are the crabs that crawl on yonder hills , colder the cucumbers that grow beneath , and colder still the brazen chops that wreathe && the tedious gloom of philosophic pills !
+PROPN AUX DET NOUN DET VERB ADP NOUN NOUN PUNCT VERB DET NOUN DET VERB ADV PUNCT CCONJ ADV ADV DET NOUN NOUN DET PRON && DET ADJ NOUN ADP ADJ NOUN PUNCT
+for when the tardy film of nectar fills && the simple bowls of demons and of men , there lurks the feeble mouse , the homely hen , and there the porcupine with all her quills .
+ADP ADV DET ADJ NOUN ADP NOUN VERB && DET ADJ NOUN ADP NOUN CCONJ ADP NOUN PUNCT PRON VERB DET ADJ NOUN PUNCT DET ADJ NOUN PUNCT CCONJ ADV DET NOUN ADP DET DET NOUN PUNCT
+yet much remains - to weave a solemn strain && that lingering sadly - slowly dies away , daily departing with departing day a pea - green gamut on a distant plain when wily walrusses
+CCONJ ADJ NOUN PUNCT PART VERB DET ADJ NOUN && SCONJ VERB ADV PUNCT ADV VERB ADV PUNCT ADV VERB ADP VERB NOUN DET NOUN PUNCT ADJ NOUN ADP DET ADJ NOUN ADV ADJ NOUN
+yet much remains - to weave a solemn strain that lingering sadly - slowly dies away , daily departing with departing day && a pea - green gamut on a distant plain when wily walrusses
+CCONJ ADJ NOUN PUNCT PART VERB DET ADJ NOUN SCONJ VERB ADV PUNCT ADV VERB ADV PUNCT ADV VERB ADP VERB NOUN && DET NOUN PUNCT ADJ NOUN ADP DET ADJ NOUN ADV ADJ NOUN
+yet much remains - to weave a solemn strain that lingering sadly - slowly dies away , daily departing with departing day a pea - green gamut on a distant plain && when wily walrusses
+CCONJ ADJ NOUN PUNCT PART VERB DET ADJ NOUN SCONJ VERB ADV PUNCT ADV VERB ADV PUNCT ADV VERB ADP VERB NOUN DET NOUN PUNCT ADJ NOUN ADP DET ADJ NOUN && ADV ADJ NOUN
+data/tokenized_enj_pairs/sonnet_on_leigh_hunts_poem_the_story_of_rimini.json
+who loves to peer up at the morning sun , with half - shut eyes and comfortable cheek , let him with this sweet tale full often seek && for meadows where the little rivers run ; who loves to linger with that brightest one of heaven -- hesperus -- let him lowly speak these numbers to the night and starlight meek , or moon , if that her hunting be begun .
+PRON VERB PART VERB ADP ADP DET NOUN NOUN PUNCT ADP ADV PUNCT ADJ NOUN CCONJ ADJ NOUN PUNCT VERB PRON ADP DET ADJ NOUN ADJ ADV VERB && ADP NOUN ADV DET ADJ NOUN VERB PUNCT PRON VERB PART VERB ADP DET ADJ NUM ADP PROPN PUNCT PROPN PUNCT VERB PRON ADJ VERB DET NOUN ADP DET NOUN CCONJ NOUN ADJ PUNCT CCONJ NOUN PUNCT SCONJ SCONJ DET NOUN AUX VERB PUNCT
+who loves to peer up at the morning sun , with half - shut eyes and comfortable cheek , let him with this sweet tale full often seek for meadows where the little rivers run ; who loves to linger with that brightest one && of heaven -- hesperus -- let him lowly speak these numbers to the night and starlight meek , or moon , if that her hunting be begun .
+PRON VERB PART VERB ADP ADP DET NOUN NOUN PUNCT ADP ADV PUNCT ADJ NOUN CCONJ ADJ NOUN PUNCT VERB PRON ADP DET ADJ NOUN ADJ ADV VERB ADP NOUN ADV DET ADJ NOUN VERB PUNCT PRON VERB PART VERB ADP DET ADJ NUM && ADP PROPN PUNCT PROPN PUNCT VERB PRON ADJ VERB DET NOUN ADP DET NOUN CCONJ NOUN ADJ PUNCT CCONJ NOUN PUNCT SCONJ SCONJ DET NOUN AUX VERB PUNCT
+who loves to peer up at the morning sun , with half - shut eyes and comfortable cheek , let him with this sweet tale full often seek for meadows where the little rivers run ; who loves to linger with that brightest one of heaven -- hesperus -- let him lowly speak && these numbers to the night and starlight meek , or moon , if that her hunting be begun .
+PRON VERB PART VERB ADP ADP DET NOUN NOUN PUNCT ADP ADV PUNCT ADJ NOUN CCONJ ADJ NOUN PUNCT VERB PRON ADP DET ADJ NOUN ADJ ADV VERB ADP NOUN ADV DET ADJ NOUN VERB PUNCT PRON VERB PART VERB ADP DET ADJ NUM ADP PROPN PUNCT PROPN PUNCT VERB PRON ADJ VERB && DET NOUN ADP DET NOUN CCONJ NOUN ADJ PUNCT CCONJ NOUN PUNCT SCONJ SCONJ DET NOUN AUX VERB PUNCT
+he who knows these delights , and , too , is prone && to moralize upon a smile or tear , will find at once a region of his own , a bower for his spirit , and will steer to alleys where the fir - tree drops its cone , where robins hop , and fallen leaves are sear .
+PRON PRON VERB DET NOUN PUNCT CCONJ PUNCT ADV PUNCT AUX ADJ && PART VERB SCONJ DET NOUN CCONJ ADJ PUNCT VERB VERB ADP ADV DET NOUN ADP DET ADJ PUNCT DET PROPN ADP DET NOUN PUNCT CCONJ VERB VERB ADP NOUN ADV DET NOUN PUNCT NOUN VERB DET NOUN PUNCT ADV PROPN PROPN PUNCT CCONJ ADJ NOUN AUX NOUN PUNCT
+he who knows these delights , and , too , is prone to moralize upon a smile or tear , will find at once a region of his own , a bower for his spirit , and will steer && to alleys where the fir - tree drops its cone , where robins hop , and fallen leaves are sear .
+PRON PRON VERB DET NOUN PUNCT CCONJ PUNCT ADV PUNCT AUX ADJ PART VERB SCONJ DET NOUN CCONJ ADJ PUNCT VERB VERB ADP ADV DET NOUN ADP DET ADJ PUNCT DET PROPN ADP DET NOUN PUNCT CCONJ VERB VERB && ADP NOUN ADV DET NOUN PUNCT NOUN VERB DET NOUN PUNCT ADV PROPN PROPN PUNCT CCONJ ADJ NOUN AUX NOUN PUNCT
+data/tokenized_enj_pairs/sonnet_05.json
+i lift my heavy heart up solemnly , as once electra her sepulchral urn , and , looking in thine eyes , i overturn && the ashes at thy feet .
+PRON VERB DET ADJ NOUN ADP ADV PUNCT SCONJ SCONJ PROPN DET ADJ NOUN PUNCT CCONJ PUNCT VERB ADP ADJ NOUN PUNCT PRON VERB && DET NOUN ADP DET NOUN PUNCT
+behold and see && what a great heap of grief lay hid in me , and how the red wild sparkles dimly burn through the ashen grayness .
+VERB CCONJ VERB && PRON DET ADJ NOUN ADP NOUN VERB ADV ADP PRON PUNCT CCONJ ADV DET ADJ ADJ NOUN ADV VERB ADP DET ADJ NOUN PUNCT
+behold and see what a great heap of grief lay hid in me , and how the red wild sparkles dimly burn && through the ashen grayness .
+VERB CCONJ VERB PRON DET ADJ NOUN ADP NOUN VERB ADV ADP PRON PUNCT CCONJ ADV DET ADJ ADJ NOUN ADV VERB && ADP DET ADJ NOUN PUNCT
+if thy foot in scorn && could tread them out to darkness utterly , it might be well perhaps .
+SCONJ DET NOUN ADP NOUN && VERB VERB PRON ADP ADP NOUN ADV PUNCT PRON VERB AUX ADV ADV PUNCT
+but if instead && thou wait beside me for the wind to blow the gray dust up , . . .
+CCONJ SCONJ ADV && PRON VERB ADP PRON ADP DET NOUN PART VERB DET ADJ NOUN ADP PUNCT PUNCT PUNCT PUNCT
+but if instead thou wait beside me for the wind to blow && the gray dust up , . . .
+CCONJ SCONJ ADV PRON VERB ADP PRON ADP DET NOUN PART VERB && DET ADJ NOUN ADP PUNCT PUNCT PUNCT PUNCT
+those laurels on thine head , o my beloved , will not shield thee so , that none of all the fires shall scorch and shred && the hair beneath .
+DET NOUN ADP ADJ NOUN PUNCT INTJ DET ADJ PUNCT VERB PART VERB PRON ADV PUNCT SCONJ NOUN ADP DET DET NOUN VERB VERB CCONJ VERB && DET NOUN ADV PUNCT
+data/tokenized_enj_pairs/trollius_and_trellises.json
+data/tokenized_enj_pairs/a_virginal.json
+; slight are her arms , yet they have bound me straitly && and left me cloaked as with a gauze of aether ; as with sweet leaves ; as with a subtle clearness .
+PUNCT ADJ AUX DET NOUN PUNCT CCONJ PRON AUX VERB PRON ADV && CCONJ VERB PRON VERB SCONJ ADP DET NOUN ADP NOUN PUNCT SCONJ ADP ADJ NOUN PUNCT SCONJ ADP DET ADJ NOUN PUNCT
+oh , i have picked up magic in her nearness && to sheathe me half in half the things that sheathe her .
+INTJ PUNCT PRON AUX VERB ADP NOUN ADP DET NOUN && PART VERB PRON ADV ADP DET DET NOUN DET VERB PRON PUNCT
+data/tokenized_enj_pairs/mutability.json
+from low to high doth dissolution climb , and sink from high to low , along a scale && of awful notes , whose concord shall not fail ; a musical but melancholy chime , which they can hear who meddle not with crime , nor avarice , nor over - anxious care .
+ADP ADJ ADP ADJ PROPN NOUN NOUN PUNCT CCONJ VERB ADP ADJ ADP ADJ PUNCT ADP DET NOUN && ADP ADJ NOUN PUNCT DET PROPN VERB PART VERB PUNCT DET ADJ CCONJ ADJ NOUN PUNCT DET PRON VERB VERB PRON VERB PART ADP NOUN PUNCT CCONJ NOUN PUNCT CCONJ ADP PUNCT ADJ NOUN PUNCT
+truth fails not ; but her outward forms that bear && the longest date do melt like frosty rime , that in the morning whiten'd hill and plain and is no more ; drop like the tower sublime of yesterday , which royally did wear his crown of weeds , but could not even sustain some casual shout that broke the silent air , or the unimaginable touch of time .
+NOUN VERB PART PUNCT CCONJ DET ADJ NOUN DET VERB && DET ADJ NOUN AUX VERB SCONJ ADJ NOUN PUNCT SCONJ ADP DET NOUN PUNCT NOUN CCONJ ADJ CCONJ AUX DET ADJ PUNCT VERB SCONJ DET NOUN NOUN ADP NOUN PUNCT DET ADV AUX VERB DET NOUN ADP NOUN PUNCT CCONJ VERB PART ADV VERB DET ADJ NOUN DET VERB DET ADJ NOUN PUNCT CCONJ DET ADJ NOUN ADP NOUN PUNCT
+truth fails not ; but her outward forms that bear the longest date do melt like frosty rime , that in the morning whiten'd hill and plain && and is no more ; drop like the tower sublime of yesterday , which royally did wear his crown of weeds , but could not even sustain some casual shout that broke the silent air , or the unimaginable touch of time .
+NOUN VERB PART PUNCT CCONJ DET ADJ NOUN DET VERB DET ADJ NOUN AUX VERB SCONJ ADJ NOUN PUNCT SCONJ ADP DET NOUN PUNCT NOUN CCONJ ADJ && CCONJ AUX DET ADJ PUNCT VERB SCONJ DET NOUN NOUN ADP NOUN PUNCT DET ADV AUX VERB DET NOUN ADP NOUN PUNCT CCONJ VERB PART ADV VERB DET ADJ NOUN DET VERB DET ADJ NOUN PUNCT CCONJ DET ADJ NOUN ADP NOUN PUNCT
+truth fails not ; but her outward forms that bear the longest date do melt like frosty rime , that in the morning whiten'd hill and plain and is no more ; drop like the tower sublime && of yesterday , which royally did wear his crown of weeds , but could not even sustain some casual shout that broke the silent air , or the unimaginable touch of time .
+NOUN VERB PART PUNCT CCONJ DET ADJ NOUN DET VERB DET ADJ NOUN AUX VERB SCONJ ADJ NOUN PUNCT SCONJ ADP DET NOUN PUNCT NOUN CCONJ ADJ CCONJ AUX DET ADJ PUNCT VERB SCONJ DET NOUN NOUN && ADP NOUN PUNCT DET ADV AUX VERB DET NOUN ADP NOUN PUNCT CCONJ VERB PART ADV VERB DET ADJ NOUN DET VERB DET ADJ NOUN PUNCT CCONJ DET ADJ NOUN ADP NOUN PUNCT
+truth fails not ; but her outward forms that bear the longest date do melt like frosty rime , that in the morning whiten'd hill and plain and is no more ; drop like the tower sublime of yesterday , which royally did wear && his crown of weeds , but could not even sustain some casual shout that broke the silent air , or the unimaginable touch of time .
+NOUN VERB PART PUNCT CCONJ DET ADJ NOUN DET VERB DET ADJ NOUN AUX VERB SCONJ ADJ NOUN PUNCT SCONJ ADP DET NOUN PUNCT NOUN CCONJ ADJ CCONJ AUX DET ADJ PUNCT VERB SCONJ DET NOUN NOUN ADP NOUN PUNCT DET ADV AUX VERB && DET NOUN ADP NOUN PUNCT CCONJ VERB PART ADV VERB DET ADJ NOUN DET VERB DET ADJ NOUN PUNCT CCONJ DET ADJ NOUN ADP NOUN PUNCT
+truth fails not ; but her outward forms that bear the longest date do melt like frosty rime , that in the morning whiten'd hill and plain and is no more ; drop like the tower sublime of yesterday , which royally did wear his crown of weeds , but could not even sustain && some casual shout that broke the silent air , or the unimaginable touch of time .
+NOUN VERB PART PUNCT CCONJ DET ADJ NOUN DET VERB DET ADJ NOUN AUX VERB SCONJ ADJ NOUN PUNCT SCONJ ADP DET NOUN PUNCT NOUN CCONJ ADJ CCONJ AUX DET ADJ PUNCT VERB SCONJ DET NOUN NOUN ADP NOUN PUNCT DET ADV AUX VERB DET NOUN ADP NOUN PUNCT CCONJ VERB PART ADV VERB && DET ADJ NOUN DET VERB DET ADJ NOUN PUNCT CCONJ DET ADJ NOUN ADP NOUN PUNCT
+data/tokenized_enj_pairs/to_a_cape_ann_schooner.json
+luck to the craft that bears this name of mine , good fortune follow with her golden spoon && 
+NOUN ADP DET NOUN DET VERB DET NOUN ADP NOUN PUNCT ADJ NOUN NOUN ADP DET ADJ NOUN && 
+would that it might show && at need her course , in lack of sun and star , where icebergs threaten , and the sharp reefs are ; lift the blind fog on anticosti 's lee and avalon 's rock ; make populous the sea round grand manan with eager finny swarms , break the long calms , and charm away the storms .
+VERB SCONJ PRON VERB VERB && ADP VERB PRON NOUN PUNCT ADP NOUN ADP NOUN CCONJ NOUN PUNCT ADV NOUN VERB PUNCT CCONJ DET ADJ NOUN AUX PUNCT VERB DET ADJ NOUN ADP PROPN PART PROPN CCONJ PROPN PART NOUN PUNCT VERB ADJ DET NOUN ADP PROPN PROPN ADP PROPN PROPN NOUN PUNCT VERB DET ADJ NOUN PUNCT CCONJ VERB ADP DET NOUN PUNCT
+would that it might show at need her course , in lack of sun and star , where icebergs threaten , and the sharp reefs are ; lift the blind fog on anticosti 's lee && and avalon 's rock ; make populous the sea round grand manan with eager finny swarms , break the long calms , and charm away the storms .
+VERB SCONJ PRON VERB VERB ADP VERB PRON NOUN PUNCT ADP NOUN ADP NOUN CCONJ NOUN PUNCT ADV NOUN VERB PUNCT CCONJ DET ADJ NOUN AUX PUNCT VERB DET ADJ NOUN ADP PROPN PART PROPN && CCONJ PROPN PART NOUN PUNCT VERB ADJ DET NOUN ADP PROPN PROPN ADP PROPN PROPN NOUN PUNCT VERB DET ADJ NOUN PUNCT CCONJ VERB ADP DET NOUN PUNCT
+would that it might show at need her course , in lack of sun and star , where icebergs threaten , and the sharp reefs are ; lift the blind fog on anticosti 's lee and avalon 's rock ; make populous the sea && round grand manan with eager finny swarms , break the long calms , and charm away the storms .
+VERB SCONJ PRON VERB VERB ADP VERB PRON NOUN PUNCT ADP NOUN ADP NOUN CCONJ NOUN PUNCT ADV NOUN VERB PUNCT CCONJ DET ADJ NOUN AUX PUNCT VERB DET ADJ NOUN ADP PROPN PART PROPN CCONJ PROPN PART NOUN PUNCT VERB ADJ DET NOUN && ADP PROPN PROPN ADP PROPN PROPN NOUN PUNCT VERB DET ADJ NOUN PUNCT CCONJ VERB ADP DET NOUN PUNCT
+data/tokenized_enj_pairs/to_the_evening_star.json
+thou fair - haired angel of the evening , now , whilst the sun rests on the mountains , light && thy bright torch of love ; thy radiant crown put on , and smile upon our evening bed !
+PROPN ADJ PUNCT ADJ NOUN ADP DET NOUN PUNCT ADV PUNCT SCONJ DET NOUN VERB ADP DET NOUN PUNCT VERB && DET ADJ NOUN ADP NOUN PUNCT DET ADJ NOUN VERB ADP PUNCT CCONJ VERB SCONJ DET NOUN NOUN PUNCT
+thou fair - haired angel of the evening , now , whilst the sun rests on the mountains , light thy bright torch of love ; thy radiant crown && put on , and smile upon our evening bed !
+PROPN ADJ PUNCT ADJ NOUN ADP DET NOUN PUNCT ADV PUNCT SCONJ DET NOUN VERB ADP DET NOUN PUNCT VERB DET ADJ NOUN ADP NOUN PUNCT DET ADJ NOUN && VERB ADP PUNCT CCONJ VERB SCONJ DET NOUN NOUN PUNCT
+thou fair - haired angel of the && evening , now , whilst the sun rests on the mountains , light thy bright torch of love ; thy radiant crown put on , and smile upon our evening bed !
+PROPN ADJ PUNCT ADJ NOUN ADP DET && NOUN PUNCT ADV PUNCT SCONJ DET NOUN VERB ADP DET NOUN PUNCT VERB DET ADJ NOUN ADP NOUN PUNCT DET ADJ NOUN VERB ADP PUNCT CCONJ VERB SCONJ DET NOUN NOUN PUNCT
+thou fair - haired angel of the evening , now , whilst the sun rests on && the mountains , light thy bright torch of love ; thy radiant crown put on , and smile upon our evening bed !
+PROPN ADJ PUNCT ADJ NOUN ADP DET NOUN PUNCT ADV PUNCT SCONJ DET NOUN VERB ADP && DET NOUN PUNCT VERB DET ADJ NOUN ADP NOUN PUNCT DET ADJ NOUN VERB ADP PUNCT CCONJ VERB SCONJ DET NOUN NOUN PUNCT
+smile on our loves , and while thou drawest the && blue curtains of the sky , scatter thy silver dew on every flower that shuts its sweet eyes in timely sleep .
+VERB ADP DET NOUN PUNCT CCONJ SCONJ PROPN PROPN DET && ADJ NOUN ADP DET NOUN PUNCT VERB DET ADJ NOUN ADP DET NOUN DET VERB DET ADJ NOUN ADP ADJ NOUN PUNCT
+smile on our loves , and while thou drawest the blue curtains of the sky , scatter thy silver dew && on every flower that shuts its sweet eyes in timely sleep .
+VERB ADP DET NOUN PUNCT CCONJ SCONJ PROPN PROPN DET ADJ NOUN ADP DET NOUN PUNCT VERB DET ADJ NOUN && ADP DET NOUN DET VERB DET ADJ NOUN ADP ADJ NOUN PUNCT
+smile on our loves , and while thou drawest the blue curtains of the sky , scatter thy silver dew on every flower that shuts its sweet eyes && in timely sleep .
+VERB ADP DET NOUN PUNCT CCONJ SCONJ PROPN PROPN DET ADJ NOUN ADP DET NOUN PUNCT VERB DET ADJ NOUN ADP DET NOUN DET VERB DET ADJ NOUN && ADP ADJ NOUN PUNCT
+smile on && our loves , and while thou drawest the blue curtains of the sky , scatter thy silver dew on every flower that shuts its sweet eyes in timely sleep .
+VERB ADP && DET NOUN PUNCT CCONJ SCONJ PROPN PROPN DET ADJ NOUN ADP DET NOUN PUNCT VERB DET ADJ NOUN ADP DET NOUN DET VERB DET ADJ NOUN ADP ADJ NOUN PUNCT
+let thy west wing sleep on the && lake ; speak silence with thy glimmering eyes , and wash the dusk with silver .
+VERB DET ADJ NOUN NOUN ADP DET && NOUN PUNCT VERB NOUN ADP DET ADJ NOUN PUNCT CCONJ VERB DET NOUN ADP NOUN PUNCT
+let thy west wing sleep on the lake ; speak silence with thy glimmering eyes && , and wash the dusk with silver .
+VERB DET ADJ NOUN NOUN ADP DET NOUN PUNCT VERB NOUN ADP DET ADJ NOUN && PUNCT CCONJ VERB DET NOUN ADP NOUN PUNCT
+let thy west wing sleep on && the lake ; speak silence with thy glimmering eyes , and wash the dusk with silver .
+VERB DET ADJ NOUN NOUN ADP && DET NOUN PUNCT VERB NOUN ADP DET ADJ NOUN PUNCT CCONJ VERB DET NOUN ADP NOUN PUNCT
+let thy west wing sleep on the lake ; speak silence with && thy glimmering eyes , and wash the dusk with silver .
+VERB DET ADJ NOUN NOUN ADP DET NOUN PUNCT VERB NOUN ADP && DET ADJ NOUN PUNCT CCONJ VERB DET NOUN ADP NOUN PUNCT
+soon , full soon , dost thou withdraw ; then the && wolf rages wide , and the lion glares through the dun forest .
+ADV PUNCT ADJ ADV PUNCT VERB NOUN NOUN PUNCT ADV DET && PROPN VERB ADV PUNCT CCONJ DET NOUN VERB ADP DET PROPN NOUN PUNCT
+the && fleeces of our flocks are covered with thy sacred dew ; protect with them with thine influence .
+DET && NOUN ADP DET NOUN AUX VERB ADP DET ADJ NOUN PUNCT VERB ADP PRON ADP ADJ NOUN PUNCT
+the fleeces of our flocks are covered with thy sacred dew && ; protect with them with thine influence .
+DET NOUN ADP DET NOUN AUX VERB ADP DET ADJ NOUN && PUNCT VERB ADP PRON ADP ADJ NOUN PUNCT
+the fleeces of our flocks are covered with && thy sacred dew ; protect with them with thine influence .
+DET NOUN ADP DET NOUN AUX VERB ADP && DET ADJ NOUN PUNCT VERB ADP PRON ADP ADJ NOUN PUNCT
+data/tokenized_enj_pairs/futility.json
+if anything might rouse him now && the kind old sun will know .
+SCONJ PRON VERB VERB PRON ADV && DET ADJ ADJ NOUN VERB VERB PUNCT
+are limbs so dear - achieved , are sides && full - nerved,--still warm,--too hard to stir ?
+AUX NOUN ADV ADJ PUNCT VERB PUNCT AUX NOUN && ADJ PUNCT PROPN ADV ADJ PART VERB PUNCT
+what made fatuous sunbeams toil && to break earth 's sleep at all ?
+PRON VERB ADJ NOUN VERB && PART VERB NOUN PART NOUN ADV ADV PUNCT
+data/tokenized_enj_pairs/the_oven_bird.json
+he says that leaves are old and that for flowers && mid - summer is to spring as one to ten .
+PRON VERB SCONJ NOUN AUX ADJ CCONJ SCONJ ADP NOUN && NOUN NOUN NOUN AUX PART VERB SCONJ NUM ADP NUM PUNCT
+he says the early petal - fall is past , when pear and cherry bloom went down in showers && on sunny days a moment overcast ; and comes that other fall we name the fall .
+PRON VERB DET ADJ NOUN PUNCT NOUN AUX ADJ PUNCT ADV NOUN CCONJ NOUN NOUN VERB ADP ADP NOUN && ADP ADJ NOUN DET NOUN ADJ PUNCT CCONJ VERB DET ADJ VERB PRON VERB DET NOUN PUNCT
+the bird would cease and be as other birds && 
+DET NOUN VERB VERB CCONJ AUX SCONJ ADJ NOUN && 
+but words && is what to make of a diminished thing .
+CCONJ NOUN && AUX PRON PART VERB ADP DET ADJ NOUN PUNCT
+data/tokenized_enj_pairs/rapunzel.json
+all day , all day i brush && my golden strands of hair ; all day i wait and wait ..
+DET NOUN PUNCT DET NOUN PRON VERB && DET ADJ NOUN ADP NOUN PUNCT DET NOUN PRON VERB CCONJ VERB PUNCT
+all day , all day i brush my golden strands of hair && ; all day i wait and wait ..
+DET NOUN PUNCT DET NOUN PRON VERB DET ADJ NOUN ADP NOUN && PUNCT DET NOUN PRON VERB CCONJ VERB PUNCT
+the gold && ladder of my long hair i loose and wait .. and wait .. ah , who is there ?
+DET ADJ && NOUN ADP DET ADJ NOUN PRON VERB CCONJ VERB PUNCT CCONJ VERB PUNCT INTJ PUNCT PRON AUX ADV PUNCT
+the gold ladder of my long hair && i loose and wait .. and wait .. ah , who is there ?
+DET ADJ NOUN ADP DET ADJ NOUN && PRON VERB CCONJ VERB PUNCT CCONJ VERB PUNCT INTJ PUNCT PRON AUX ADV PUNCT
+i am blind in the tangle of my long hair && ..
+PRON AUX ADJ ADP DET NOUN ADP DET ADJ NOUN && PUNCT
+i am blind && in the tangle of my long hair ..
+PRON AUX ADJ && ADP DET NOUN ADP DET ADJ NOUN PUNCT
+data/tokenized_enj_pairs/sonnet_a_dream_after_reading_dantes_episode_of_paulo_and_francesca.json
+as hermes once took to his feathers light , when lulled argus , baffled , swooned and slept , so on a delphic reed , my idle spright && so played , so charmed , so conquered , so bereft the dragon - world of all its hundred eyes ; and seeing it asleep , so fled away-- not to pure ida with its snow - cold skies , nor unto tempe , where jove grieved a day ; but to that second circle of sad hell , where in the gust , the whirlwind , and the flaw of rain and hail - stones , lovers need not tell their sorrows .
+SCONJ PROPN ADV VERB ADP DET NOUN NOUN PUNCT ADV VERB PROPN PUNCT VERB PUNCT VERB CCONJ VERB PUNCT ADV ADP DET ADJ PROPN PUNCT DET ADJ NOUN && ADV VERB PUNCT ADV ADJ PUNCT ADV VERB PUNCT ADV ADJ DET NOUN PUNCT NOUN ADP DET DET NUM NOUN PUNCT CCONJ VERB PRON ADJ PUNCT ADV VERB PROPN PART PART VERB PROPN ADP DET NOUN PUNCT ADJ NOUN PUNCT CCONJ ADP PROPN PUNCT ADV PROPN VERB DET NOUN PUNCT CCONJ ADP DET ADJ NOUN ADP ADJ PROPN PUNCT ADV ADP DET NOUN PUNCT DET NOUN PUNCT CCONJ DET NOUN ADP NOUN CCONJ NOUN PUNCT NOUN PUNCT NOUN VERB PART VERB DET NOUN PUNCT
+as hermes once took to his feathers light , when lulled argus , baffled , swooned and slept , so on a delphic reed , my idle spright so played , so charmed , so conquered , so bereft && the dragon - world of all its hundred eyes ; and seeing it asleep , so fled away-- not to pure ida with its snow - cold skies , nor unto tempe , where jove grieved a day ; but to that second circle of sad hell , where in the gust , the whirlwind , and the flaw of rain and hail - stones , lovers need not tell their sorrows .
+SCONJ PROPN ADV VERB ADP DET NOUN NOUN PUNCT ADV VERB PROPN PUNCT VERB PUNCT VERB CCONJ VERB PUNCT ADV ADP DET ADJ PROPN PUNCT DET ADJ NOUN ADV VERB PUNCT ADV ADJ PUNCT ADV VERB PUNCT ADV ADJ && DET NOUN PUNCT NOUN ADP DET DET NUM NOUN PUNCT CCONJ VERB PRON ADJ PUNCT ADV VERB PROPN PART PART VERB PROPN ADP DET NOUN PUNCT ADJ NOUN PUNCT CCONJ ADP PROPN PUNCT ADV PROPN VERB DET NOUN PUNCT CCONJ ADP DET ADJ NOUN ADP ADJ PROPN PUNCT ADV ADP DET NOUN PUNCT DET NOUN PUNCT CCONJ DET NOUN ADP NOUN CCONJ NOUN PUNCT NOUN PUNCT NOUN VERB PART VERB DET NOUN PUNCT
+as hermes once took to his feathers light , when lulled argus , baffled , swooned and slept , so on a delphic reed , my idle spright so played , so charmed , so conquered , so bereft the dragon - world of all its hundred eyes ; and seeing it asleep , so fled away-- not to pure ida with its snow - cold skies , nor unto tempe , where jove grieved a day ; but to that second circle of sad hell , where in the gust , the whirlwind , and the flaw && of rain and hail - stones , lovers need not tell their sorrows .
+SCONJ PROPN ADV VERB ADP DET NOUN NOUN PUNCT ADV VERB PROPN PUNCT VERB PUNCT VERB CCONJ VERB PUNCT ADV ADP DET ADJ PROPN PUNCT DET ADJ NOUN ADV VERB PUNCT ADV ADJ PUNCT ADV VERB PUNCT ADV ADJ DET NOUN PUNCT NOUN ADP DET DET NUM NOUN PUNCT CCONJ VERB PRON ADJ PUNCT ADV VERB PROPN PART PART VERB PROPN ADP DET NOUN PUNCT ADJ NOUN PUNCT CCONJ ADP PROPN PUNCT ADV PROPN VERB DET NOUN PUNCT CCONJ ADP DET ADJ NOUN ADP ADJ PROPN PUNCT ADV ADP DET NOUN PUNCT DET NOUN PUNCT CCONJ DET NOUN && ADP NOUN CCONJ NOUN PUNCT NOUN PUNCT NOUN VERB PART VERB DET NOUN PUNCT
+as hermes once took to his feathers light , when lulled argus , baffled , swooned and slept , so on a delphic reed , my idle spright so played , so charmed , so conquered , so bereft the dragon - world of all its hundred eyes ; and seeing it asleep , so fled away-- not to pure ida with its snow - cold skies , nor unto tempe , where jove grieved a day ; but to that second circle of sad hell , where in the gust , the whirlwind , and the flaw of rain and hail - stones , lovers need not tell && their sorrows .
+SCONJ PROPN ADV VERB ADP DET NOUN NOUN PUNCT ADV VERB PROPN PUNCT VERB PUNCT VERB CCONJ VERB PUNCT ADV ADP DET ADJ PROPN PUNCT DET ADJ NOUN ADV VERB PUNCT ADV ADJ PUNCT ADV VERB PUNCT ADV ADJ DET NOUN PUNCT NOUN ADP DET DET NUM NOUN PUNCT CCONJ VERB PRON ADJ PUNCT ADV VERB PROPN PART PART VERB PROPN ADP DET NOUN PUNCT ADJ NOUN PUNCT CCONJ ADP PROPN PUNCT ADV PROPN VERB DET NOUN PUNCT CCONJ ADP DET ADJ NOUN ADP ADJ PROPN PUNCT ADV ADP DET NOUN PUNCT DET NOUN PUNCT CCONJ DET NOUN ADP NOUN CCONJ NOUN PUNCT NOUN PUNCT NOUN VERB PART VERB && DET NOUN PUNCT
+pale were the sweet lips i saw , pale were the lips i kissed , and fair the form && i floated with , about that melancholy storm .
+PROPN AUX DET ADJ NOUN PRON VERB PUNCT ADJ AUX DET NOUN PRON VERB PUNCT CCONJ ADJ DET NOUN && PRON VERB ADP PUNCT ADP DET ADJ NOUN PUNCT
+data/tokenized_enj_pairs/prayer.json
+great god , i ask for no meaner pelf && than that i may not disappoint myself , that in my action i may soar as high as i can now discern with this clear eye .
+ADJ PROPN PUNCT PRON VERB ADP DET ADJ NOUN && SCONJ DET PRON VERB PART VERB PRON PUNCT SCONJ ADP DET NOUN PRON VERB VERB ADV ADV SCONJ PRON VERB ADV VERB ADP DET ADJ NOUN PUNCT
+great god , i ask for no meaner pelf than that i may not disappoint myself , that in my action i may soar as high && as i can now discern with this clear eye .
+ADJ PROPN PUNCT PRON VERB ADP DET ADJ NOUN SCONJ DET PRON VERB PART VERB PRON PUNCT SCONJ ADP DET NOUN PRON VERB VERB ADV ADV && SCONJ PRON VERB ADV VERB ADP DET ADJ NOUN PUNCT
+that my weak hand may equal my firm faith && and my life practice what my tongue saith that my low conduct may not show nor my relenting lines that i thy purpose did not know or overrated thy designs .
+SCONJ DET ADJ NOUN VERB VERB DET ADJ NOUN && CCONJ DET NOUN NOUN PRON DET NOUN VERB SCONJ DET ADJ NOUN VERB PART VERB CCONJ DET VERB NOUN DET PRON DET NOUN AUX PART VERB CCONJ VERB DET NOUN PUNCT
+that my weak hand may equal my firm faith and my life practice what my tongue saith && that my low conduct may not show nor my relenting lines that i thy purpose did not know or overrated thy designs .
+SCONJ DET ADJ NOUN VERB VERB DET ADJ NOUN CCONJ DET NOUN NOUN PRON DET NOUN VERB && SCONJ DET ADJ NOUN VERB PART VERB CCONJ DET VERB NOUN DET PRON DET NOUN AUX PART VERB CCONJ VERB DET NOUN PUNCT
+that my weak hand may equal my firm faith and my life practice what my tongue saith that my low conduct may not show && nor my relenting lines that i thy purpose did not know or overrated thy designs .
+SCONJ DET ADJ NOUN VERB VERB DET ADJ NOUN CCONJ DET NOUN NOUN PRON DET NOUN VERB SCONJ DET ADJ NOUN VERB PART VERB && CCONJ DET VERB NOUN DET PRON DET NOUN AUX PART VERB CCONJ VERB DET NOUN PUNCT
+that my weak hand may equal my firm faith and my life practice what my tongue saith that my low conduct may not show nor my relenting lines && that i thy purpose did not know or overrated thy designs .
+SCONJ DET ADJ NOUN VERB VERB DET ADJ NOUN CCONJ DET NOUN NOUN PRON DET NOUN VERB SCONJ DET ADJ NOUN VERB PART VERB CCONJ DET VERB NOUN && DET PRON DET NOUN AUX PART VERB CCONJ VERB DET NOUN PUNCT
+that my weak hand may equal my firm faith and my life practice what my tongue saith that my low conduct may not show nor my relenting lines that i thy purpose did not know && or overrated thy designs .
+SCONJ DET ADJ NOUN VERB VERB DET ADJ NOUN CCONJ DET NOUN NOUN PRON DET NOUN VERB SCONJ DET ADJ NOUN VERB PART VERB CCONJ DET VERB NOUN DET PRON DET NOUN AUX PART VERB && CCONJ VERB DET NOUN PUNCT
+data/tokenized_enj_pairs/man_in_black.json
+where the three magenta && breakwaters take the shove and suck of the grey sea to the left , and the wave unfists against the dun barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit bared by each falling tide , and you , across those white stones , strode out in you dead black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN && NOUN VERB DET NOUN CCONJ VERB ADP DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove && and suck of the grey sea to the left , and the wave unfists against the dun barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit bared by each falling tide , and you , across those white stones , strode out in you dead black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN && CCONJ VERB ADP DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove and suck of the grey sea && to the left , and the wave unfists against the dun barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit bared by each falling tide , and you , across those white stones , strode out in you dead black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN CCONJ VERB ADP DET PROPN PROPN && ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove and suck of the grey sea to the left , and the wave && unfists against the dun barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit bared by each falling tide , and you , across those white stones , strode out in you dead black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN CCONJ VERB ADP DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN && NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove and suck of the grey sea to the left , and the wave unfists against the dun && barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit bared by each falling tide , and you , across those white stones , strode out in you dead black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN CCONJ VERB ADP DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN && NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove and suck of && the grey sea to the left , and the wave unfists against the dun barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit bared by each falling tide , and you , across those white stones , strode out in you dead black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN CCONJ VERB ADP && DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove and suck of the grey sea to the left , and the wave unfists against the dun barb - wired headland of the deer island prison && with its trim piggeries , hen huts and cattle green to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit bared by each falling tide , and you , across those white stones , strode out in you dead black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN CCONJ VERB ADP DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN && ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove and suck of the grey sea to the left , and the wave unfists against the dun barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green && to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit bared by each falling tide , and you , across those white stones , strode out in you dead black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN CCONJ VERB ADP DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ && ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove and suck of the grey sea to the left , and the wave unfists against the dun barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green to the right , and march ice && glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit bared by each falling tide , and you , across those white stones , strode out in you dead black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN CCONJ VERB ADP DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN && VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove and suck of the grey sea to the left , and the wave unfists against the dun barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise && over a great stone spit bared by each falling tide , and you , across those white stones , strode out in you dead black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN CCONJ VERB ADP DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB && ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove and suck of the grey sea to the left , and the wave unfists against the dun barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit && bared by each falling tide , and you , across those white stones , strode out in you dead black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN CCONJ VERB ADP DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN && VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove and suck of the grey sea to the left , and the wave unfists against the dun barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit bared by each falling tide , and you , across those white && stones , strode out in you dead black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN CCONJ VERB ADP DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ && NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove and suck of the grey sea to the left , and the wave unfists against the dun barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit bared by each falling tide , and you , across those white stones , strode out in you dead && black coat , black shoes , and your black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN CCONJ VERB ADP DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ && ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET ADJ NOUN SCONJ ADV PRON VERB PUNCT
+where the three magenta breakwaters take the shove and suck of the grey sea to the left , and the wave unfists against the dun barb - wired headland of the deer island prison with its trim piggeries , hen huts and cattle green to the right , and march ice glazes the rock pools yet , snuff - colored sand cliffs rise over a great stone spit bared by each falling tide , and you , across those white stones , strode out in you dead black coat , black shoes , and your && black hair till there you stood ,
+ADV DET NUM NOUN NOUN VERB DET NOUN CCONJ VERB ADP DET PROPN PROPN ADP DET NOUN PUNCT CCONJ DET NOUN NOUN ADP DET PROPN NOUN PUNCT ADJ NOUN ADP DET PROPN PROPN NOUN ADP DET NOUN NOUN PUNCT PROPN NOUN CCONJ NOUN ADJ ADP DET NOUN PUNCT CCONJ PROPN PROPN VERB DET NOUN NOUN ADV PUNCT NOUN PUNCT VERB NOUN NOUN VERB ADP DET ADJ NOUN NOUN VERB ADP DET VERB NOUN PUNCT CCONJ PRON PUNCT ADP DET ADJ NOUN PUNCT VERB ADP ADP PRON ADJ ADJ NOUN PUNCT ADJ NOUN PUNCT CCONJ DET && ADJ NOUN SCONJ ADV PRON VERB PUNCT
+fixed vortex on the far tip , riveting stones , air , all of && it , together .
+ADJ NOUN ADP DET ADJ NOUN PUNCT ADJ NOUN PUNCT NOUN PUNCT DET ADP && PRON PUNCT ADV PUNCT
+fixed vortex on the far && tip , riveting stones , air , all of it , together .
+ADJ NOUN ADP DET ADJ && NOUN PUNCT ADJ NOUN PUNCT NOUN PUNCT DET ADP PRON PUNCT ADV PUNCT
+data/tokenized_enj_pairs/sonnet_in_search_of_an_author.json
+nude bodies like peeled logs && sometimes give off a sweetest odor , man and woman under the trees in full excess matching the cushion of aromatic pine - drift fallen threaded with trailing woodbine
+ADJ NOUN SCONJ VERB NOUN && ADV VERB ADP DET ADJ NOUN PUNCT NOUN CCONJ NOUN ADP DET NOUN ADP ADJ ADJ VERB DET NOUN ADP ADJ NOUN PUNCT NOUN VERB VERB ADP VERB PROPN
+nude bodies like peeled logs sometimes give off a sweetest && odor , man and woman under the trees in full excess matching the cushion of aromatic pine - drift fallen threaded with trailing woodbine
+ADJ NOUN SCONJ VERB NOUN ADV VERB ADP DET ADJ && NOUN PUNCT NOUN CCONJ NOUN ADP DET NOUN ADP ADJ ADJ VERB DET NOUN ADP ADJ NOUN PUNCT NOUN VERB VERB ADP VERB PROPN
+nude bodies like peeled logs sometimes give off a sweetest odor , man and woman && under the trees in full excess matching the cushion of aromatic pine - drift fallen threaded with trailing woodbine
+ADJ NOUN SCONJ VERB NOUN ADV VERB ADP DET ADJ NOUN PUNCT NOUN CCONJ NOUN && ADP DET NOUN ADP ADJ ADJ VERB DET NOUN ADP ADJ NOUN PUNCT NOUN VERB VERB ADP VERB PROPN
+nude bodies like peeled logs sometimes give off a sweetest odor , man and woman under the trees in full excess && matching the cushion of aromatic pine - drift fallen threaded with trailing woodbine
+ADJ NOUN SCONJ VERB NOUN ADV VERB ADP DET ADJ NOUN PUNCT NOUN CCONJ NOUN ADP DET NOUN ADP ADJ ADJ && VERB DET NOUN ADP ADJ NOUN PUNCT NOUN VERB VERB ADP VERB PROPN
+nude bodies like peeled logs sometimes give off a sweetest odor , man and woman under the trees in full excess matching the cushion of && aromatic pine - drift fallen threaded with trailing woodbine
+ADJ NOUN SCONJ VERB NOUN ADV VERB ADP DET ADJ NOUN PUNCT NOUN CCONJ NOUN ADP DET NOUN ADP ADJ ADJ VERB DET NOUN ADP && ADJ NOUN PUNCT NOUN VERB VERB ADP VERB PROPN
+nude bodies like peeled logs sometimes give off a sweetest odor , man and woman under the trees in full excess matching the cushion of aromatic pine - drift fallen && threaded with trailing woodbine
+ADJ NOUN SCONJ VERB NOUN ADV VERB ADP DET ADJ NOUN PUNCT NOUN CCONJ NOUN ADP DET NOUN ADP ADJ ADJ VERB DET NOUN ADP ADJ NOUN PUNCT NOUN VERB && VERB ADP VERB PROPN
+nude bodies like peeled logs sometimes give off a sweetest odor , man and woman under the trees in full excess matching the cushion of aromatic pine - drift fallen threaded with trailing woodbine && 
+ADJ NOUN SCONJ VERB NOUN ADV VERB ADP DET ADJ NOUN PUNCT NOUN CCONJ NOUN ADP DET NOUN ADP ADJ ADJ VERB DET NOUN ADP ADJ NOUN PUNCT NOUN VERB VERB ADP VERB PROPN && 
+nude bodies like peeled logs sometimes give off a sweetest odor && , man and woman under the trees in full excess matching the cushion of aromatic pine - drift fallen threaded with trailing woodbine
+ADJ NOUN SCONJ VERB NOUN ADV VERB ADP DET ADJ NOUN && PUNCT NOUN CCONJ NOUN ADP DET NOUN ADP ADJ ADJ VERB DET NOUN ADP ADJ NOUN PUNCT NOUN VERB VERB ADP VERB PROPN
+a sonnet might be made of && it might be made of it !
+DET NOUN VERB AUX VERB ADP && PRON VERB AUX VERB ADP PRON PUNCT
+a sonnet might be made of it && might be made of it !
+DET NOUN VERB AUX VERB ADP PRON && VERB AUX VERB ADP PRON PUNCT
+odor of excess odor of pine needles , odor of peeled logs && , odor of no odor other than trailing woodbine that has no odor , odor of a nude woman sometimes , odor of a man .
+NOUN ADP ADJ NOUN ADP NOUN NOUN PUNCT NOUN ADP VERB NOUN && PUNCT NOUN ADP DET NOUN ADJ SCONJ VERB PROPN DET AUX DET NOUN PUNCT NOUN ADP DET ADJ NOUN ADV PUNCT NOUN ADP DET NOUN PUNCT
+odor of excess odor of pine needles , odor of peeled logs , odor of no odor other than trailing woodbine that has no odor , odor of a nude woman && sometimes , odor of a man .
+NOUN ADP ADJ NOUN ADP NOUN NOUN PUNCT NOUN ADP VERB NOUN PUNCT NOUN ADP DET NOUN ADJ SCONJ VERB PROPN DET AUX DET NOUN PUNCT NOUN ADP DET ADJ NOUN && ADV PUNCT NOUN ADP DET NOUN PUNCT
+odor of excess && odor of pine needles , odor of peeled logs , odor of no odor other than trailing woodbine that has no odor , odor of a nude woman sometimes , odor of a man .
+NOUN ADP ADJ && NOUN ADP NOUN NOUN PUNCT NOUN ADP VERB NOUN PUNCT NOUN ADP DET NOUN ADJ SCONJ VERB PROPN DET AUX DET NOUN PUNCT NOUN ADP DET ADJ NOUN ADV PUNCT NOUN ADP DET NOUN PUNCT
+odor of && excess odor of pine needles , odor of peeled logs , odor of no odor other than trailing woodbine that has no odor , odor of a nude woman sometimes , odor of a man .
+NOUN ADP && ADJ NOUN ADP NOUN NOUN PUNCT NOUN ADP VERB NOUN PUNCT NOUN ADP DET NOUN ADJ SCONJ VERB PROPN DET AUX DET NOUN PUNCT NOUN ADP DET ADJ NOUN ADV PUNCT NOUN ADP DET NOUN PUNCT
+odor of excess odor of pine needles , odor of peeled logs , odor of no odor other than trailing woodbine && that has no odor , odor of a nude woman sometimes , odor of a man .
+NOUN ADP ADJ NOUN ADP NOUN NOUN PUNCT NOUN ADP VERB NOUN PUNCT NOUN ADP DET NOUN ADJ SCONJ VERB PROPN && DET AUX DET NOUN PUNCT NOUN ADP DET ADJ NOUN ADV PUNCT NOUN ADP DET NOUN PUNCT
+odor && of excess odor of pine needles , odor of peeled logs , odor of no odor other than trailing woodbine that has no odor , odor of a nude woman sometimes , odor of a man .
+NOUN && ADP ADJ NOUN ADP NOUN NOUN PUNCT NOUN ADP VERB NOUN PUNCT NOUN ADP DET NOUN ADJ SCONJ VERB PROPN DET AUX DET NOUN PUNCT NOUN ADP DET ADJ NOUN ADV PUNCT NOUN ADP DET NOUN PUNCT
+odor of excess odor of pine needles , odor of peeled logs , odor of no odor other than trailing woodbine that && has no odor , odor of a nude woman sometimes , odor of a man .
+NOUN ADP ADJ NOUN ADP NOUN NOUN PUNCT NOUN ADP VERB NOUN PUNCT NOUN ADP DET NOUN ADJ SCONJ VERB PROPN DET && AUX DET NOUN PUNCT NOUN ADP DET ADJ NOUN ADV PUNCT NOUN ADP DET NOUN PUNCT
+data/tokenized_enj_pairs/in_the_old_theatre_fiesole.json
+i traced the circus whose gray stones incline && where rome and dim etruria interjoin , till came a child who showed an ancient coin that bore the image of a constantine .
+PRON VERB DET NOUN DET ADJ NOUN VERB && ADV PROPN CCONJ PROPN PROPN PROPN PUNCT SCONJ VERB DET NOUN PRON VERB DET ADJ NOUN DET VERB DET NOUN ADP DET PROPN PUNCT
+i traced the circus whose gray stones incline where rome and dim etruria interjoin , till came a child who showed an ancient coin && that bore the image of a constantine .
+PRON VERB DET NOUN DET ADJ NOUN VERB ADV PROPN CCONJ PROPN PROPN PROPN PUNCT SCONJ VERB DET NOUN PRON VERB DET ADJ NOUN && DET VERB DET NOUN ADP DET PROPN PUNCT
+she lightly passed ; nor did she once opine && how , better than all books
+PRON ADV VERB PUNCT CCONJ AUX PRON ADV VERB && ADV PUNCT ADJ SCONJ DET NOUN
+, she had raised for me && in swift perspective europe 's history through the vast years of caesar 's sceptred line .
+PUNCT PRON AUX VERB ADP PRON && ADP ADJ NOUN PROPN PART NOUN ADP DET ADJ NOUN ADP PROPN PART ADJ NOUN PUNCT
+, she had raised for me in swift perspective europe 's history && through the vast years of caesar 's sceptred line .
+PUNCT PRON AUX VERB ADP PRON ADP ADJ NOUN PROPN PART NOUN && ADP DET ADJ NOUN ADP PROPN PART ADJ NOUN PUNCT
+for in my distant plot of english loam && ' twas but to delve , and straightway there to find coins of like impress .  
+ADP ADP DET ADJ NOUN ADP ADJ NOUN && PUNCT NOUN CCONJ PART VERB PUNCT CCONJ ADV ADV PART VERB NOUN ADP INTJ NOUN PUNCT SPACE
+for in my distant plot of english loam ' twas but to delve , and straightway there to find && coins of like impress .  
+ADP ADP DET ADJ NOUN ADP ADJ NOUN PUNCT NOUN CCONJ PART VERB PUNCT CCONJ ADV ADV PART VERB && NOUN ADP INTJ NOUN PUNCT SPACE
+as with one half blind && 
+SCONJ ADP NUM NOUN ADJ && 
+whom common simples cure , her act flashed home && in that mute moment to my opened mind the power , the pride , the reach of perished rome .
+PRON ADJ PROPN PROPN PUNCT DET NOUN VERB ADV && ADP DET ADJ NOUN ADP DET ADJ NOUN DET NOUN PUNCT DET NOUN PUNCT DET NOUN ADP VERB PROPN PUNCT
+whom common simples cure , her act flashed home in that mute moment to my opened mind && the power , the pride , the reach of perished rome .
+PRON ADJ PROPN PROPN PUNCT DET NOUN VERB ADV ADP DET ADJ NOUN ADP DET ADJ NOUN && DET NOUN PUNCT DET NOUN PUNCT DET NOUN ADP VERB PROPN PUNCT
+data/tokenized_enj_pairs/full_moon_and_little_frieda.json
+a pail lifted , still and brimming - mirror && to tempt a first star to a tremor .
+DET NOUN VERB PUNCT ADV CCONJ NOUN PUNCT NOUN && PART VERB DET ADJ NOUN ADP DET NOUN PUNCT
+cows are going home in the lane there , looping the hedges with their warm && wreaths of breath - a dark river of blood , many boulders , balancing unspilled milk . '
+NOUN AUX VERB ADV ADP DET NOUN ADV PUNCT VERB DET NOUN ADP DET ADJ && NOUN ADP NOUN PUNCT DET ADJ NOUN ADP NOUN PUNCT ADJ NOUN PUNCT VERB ADJ NOUN PUNCT PUNCT
+the moon has stepped back like an artist gazing amazed at a work && that points at him amazed .
+DET NOUN AUX VERB ADV SCONJ DET NOUN VERB ADJ ADP DET NOUN && DET VERB ADP PRON ADJ PUNCT
+data/tokenized_enj_pairs/complete_destruction.json
+it && was an icy day .
+PRON && AUX DET NOUN NOUN PUNCT
+we buried the cat , then took her box && and set fire to it in the back yard .
+PRON VERB DET NOUN PUNCT ADV VERB DET NOUN && CCONJ VERB NOUN ADP PRON ADP DET NOUN NOUN PUNCT
+we buried the cat , then took her box and set fire to it && in the back yard .
+PRON VERB DET NOUN PUNCT ADV VERB DET NOUN CCONJ VERB NOUN ADP PRON && ADP DET NOUN NOUN PUNCT
+we buried the cat , then took her box and set fire && to it in the back yard .
+PRON VERB DET NOUN PUNCT ADV VERB DET NOUN CCONJ VERB NOUN && ADP PRON ADP DET NOUN NOUN PUNCT
+those fleas that escaped && earth and fire died by the cold .
+DET NOUN DET VERB && NOUN CCONJ NOUN VERB ADP DET NOUN PUNCT
+those fleas that escaped earth and fire && died by the cold .
+DET NOUN DET VERB NOUN CCONJ NOUN && VERB ADP DET NOUN PUNCT
+data/tokenized_enj_pairs/an_almost_made_up_poem.json
+i see you drinking at a fountain with tiny && blue hands , no , your hands are not tiny
+PRON VERB PRON VERB ADP DET NOUN ADP ADJ && ADJ NOUN PUNCT INTJ PUNCT DET NOUN AUX PART ADJ
+i see you && drinking at a fountain with tiny blue hands , no , your hands are not tiny
+PRON VERB PRON && VERB ADP DET NOUN ADP ADJ ADJ NOUN PUNCT INTJ PUNCT DET NOUN AUX PART ADJ
+i see you drinking at a && fountain with tiny blue hands , no , your hands are not tiny
+PRON VERB PRON VERB ADP DET && NOUN ADP ADJ ADJ NOUN PUNCT INTJ PUNCT DET NOUN AUX PART ADJ
+they are small , and && the fountain is in france where you wrote me
+PRON AUX ADJ PUNCT CCONJ && DET NOUN AUX ADP PROPN ADV PRON VERB PRON
+they are small , and the fountain is in france where you && wrote me
+PRON AUX ADJ PUNCT CCONJ DET NOUN AUX ADP PROPN ADV PRON && VERB PRON
+they are small , and the fountain is in && france where you wrote me
+PRON AUX ADJ PUNCT CCONJ DET NOUN AUX ADP && PROPN ADV PRON VERB PRON
+they are small , and the fountain is in france where you wrote && me
+PRON AUX ADJ PUNCT CCONJ DET NOUN AUX ADP PROPN ADV PRON VERB && PRON
+they are small , and the && fountain is in france where you wrote me
+PRON AUX ADJ PUNCT CCONJ DET && NOUN AUX ADP PROPN ADV PRON VERB PRON
+and && i answered and never heard from you again .
+CCONJ && PRON VERB CCONJ ADV VERB ADP PRON ADV PUNCT
+and i answered and never heard from you && again .
+CCONJ PRON VERB CCONJ ADV VERB ADP PRON && ADV PUNCT
+and i answered and never && heard from you again .
+CCONJ PRON VERB CCONJ ADV && VERB ADP PRON ADV PUNCT
+you used to write insane poems about angels and && god , all in upper case , and you knew famous artists and most of them were your lovers , and i wrote back ,
+PRON VERB PART VERB ADJ NOUN ADP NOUN CCONJ && PROPN PUNCT ADV ADP ADJ NOUN PUNCT CCONJ PRON VERB ADJ NOUN CCONJ ADJ ADP PRON AUX DET NOUN PUNCT CCONJ PRON VERB ADV PUNCT
+you used to write insane poems about && angels and god , all in upper case , and you knew famous artists and most of them were your lovers , and i wrote back ,
+PRON VERB PART VERB ADJ NOUN ADP && NOUN CCONJ PROPN PUNCT ADV ADP ADJ NOUN PUNCT CCONJ PRON VERB ADJ NOUN CCONJ ADJ ADP PRON AUX DET NOUN PUNCT CCONJ PRON VERB ADV PUNCT
+you && used to write insane poems about angels and god , all in upper case , and you knew famous artists and most of them were your lovers , and i wrote back ,
+PRON && VERB PART VERB ADJ NOUN ADP NOUN CCONJ PROPN PUNCT ADV ADP ADJ NOUN PUNCT CCONJ PRON VERB ADJ NOUN CCONJ ADJ ADP PRON AUX DET NOUN PUNCT CCONJ PRON VERB ADV PUNCT
+you used to write insane poems about angels and god , all in upper case , and you knew famous artists and most of them && were your lovers , and i wrote back ,
+PRON VERB PART VERB ADJ NOUN ADP NOUN CCONJ PROPN PUNCT ADV ADP ADJ NOUN PUNCT CCONJ PRON VERB ADJ NOUN CCONJ ADJ ADP PRON && AUX DET NOUN PUNCT CCONJ PRON VERB ADV PUNCT
+you used to write insane poems about angels and god , all in && upper case , and you knew famous artists and most of them were your lovers , and i wrote back ,
+PRON VERB PART VERB ADJ NOUN ADP NOUN CCONJ PROPN PUNCT ADV ADP && ADJ NOUN PUNCT CCONJ PRON VERB ADJ NOUN CCONJ ADJ ADP PRON AUX DET NOUN PUNCT CCONJ PRON VERB ADV PUNCT
+you used to write insane poems about angels and god , all in upper case , and you knew famous artists and most of them were your lovers , and i wrote && back ,
+PRON VERB PART VERB ADJ NOUN ADP NOUN CCONJ PROPN PUNCT ADV ADP ADJ NOUN PUNCT CCONJ PRON VERB ADJ NOUN CCONJ ADJ ADP PRON AUX DET NOUN PUNCT CCONJ PRON VERB && ADV PUNCT
+you used to write insane poems about angels and god , all && in upper case , and you knew famous artists and most of them were your lovers , and i wrote back ,
+PRON VERB PART VERB ADJ NOUN ADP NOUN CCONJ PROPN PUNCT ADV && ADP ADJ NOUN PUNCT CCONJ PRON VERB ADJ NOUN CCONJ ADJ ADP PRON AUX DET NOUN PUNCT CCONJ PRON VERB ADV PUNCT
+it 's all && right , go ahead , enter their lives ,
+PRON AUX ADV && ADJ PUNCT VERB ADV PUNCT VERB DET NOUN PUNCT
+i ' not jealous && 
+PRON PUNCT PART ADJ && 
+because we ' never && met .
+SCONJ PRON PUNCT ADV && VERB PUNCT
+we got close once in && new orleans , one half block , but never met , never touched .
+PRON VERB ADV ADV ADP && PROPN PROPN PUNCT NUM ADJ NOUN PUNCT CCONJ ADV VERB PUNCT ADV VERB PUNCT
+we got close once in new orleans , one half block , but never && met , never touched .
+PRON VERB ADV ADV ADP PROPN PROPN PUNCT NUM ADJ NOUN PUNCT CCONJ ADV && VERB PUNCT ADV VERB PUNCT
+so you went with the famous and && wrote about the famous , and ,
+ADV PRON VERB ADP DET ADJ CCONJ && VERB ADP DET ADJ PUNCT CCONJ PUNCT
+so you went with the famous and wrote about && the famous , and ,
+ADV PRON VERB ADP DET ADJ CCONJ VERB ADP && DET ADJ PUNCT CCONJ PUNCT
+so you && went with the famous and wrote about the famous , and ,
+ADV PRON && VERB ADP DET ADJ CCONJ VERB ADP DET ADJ PUNCT CCONJ PUNCT
+so you went with the famous and wrote && about the famous , and ,
+ADV PRON VERB ADP DET ADJ CCONJ VERB && ADP DET ADJ PUNCT CCONJ PUNCT
+so you went with the && famous and wrote about the famous , and ,
+ADV PRON VERB ADP DET && ADJ CCONJ VERB ADP DET ADJ PUNCT CCONJ PUNCT
+of course , what you found out is that the famous are worried about their fame -   not the beautiful young girl in bed with them , who gives them that , and && then awakens in the morning to write upper case poems about angels and god .
+ADV ADV PUNCT PRON PRON VERB ADP AUX SCONJ DET ADJ AUX ADJ ADP DET NOUN PUNCT SPACE PART DET ADJ ADJ NOUN ADP NOUN ADP PRON PUNCT PRON VERB PRON DET PUNCT CCONJ && ADV VERB ADP DET NOUN PART VERB ADJ NOUN NOUN ADP NOUN CCONJ PROPN PUNCT
+of course , what you found out is that the famous are worried about && their fame -   not the beautiful young girl in bed with them , who gives them that , and then awakens in the morning to write upper case poems about angels and god .
+ADV ADV PUNCT PRON PRON VERB ADP AUX SCONJ DET ADJ AUX ADJ ADP && DET NOUN PUNCT SPACE PART DET ADJ ADJ NOUN ADP NOUN ADP PRON PUNCT PRON VERB PRON DET PUNCT CCONJ ADV VERB ADP DET NOUN PART VERB ADJ NOUN NOUN ADP NOUN CCONJ PROPN PUNCT
+of course , what you && found out is that the famous are worried about their fame -   not the beautiful young girl in bed with them , who gives them that , and then awakens in the morning to write upper case poems about angels and god .
+ADV ADV PUNCT PRON PRON && VERB ADP AUX SCONJ DET ADJ AUX ADJ ADP DET NOUN PUNCT SPACE PART DET ADJ ADJ NOUN ADP NOUN ADP PRON PUNCT PRON VERB PRON DET PUNCT CCONJ ADV VERB ADP DET NOUN PART VERB ADJ NOUN NOUN ADP NOUN CCONJ PROPN PUNCT
+of course , what you found out is that the famous are worried about their fame -   not the beautiful young girl in bed with them && , who gives them that , and then awakens in the morning to write upper case poems about angels and god .
+ADV ADV PUNCT PRON PRON VERB ADP AUX SCONJ DET ADJ AUX ADJ ADP DET NOUN PUNCT SPACE PART DET ADJ ADJ NOUN ADP NOUN ADP PRON && PUNCT PRON VERB PRON DET PUNCT CCONJ ADV VERB ADP DET NOUN PART VERB ADJ NOUN NOUN ADP NOUN CCONJ PROPN PUNCT
+of course , what you found out is that the famous are worried about their fame -   not the beautiful young girl in && bed with them , who gives them that , and then awakens in the morning to write upper case poems about angels and god .
+ADV ADV PUNCT PRON PRON VERB ADP AUX SCONJ DET ADJ AUX ADJ ADP DET NOUN PUNCT SPACE PART DET ADJ ADJ NOUN ADP && NOUN ADP PRON PUNCT PRON VERB PRON DET PUNCT CCONJ ADV VERB ADP DET NOUN PART VERB ADJ NOUN NOUN ADP NOUN CCONJ PROPN PUNCT
+of course , what you found out && is that the famous are worried about their fame -   not the beautiful young girl in bed with them , who gives them that , and then awakens in the morning to write upper case poems about angels and god .
+ADV ADV PUNCT PRON PRON VERB ADP && AUX SCONJ DET ADJ AUX ADJ ADP DET NOUN PUNCT SPACE PART DET ADJ ADJ NOUN ADP NOUN ADP PRON PUNCT PRON VERB PRON DET PUNCT CCONJ ADV VERB ADP DET NOUN PART VERB ADJ NOUN NOUN ADP NOUN CCONJ PROPN PUNCT
+of course , what you found out is that the famous are worried about their fame -   not the beautiful young girl in bed && with them , who gives them that , and then awakens in the morning to write upper case poems about angels and god .
+ADV ADV PUNCT PRON PRON VERB ADP AUX SCONJ DET ADJ AUX ADJ ADP DET NOUN PUNCT SPACE PART DET ADJ ADJ NOUN ADP NOUN && ADP PRON PUNCT PRON VERB PRON DET PUNCT CCONJ ADV VERB ADP DET NOUN PART VERB ADJ NOUN NOUN ADP NOUN CCONJ PROPN PUNCT
+of course , what you found out is that the famous are worried about their fame -   not the beautiful young girl in bed with them , who gives them that , and then awakens && in the morning to write upper case poems about angels and god .
+ADV ADV PUNCT PRON PRON VERB ADP AUX SCONJ DET ADJ AUX ADJ ADP DET NOUN PUNCT SPACE PART DET ADJ ADJ NOUN ADP NOUN ADP PRON PUNCT PRON VERB PRON DET PUNCT CCONJ ADV VERB && ADP DET NOUN PART VERB ADJ NOUN NOUN ADP NOUN CCONJ PROPN PUNCT
+of course , what you found out is that the && famous are worried about their fame -   not the beautiful young girl in bed with them , who gives them that , and then awakens in the morning to write upper case poems about angels and god .
+ADV ADV PUNCT PRON PRON VERB ADP AUX SCONJ DET && ADJ AUX ADJ ADP DET NOUN PUNCT SPACE PART DET ADJ ADJ NOUN ADP NOUN ADP PRON PUNCT PRON VERB PRON DET PUNCT CCONJ ADV VERB ADP DET NOUN PART VERB ADJ NOUN NOUN ADP NOUN CCONJ PROPN PUNCT
+we know god is dead , they told us , but listening to you && 
+PRON VERB PROPN AUX ADJ PUNCT PRON VERB PRON PUNCT CCONJ VERB ADP PRON && 
+we know god is dead , they told && us , but listening to you
+PRON VERB PROPN AUX ADJ PUNCT PRON VERB && PRON PUNCT CCONJ VERB ADP PRON
+maybe && it was the upper case .
+ADV && PRON AUX DET ADJ NOUN PUNCT
+maybe it was the && upper case .
+ADV PRON AUX DET && ADJ NOUN PUNCT
+you were one of the best female poets and && i told the publishers , editors , " her , print her , she ' mad
+PRON AUX NUM ADP DET ADJ ADJ NOUN CCONJ && PRON VERB DET NOUN PUNCT NOUN PUNCT PUNCT PRON PUNCT VERB PRON PUNCT PRON VERB ADJ
+you && were one of the best female poets and i told the publishers , editors , " her , print her , she ' mad
+PRON && AUX NUM ADP DET ADJ ADJ NOUN CCONJ PRON VERB DET NOUN PUNCT NOUN PUNCT PUNCT PRON PUNCT VERB PRON PUNCT PRON VERB ADJ
+you were one of the best female poets and i told && the publishers , editors , " her , print her , she ' mad
+PRON AUX NUM ADP DET ADJ ADJ NOUN CCONJ PRON VERB && DET NOUN PUNCT NOUN PUNCT PUNCT PRON PUNCT VERB PRON PUNCT PRON VERB ADJ
+you were one of the && best female poets and i told the publishers , editors , " her , print her , she ' mad
+PRON AUX NUM ADP DET && ADJ ADJ NOUN CCONJ PRON VERB DET NOUN PUNCT NOUN PUNCT PUNCT PRON PUNCT VERB PRON PUNCT PRON VERB ADJ
+there ' no lie in && her fire .
+PRON PUNCT DET NOUN ADP && DET NOUN PUNCT
+" i loved you && like a man loves a woman he never touches , only writes to , keeps little photographs of .
+PUNCT PRON VERB PRON && SCONJ DET NOUN VERB DET NOUN PRON ADV VERB PUNCT ADV VERB PART PUNCT VERB ADJ NOUN ADP PUNCT
+" i loved you like a man loves a woman he never && touches , only writes to , keeps little photographs of .
+PUNCT PRON VERB PRON SCONJ DET NOUN VERB DET NOUN PRON ADV && VERB PUNCT ADV VERB PART PUNCT VERB ADJ NOUN ADP PUNCT
+" i loved you like a man loves a woman he never touches , only && writes to , keeps little photographs of .
+PUNCT PRON VERB PRON SCONJ DET NOUN VERB DET NOUN PRON ADV VERB PUNCT ADV && VERB PART PUNCT VERB ADJ NOUN ADP PUNCT
+" i loved you like a && man loves a woman he never touches , only writes to , keeps little photographs of .
+PUNCT PRON VERB PRON SCONJ DET && NOUN VERB DET NOUN PRON ADV VERB PUNCT ADV VERB PART PUNCT VERB ADJ NOUN ADP PUNCT
+i would have loved you more if i had sat in a small room rolling a cigarette and && listened to you piss in the bathroom , but that didn ' happen .
+PRON VERB AUX VERB PRON ADV SCONJ PRON AUX VERB ADP DET ADJ NOUN VERB DET NOUN CCONJ && VERB ADP PRON VERB ADP DET NOUN PUNCT CCONJ SCONJ PROPN PUNCT VERB PUNCT
+i would have loved you && more if i had sat in a small room rolling a cigarette and listened to you piss in the bathroom , but that didn ' happen .
+PRON VERB AUX VERB PRON && ADV SCONJ PRON AUX VERB ADP DET ADJ NOUN VERB DET NOUN CCONJ VERB ADP PRON VERB ADP DET NOUN PUNCT CCONJ SCONJ PROPN PUNCT VERB PUNCT
+i would have loved you more if i had sat in && a small room rolling a cigarette and listened to you piss in the bathroom , but that didn ' happen .
+PRON VERB AUX VERB PRON ADV SCONJ PRON AUX VERB ADP && DET ADJ NOUN VERB DET NOUN CCONJ VERB ADP PRON VERB ADP DET NOUN PUNCT CCONJ SCONJ PROPN PUNCT VERB PUNCT
+i would have loved you more if i had sat in a small room rolling a cigarette and listened to you piss in the && bathroom , but that didn ' happen .
+PRON VERB AUX VERB PRON ADV SCONJ PRON AUX VERB ADP DET ADJ NOUN VERB DET NOUN CCONJ VERB ADP PRON VERB ADP DET && NOUN PUNCT CCONJ SCONJ PROPN PUNCT VERB PUNCT
+i would have && loved you more if i had sat in a small room rolling a cigarette and listened to you piss in the bathroom , but that didn ' happen .
+PRON VERB AUX && VERB PRON ADV SCONJ PRON AUX VERB ADP DET ADJ NOUN VERB DET NOUN CCONJ VERB ADP PRON VERB ADP DET NOUN PUNCT CCONJ SCONJ PROPN PUNCT VERB PUNCT
+i would have loved you more if i had sat in a && small room rolling a cigarette and listened to you piss in the bathroom , but that didn ' happen .
+PRON VERB AUX VERB PRON ADV SCONJ PRON AUX VERB ADP DET && ADJ NOUN VERB DET NOUN CCONJ VERB ADP PRON VERB ADP DET NOUN PUNCT CCONJ SCONJ PROPN PUNCT VERB PUNCT
+i would have loved you more if i had && sat in a small room rolling a cigarette and listened to you piss in the bathroom , but that didn ' happen .
+PRON VERB AUX VERB PRON ADV SCONJ PRON AUX && VERB ADP DET ADJ NOUN VERB DET NOUN CCONJ VERB ADP PRON VERB ADP DET NOUN PUNCT CCONJ SCONJ PROPN PUNCT VERB PUNCT
+your lovers betrayed you && .
+DET NOUN VERB PRON && PUNCT
+kid , i wrote && back , all lovers betray .
+PROPN PUNCT PRON VERB && ADV PUNCT DET NOUN VERB PUNCT
+kid , i wrote back , all && lovers betray .
+PROPN PUNCT PRON VERB ADV PUNCT DET && NOUN VERB PUNCT
+you && said you had a crying bench
+PRON && VERB PRON AUX DET NOUN NOUN
+you said you had a && crying bench
+PRON VERB PRON AUX DET && NOUN NOUN
+you said && you had a crying bench
+PRON VERB && PRON AUX DET NOUN NOUN
+you said you had a crying && bench
+PRON VERB PRON AUX DET NOUN && NOUN
+you said you had && a crying bench
+PRON VERB PRON AUX && DET NOUN NOUN
+and && it was by a bridge and the bridge was over a river and you sat on the crying bench every night and wept for the lovers who had hurt and forgotten you .
+CCONJ && PRON AUX ADP DET NOUN CCONJ DET NOUN AUX ADP DET NOUN CCONJ PRON VERB ADP DET NOUN NOUN DET NOUN CCONJ VERB ADP DET NOUN PRON AUX VERB CCONJ VERB PRON PUNCT
+and it was by a bridge and the bridge was over a river and you && sat on the crying bench every night and wept for the lovers who had hurt and forgotten you .
+CCONJ PRON AUX ADP DET NOUN CCONJ DET NOUN AUX ADP DET NOUN CCONJ PRON && VERB ADP DET NOUN NOUN DET NOUN CCONJ VERB ADP DET NOUN PRON AUX VERB CCONJ VERB PRON PUNCT
+and it was by a bridge and the && bridge was over a river and you sat on the crying bench every night and wept for the lovers who had hurt and forgotten you .
+CCONJ PRON AUX ADP DET NOUN CCONJ DET && NOUN AUX ADP DET NOUN CCONJ PRON VERB ADP DET NOUN NOUN DET NOUN CCONJ VERB ADP DET NOUN PRON AUX VERB CCONJ VERB PRON PUNCT
+and it was by a && bridge and the bridge was over a river and you sat on the crying bench every night and wept for the lovers who had hurt and forgotten you .
+CCONJ PRON AUX ADP DET && NOUN CCONJ DET NOUN AUX ADP DET NOUN CCONJ PRON VERB ADP DET NOUN NOUN DET NOUN CCONJ VERB ADP DET NOUN PRON AUX VERB CCONJ VERB PRON PUNCT
+and it was by a bridge and the bridge was over a river and you sat on the crying && bench every night and wept for the lovers who had hurt and forgotten you .
+CCONJ PRON AUX ADP DET NOUN CCONJ DET NOUN AUX ADP DET NOUN CCONJ PRON VERB ADP DET NOUN && NOUN DET NOUN CCONJ VERB ADP DET NOUN PRON AUX VERB CCONJ VERB PRON PUNCT
+and it was by a bridge and the bridge was over a river and you sat on the crying bench every night and wept for the lovers who had && hurt and forgotten you .
+CCONJ PRON AUX ADP DET NOUN CCONJ DET NOUN AUX ADP DET NOUN CCONJ PRON VERB ADP DET NOUN NOUN DET NOUN CCONJ VERB ADP DET NOUN PRON AUX && VERB CCONJ VERB PRON PUNCT
+i wrote back but never && heard again .
+PRON VERB ADV CCONJ ADV && VERB ADV PUNCT
+i wrote && back but never heard again .
+PRON VERB && ADV CCONJ ADV VERB ADV PUNCT
+a friend wrote && me of your suicide 3 or 4 months after it happened .
+DET NOUN VERB && PRON ADP DET NOUN NUM CCONJ NUM NOUN ADP PRON VERB PUNCT
+a && friend wrote me of your suicide 3 or 4 months after it happened .
+DET && NOUN VERB PRON ADP DET NOUN NUM CCONJ NUM NOUN ADP PRON VERB PUNCT
+a friend wrote me of your suicide && 3 or 4 months after it happened .
+DET NOUN VERB PRON ADP DET NOUN && NUM CCONJ NUM NOUN ADP PRON VERB PUNCT
+if i had met you && i would probably have been unfair to you or you to me .
+SCONJ PRON AUX VERB PRON && PRON VERB ADV AUX AUX ADJ ADP PRON CCONJ PRON ADP PRON PUNCT
+if i had met you i would probably have && been unfair to you or you to me .
+SCONJ PRON AUX VERB PRON PRON VERB ADV AUX && AUX ADJ ADP PRON CCONJ PRON ADP PRON PUNCT
+if i had && met you i would probably have been unfair to you or you to me .
+SCONJ PRON AUX && VERB PRON PRON VERB ADV AUX AUX ADJ ADP PRON CCONJ PRON ADP PRON PUNCT
+data/tokenized_enj_pairs/mowing.json
+it was no dream of the gift of idle hours , or easy gold at the hand of fay or elf : anything more than the truth would have seemed too weak && to the earnest love that laid the swale in rows , not without feeble - pointed spikes of flowers ( pale orchises ) , and scared a bright green snake .
+PRON AUX DET NOUN ADP DET NOUN ADP ADJ NOUN PUNCT CCONJ ADJ NOUN ADP DET NOUN ADP PROPN CCONJ PROPN PUNCT PRON ADJ SCONJ DET NOUN VERB AUX VERB ADV ADJ && ADP DET ADJ NOUN DET VERB DET NOUN ADP NOUN PUNCT PART ADP ADJ PUNCT ADJ NOUN ADP NOUN PUNCT PROPN NOUN PUNCT PUNCT CCONJ VERB DET ADJ ADJ NOUN PUNCT
+it was no dream of the gift of idle hours , or easy gold at the hand of fay or elf : anything more than the truth would have seemed too weak to the earnest love that laid the swale in rows , not without feeble - pointed spikes of flowers && ( pale orchises ) , and scared a bright green snake .
+PRON AUX DET NOUN ADP DET NOUN ADP ADJ NOUN PUNCT CCONJ ADJ NOUN ADP DET NOUN ADP PROPN CCONJ PROPN PUNCT PRON ADJ SCONJ DET NOUN VERB AUX VERB ADV ADJ ADP DET ADJ NOUN DET VERB DET NOUN ADP NOUN PUNCT PART ADP ADJ PUNCT ADJ NOUN ADP NOUN && PUNCT PROPN NOUN PUNCT PUNCT CCONJ VERB DET ADJ ADJ NOUN PUNCT
+data/tokenized_enj_pairs/bayonet.json
+what can i do with this bayonet && ?
+PRON VERB PRON AUX ADP DET NOUN && PUNCT
+it was made && in my dream for you .
+PRON AUX VERB && ADP DET NOUN ADP PRON PUNCT
+it was made in my dream && for you .
+PRON AUX VERB ADP DET NOUN && ADP PRON PUNCT
+it was made in my dream for you && .
+PRON AUX VERB ADP DET NOUN ADP PRON && PUNCT
+i was curled fetally && and yet i held a bayonet that was for the earth of your stomach .
+PRON AUX VERB ADV && CCONJ ADV PRON VERB DET NOUN DET AUX ADP DET NOUN ADP DET NOUN PUNCT
+i was curled fetally and yet i held a bayonet && that was for the earth of your stomach .
+PRON AUX VERB ADV CCONJ ADV PRON VERB DET NOUN && DET AUX ADP DET NOUN ADP DET NOUN PUNCT
+it was made && to enter you as you have entered me and to cut the daylight into you and let out your buried heartland , to let out the spoon you have fed me with , to let out the bird that said fuck you , to carve him onto a sculpture until he is white
+PRON AUX VERB && PART VERB PRON SCONJ PRON AUX VERB PRON CCONJ PART VERB DET NOUN ADP PRON CCONJ VERB ADP DET VERB NOUN PUNCT PART VERB ADP DET NOUN PRON AUX VERB PRON ADP PUNCT PART VERB ADP DET NOUN DET VERB VERB PRON PUNCT PART VERB PRON ADP DET NOUN ADP PRON AUX ADJ
+it was made to enter you && as you have entered me and to cut the daylight into you and let out your buried heartland , to let out the spoon you have fed me with , to let out the bird that said fuck you , to carve him onto a sculpture until he is white
+PRON AUX VERB PART VERB PRON && SCONJ PRON AUX VERB PRON CCONJ PART VERB DET NOUN ADP PRON CCONJ VERB ADP DET VERB NOUN PUNCT PART VERB ADP DET NOUN PRON AUX VERB PRON ADP PUNCT PART VERB ADP DET NOUN DET VERB VERB PRON PUNCT PART VERB PRON ADP DET NOUN ADP PRON AUX ADJ
+it was made to enter you as you have entered me && and to cut the daylight into you and let out your buried heartland , to let out the spoon you have fed me with , to let out the bird that said fuck you , to carve him onto a sculpture until he is white
+PRON AUX VERB PART VERB PRON SCONJ PRON AUX VERB PRON && CCONJ PART VERB DET NOUN ADP PRON CCONJ VERB ADP DET VERB NOUN PUNCT PART VERB ADP DET NOUN PRON AUX VERB PRON ADP PUNCT PART VERB ADP DET NOUN DET VERB VERB PRON PUNCT PART VERB PRON ADP DET NOUN ADP PRON AUX ADJ
+it was made to enter you as you have entered me and to cut the daylight into you and let out your buried heartland , to let out the spoon you have fed me with , to let out the bird that said fuck you , to carve him onto a sculpture until he is white && 
+PRON AUX VERB PART VERB PRON SCONJ PRON AUX VERB PRON CCONJ PART VERB DET NOUN ADP PRON CCONJ VERB ADP DET VERB NOUN PUNCT PART VERB ADP DET NOUN PRON AUX VERB PRON ADP PUNCT PART VERB ADP DET NOUN DET VERB VERB PRON PUNCT PART VERB PRON ADP DET NOUN ADP PRON AUX ADJ && 
+but with all the vibrations && of a crucifix .
+CCONJ ADP DET DET NOUN && ADP DET PROPN PUNCT
+data/tokenized_enj_pairs/cradle_song.json
+from groves of spice , o'er fields of rice , athwart the lotus - stream , i bring for you , aglint with dew && a little lovely dream .
+ADP NOUN ADP NOUN PUNCT NOUN NOUN ADP NOUN PUNCT VERB DET NOUN PUNCT PROPN PUNCT PRON VERB ADP PRON PUNCT PROPN ADP NOUN && DET ADJ ADJ NOUN PUNCT
+sweet , shut your eyes , the wild fire - fiies && dance through the fairy neem ;
+ADJ PUNCT VERB DET NOUN PUNCT DET ADJ NOUN PUNCT NOUN && NOUN ADP DET NOUN NOUN PUNCT
+from the poppy - bole && for you i stole a little lovely dream .
+ADP DET NOUN PUNCT NOUN && ADP PRON PRON VERB DET ADJ ADJ NOUN PUNCT
+from the poppy - bole for you i stole && a little lovely dream .
+ADP DET NOUN PUNCT NOUN ADP PRON PRON VERB && DET ADJ ADJ NOUN PUNCT
+dear eyes , good - night , in golden light && the stars around you gleam ; on you i press with soft caress a little lovely dream .
+ADJ NOUN PUNCT ADJ PUNCT NOUN PUNCT ADP ADJ NOUN && DET NOUN ADP PRON ADV PUNCT ADP PRON PRON VERB ADP ADJ NOUN DET ADJ ADJ NOUN PUNCT
+dear eyes , good - night , in golden light the stars around you gleam ; on you i press && with soft caress a little lovely dream .
+ADJ NOUN PUNCT ADJ PUNCT NOUN PUNCT ADP ADJ NOUN DET NOUN ADP PRON ADV PUNCT ADP PRON PRON VERB && ADP ADJ NOUN DET ADJ ADJ NOUN PUNCT
+dear eyes , good - night , in golden light the stars around you gleam ; on you i press with soft caress && a little lovely dream .
+ADJ NOUN PUNCT ADJ PUNCT NOUN PUNCT ADP ADJ NOUN DET NOUN ADP PRON ADV PUNCT ADP PRON PRON VERB ADP ADJ NOUN && DET ADJ ADJ NOUN PUNCT
+data/tokenized_enj_pairs/children.json
+a word will fill the little heart && with pleasure and with pride ; it is a harsh , a cruel thing , that such can be denied .
+DET NOUN VERB VERB DET ADJ NOUN && ADP NOUN CCONJ ADP NOUN PUNCT PRON AUX DET ADJ PUNCT DET ADJ NOUN PUNCT SCONJ ADJ VERB AUX VERB PUNCT
+and yet how many weary hours && those joyous creatures know ; how much of sorrow and restraint they to their elders owe !
+CCONJ ADV ADV ADJ ADJ NOUN && DET ADJ NOUN VERB PUNCT ADV ADJ ADP NOUN CCONJ NOUN PRON ADP DET NOUN VERB PUNCT
+and yet how many weary hours those joyous creatures know ; how much of sorrow and restraint && they to their elders owe !
+CCONJ ADV ADV ADJ ADJ NOUN DET ADJ NOUN VERB PUNCT ADV ADJ ADP NOUN CCONJ NOUN && PRON ADP DET NOUN VERB PUNCT
+how often , too , mistaken zeal && an infant 's misery makes !
+ADV ADV PUNCT ADV PUNCT ADJ VERB && DET NOUN PART NOUN VERB PUNCT
+we overrule and overteach , we curb and we confine , and put the heart && to school too soon , to learn our narrow line .
+PRON VERB CCONJ VERB PUNCT PRON VERB CCONJ PRON VERB PUNCT CCONJ VERB DET NOUN && ADP NOUN ADV ADV PUNCT PART VERB DET ADJ NOUN PUNCT
+data/tokenized_enj_pairs/america.json
+although she feeds me bread of bitterness , and sinks into my throat her tiger 's tooth , stealing my breath of life , i will confess && i love this cultured hell that tests my youth !
+SCONJ PRON VERB PRON NOUN ADP NOUN PUNCT CCONJ VERB ADP DET NOUN DET NOUN PART NOUN PUNCT VERB DET NOUN ADP NOUN PUNCT PRON VERB VERB && PRON VERB DET ADJ NOUN DET VERB DET NOUN PUNCT
+yet as a rebel fronts a king in state , i stand within her walls with not a shred && of terror , malice , not a word of jeer .
+ADV SCONJ DET NOUN VERB DET NOUN ADP NOUN PUNCT PRON VERB ADP DET NOUN ADP PART DET NOUN && ADP NOUN PUNCT NOUN PUNCT PART DET NOUN ADP NOUN PUNCT
+data/tokenized_enj_pairs/meeting_and_passing.json
+as i went down the hill along the wall && there was a gate i had leaned at for the view and had just turned from when i first saw you as you came up the hill .
+SCONJ PRON VERB ADP DET NOUN ADP DET NOUN && PRON AUX DET NOUN PRON AUX VERB ADP ADP DET NOUN CCONJ AUX ADV VERB ADP ADV PRON ADV VERB PRON SCONJ PRON VERB ADP DET NOUN PUNCT
+as i went down the hill along the wall there was a gate i had leaned at for the view && and had just turned from when i first saw you as you came up the hill .
+SCONJ PRON VERB ADP DET NOUN ADP DET NOUN PRON AUX DET NOUN PRON AUX VERB ADP ADP DET NOUN && CCONJ AUX ADV VERB ADP ADV PRON ADV VERB PRON SCONJ PRON VERB ADP DET NOUN PUNCT
+as i went down the hill along the wall there was a gate i had leaned at for the view and had just turned from when i first saw you && as you came up the hill .
+SCONJ PRON VERB ADP DET NOUN ADP DET NOUN PRON AUX DET NOUN PRON AUX VERB ADP ADP DET NOUN CCONJ AUX ADV VERB ADP ADV PRON ADV VERB PRON && SCONJ PRON VERB ADP DET NOUN PUNCT
+but all && we did that day was mingle great and small footprints in summer dust as if we drew the figure of our being less than two but more than one as yet .
+CCONJ DET && PRON AUX DET NOUN AUX VERB ADJ CCONJ ADJ NOUN ADP NOUN NOUN SCONJ SCONJ PRON VERB DET NOUN ADP DET AUX ADJ SCONJ NUM CCONJ ADJ SCONJ NOUN ADV ADV PUNCT
+but all we did that day was mingle great and small && footprints in summer dust as if we drew the figure of our being less than two but more than one as yet .
+CCONJ DET PRON AUX DET NOUN AUX VERB ADJ CCONJ ADJ && NOUN ADP NOUN NOUN SCONJ SCONJ PRON VERB DET NOUN ADP DET AUX ADJ SCONJ NUM CCONJ ADJ SCONJ NOUN ADV ADV PUNCT
+but all we did that day was mingle great and small footprints in summer dust as if we drew && the figure of our being less than two but more than one as yet .
+CCONJ DET PRON AUX DET NOUN AUX VERB ADJ CCONJ ADJ NOUN ADP NOUN NOUN SCONJ SCONJ PRON VERB && DET NOUN ADP DET AUX ADJ SCONJ NUM CCONJ ADJ SCONJ NOUN ADV ADV PUNCT
+but all we did that day was mingle great and small footprints in summer dust as if we drew the figure of our being less than two && but more than one as yet .
+CCONJ DET PRON AUX DET NOUN AUX VERB ADJ CCONJ ADJ NOUN ADP NOUN NOUN SCONJ SCONJ PRON VERB DET NOUN ADP DET AUX ADJ SCONJ NUM && CCONJ ADJ SCONJ NOUN ADV ADV PUNCT
+your parasol && pointed the decimal off with one deep thrust .
+DET NOUN && VERB DET NOUN ADP ADP NUM ADJ NOUN PUNCT
+and all the time we talked you && seemed to see something down there to smile at in the dust .
+CCONJ DET DET NOUN PRON VERB PRON && VERB PART VERB PRON ADV ADV PART VERB ADP ADP DET NOUN PUNCT
+and all && the time we talked you seemed to see something down there to smile at in the dust .
+CCONJ DET && DET NOUN PRON VERB PRON VERB PART VERB PRON ADV ADV PART VERB ADP ADP DET NOUN PUNCT
+and all the time we talked you seemed to see && something down there to smile at in the dust .
+CCONJ DET DET NOUN PRON VERB PRON VERB PART VERB && PRON ADV ADV PART VERB ADP ADP DET NOUN PUNCT
+afterward i went past what you && had passed before we met
+ADV PRON VERB ADP PRON PRON && AUX VERB ADP PRON VERB
+afterward i went past what you had passed && before we met
+ADV PRON VERB ADP PRON PRON AUX VERB && ADP PRON VERB
+and you && what i had passed .
+CCONJ PRON && PRON PRON AUX VERB PUNCT
+and you what i had passed && .
+CCONJ PRON PRON PRON AUX VERB && PUNCT
+data/tokenized_enj_pairs/snowdrops.json
+do you know && what i was , how i lived ?  
+AUX PRON VERB && PRON PRON AUX PUNCT ADV PRON VERB PUNCT SPACE
+you know && what despair is ; then winter should have meaning for you .
+PRON VERB && PRON NOUN AUX PUNCT ADV NOUN VERB AUX NOUN ADP PRON PUNCT
+you know what despair is ; then && winter should have meaning for you .
+PRON VERB PRON NOUN AUX PUNCT ADV && NOUN VERB AUX NOUN ADP PRON PUNCT
+i did not expect && to survive , earth suppressing me .
+PRON AUX PART VERB && PART VERB PUNCT NOUN VERB PRON PUNCT
+i did n't expect && to waken again , to feel in damp earth my body able to respond again , remembering after so long how to open again in the cold light of earliest spring-- afraid , yes ,
+PRON AUX PART VERB && ADP VERB ADV PUNCT PART VERB ADP ADJ NOUN DET NOUN ADJ PART VERB ADV PUNCT VERB ADP ADV ADV ADV PART VERB ADV ADP DET ADJ NOUN ADP ADJ PROPN ADJ PUNCT INTJ PUNCT
+i did n't expect to waken again , to feel && in damp earth my body able to respond again , remembering after so long how to open again in the cold light of earliest spring-- afraid , yes ,
+PRON AUX PART VERB ADP VERB ADV PUNCT PART VERB && ADP ADJ NOUN DET NOUN ADJ PART VERB ADV PUNCT VERB ADP ADV ADV ADV PART VERB ADV ADP DET ADJ NOUN ADP ADJ PROPN ADJ PUNCT INTJ PUNCT
+i did n't expect to waken again , to feel in damp earth my body && able to respond again , remembering after so long how to open again in the cold light of earliest spring-- afraid , yes ,
+PRON AUX PART VERB ADP VERB ADV PUNCT PART VERB ADP ADJ NOUN DET NOUN && ADJ PART VERB ADV PUNCT VERB ADP ADV ADV ADV PART VERB ADV ADP DET ADJ NOUN ADP ADJ PROPN ADJ PUNCT INTJ PUNCT
+i did n't expect to waken again , to feel in damp earth my body able to respond again , remembering && after so long how to open again in the cold light of earliest spring-- afraid , yes ,
+PRON AUX PART VERB ADP VERB ADV PUNCT PART VERB ADP ADJ NOUN DET NOUN ADJ PART VERB ADV PUNCT VERB && ADP ADV ADV ADV PART VERB ADV ADP DET ADJ NOUN ADP ADJ PROPN ADJ PUNCT INTJ PUNCT
+i did n't expect to waken again && , to feel in damp earth my body able to respond again , remembering after so long how to open again in the cold light of earliest spring-- afraid , yes ,
+PRON AUX PART VERB ADP VERB ADV && PUNCT PART VERB ADP ADJ NOUN DET NOUN ADJ PART VERB ADV PUNCT VERB ADP ADV ADV ADV PART VERB ADV ADP DET ADJ NOUN ADP ADJ PROPN ADJ PUNCT INTJ PUNCT
+i did n't expect to waken again , to feel in damp earth my body able to respond again , remembering after so long how to open again in the cold light && of earliest spring-- afraid , yes ,
+PRON AUX PART VERB ADP VERB ADV PUNCT PART VERB ADP ADJ NOUN DET NOUN ADJ PART VERB ADV PUNCT VERB ADP ADV ADV ADV PART VERB ADV ADP DET ADJ NOUN && ADP ADJ PROPN ADJ PUNCT INTJ PUNCT
+but among you again && crying yes risk joy in the raw wind of the new world .
+CCONJ ADP PRON ADV && VERB INTJ NOUN NOUN ADP DET ADJ NOUN ADP DET ADJ NOUN PUNCT
+but among you again crying yes risk joy && in the raw wind of the new world .
+CCONJ ADP PRON ADV VERB INTJ NOUN NOUN && ADP DET ADJ NOUN ADP DET ADJ NOUN PUNCT
+data/tokenized_enj_pairs/absence.json
+oh deeper than all these ties && now , through the menacing miles , brooding between us lies .
+INTJ ADJ SCONJ DET DET NOUN && ADV PUNCT ADP DET ADJ NOUN PUNCT VERB ADP PRON NOUN PUNCT
+data/tokenized_enj_pairs/canal_bank_walk.json
+leafy - with - love banks and the green waters of the canal && pouring redemption for me , that i do the will of god , wallow in the habitual , the banal , grow with nature again as before i grew .
+ADJ PUNCT ADP PUNCT NOUN NOUN CCONJ DET ADJ NOUN ADP DET NOUN && VERB NOUN ADP PRON PUNCT SCONJ PRON AUX DET NOUN ADP PROPN PUNCT NOUN ADP DET NOUN PUNCT DET ADJ PUNCT VERB ADP NOUN ADV SCONJ ADP PRON VERB PUNCT
+leafy - with - love banks and the green waters of the canal pouring redemption for me , that i do && the will of god , wallow in the habitual , the banal , grow with nature again as before i grew .
+ADJ PUNCT ADP PUNCT NOUN NOUN CCONJ DET ADJ NOUN ADP DET NOUN VERB NOUN ADP PRON PUNCT SCONJ PRON AUX && DET NOUN ADP PROPN PUNCT NOUN ADP DET NOUN PUNCT DET ADJ PUNCT VERB ADP NOUN ADV SCONJ ADP PRON VERB PUNCT
+the bright stick trapped , the breeze adding a third && party to the couple kissing on an old seat , and a bird gathering materials for the nest for the word eloquently new and abandoned to its delirious beat .
+DET ADJ NOUN VERB PUNCT DET NOUN VERB DET ADJ && NOUN ADP DET NOUN VERB ADP DET ADJ NOUN PUNCT CCONJ DET NOUN VERB NOUN ADP DET NOUN ADP DET NOUN ADV ADJ CCONJ VERB ADP DET ADJ NOUN PUNCT
+o unworn world enrapture me , encapture me in a web && of fabulous grass and eternal voices by a beech , feed the gaping need of my senses , give me ad lib to pray unselfconsciously with overflowing speech for this soul needs to be honoured with a new dress woven   from green and blue things and arguments that can not be proven .
+INTJ ADJ NOUN VERB PRON PUNCT PROPN PRON ADP DET NOUN && ADP ADJ NOUN CCONJ ADJ NOUN ADP DET NOUN PUNCT VERB DET VERB NOUN ADP DET NOUN PUNCT VERB PRON NOUN NOUN PART VERB ADV ADP VERB NOUN ADP DET NOUN VERB PART AUX VERB ADP DET ADJ NOUN VERB SPACE ADP ADJ CCONJ ADJ NOUN CCONJ NOUN DET VERB PART AUX VERB PUNCT
+o unworn world enrapture me , encapture me in a web of fabulous grass and eternal voices by a beech , feed the gaping need of my senses , give me ad lib && to pray unselfconsciously with overflowing speech for this soul needs to be honoured with a new dress woven   from green and blue things and arguments that can not be proven .
+INTJ ADJ NOUN VERB PRON PUNCT PROPN PRON ADP DET NOUN ADP ADJ NOUN CCONJ ADJ NOUN ADP DET NOUN PUNCT VERB DET VERB NOUN ADP DET NOUN PUNCT VERB PRON NOUN NOUN && PART VERB ADV ADP VERB NOUN ADP DET NOUN VERB PART AUX VERB ADP DET ADJ NOUN VERB SPACE ADP ADJ CCONJ ADJ NOUN CCONJ NOUN DET VERB PART AUX VERB PUNCT
+o unworn world enrapture me , encapture me in a web of fabulous grass and eternal voices by a beech , feed the gaping need of my senses , give me ad lib to pray unselfconsciously with overflowing speech && for this soul needs to be honoured with a new dress woven   from green and blue things and arguments that can not be proven .
+INTJ ADJ NOUN VERB PRON PUNCT PROPN PRON ADP DET NOUN ADP ADJ NOUN CCONJ ADJ NOUN ADP DET NOUN PUNCT VERB DET VERB NOUN ADP DET NOUN PUNCT VERB PRON NOUN NOUN PART VERB ADV ADP VERB NOUN && ADP DET NOUN VERB PART AUX VERB ADP DET ADJ NOUN VERB SPACE ADP ADJ CCONJ ADJ NOUN CCONJ NOUN DET VERB PART AUX VERB PUNCT
+data/tokenized_enj_pairs/at_a_lunar_eclipse.json
+thy shadow , earth , from pole to central sea , now steals along upon the moon 's meek shine && in even monochrome and curving line of imperturbable serenity .
+DET NOUN PUNCT NOUN PUNCT ADP NOUN ADP PROPN PROPN PUNCT ADV VERB ADP SCONJ DET NOUN PART ADJ NOUN && ADP ADJ NOUN CCONJ ADJ NOUN ADP ADJ NOUN PUNCT
+thy shadow , earth , from pole to central sea , now steals along upon the moon 's meek shine in even monochrome and curving line && of imperturbable serenity .
+DET NOUN PUNCT NOUN PUNCT ADP NOUN ADP PROPN PROPN PUNCT ADV VERB ADP SCONJ DET NOUN PART ADJ NOUN ADP ADJ NOUN CCONJ ADJ NOUN && ADP ADJ NOUN PUNCT
+how shall i link such sun - cast symmetry && with the torn troubled form i know as thine , that profile , placid as a brow divine , with continents of moil and misery ?
+ADV VERB PRON VERB ADJ NOUN PUNCT NOUN NOUN && ADP DET VERB ADJ NOUN PRON VERB SCONJ PRON PUNCT DET NOUN PUNCT ADJ SCONJ DET NOUN NOUN PUNCT ADP NOUN ADP NOUN CCONJ NOUN PUNCT
+and can immense mortality but throw && so small a shade , and
+CCONJ VERB ADJ NOUN CCONJ VERB && ADV ADJ DET NOUN PUNCT CCONJ
+heaven 's high human scheme && be hemmed within the coasts yon arc implies ?
+PROPN PART ADJ ADJ NOUN && AUX VERB ADP DET NOUN PRON PROPN VERB PUNCT
+data/tokenized_enj_pairs/the_lynching.json
+all night a bright and solitary star && ( perchance the one that ever guided him , yet gave him up at last to fate 's wild whim ) hung
+DET NOUN DET ADJ CCONJ ADJ NOUN && PUNCT VERB DET NOUN DET ADV VERB PRON PUNCT ADV VERB PRON ADP ADP ADV ADP PROPN PART ADJ NOUN PUNCT VERB
+all night a bright and solitary star ( perchance the one && that ever guided him , yet gave him up at last to fate 's wild whim ) hung
+DET NOUN DET ADJ CCONJ ADJ NOUN PUNCT VERB DET NOUN && DET ADV VERB PRON PUNCT ADV VERB PRON ADP ADP ADV ADP PROPN PART ADJ NOUN PUNCT VERB
+day dawned , and soon the mixed crowds came to view && the ghastly body swaying in the sun
+NOUN VERB PUNCT CCONJ ADV DET ADJ NOUN VERB PART VERB && DET ADJ NOUN VERB ADP DET NOUN
+: the women thronged to look , but never a one && showed sorrow in her eyes of steely blue ; and little lads , lynchers that were to be , danced round the dreadful thing in fiendish glee .
+PUNCT DET NOUN VERB PART VERB PUNCT CCONJ ADV DET NOUN && VERB NOUN ADP DET NOUN ADP ADV ADJ PUNCT CCONJ ADJ NOUN PUNCT NOUN DET AUX PART AUX PUNCT VERB ADP DET ADJ NOUN ADP ADJ NOUN PUNCT
+data/tokenized_enj_pairs/bric-a-brac.json
+little morals , woven out , little wreaths of gilded grass , little brigs of whittled oak && bottled painfully in glass ; these are made by lonely folk .
+ADJ NOUN PUNCT VERB ADP PUNCT ADJ NOUN ADP VERB NOUN PUNCT ADJ NOUN ADP ADJ NOUN && VERB ADV ADP NOUN PUNCT DET AUX VERB ADP ADJ NOUN PUNCT
+lonely folk have lines of days && long and faltering and thin ; therefore -- little wax bouquets , prayers cut upon a pin , little maps of pinkish lands , little charts of curly seas , little plats of linen strands , little verses , such as these .
+ADJ NOUN AUX NOUN ADP NOUN && ADJ CCONJ ADJ CCONJ ADJ PUNCT ADV PUNCT ADJ NOUN NOUN PUNCT NOUN VERB SCONJ DET NOUN PUNCT ADJ NOUN ADP ADJ NOUN PUNCT ADJ NOUN ADP ADJ NOUN PUNCT ADJ NOUN ADP NOUN NOUN PUNCT ADJ NOUN PUNCT ADJ SCONJ DET PUNCT
+data/tokenized_enj_pairs/if_we_must_die.json
+if we must die , let it not be like hogs && hunted and penned in an inglorious spot , while round us bark the mad and hungry dogs , making their mock at our accursèd lot .
+SCONJ PRON VERB VERB PUNCT VERB PRON PART AUX SCONJ NOUN && VERB CCONJ VERB ADP DET ADJ NOUN PUNCT SCONJ ADP PRON NOUN DET ADJ CCONJ ADJ NOUN PUNCT VERB DET NOUN ADP DET PROPN NOUN PUNCT
+if we must die , o let us nobly die , so that our precious blood may not be shed && in vain ; then even the monsters we defy shall be constrained to honor us though dead !
+SCONJ PRON VERB VERB PUNCT INTJ VERB PRON ADV VERB PUNCT SCONJ SCONJ DET ADJ NOUN VERB PART AUX VERB && ADP ADJ PUNCT ADV ADV DET NOUN PRON VERB VERB AUX VERB PART VERB PRON ADV ADJ PUNCT
+if we must die , o let us nobly die , so that our precious blood may not be shed in vain ; then even the monsters we defy && shall be constrained to honor us though dead !
+SCONJ PRON VERB VERB PUNCT INTJ VERB PRON ADV VERB PUNCT SCONJ SCONJ DET ADJ NOUN VERB PART AUX VERB ADP ADJ PUNCT ADV ADV DET NOUN PRON VERB && VERB AUX VERB PART VERB PRON ADV ADJ PUNCT
+data/tokenized_enj_pairs/admonition.json
+if you dissect a bird && to diagram the tongue you 'll cut the chord articulating song .
+SCONJ PRON VERB DET NOUN && PART VERB DET NOUN PRON VERB VERB DET NOUN NOUN NOUN PUNCT
+if you dissect a bird to diagram the tongue && you 'll cut the chord articulating song .
+SCONJ PRON VERB DET NOUN PART VERB DET NOUN && PRON VERB VERB DET NOUN NOUN NOUN PUNCT
+if you dissect a bird to diagram the tongue you 'll cut the chord && articulating song .
+SCONJ PRON VERB DET NOUN PART VERB DET NOUN PRON VERB VERB DET NOUN && NOUN NOUN PUNCT
+if you flay a beast && to marvel at the mane you 'll wreck the rest from which the fur began .
+SCONJ PRON VERB DET NOUN && PART VERB ADP DET NOUN PRON VERB VERB DET NOUN ADP DET DET NOUN VERB PUNCT
+if you flay a beast to marvel at the mane && you 'll wreck the rest from which the fur began .
+SCONJ PRON VERB DET NOUN PART VERB ADP DET NOUN && PRON VERB VERB DET NOUN ADP DET DET NOUN VERB PUNCT
+if you flay a beast to marvel at the mane you 'll wreck the rest && from which the fur began .
+SCONJ PRON VERB DET NOUN PART VERB ADP DET NOUN PRON VERB VERB DET NOUN && ADP DET DET NOUN VERB PUNCT
+if you pluck out the heart && to find what makes it move , you 'll halt the clock that syncopates our love .
+SCONJ PRON VERB ADP DET NOUN && PART VERB PRON VERB PRON VERB PUNCT PRON VERB VERB DET NOUN DET VERB DET NOUN PUNCT
+if you pluck out the heart to find what makes it move , you 'll halt the clock && that syncopates our love .
+SCONJ PRON VERB ADP DET NOUN PART VERB PRON VERB PRON VERB PUNCT PRON VERB VERB DET NOUN && DET VERB DET NOUN PUNCT
+data/tokenized_enj_pairs/mr_mine.json
+notice how he has numbered the blue veins && in my breast .
+VERB ADV PRON AUX VERB DET ADJ NOUN && ADP DET NOUN PUNCT
+he has starved in cellars && and , ladies and gentlemen , he 's been broken by iron , by the blood , by the metal , by the triumphant iron of his mother 's death .
+PRON AUX VERB ADP NOUN && CCONJ PUNCT NOUN CCONJ NOUN PUNCT PRON AUX AUX VERB ADP NOUN PUNCT ADP DET NOUN PUNCT ADP DET NOUN PUNCT ADP DET ADJ NOUN ADP DET NOUN PART NOUN PUNCT
+he has starved in cellars and , ladies and gentlemen , he 's been broken by iron , by the blood , by the metal , by the triumphant && iron of his mother 's death .
+PRON AUX VERB ADP NOUN CCONJ PUNCT NOUN CCONJ NOUN PUNCT PRON AUX AUX VERB ADP NOUN PUNCT ADP DET NOUN PUNCT ADP DET NOUN PUNCT ADP DET ADJ && NOUN ADP DET NOUN PART NOUN PUNCT
+for traffic lights he handed at red and green && lollipops .
+ADP NOUN NOUN PRON VERB ADP ADJ CCONJ ADJ && NOUN PUNCT
+data/tokenized_enj_pairs/her_voice.json
+the wild bee reels from bough && to bough with his furry coat and his gauzy wing .
+DET ADJ PROPN NOUN ADP ADJ && ADP VERB ADP DET ADJ NOUN CCONJ DET PROPN NOUN PUNCT
+now && in a lily - cup , and now setting a jacinth bell a - swing , in his wandering ; sit closer love : it was here
+ADV && ADP DET NOUN PUNCT NOUN PUNCT CCONJ ADV VERB DET PROPN PROPN PROPN PUNCT NOUN PUNCT ADP DET NOUN PUNCT VERB ADV NOUN PUNCT PRON AUX ADV
+i trow && 
+PRON VERB && 
+i made that vow , swore that two lives should be like one && as long as the sea - gull loved the sea , as long as the sunflower sought the sun,--
+PRON VERB DET NOUN PUNCT VERB SCONJ NUM NOUN VERB AUX SCONJ NOUN && ADV ADV SCONJ DET NOUN PUNCT NOUN VERB DET NOUN PUNCT ADV ADV SCONJ DET NOUN VERB DET X
+i made that vow , swore that two lives should be && like one as long as the sea - gull loved the sea , as long as the sunflower sought the sun,--
+PRON VERB DET NOUN PUNCT VERB SCONJ NUM NOUN VERB AUX && SCONJ NOUN ADV ADV SCONJ DET NOUN PUNCT NOUN VERB DET NOUN PUNCT ADV ADV SCONJ DET NOUN VERB DET X
+i made that vow , swore that two && lives should be like one as long as the sea - gull loved the sea , as long as the sunflower sought the sun,--
+PRON VERB DET NOUN PUNCT VERB SCONJ NUM && NOUN VERB AUX SCONJ NOUN ADV ADV SCONJ DET NOUN PUNCT NOUN VERB DET NOUN PUNCT ADV ADV SCONJ DET NOUN VERB DET X
+it shall be , i said , for eternity && ' twixt you and me !
+PRON VERB AUX PUNCT PRON VERB PUNCT ADP NOUN && PUNCT NOUN PRON CCONJ PRON PUNCT
+it shall be && , i said , for eternity ' twixt you and me !
+PRON VERB AUX && PUNCT PRON VERB PUNCT ADP NOUN PUNCT NOUN PRON CCONJ PRON PUNCT
+look upward where the poplar trees && sway and sway in the summer air , here in the valley never a breeze scatters the thistledown , but there great winds blow fair from the mighty murmuring mystical seas , and the wave - lashed leas .
+VERB ADV ADV DET ADJ NOUN && VERB CCONJ VERB ADP DET NOUN NOUN PUNCT ADV ADP DET NOUN ADV DET NOUN VERB DET NOUN PUNCT CCONJ PRON ADJ NOUN VERB NOUN ADP DET ADJ VERB ADJ NOUN PUNCT CCONJ DET NOUN PUNCT VERB NOUN PUNCT
+look upward where the poplar trees sway and sway in the summer air , here in the valley never a breeze && scatters the thistledown , but there great winds blow fair from the mighty murmuring mystical seas , and the wave - lashed leas .
+VERB ADV ADV DET ADJ NOUN VERB CCONJ VERB ADP DET NOUN NOUN PUNCT ADV ADP DET NOUN ADV DET NOUN && VERB DET NOUN PUNCT CCONJ PRON ADJ NOUN VERB NOUN ADP DET ADJ VERB ADJ NOUN PUNCT CCONJ DET NOUN PUNCT VERB NOUN PUNCT
+look upward where the poplar trees sway and sway in the summer air , here in the valley never a breeze scatters the thistledown , but there && great winds blow fair from the mighty murmuring mystical seas , and the wave - lashed leas .
+VERB ADV ADV DET ADJ NOUN VERB CCONJ VERB ADP DET NOUN NOUN PUNCT ADV ADP DET NOUN ADV DET NOUN VERB DET NOUN PUNCT CCONJ PRON && ADJ NOUN VERB NOUN ADP DET ADJ VERB ADJ NOUN PUNCT CCONJ DET NOUN PUNCT VERB NOUN PUNCT
+look upward where the poplar trees sway and sway in the summer air , here in the valley never a breeze scatters the thistledown , but there great winds blow fair && from the mighty murmuring mystical seas , and the wave - lashed leas .
+VERB ADV ADV DET ADJ NOUN VERB CCONJ VERB ADP DET NOUN NOUN PUNCT ADV ADP DET NOUN ADV DET NOUN VERB DET NOUN PUNCT CCONJ PRON ADJ NOUN VERB NOUN && ADP DET ADJ VERB ADJ NOUN PUNCT CCONJ DET NOUN PUNCT VERB NOUN PUNCT
+look upward where the white gull screams , what does it see that we do && not see ?
+VERB ADV ADV DET ADJ PROPN VERB PUNCT PRON AUX PRON VERB SCONJ PRON AUX && PART VERB PUNCT
+or the lamp that gleams && on some outward voyaging
+CCONJ DET NOUN DET VERB && ADP DET ADJ NOUN
+can it be && we have lived our lives in a land of dreams !
+VERB PRON AUX && PRON AUX VERB DET NOUN ADP DET NOUN ADP NOUN PUNCT
+sweet , there && is nothing left to say
+ADJ PUNCT PRON && AUX PRON VERB PART VERB
+sweet , there is nothing left to say && 
+ADJ PUNCT PRON AUX PRON VERB PART VERB && 
+whose crimson roses burst his frost , ships tempest - tossed && will find a harbour in some bay , and so we may .
+DET NOUN NOUN VERB DET NOUN PUNCT NOUN NOUN PUNCT VERB && VERB VERB DET NOUN ADP DET NOUN PUNCT CCONJ ADV PRON VERB PUNCT
+and there && is nothing left to do but to kiss once again , and part , nay , there is nothing we should rue
+CCONJ PRON && AUX PRON VERB PART AUX CCONJ PART VERB ADV ADV PUNCT CCONJ NOUN PUNCT NOUN PUNCT PRON AUX PRON PRON VERB VERB
+and there is nothing left to do && but to kiss once again , and part , nay , there is nothing we should rue
+CCONJ PRON AUX PRON VERB PART AUX && CCONJ PART VERB ADV ADV PUNCT CCONJ NOUN PUNCT NOUN PUNCT PRON AUX PRON PRON VERB VERB
+, nay , do not start , one && world was not enough for two like me and you .
+PUNCT PROPN PUNCT AUX PART VERB PUNCT NUM && NOUN AUX PART ADJ ADP NUM SCONJ PRON CCONJ PRON PUNCT
+, nay , do && not start , one world was not enough for two like me and you .
+PUNCT PROPN PUNCT AUX && PART VERB PUNCT NUM NOUN AUX PART ADJ ADP NUM SCONJ PRON CCONJ PRON PUNCT
+, nay , do not start , one world was not enough for two && like me and you .
+PUNCT PROPN PUNCT AUX PART VERB PUNCT NUM NOUN AUX PART ADJ ADP NUM && SCONJ PRON CCONJ PRON PUNCT
+data/tokenized_enj_pairs/god.json
+i am god — without one friend , alone in my purity && world without end .
+PRON AUX PROPN PUNCT ADP NUM NOUN PUNCT ADV ADP DET NOUN && NOUN ADP NOUN PUNCT
+below me young lovers && tread the sweet ground — but i am god — i can not come down .
+ADP PRON ADJ NOUN && VERB DET ADJ NOUN PUNCT CCONJ PRON AUX PROPN PUNCT PRON VERB PART VERB ADP PUNCT
+better to be human && than god — and lonely .
+ADJ PART AUX ADJ && SCONJ PROPN PUNCT CCONJ ADJ PUNCT
+data/tokenized_enj_pairs/we_are_getting_to_the_end.json
+we are getting to the end of visioning && the impossible within this universe , such as that better whiles may follow worse , and that our race may mend by reasoning .
+PRON AUX VERB ADP DET NOUN ADP VERB && DET ADJ ADP DET NOUN PUNCT ADJ SCONJ SCONJ ADJ NOUN VERB VERB ADV PUNCT CCONJ SCONJ DET NOUN VERB VERB ADP VERB PUNCT
+we know that even as larks in cages sing && unthoughtful of deliverance from the curse that holds them lifelong in a latticed hearse , we ply spasmodically our pleasuring .
+PRON VERB SCONJ ADV SCONJ NOUN ADP NOUN VERB && ADJ ADP NOUN ADP DET NOUN DET VERB PRON ADJ ADP DET ADJ NOUN PUNCT PRON VERB ADV DET NOUN PUNCT
+we know that even as larks in cages sing unthoughtful of deliverance from the curse && that holds them lifelong in a latticed hearse , we ply spasmodically our pleasuring .
+PRON VERB SCONJ ADV SCONJ NOUN ADP NOUN VERB ADJ ADP NOUN ADP DET NOUN && DET VERB PRON ADJ ADP DET ADJ NOUN PUNCT PRON VERB ADV DET NOUN PUNCT
+and that when nations set them to lay waste && their neighbours ' heritage by foot and horse , and hack their pleasant plains in festering seams , they may again , - not warily , or from taste , but tickled mad by some demonic force .
+CCONJ SCONJ ADV NOUN VERB PRON PART VERB NOUN && DET NOUN PART NOUN ADP NOUN CCONJ NOUN PUNCT CCONJ VERB DET ADJ NOUN ADP VERB NOUN PUNCT PRON VERB ADV PUNCT PUNCT PART ADV PUNCT CCONJ ADP NOUN PUNCT CCONJ VERB ADJ ADP DET ADJ NOUN PUNCT
+data/tokenized_enj_pairs/i_shall_come_back.json
+i shall come back without fanfaronade && of wailing wind and graveyard panoply ; but , trembling , slip from cool eternity- a mild and most bewildered little shade .
+PRON VERB VERB ADV ADP NOUN && ADP VERB NOUN CCONJ NOUN NOUN PUNCT CCONJ PUNCT NOUN PUNCT VERB ADP ADJ ADV DET ADJ CCONJ ADV ADJ ADJ NOUN PUNCT
+i shall not make sepulchral midnight raid , but softly come where i had longed to be && in april twilight 's unsung melody , and i , not you , shall be the one afraid .
+PRON VERB PART VERB ADJ NOUN NOUN PUNCT CCONJ ADV VERB ADV PRON AUX VERB PART AUX && ADP PROPN PROPN PART ADJ NOUN PUNCT CCONJ PRON PUNCT PART PRON PUNCT VERB AUX DET NOUN ADJ PUNCT
+strange , that from lovely dreamings of the dead && i shall come back to you , who hurt me most .
+ADJ PUNCT SCONJ ADP ADJ NOUN ADP DET ADJ && PRON VERB VERB ADV ADP PRON PUNCT PRON VERB PRON ADV PUNCT
+you may not feel my hand upon your head , i 'll be && so new and inexpert a ghost .
+PRON VERB PART VERB DET NOUN SCONJ DET NOUN PUNCT PRON VERB AUX && ADV ADJ CCONJ ADJ DET NOUN PUNCT
+data/tokenized_enj_pairs/the_great_escape.json
+listen , he said , you ever seen a && bunch of crabs in a bucket ?
+VERB PUNCT PRON VERB PUNCT PRON ADV VERB DET && NOUN ADP NOUN ADP DET NOUN PUNCT
+listen , he said , you ever seen a bunch of && crabs in a bucket ?
+VERB PUNCT PRON VERB PUNCT PRON ADV VERB DET NOUN ADP && NOUN ADP DET NOUN PUNCT
+well , what happens is that now and then one crab && will climb up on top of the others and begin to climb toward the top of the bucket , then , just as he 's about to escape another crab grabs him and pulls him back down .
+INTJ PUNCT PRON VERB AUX DET ADV CCONJ ADV NUM NOUN && VERB VERB ADP ADP NOUN ADP DET NOUN CCONJ VERB PART VERB ADP DET NOUN ADP DET NOUN PUNCT ADV PUNCT ADV SCONJ PRON AUX ADP PART VERB DET NOUN VERB PRON CCONJ VERB PRON ADV ADV PUNCT
+well , what happens is that now and then one crab will climb up on top of the others && and begin to climb toward the top of the bucket , then , just as he 's about to escape another crab grabs him and pulls him back down .
+INTJ PUNCT PRON VERB AUX DET ADV CCONJ ADV NUM NOUN VERB VERB ADP ADP NOUN ADP DET NOUN && CCONJ VERB PART VERB ADP DET NOUN ADP DET NOUN PUNCT ADV PUNCT ADV SCONJ PRON AUX ADP PART VERB DET NOUN VERB PRON CCONJ VERB PRON ADV ADV PUNCT
+well , what happens is that now and then one crab will climb up on top of the others and begin to climb toward the top of the bucket , then , just as he 's about to escape && another crab grabs him and pulls him back down .
+INTJ PUNCT PRON VERB AUX DET ADV CCONJ ADV NUM NOUN VERB VERB ADP ADP NOUN ADP DET NOUN CCONJ VERB PART VERB ADP DET NOUN ADP DET NOUN PUNCT ADV PUNCT ADV SCONJ PRON AUX ADP PART VERB && DET NOUN VERB PRON CCONJ VERB PRON ADV ADV PUNCT
+well , what happens is that now and then one crab will climb up on top of the others and begin to climb toward the top of the bucket , then , just as he 's about to escape another crab grabs him and pulls him back && down .
+INTJ PUNCT PRON VERB AUX DET ADV CCONJ ADV NUM NOUN VERB VERB ADP ADP NOUN ADP DET NOUN CCONJ VERB PART VERB ADP DET NOUN ADP DET NOUN PUNCT ADV PUNCT ADV SCONJ PRON AUX ADP PART VERB DET NOUN VERB PRON CCONJ VERB PRON ADV && ADV PUNCT
+well , what happens is that now and then one crab will climb up on top of && the others and begin to climb toward the top of the bucket , then , just as he 's about to escape another crab grabs him and pulls him back down .
+INTJ PUNCT PRON VERB AUX DET ADV CCONJ ADV NUM NOUN VERB VERB ADP ADP NOUN ADP && DET NOUN CCONJ VERB PART VERB ADP DET NOUN ADP DET NOUN PUNCT ADV PUNCT ADV SCONJ PRON AUX ADP PART VERB DET NOUN VERB PRON CCONJ VERB PRON ADV ADV PUNCT
+well , what happens is && that now and then one crab will climb up on top of the others and begin to climb toward the top of the bucket , then , just as he 's about to escape another crab grabs him and pulls him back down .
+INTJ PUNCT PRON VERB AUX && DET ADV CCONJ ADV NUM NOUN VERB VERB ADP ADP NOUN ADP DET NOUN CCONJ VERB PART VERB ADP DET NOUN ADP DET NOUN PUNCT ADV PUNCT ADV SCONJ PRON AUX ADP PART VERB DET NOUN VERB PRON CCONJ VERB PRON ADV ADV PUNCT
+well , what happens is that now and then one crab will climb up on top of the && others and begin to climb toward the top of the bucket , then , just as he 's about to escape another crab grabs him and pulls him back down .
+INTJ PUNCT PRON VERB AUX DET ADV CCONJ ADV NUM NOUN VERB VERB ADP ADP NOUN ADP DET && NOUN CCONJ VERB PART VERB ADP DET NOUN ADP DET NOUN PUNCT ADV PUNCT ADV SCONJ PRON AUX ADP PART VERB DET NOUN VERB PRON CCONJ VERB PRON ADV ADV PUNCT
+really , he said , and this job is just like that , none of the others && want anybody to get out of here .
+ADV PUNCT PRON VERB PUNCT CCONJ DET NOUN AUX ADV SCONJ DET PUNCT NOUN ADP DET NOUN && VERB PRON PART AUX SCONJ ADP ADV PUNCT
+really , he said , and this job is just like that , none && of the others want anybody to get out of here .
+ADV PUNCT PRON VERB PUNCT CCONJ DET NOUN AUX ADV SCONJ DET PUNCT NOUN && ADP DET NOUN VERB PRON PART AUX SCONJ ADP ADV PUNCT
+really , he said , and this job is just like that , none of && the others want anybody to get out of here .
+ADV PUNCT PRON VERB PUNCT CCONJ DET NOUN AUX ADV SCONJ DET PUNCT NOUN ADP && DET NOUN VERB PRON PART AUX SCONJ ADP ADV PUNCT
+really , he said , and this job is && just like that , none of the others want anybody to get out of here .
+ADV PUNCT PRON VERB PUNCT CCONJ DET NOUN AUX && ADV SCONJ DET PUNCT NOUN ADP DET NOUN VERB PRON PART AUX SCONJ ADP ADV PUNCT
+really , he said , and this && job is just like that , none of the others want anybody to get out of here .
+ADV PUNCT PRON VERB PUNCT CCONJ DET && NOUN AUX ADV SCONJ DET PUNCT NOUN ADP DET NOUN VERB PRON PART AUX SCONJ ADP ADV PUNCT
+really , he said , and this job is just like that , none of the && others want anybody to get out of here .
+ADV PUNCT PRON VERB PUNCT CCONJ DET NOUN AUX ADV SCONJ DET PUNCT NOUN ADP DET && NOUN VERB PRON PART AUX SCONJ ADP ADV PUNCT
+that 's just the way it is && in the postal service !
+DET AUX ADV DET NOUN PRON AUX && ADP DET ADJ NOUN PUNCT
+that 's just the && way it is in the postal service !
+DET AUX ADV DET && NOUN PRON AUX ADP DET ADJ NOUN PUNCT
+just then the && supervisor walked up and said , you fellows were talking .
+ADV ADV DET && NOUN VERB ADP CCONJ VERB PUNCT PRON NOUN AUX VERB PUNCT
+just then the supervisor && walked up and said , you fellows were talking .
+ADV ADV DET NOUN && VERB ADP CCONJ VERB PUNCT PRON NOUN AUX VERB PUNCT
+there is && no talking allowed on this job .
+PRON AUX && DET NOUN VERB ADP DET NOUN PUNCT
+there is no talking allowed on this && job .
+PRON AUX DET NOUN VERB ADP DET && NOUN PUNCT
+i had been there for eleven and one - half && years .
+PRON AUX AUX ADV ADP NUM CCONJ NUM PUNCT NOUN && NOUN PUNCT
+i got up off my stool and climbed right up the && supervisor
+PRON VERB ADP ADP DET NOUN CCONJ VERB ADV ADP DET && NOUN
+i got up off my stool and climbed right up the supervisor && 
+PRON VERB ADP ADP DET NOUN CCONJ VERB ADV ADP DET NOUN && 
+i got up off my stool and climbed right && up the supervisor
+PRON VERB ADP ADP DET NOUN CCONJ VERB ADV && ADP DET NOUN
+and then i reached up and pulled myself right out of && there .
+CCONJ ADV PRON VERB ADP CCONJ VERB PRON ADV SCONJ ADP && ADV PUNCT
+and then i reached up and pulled myself right && out of there .
+CCONJ ADV PRON VERB ADP CCONJ VERB PRON ADV && SCONJ ADP ADV PUNCT
+but none of the others && followed me .
+CCONJ NOUN ADP DET NOUN && VERB PRON PUNCT
+but none && of the others followed me .
+CCONJ NOUN && ADP DET NOUN VERB PRON PUNCT
+but none of && the others followed me .
+CCONJ NOUN ADP && DET NOUN VERB PRON PUNCT
+but none of the && others followed me .
+CCONJ NOUN ADP DET && NOUN VERB PRON PUNCT
+and after that , whenever i had crab && legs i thought about that place .
+CCONJ ADP DET PUNCT ADV PRON AUX NOUN && NOUN PRON VERB ADP DET NOUN PUNCT
+and after that , whenever i had crab legs && i thought about that place .
+CCONJ ADP DET PUNCT ADV PRON AUX NOUN NOUN && PRON VERB ADP DET NOUN PUNCT
+and after that , whenever i had crab legs i thought about that place && .
+CCONJ ADP DET PUNCT ADV PRON AUX NOUN NOUN PRON VERB ADP DET NOUN && PUNCT
+i must have thought about that place && maybe 5 or 6 times before i switched to lobster .
+PRON VERB AUX VERB ADP DET NOUN && ADV NUM CCONJ NUM NOUN ADP PRON VERB ADP NOUN PUNCT
+i must have thought about that place maybe 5 or 6 times && before i switched to lobster .
+PRON VERB AUX VERB ADP DET NOUN ADV NUM CCONJ NUM NOUN && ADP PRON VERB ADP NOUN PUNCT
+data/tokenized_enj_pairs/on_broadway.json
+about me young careless feet && linger along the garish street ; above , a hundred shouting signs shed down their bright fantastic glow upon the merry crowd and lines of moving carriages below .
+ADP PRON ADJ ADJ NOUN && ADJ ADP DET ADJ NOUN PUNCT ADV PUNCT DET NUM VERB NOUN VERB ADP DET ADJ ADJ NOUN SCONJ DET NOUN NOUN CCONJ NOUN ADP VERB NOUN ADV PUNCT
+about me young careless feet linger along the garish street ; above , a hundred shouting signs && shed down their bright fantastic glow upon the merry crowd and lines of moving carriages below .
+ADP PRON ADJ ADJ NOUN ADJ ADP DET ADJ NOUN PUNCT ADV PUNCT DET NUM VERB NOUN && VERB ADP DET ADJ ADJ NOUN SCONJ DET NOUN NOUN CCONJ NOUN ADP VERB NOUN ADV PUNCT
+about me young careless feet linger along the garish street ; above , a hundred shouting signs shed down their bright fantastic glow && upon the merry crowd and lines of moving carriages below .
+ADP PRON ADJ ADJ NOUN ADJ ADP DET ADJ NOUN PUNCT ADV PUNCT DET NUM VERB NOUN VERB ADP DET ADJ ADJ NOUN && SCONJ DET NOUN NOUN CCONJ NOUN ADP VERB NOUN ADV PUNCT
+about me young careless feet linger along the garish street ; above , a hundred shouting signs shed down their bright fantastic glow upon the merry crowd and lines && of moving carriages below .
+ADP PRON ADJ ADJ NOUN ADJ ADP DET ADJ NOUN PUNCT ADV PUNCT DET NUM VERB NOUN VERB ADP DET ADJ ADJ NOUN SCONJ DET NOUN NOUN CCONJ NOUN && ADP VERB NOUN ADV PUNCT
+oh wonderful is broadway -- only && my heart , my heart is lonely .
+INTJ ADJ AUX PROPN PUNCT ADV && DET NOUN PUNCT DET NOUN AUX ADJ PUNCT
+from playhouse , cabaret and inn && the rainbow lights of broadway blaze all gay without , all glad within ; as in a dream i stand and gaze at broadway ,
+ADP NOUN PUNCT NOUN CCONJ NOUN && DET NOUN NOUN ADP PROPN VERB DET VERB ADP PUNCT DET ADJ ADP PUNCT SCONJ ADP DET NOUN PRON VERB CCONJ VERB ADP PROPN PUNCT
+from playhouse , cabaret and inn the rainbow lights of broadway blaze && all gay without , all glad within ; as in a dream i stand and gaze at broadway ,
+ADP NOUN PUNCT NOUN CCONJ NOUN DET NOUN NOUN ADP PROPN VERB && DET VERB ADP PUNCT DET ADJ ADP PUNCT SCONJ ADP DET NOUN PRON VERB CCONJ VERB ADP PROPN PUNCT
+from playhouse , cabaret and inn the rainbow lights of broadway blaze all gay without , all glad within ; as in a dream i stand and gaze && at broadway ,
+ADP NOUN PUNCT NOUN CCONJ NOUN DET NOUN NOUN ADP PROPN VERB DET VERB ADP PUNCT DET ADJ ADP PUNCT SCONJ ADP DET NOUN PRON VERB CCONJ VERB && ADP PROPN PUNCT
+shining broadway -- only && my heart
+VERB PROPN PUNCT ADV && DET NOUN
+data/tokenized_enj_pairs/on_the_sale_by_auction_of_keats_love_letters.json
+these are the letters which endymion wrote && to one he loved in secret and apart , and now the brawlers of the auction - mart bargain and bid for each poor blotted note , aye !
+DET AUX DET NOUN DET PROPN VERB && ADP NUM PRON VERB ADP NOUN CCONJ ADV PUNCT CCONJ ADV DET NOUN ADP DET NOUN PUNCT NOUN NOUN CCONJ VERB ADP DET ADJ VERB NOUN PUNCT INTJ PUNCT
+these are the letters which endymion wrote to one he loved in secret and apart , and now the brawlers of the auction - mart && bargain and bid for each poor blotted note , aye !
+DET AUX DET NOUN DET PROPN VERB ADP NUM PRON VERB ADP NOUN CCONJ ADV PUNCT CCONJ ADV DET NOUN ADP DET NOUN PUNCT NOUN && NOUN CCONJ VERB ADP DET ADJ VERB NOUN PUNCT INTJ PUNCT
+for each separate pulse of passion quote && the merchant 's price !
+ADP DET ADJ NOUN ADP NOUN VERB && DET NOUN PART NOUN PUNCT
+i think they love not art && who break the crystal of a poet 's heart
+PRON VERB PRON VERB PART NOUN && PRON VERB DET NOUN ADP DET NOUN PART NOUN
+is it not said , that many years ago , in a far eastern town some soldiers ran && with torches through the midnight , and began to wrangle for mean raiment , and to throw dice for the garments of a wretched man , not knowing the god 's wonder , or his woe ?
+AUX PRON PART VERB PUNCT SCONJ ADJ NOUN ADV PUNCT ADP DET ADJ ADJ NOUN DET NOUN VERB && ADP NOUN ADP DET NOUN PUNCT CCONJ VERB PART VERB ADP ADJ NOUN PUNCT CCONJ PART VERB NOUN ADP DET NOUN ADP DET ADJ NOUN PUNCT PART VERB DET PROPN PART NOUN PUNCT CCONJ DET NOUN PUNCT
+is it not said , that many years ago , in a far eastern town some soldiers ran with torches through the midnight , and began && to wrangle for mean raiment , and to throw dice for the garments of a wretched man , not knowing the god 's wonder , or his woe ?
+AUX PRON PART VERB PUNCT SCONJ ADJ NOUN ADV PUNCT ADP DET ADJ ADJ NOUN DET NOUN VERB ADP NOUN ADP DET NOUN PUNCT CCONJ VERB && PART VERB ADP ADJ NOUN PUNCT CCONJ PART VERB NOUN ADP DET NOUN ADP DET ADJ NOUN PUNCT PART VERB DET PROPN PART NOUN PUNCT CCONJ DET NOUN PUNCT
+is it not said , that many years ago , in a far eastern town some soldiers ran with torches through the midnight , and began to wrangle for mean raiment , and to throw && dice for the garments of a wretched man , not knowing the god 's wonder , or his woe ?
+AUX PRON PART VERB PUNCT SCONJ ADJ NOUN ADV PUNCT ADP DET ADJ ADJ NOUN DET NOUN VERB ADP NOUN ADP DET NOUN PUNCT CCONJ VERB PART VERB ADP ADJ NOUN PUNCT CCONJ PART VERB && NOUN ADP DET NOUN ADP DET ADJ NOUN PUNCT PART VERB DET PROPN PART NOUN PUNCT CCONJ DET NOUN PUNCT
+data/tokenized_enj_pairs/a_sonnet_to_the_noble_lady_the_lady_mary_wroth.json
+i that have been a lover , and could show it , though not in these , in rhymes not wholly dumb , since i exscribe your sonnets , am become && a better lover , and much better poet .
+PRON DET AUX AUX DET NOUN PUNCT CCONJ VERB VERB PRON PUNCT SCONJ PART ADP DET PUNCT ADP NOUN PART ADV ADJ PUNCT SCONJ PRON VERB DET NOUN PUNCT AUX VERB && DET ADJ NOUN PUNCT CCONJ ADV ADJ NOUN PUNCT
+i that have been a lover , and could show it && , though not in these , in rhymes not wholly dumb , since i exscribe your sonnets , am become a better lover , and much better poet .
+PRON DET AUX AUX DET NOUN PUNCT CCONJ VERB VERB PRON && PUNCT SCONJ PART ADP DET PUNCT ADP NOUN PART ADV ADJ PUNCT SCONJ PRON VERB DET NOUN PUNCT AUX VERB DET ADJ NOUN PUNCT CCONJ ADV ADJ NOUN PUNCT
+nor is my muse , or i ashamed to owe it && to those true numerous graces ; whereof some but charm the senses , others overcome both brains and hearts ; and mine now best do know it : for in your verse all cupid 's armory , his flames , his shafts , his quiver , and his bow , his very eyes are yours to overthrow .
+CCONJ AUX DET NOUN PUNCT CCONJ PRON VERB PART VERB PRON && ADP DET ADJ ADJ NOUN PUNCT VERB DET CCONJ VERB DET NOUN PUNCT NOUN VERB DET NOUN CCONJ NOUN PUNCT CCONJ PRON ADV ADJ AUX VERB PRON PUNCT ADP ADP DET NOUN DET PROPN PART NOUN PUNCT DET NOUN PUNCT DET NOUN PUNCT DET NOUN PUNCT CCONJ DET NOUN PUNCT DET ADJ NOUN AUX NOUN PART VERB PUNCT
+nor is my muse , or i ashamed to owe it to those true numerous graces ; whereof some && but charm the senses , others overcome both brains and hearts ; and mine now best do know it : for in your verse all cupid 's armory , his flames , his shafts , his quiver , and his bow , his very eyes are yours to overthrow .
+CCONJ AUX DET NOUN PUNCT CCONJ PRON VERB PART VERB PRON ADP DET ADJ ADJ NOUN PUNCT VERB DET && CCONJ VERB DET NOUN PUNCT NOUN VERB DET NOUN CCONJ NOUN PUNCT CCONJ PRON ADV ADJ AUX VERB PRON PUNCT ADP ADP DET NOUN DET PROPN PART NOUN PUNCT DET NOUN PUNCT DET NOUN PUNCT DET NOUN PUNCT CCONJ DET NOUN PUNCT DET ADJ NOUN AUX NOUN PART VERB PUNCT
+nor is my muse , or i ashamed to owe it to those true numerous graces ; whereof some but charm the senses , others overcome && both brains and hearts ; and mine now best do know it : for in your verse all cupid 's armory , his flames , his shafts , his quiver , and his bow , his very eyes are yours to overthrow .
+CCONJ AUX DET NOUN PUNCT CCONJ PRON VERB PART VERB PRON ADP DET ADJ ADJ NOUN PUNCT VERB DET CCONJ VERB DET NOUN PUNCT NOUN VERB && DET NOUN CCONJ NOUN PUNCT CCONJ PRON ADV ADJ AUX VERB PRON PUNCT ADP ADP DET NOUN DET PROPN PART NOUN PUNCT DET NOUN PUNCT DET NOUN PUNCT DET NOUN PUNCT CCONJ DET NOUN PUNCT DET ADJ NOUN AUX NOUN PART VERB PUNCT
+but then his mother 's sweets you so apply , her joys , her smiles , her loves , as readers take && for venus ' ceston , every line you make .
+CCONJ ADV DET NOUN PART NOUN PRON ADV VERB PUNCT DET NOUN PUNCT DET NOUN PUNCT DET VERB PUNCT SCONJ NOUN VERB && ADP PROPN PART PROPN PUNCT DET NOUN PRON VERB PUNCT
+data/tokenized_enj_pairs/how_thought_you_that_this_thing_could_captivate.json
+a speech conventional , so void of weight , that after it has buzzed about one 's ear , ' twere rich refreshment for a week to hear && the dentist babble or the barber prate ; a hand displayed with many a little art ; an eye that glances on her neighbor 's dress ; a foot too often shown for my regard ; an angel 's form -- a waiting - woman 's heart ; a perfect - featured face , expressionless , insipid , as the queen upon a card .
+DET NOUN ADJ PUNCT ADV ADJ ADP NOUN PUNCT SCONJ ADP PRON AUX VERB ADP PRON PART NOUN PUNCT PUNCT VERB ADJ NOUN ADP DET NOUN PART VERB && DET NOUN NOUN CCONJ DET NOUN NOUN PUNCT DET NOUN VERB ADP DET DET ADJ NOUN PUNCT DET NOUN DET VERB ADP DET NOUN PART NOUN PUNCT DET NOUN ADV ADV VERB ADP DET NOUN PUNCT DET NOUN PART NOUN PUNCT DET NOUN PUNCT NOUN PART NOUN PUNCT DET ADV PUNCT VERB NOUN PUNCT NOUN PUNCT ADJ PUNCT SCONJ DET NOUN SCONJ DET NOUN PUNCT
+data/tokenized_enj_pairs/the_red_wheelbarrow.json
+so much depends && upon a red wheel barrow glazed with rain water beside the white chickens .
+ADV ADJ VERB && SCONJ DET ADJ NOUN NOUN VERB ADP NOUN NOUN ADP DET ADJ NOUN PUNCT
+so much depends upon && a red wheel barrow glazed with rain water beside the white chickens .
+ADV ADJ VERB SCONJ && DET ADJ NOUN NOUN VERB ADP NOUN NOUN ADP DET ADJ NOUN PUNCT
+so much depends upon a red wheel && barrow glazed with rain water beside the white chickens .
+ADV ADJ VERB SCONJ DET ADJ NOUN && NOUN VERB ADP NOUN NOUN ADP DET ADJ NOUN PUNCT
+so much depends upon a red wheel barrow && glazed with rain water beside the white chickens .
+ADV ADJ VERB SCONJ DET ADJ NOUN NOUN && VERB ADP NOUN NOUN ADP DET ADJ NOUN PUNCT
+so much depends upon a red wheel barrow glazed with rain && water beside the white chickens .
+ADV ADJ VERB SCONJ DET ADJ NOUN NOUN VERB ADP NOUN && NOUN ADP DET ADJ NOUN PUNCT
+so much depends upon a red wheel barrow glazed with rain water && beside the white chickens .
+ADV ADJ VERB SCONJ DET ADJ NOUN NOUN VERB ADP NOUN NOUN && ADP DET ADJ NOUN PUNCT
+so much depends upon a red wheel barrow glazed with rain water beside the white && chickens .
+ADV ADJ VERB SCONJ DET ADJ NOUN NOUN VERB ADP NOUN NOUN ADP DET ADJ && NOUN PUNCT
+data/tokenized_enj_pairs/crowned.json
+i wear a crown invisible and clear , and go my lifted royal way apart && since you have crowned me softly in your heart with love that is half ardent , half austere ; and as a queen disguised might pass anear the bitter crowd that barters in a mart , veiling her pride while tears of pity start , i hide my glory thru a jealous fear .
+PRON VERB DET NOUN ADJ CCONJ ADJ PUNCT CCONJ VERB DET ADJ ADJ NOUN ADV && SCONJ PRON AUX VERB PRON ADV ADP DET NOUN ADP NOUN DET AUX NOUN ADJ PUNCT ADJ ADJ PUNCT CCONJ SCONJ DET NOUN VERB VERB VERB PROPN DET ADJ NOUN SCONJ VERB ADP DET NOUN PUNCT VERB DET NOUN SCONJ NOUN ADP NOUN NOUN PUNCT PRON VERB DET NOUN ADP DET ADJ NOUN PUNCT
+i wear a crown invisible and clear , and go my lifted royal way apart since you have crowned me softly in your heart && with love that is half ardent , half austere ; and as a queen disguised might pass anear the bitter crowd that barters in a mart , veiling her pride while tears of pity start , i hide my glory thru a jealous fear .
+PRON VERB DET NOUN ADJ CCONJ ADJ PUNCT CCONJ VERB DET ADJ ADJ NOUN ADV SCONJ PRON AUX VERB PRON ADV ADP DET NOUN && ADP NOUN DET AUX NOUN ADJ PUNCT ADJ ADJ PUNCT CCONJ SCONJ DET NOUN VERB VERB VERB PROPN DET ADJ NOUN SCONJ VERB ADP DET NOUN PUNCT VERB DET NOUN SCONJ NOUN ADP NOUN NOUN PUNCT PRON VERB DET NOUN ADP DET ADJ NOUN PUNCT
+i wear a crown invisible and clear , and go my lifted royal way apart since you have crowned me softly in your heart with love that is half ardent , half austere ; and as a queen disguised might pass anear && the bitter crowd that barters in a mart , veiling her pride while tears of pity start , i hide my glory thru a jealous fear .
+PRON VERB DET NOUN ADJ CCONJ ADJ PUNCT CCONJ VERB DET ADJ ADJ NOUN ADV SCONJ PRON AUX VERB PRON ADV ADP DET NOUN ADP NOUN DET AUX NOUN ADJ PUNCT ADJ ADJ PUNCT CCONJ SCONJ DET NOUN VERB VERB VERB PROPN && DET ADJ NOUN SCONJ VERB ADP DET NOUN PUNCT VERB DET NOUN SCONJ NOUN ADP NOUN NOUN PUNCT PRON VERB DET NOUN ADP DET ADJ NOUN PUNCT
+my crown shall stay a sweet and secret thing && kept pure with prayer at evensong and morn , and when you come to take it from my head , i shall not weep , nor will a word be said , but i shall kneel before you , oh my king , and bind my brow forever with a thorn .
+DET NOUN VERB VERB DET ADJ CCONJ ADJ NOUN && VERB ADJ ADP NOUN ADP NOUN CCONJ PROPN PUNCT CCONJ ADV PRON VERB PART VERB PRON ADP DET NOUN PUNCT PRON VERB PART VERB PUNCT CCONJ VERB DET NOUN AUX VERB PUNCT CCONJ PRON VERB VERB ADP PRON PUNCT INTJ INTJ NOUN PUNCT CCONJ VERB DET NOUN ADV ADP DET NOUN PUNCT
+data/tokenized_enj_pairs/i_am_in_need.json
+i am in need of music that would flow && over my fretful , feeling finger - tips , over my bitter - tainted , trembling lips , with melody , deep , clear , and liquid - slow .
+PRON AUX ADP NOUN ADP NOUN DET VERB VERB && ADP DET ADJ PUNCT VERB NOUN PUNCT NOUN PUNCT ADP DET ADV PUNCT ADJ PUNCT VERB NOUN PUNCT ADP NOUN PUNCT ADJ PUNCT ADJ PUNCT CCONJ NOUN PUNCT NOUN PUNCT
+i am in need of music that would flow over my fretful , feeling finger - tips , over my bitter - tainted , trembling lips , with melody , deep && , clear , and liquid - slow .
+PRON AUX ADP NOUN ADP NOUN DET VERB VERB ADP DET ADJ PUNCT VERB NOUN PUNCT NOUN PUNCT ADP DET ADV PUNCT ADJ PUNCT VERB NOUN PUNCT ADP NOUN PUNCT ADJ && PUNCT ADJ PUNCT CCONJ NOUN PUNCT NOUN PUNCT
+there is a magic made by melody : a spell of rest , and quiet breath , and cool && heart , that sinks through fading colors deep to the subaqueous stillness of the sea , and floats forever in a moon - green pool , held in the arms of rhythm and of sleep .
+PRON AUX DET NOUN VERB ADP NOUN PUNCT DET NOUN ADP NOUN PUNCT CCONJ ADJ NOUN PUNCT CCONJ ADJ && NOUN PUNCT DET VERB ADP VERB NOUN ADV ADP DET ADJ NOUN ADP DET NOUN PUNCT CCONJ VERB ADV ADP DET NOUN PUNCT ADJ NOUN PUNCT VERB ADP DET NOUN ADP NOUN CCONJ ADP NOUN PUNCT
+there is a magic made by melody : a spell of rest , and quiet breath , and cool heart , that sinks through fading colors deep && to the subaqueous stillness of the sea , and floats forever in a moon - green pool , held in the arms of rhythm and of sleep .
+PRON AUX DET NOUN VERB ADP NOUN PUNCT DET NOUN ADP NOUN PUNCT CCONJ ADJ NOUN PUNCT CCONJ ADJ NOUN PUNCT DET VERB ADP VERB NOUN ADV && ADP DET ADJ NOUN ADP DET NOUN PUNCT CCONJ VERB ADV ADP DET NOUN PUNCT ADJ NOUN PUNCT VERB ADP DET NOUN ADP NOUN CCONJ ADP NOUN PUNCT
+data/tokenized_enj_pairs/scorn_not_the_sonnet.json
+scorn not the sonnet ; critic , you have frowned , mindless of its just honours ; with this key && shakspeare unlocked his heart ; the melody of this small lute gave ease to petrarch 's wound ; a thousand times this pipe did tasso sound ; with it camoens soothed an exile 's grief ; the sonnet glittered a gay myrtle leaf amid the cypress with which dante crowned his visionary brow : a glow - worm lamp , it cheered mild spenser , called from faery - land to struggle through dark ways ; and when a damp fell round the path of milton , in his hand the thing became a trumpet ; whence he blew soul - animating strains -- alas , too few !
+VERB PART DET NOUN PUNCT NOUN PUNCT PRON AUX VERB PUNCT ADJ ADP DET ADJ NOUN PUNCT ADP DET ADJ && NOUN VERB DET NOUN PUNCT DET NOUN ADP DET ADJ NOUN VERB NOUN ADP PROPN PART NOUN PUNCT DET NUM NOUN DET NOUN AUX PROPN VERB PUNCT ADP PRON NOUN VERB DET NOUN PART NOUN PUNCT DET NOUN VERB DET PROPN PROPN NOUN ADP DET NOUN ADP DET PROPN VERB DET ADJ NOUN PUNCT DET ADJ PUNCT NOUN NOUN PUNCT PRON VERB ADJ PROPN PUNCT VERB ADP NOUN PUNCT NOUN PART VERB ADP ADJ NOUN PUNCT CCONJ ADV DET NOUN VERB ADP DET NOUN ADP PROPN PUNCT ADP DET NOUN DET NOUN VERB DET NOUN PUNCT ADP PRON VERB NOUN PUNCT NOUN NOUN PUNCT INTJ PUNCT ADV ADJ PUNCT
+scorn not the sonnet ; critic , you have frowned , mindless of its just honours ; with this key shakspeare unlocked his heart ; the melody && of this small lute gave ease to petrarch 's wound ; a thousand times this pipe did tasso sound ; with it camoens soothed an exile 's grief ; the sonnet glittered a gay myrtle leaf amid the cypress with which dante crowned his visionary brow : a glow - worm lamp , it cheered mild spenser , called from faery - land to struggle through dark ways ; and when a damp fell round the path of milton , in his hand the thing became a trumpet ; whence he blew soul - animating strains -- alas , too few !
+VERB PART DET NOUN PUNCT NOUN PUNCT PRON AUX VERB PUNCT ADJ ADP DET ADJ NOUN PUNCT ADP DET ADJ NOUN VERB DET NOUN PUNCT DET NOUN && ADP DET ADJ NOUN VERB NOUN ADP PROPN PART NOUN PUNCT DET NUM NOUN DET NOUN AUX PROPN VERB PUNCT ADP PRON NOUN VERB DET NOUN PART NOUN PUNCT DET NOUN VERB DET PROPN PROPN NOUN ADP DET NOUN ADP DET PROPN VERB DET ADJ NOUN PUNCT DET ADJ PUNCT NOUN NOUN PUNCT PRON VERB ADJ PROPN PUNCT VERB ADP NOUN PUNCT NOUN PART VERB ADP ADJ NOUN PUNCT CCONJ ADV DET NOUN VERB ADP DET NOUN ADP PROPN PUNCT ADP DET NOUN DET NOUN VERB DET NOUN PUNCT ADP PRON VERB NOUN PUNCT NOUN NOUN PUNCT INTJ PUNCT ADV ADJ PUNCT
+scorn not the sonnet ; critic , you have frowned , mindless of its just honours ; with this key shakspeare unlocked his heart ; the melody of this small lute gave ease to petrarch 's wound ; a thousand times this pipe did tasso sound ; with it camoens soothed an exile 's grief ; the sonnet glittered a gay myrtle leaf && amid the cypress with which dante crowned his visionary brow : a glow - worm lamp , it cheered mild spenser , called from faery - land to struggle through dark ways ; and when a damp fell round the path of milton , in his hand the thing became a trumpet ; whence he blew soul - animating strains -- alas , too few !
+VERB PART DET NOUN PUNCT NOUN PUNCT PRON AUX VERB PUNCT ADJ ADP DET ADJ NOUN PUNCT ADP DET ADJ NOUN VERB DET NOUN PUNCT DET NOUN ADP DET ADJ NOUN VERB NOUN ADP PROPN PART NOUN PUNCT DET NUM NOUN DET NOUN AUX PROPN VERB PUNCT ADP PRON NOUN VERB DET NOUN PART NOUN PUNCT DET NOUN VERB DET PROPN PROPN NOUN && ADP DET NOUN ADP DET PROPN VERB DET ADJ NOUN PUNCT DET ADJ PUNCT NOUN NOUN PUNCT PRON VERB ADJ PROPN PUNCT VERB ADP NOUN PUNCT NOUN PART VERB ADP ADJ NOUN PUNCT CCONJ ADV DET NOUN VERB ADP DET NOUN ADP PROPN PUNCT ADP DET NOUN DET NOUN VERB DET NOUN PUNCT ADP PRON VERB NOUN PUNCT NOUN NOUN PUNCT INTJ PUNCT ADV ADJ PUNCT
+scorn not the sonnet ; critic , you have frowned , mindless of its just honours ; with this key shakspeare unlocked his heart ; the melody of this small lute gave ease to petrarch 's wound ; a thousand times this pipe did tasso sound ; with it camoens soothed an exile 's grief ; the sonnet glittered a gay myrtle leaf amid the cypress with which dante crowned && his visionary brow : a glow - worm lamp , it cheered mild spenser , called from faery - land to struggle through dark ways ; and when a damp fell round the path of milton , in his hand the thing became a trumpet ; whence he blew soul - animating strains -- alas , too few !
+VERB PART DET NOUN PUNCT NOUN PUNCT PRON AUX VERB PUNCT ADJ ADP DET ADJ NOUN PUNCT ADP DET ADJ NOUN VERB DET NOUN PUNCT DET NOUN ADP DET ADJ NOUN VERB NOUN ADP PROPN PART NOUN PUNCT DET NUM NOUN DET NOUN AUX PROPN VERB PUNCT ADP PRON NOUN VERB DET NOUN PART NOUN PUNCT DET NOUN VERB DET PROPN PROPN NOUN ADP DET NOUN ADP DET PROPN VERB && DET ADJ NOUN PUNCT DET ADJ PUNCT NOUN NOUN PUNCT PRON VERB ADJ PROPN PUNCT VERB ADP NOUN PUNCT NOUN PART VERB ADP ADJ NOUN PUNCT CCONJ ADV DET NOUN VERB ADP DET NOUN ADP PROPN PUNCT ADP DET NOUN DET NOUN VERB DET NOUN PUNCT ADP PRON VERB NOUN PUNCT NOUN NOUN PUNCT INTJ PUNCT ADV ADJ PUNCT
+scorn not the sonnet ; critic , you have frowned , mindless of its just honours ; with this key shakspeare unlocked his heart ; the melody of this small lute gave ease to petrarch 's wound ; a thousand times this pipe did tasso sound ; with it camoens soothed an exile 's grief ; the sonnet glittered a gay myrtle leaf amid the cypress with which dante crowned his visionary brow : a glow - worm lamp , it cheered mild spenser , called from faery - land && to struggle through dark ways ; and when a damp fell round the path of milton , in his hand the thing became a trumpet ; whence he blew soul - animating strains -- alas , too few !
+VERB PART DET NOUN PUNCT NOUN PUNCT PRON AUX VERB PUNCT ADJ ADP DET ADJ NOUN PUNCT ADP DET ADJ NOUN VERB DET NOUN PUNCT DET NOUN ADP DET ADJ NOUN VERB NOUN ADP PROPN PART NOUN PUNCT DET NUM NOUN DET NOUN AUX PROPN VERB PUNCT ADP PRON NOUN VERB DET NOUN PART NOUN PUNCT DET NOUN VERB DET PROPN PROPN NOUN ADP DET NOUN ADP DET PROPN VERB DET ADJ NOUN PUNCT DET ADJ PUNCT NOUN NOUN PUNCT PRON VERB ADJ PROPN PUNCT VERB ADP NOUN PUNCT NOUN && PART VERB ADP ADJ NOUN PUNCT CCONJ ADV DET NOUN VERB ADP DET NOUN ADP PROPN PUNCT ADP DET NOUN DET NOUN VERB DET NOUN PUNCT ADP PRON VERB NOUN PUNCT NOUN NOUN PUNCT INTJ PUNCT ADV ADJ PUNCT
+scorn not the sonnet ; critic , you have frowned , mindless of its just honours ; with this key shakspeare unlocked his heart ; the melody of this small lute gave ease to petrarch 's wound ; a thousand times this pipe did tasso sound ; with it camoens soothed an exile 's grief ; the sonnet glittered a gay myrtle leaf amid the cypress with which dante crowned his visionary brow : a glow - worm lamp , it cheered mild spenser , called from faery - land to struggle through dark ways ; and when a damp && fell round the path of milton , in his hand the thing became a trumpet ; whence he blew soul - animating strains -- alas , too few !
+VERB PART DET NOUN PUNCT NOUN PUNCT PRON AUX VERB PUNCT ADJ ADP DET ADJ NOUN PUNCT ADP DET ADJ NOUN VERB DET NOUN PUNCT DET NOUN ADP DET ADJ NOUN VERB NOUN ADP PROPN PART NOUN PUNCT DET NUM NOUN DET NOUN AUX PROPN VERB PUNCT ADP PRON NOUN VERB DET NOUN PART NOUN PUNCT DET NOUN VERB DET PROPN PROPN NOUN ADP DET NOUN ADP DET PROPN VERB DET ADJ NOUN PUNCT DET ADJ PUNCT NOUN NOUN PUNCT PRON VERB ADJ PROPN PUNCT VERB ADP NOUN PUNCT NOUN PART VERB ADP ADJ NOUN PUNCT CCONJ ADV DET NOUN && VERB ADP DET NOUN ADP PROPN PUNCT ADP DET NOUN DET NOUN VERB DET NOUN PUNCT ADP PRON VERB NOUN PUNCT NOUN NOUN PUNCT INTJ PUNCT ADV ADJ PUNCT
+scorn not the sonnet ; critic , you have frowned , mindless of its just honours ; with this key shakspeare unlocked his heart ; the melody of this small lute gave ease to petrarch 's wound ; a thousand times this pipe did tasso sound ; with it camoens soothed an exile 's grief ; the sonnet glittered a gay myrtle leaf amid the cypress with which dante crowned his visionary brow : a glow - worm lamp , it cheered mild spenser , called from faery - land to struggle through dark ways ; and when a damp fell round the path of milton , in his hand && the thing became a trumpet ; whence he blew soul - animating strains -- alas , too few !
+VERB PART DET NOUN PUNCT NOUN PUNCT PRON AUX VERB PUNCT ADJ ADP DET ADJ NOUN PUNCT ADP DET ADJ NOUN VERB DET NOUN PUNCT DET NOUN ADP DET ADJ NOUN VERB NOUN ADP PROPN PART NOUN PUNCT DET NUM NOUN DET NOUN AUX PROPN VERB PUNCT ADP PRON NOUN VERB DET NOUN PART NOUN PUNCT DET NOUN VERB DET PROPN PROPN NOUN ADP DET NOUN ADP DET PROPN VERB DET ADJ NOUN PUNCT DET ADJ PUNCT NOUN NOUN PUNCT PRON VERB ADJ PROPN PUNCT VERB ADP NOUN PUNCT NOUN PART VERB ADP ADJ NOUN PUNCT CCONJ ADV DET NOUN VERB ADP DET NOUN ADP PROPN PUNCT ADP DET NOUN && DET NOUN VERB DET NOUN PUNCT ADP PRON VERB NOUN PUNCT NOUN NOUN PUNCT INTJ PUNCT ADV ADJ PUNCT
+scorn not the sonnet ; critic , you have frowned , mindless of its just honours ; with this key shakspeare unlocked his heart ; the melody of this small lute gave ease to petrarch 's wound ; a thousand times this pipe did tasso sound ; with it camoens soothed an exile 's grief ; the sonnet glittered a gay myrtle leaf amid the cypress with which dante crowned his visionary brow : a glow - worm lamp , it cheered mild spenser , called from faery - land to struggle through dark ways ; and when a damp fell round the path of milton , in his hand the thing became a trumpet ; whence he blew && soul - animating strains -- alas , too few !
+VERB PART DET NOUN PUNCT NOUN PUNCT PRON AUX VERB PUNCT ADJ ADP DET ADJ NOUN PUNCT ADP DET ADJ NOUN VERB DET NOUN PUNCT DET NOUN ADP DET ADJ NOUN VERB NOUN ADP PROPN PART NOUN PUNCT DET NUM NOUN DET NOUN AUX PROPN VERB PUNCT ADP PRON NOUN VERB DET NOUN PART NOUN PUNCT DET NOUN VERB DET PROPN PROPN NOUN ADP DET NOUN ADP DET PROPN VERB DET ADJ NOUN PUNCT DET ADJ PUNCT NOUN NOUN PUNCT PRON VERB ADJ PROPN PUNCT VERB ADP NOUN PUNCT NOUN PART VERB ADP ADJ NOUN PUNCT CCONJ ADV DET NOUN VERB ADP DET NOUN ADP PROPN PUNCT ADP DET NOUN DET NOUN VERB DET NOUN PUNCT ADP PRON VERB && NOUN PUNCT NOUN NOUN PUNCT INTJ PUNCT ADV ADJ PUNCT
+data/tokenized_enj_pairs/blue_hyacinths.json
+in your && curled petals
+ADP DET && ADJ NOUN
+what ghosts && of blue headlands and seas , what perfumed immortal breath sighing of greece .
+DET NOUN && ADP ADJ NOUN CCONJ NOUN PUNCT DET VERB ADJ NOUN VERB ADP PROPN PUNCT
+what ghosts of blue headlands and seas , what perfumed immortal breath sighing && of greece .
+DET NOUN ADP ADJ NOUN CCONJ NOUN PUNCT DET VERB ADJ NOUN VERB && ADP PROPN PUNCT
+data/tokenized_enj_pairs/smoke.json
+light - winged smoke , icarian bird , melting thy pinions in thy upward flight , lark without song , and messenger of dawn && circling above the hamlets as they nest ; or else , departing dream , and shadowy form of midnight vision , gathering up thy skirts ; by night star - veiling , and by day darkening the light and blotting out the sun ; go thou my incense upward from this hearth , and ask the gods to pardon this clear flame .
+ADJ PUNCT ADJ NOUN PUNCT ADJ NOUN PUNCT VERB DET NOUN ADP DET ADJ NOUN PUNCT PROPN ADP NOUN PUNCT CCONJ NOUN ADP NOUN && VERB ADP DET NOUN SCONJ PRON VERB PUNCT CCONJ ADV PUNCT VERB NOUN PUNCT CCONJ ADJ NOUN ADP NOUN NOUN PUNCT VERB ADP DET NOUN PUNCT ADP NOUN NOUN PUNCT VERB PUNCT CCONJ ADP NOUN VERB DET NOUN CCONJ VERB ADP DET NOUN PUNCT VERB VERB DET NOUN ADV ADP DET NOUN PUNCT CCONJ VERB DET NOUN PART VERB DET ADJ NOUN PUNCT
+light - winged smoke , icarian bird , melting thy pinions in thy upward flight , lark without song , and messenger of dawn circling above the hamlets as they nest ; or else , departing dream , and shadowy form && of midnight vision , gathering up thy skirts ; by night star - veiling , and by day darkening the light and blotting out the sun ; go thou my incense upward from this hearth , and ask the gods to pardon this clear flame .
+ADJ PUNCT ADJ NOUN PUNCT ADJ NOUN PUNCT VERB DET NOUN ADP DET ADJ NOUN PUNCT PROPN ADP NOUN PUNCT CCONJ NOUN ADP NOUN VERB ADP DET NOUN SCONJ PRON VERB PUNCT CCONJ ADV PUNCT VERB NOUN PUNCT CCONJ ADJ NOUN && ADP NOUN NOUN PUNCT VERB ADP DET NOUN PUNCT ADP NOUN NOUN PUNCT VERB PUNCT CCONJ ADP NOUN VERB DET NOUN CCONJ VERB ADP DET NOUN PUNCT VERB VERB DET NOUN ADV ADP DET NOUN PUNCT CCONJ VERB DET NOUN PART VERB DET ADJ NOUN PUNCT
+light - winged smoke , icarian bird , melting thy pinions in thy upward flight , lark without song , and messenger of dawn circling above the hamlets as they nest ; or else , departing dream , and shadowy form of midnight vision , gathering up thy skirts ; by night star - veiling , and by day && darkening the light and blotting out the sun ; go thou my incense upward from this hearth , and ask the gods to pardon this clear flame .
+ADJ PUNCT ADJ NOUN PUNCT ADJ NOUN PUNCT VERB DET NOUN ADP DET ADJ NOUN PUNCT PROPN ADP NOUN PUNCT CCONJ NOUN ADP NOUN VERB ADP DET NOUN SCONJ PRON VERB PUNCT CCONJ ADV PUNCT VERB NOUN PUNCT CCONJ ADJ NOUN ADP NOUN NOUN PUNCT VERB ADP DET NOUN PUNCT ADP NOUN NOUN PUNCT VERB PUNCT CCONJ ADP NOUN && VERB DET NOUN CCONJ VERB ADP DET NOUN PUNCT VERB VERB DET NOUN ADV ADP DET NOUN PUNCT CCONJ VERB DET NOUN PART VERB DET ADJ NOUN PUNCT
+data/tokenized_enj_pairs/an_enigma.json
+through all the flimsy things we see at once && as easily as through a naples bonnet- trash of all trash!-
+ADP DET DET ADJ NOUN PRON VERB ADP ADV && ADV ADV SCONJ ADP DET PROPN NOUN NOUN ADP DET NOUN
+yet heavier far than your petrarchan stuff- owl - downy nonsense that the faintest puff && twirls into trunk - paper the while you con it . "
+ADV ADV ADV SCONJ DET PROPN PROPN NOUN PUNCT ADJ NOUN SCONJ DET ADJ NOUN && VERB ADP NOUN PUNCT NOUN DET SCONJ PRON VERB PRON PUNCT PUNCT
+the general tuckermanities are arrant && bubbles - ephemeral and
+DET ADJ NOUN AUX ADJ && NOUN PUNCT ADJ CCONJ
+all by dint && of the dear names that he concealed within ' t.
+DET ADP PROPN && ADP DET ADJ NOUN SCONJ PRON VERB ADP PUNCT NOUN

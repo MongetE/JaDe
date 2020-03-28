@@ -1,1 +1,80 @@
-[{"nbPair": "01 02", "text": "I that have been a lover, and could show it,&& Though not in these, in rhymes not wholly dumb,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "02 03", "text": "Though not in these, in rhymes not wholly dumb,&& Since I exscribe your sonnets, am become", "annot": " [] [] []", "isEnj": false}, {"nbPair": "03 04", "text": "Since I exscribe your sonnets, am become%% A better lover, and much better poet.", "annot": " [ex_dobj_verb] [abrupt] [pro]", "isEnj": true}, {"nbPair": "04 05", "text": "A better lover, and much better poet.&& Nor is my Muse, or I ashamed to owe it", "annot": " [] [] []", "isEnj": false}, {"nbPair": "05 06", "text": "Nor is my Muse, or I ashamed to owe it%% To those true numerous graces; whereof some", "annot": " [pb_verb_cprep] [abrupt] [retro]", "isEnj": true}, {"nbPair": "06 07", "text": "To those true numerous graces; whereof some%% But charm the senses, others overcome", "annot": " [ex_subj_verb] [abrupt] [pro]", "isEnj": true}, {"nbPair": "07 08", "text": "But charm the senses, others overcome%% Both brains and hearts; and mine now best do know it:", "annot": " [ex_dojb_verb] [abrupt] [pro]", "isEnj": true}, {"nbPair": "08 09", "text": "Both brains and hearts; and mine now best do know it:&& For in your verse all Cupid's armory,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "09 10", "text": "For in your verse all Cupid's armory,&& His flames, his shafts, his quiver, and his bow,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "10 11", "text": "His flames, his shafts, his quiver, and his bow,&& His very eyes are yours to overthrow.", "annot": " [] [] []", "isEnj": false}, {"nbPair": "11 12", "text": "His very eyes are yours to overthrow.&& But then his mother's sweets you so apply,", "annot": " [] [] []", "isEnj": false}, {"nbPair": "12 13", "text": "But then his mother's sweets you so apply,&& Her joys, her smiles, her loves, as readers take", "annot": " [] [] []", "isEnj": false}, {"nbPair": "13 14", "text": "Her joys, her smiles, her loves, as readers take%% For Venus' ceston, every line you make.", "annot": " [pb_phrasal_verb] [abrupt] [pro] ", "isEnj": true}]
+[
+  {
+    "nbPair": "01 02",
+    "text": "I that have been a lover, and could show it,&& Though not in these, in rhymes not wholly dumb,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "02 03",
+    "text": "Though not in these, in rhymes not wholly dumb,&& Since I exscribe your sonnets, am become",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "03 04",
+    "text": "Since I exscribe your sonnets, am become%% A better lover, and much better poet.",
+    "annot": " [ex_dobj_verb] [abrupt] [pro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "04 05",
+    "text": "A better lover, and much better poet.&& Nor is my Muse, or I ashamed to owe it",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "05 06",
+    "text": "Nor is my Muse, or I ashamed to owe it%% To those true numerous graces; whereof some",
+    "annot": " [pb_verb_cprep] [abrupt] [retro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "06 07",
+    "text": "To those true numerous graces; whereof some%% But charm the senses, others overcome",
+    "annot": " [ex_subj_verb] [abrupt] [pro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "07 08",
+    "text": "But charm the senses, others overcome%% Both brains and hearts; and mine now best do know it:",
+    "annot": " [ex_dojb_verb] [abrupt] [pro]",
+    "isEnj": true
+  },
+  {
+    "nbPair": "08 09",
+    "text": "Both brains and hearts; and mine now best do know it:&& For in your verse all Cupid's armory,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "09 10",
+    "text": "For in your verse all Cupid's armory,&& His flames, his shafts, his quiver, and his bow,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "10 11",
+    "text": "His flames, his shafts, his quiver, and his bow,&& His very eyes are yours to overthrow.",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "11 12",
+    "text": "His very eyes are yours to overthrow.&& But then his mother's sweets you so apply,",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "12 13",
+    "text": "But then his mother's sweets you so apply,&& Her joys, her smiles, her loves, as readers take",
+    "annot": " [] [] []",
+    "isEnj": false
+  },
+  {
+    "nbPair": "13 14",
+    "text": "Her joys, her smiles, her loves, as readers take%% For Venus' ceston, every line you make.",
+    "annot": " [pb_phrasal_verb] [abrupt] [pro] ",
+    "isEnj": true
+  }
+]
