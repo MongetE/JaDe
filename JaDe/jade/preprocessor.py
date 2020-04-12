@@ -35,63 +35,6 @@ def enj_marker(line):
     return marked
 
 
-def build_dict(content):
-    """
-        Build a json object.
-
-        Ideally, this dictionary should also contains the sentence(s) found
-        within the line pair and only the section(s) of these sentence(s)
-        corresponding to the line pair.
-
-        Parameters
-        ----------
-            content: str
-                An annotated poem
-
-        Returns
-        -------
-            json_dict: dict
-                A list of dictionaries in which the following keys are found:
-                * nbPair is the id of the line pair
-                * text is the marked version of the line pair
-                * annot are the annotations given for the line pair
-                * isEnj is a bool, False if there is no enjambment, True otherwise
-
-            poem: str
-                May be removed.
-                The poem with a mark at the end of each line, indicating
-                whether the line is end-stopped (&&) or enjambed (%%).
-    """
-    json_dict = []
-
-    textsPairs = re.findall(r'(^\d{1,}\.)(.*)', content, flags=re.MULTILINE)
-    pairs = [enj_marker(textsPairs[i][1].lstrip()) + textsPairs[i+1][1] for i in range(len(textsPairs))
-             if textsPairs[i] != textsPairs[-1]]
-
-    poem = [enj_marker(textsPairs[i][1].strip())+'\n' for i in range(len(textsPairs))]
-
-    annotPairs = re.findall(r'(\d{2,} \d{2,})(.*)', content, flags=re.MULTILINE)
-    tmp = [(match[0], match[1]) for match in annotPairs]
-
-    for i in range(len(tmp)):
-        tmp_dict = dict()
-
-        tmp_dict['nbPair'], tmp_dict['annot'] = tmp[i][0], tmp[i][1]
-        tmp_dict['text'], tmp_dict['marked_text'] = re.sub('(%%|&&)', '', pairs[i]), pairs[i]
-
-        if '%%' in pairs[i]:
-            tmp_dict['isEnj'] = True
-        else:
-            tmp_dict['isEnj'] = False
-
-        json_dict.append(tmp_dict)
-
-    # poem = reconstruct_poem(json_dict)
-    # sentences = get_sentences(poem)
-
-    return json_dict, poem
-
-
 def get_sentences(poem):
     # TODO: change list comprehensions by for loop to avoid looping three times on the same list
     """
@@ -147,8 +90,106 @@ def reconstruct_poem(marked_poem):
             last_words_end.append(re.search(r'\w*(?=\W&&)', line).group(0))
             poem += re.sub(r'(&&|\n)', ' ', line)
 
-    print(poem)
     return poem, last_words_enj, last_words_end
+
+
+def get_before_after(sentences, last_words_enj, tokens_in_sent, pos_in_sent, tags_in_sent):
+    """
+        Split the sentence between what's before the enjambment and what's after.
+
+        Parameters
+        ----------
+        sentences: list
+            A list of the poem sentences.
+        last_words_enj: list
+            A list of the last words before an enjambment
+        tokens_in_sent: list
+            A list of all the tokens in the poem
+        pos_in_sent: list
+            A list of all the tokens POS in the poem
+        tags_in_sent: list
+            A list of all the tokens tags in the poem
+
+        Returns
+        -------
+        dict
+            A dictionary. Keys include:
+            * the tokens before the enjambment
+            * the tokens after the enjambment
+            * the POS before the enjambment
+            * the POS after the enjambment
+            * the tags before the enjambment
+            * the tags after the enjambment
+    """
+    enjs = []
+    for i in range(len(sentences)):
+        for word in last_words_enj:
+            enj = {}
+            if word != '' and word in tokens_in_sent[i]:
+                enj_position = tokens_in_sent[i].index(word)
+                enj['tok_before'] = tokens_in_sent[i][:enj_position + 1]
+                enj['pos_before'] = pos_in_sent[i][:enj_position + 1]
+                enj['tok_after'] = tokens_in_sent[i][enj_position + 1:]
+                enj['pos_after'] = pos_in_sent[i][enj_position + 1:]
+                enj['tags_before'] = tags_in_sent[i][enj_position + 1:]
+                enj['tags_after'] = tags_in_sent[i][enj_position + 1:]
+            enjs.append(enj)
+
+    return enjs
+
+
+def build_dict(content):
+    """
+        Build a json object.
+
+        Ideally, this dictionary should also contains the sentence(s) found
+        within the line pair and only the section(s) of these sentence(s)
+        corresponding to the line pair.
+
+        Parameters
+        ----------
+            content: str
+                An annotated poem
+
+        Returns
+        -------
+            json_dict: dict
+                A list of dictionaries in which the following keys are found:
+                * nbPair is the id of the line pair
+                * text is the marked version of the line pair
+                * annot are the annotations given for the line pair
+                * isEnj is a bool, False if there is no enjambment, True otherwise
+
+    """
+    json_dict = []
+
+    textsPairs = re.findall(r'(^\d{1,}\.)(.*)', content, flags=re.MULTILINE)
+    pairs = [enj_marker(textsPairs[i][1].lstrip()) + textsPairs[i + 1][1] for i in range(len(textsPairs))
+             if textsPairs[i] != textsPairs[-1]]
+
+    poem = [enj_marker(textsPairs[i][1].strip()) + '\n' for i in range(len(textsPairs))]
+
+    annotPairs = re.findall(r'(\d{2,} \d{2,})(.*)', content, flags=re.MULTILINE)
+    tmp = [(match[0], match[1]) for match in annotPairs]
+
+    for i in range(len(tmp)):
+        tmp_dict = dict()
+
+        tmp_dict['nbPair'], tmp_dict['annot'] = tmp[i][0], tmp[i][1]
+        tmp_dict['text'], tmp_dict['marked_text'] = re.sub('(%%|&&)', '', pairs[i]), pairs[i]
+
+        if '%%' in pairs[i]:
+            tmp_dict['isEnj'] = True
+        else:
+            tmp_dict['isEnj'] = False
+
+    raw = reconstruct_poem(poem)
+    sentences, tokens_in_sent, pos_in_sent, tags_in_sent = get_sentences(raw)
+    enjs_dict = get_before_after(sentences, tokens_in_sent, pos_in_sent, tags_in_sent)
+
+    json_dict.append(tmp_dict)
+
+    return json_dict, enjs_dict
 
 
 def main():
