@@ -86,6 +86,9 @@ def build_dict(content):
 
         json_dict.append(tmp_dict)
 
+    # poem = reconstruct_poem(json_dict)
+    # sentences = get_sentences(poem)
+
     return json_dict, poem
 
 
@@ -113,7 +116,7 @@ def get_sentences(poem):
     return sp_sentences, tokens_in_sent, pos_in_sent, tags_in_sent
 
 
-def reconstruct_poem(json_dict):
+def reconstruct_poem(marked_poem):
     """
         Reconstruct the poem from the json representation of that poem.
 
@@ -133,23 +136,19 @@ def reconstruct_poem(json_dict):
     poem = ""
     last_words_enj = []
     last_words_end = []
-    for item in json_dict:
-        line_pair = item.get('marked_text')
-        if item == json_dict[0]:
-            poem += line_pair.lower().split('%%')[0] + line_pair.lower().split('%%')[1]
-            last_words_enj.append(re.search(r'\w*(?=%%)', line_pair).group(0))
-        elif '&&' in line_pair:
-            poem += line_pair.lower().split('&&')[0] + line_pair.lower().split('&&')[1]
-            last_words_end.append(re.search(r'\w*(?=\W&&)', line_pair).group(0))
-        else:
-            if "&&" in line_pair:
-                poem += line_pair.lower().split('&&')[1]
-                last_words_end.append(re.search(r'\w*(?=\W&&)', line_pair).group(0))
-            else:
-                poem += line_pair.lower().split('%%')[1]
-                last_words_enj.append(re.search(r'\w*(?=%%)', line_pair).group(0))
+    poem += re.sub(r'(&&|%%|\n)', ' ', marked_poem[0])
 
-        return poem, last_words_enj, last_words_end
+    for line in marked_poem[1:]:
+        line = line.lower()
+        if '%%' in line:
+            last_words_enj.append(re.search(r'\w*(?=%%)', line).group(0))
+            poem += re.sub(r'(%%|\n)', ' ', line)
+        else:
+            last_words_end.append(re.search(r'\w*(?=\W&&)', line).group(0))
+            poem += re.sub(r'(&&|\n)', ' ', line)
+
+    print(poem)
+    return poem, last_words_enj, last_words_end
 
 
 def main():
@@ -159,9 +158,8 @@ def main():
                 .replace(':', '').replace('?', '').lower()
             content = curfile.read()
             json_dict, poem = build_dict(content)
-            print(json_dict)
-            reconstructed, last_words_enj, last_words_end = reconstruct_poem(json_dict)
-            sentences, tokens_in_sent, pos_in_sent, tags_in_sent = get_sentences(reconstructed)
+            reconstructed, last_words_enj, last_words_end = reconstruct_poem(poem)
+            # sentences, tokens_in_sent, pos_in_sent, tags_in_sent = get_sentences(reconstructed)
             # writer(json_dict, filename, poem)
 
 
