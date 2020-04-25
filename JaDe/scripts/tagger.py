@@ -27,7 +27,7 @@ def tagger(sents):
     DET_NOUN = r'DET ((ADJ)?){1,2}%%(1)?NOUN'
     ADJ_NOUN = r'ADJ%%((ADJ)?){1,2}NOUN|NOUN(1)?%%ADJ'
     NOUN_PREP = r'NOUN%%ADP'
-    CROSS = r'NOUN%%WDT|NOUN%%IN'
+    CROSS = r'NN%%WDT|NN%%IN'
     V_CHAIN = r'VERB%%AUX|AUX%%VERB'
 
     pb_det_noun = 0
@@ -39,7 +39,7 @@ def tagger(sents):
     for tok_sent, tagged_sent in sents.items():
         pos_sent = tagged_sent['pos']
         tag_sent = tagged_sent['tags']
-        
+
         if re.search(DET_NOUN, pos_sent):
             det_noun = tok_sent.split('%%')[0] + '\n' + tok_sent.split('%%')[1] + ' pb_det_noun'
             print(det_noun)
@@ -65,7 +65,7 @@ def tagger(sents):
             print(v_chain)
             pb_v_chain += 1
 
-        return pb_det_noun, pb_adj_noun, pb_noun_prep, cc_cross_clause, pb_v_chain
+    return pb_det_noun, pb_adj_noun, pb_noun_prep, cc_cross_clause, pb_v_chain
 
 if __name__ == '__main__':
     dir = 'data/tokenized_enj_pairs'
@@ -80,12 +80,19 @@ if __name__ == '__main__':
         json_dict = load_file(str(filepath))
         sents = reconstruct_pos_sent(json_dict)
         if sents is not None:
+            tagger(sents)
             dn, an, np, cc, vc = tagger(sents)
-            pb_det_noun += dn
-            pb_adj_noun += an
-            pb_noun_prep += np
-            cc_cross_clause += cc_cross_clause
-            pb_v_chain += vc
-        
-    print(pb_det_noun, pb_adj_noun, pb_noun_prep, cc_cross_clause, pb_v_chain)
+
+        pb_det_noun += dn
+        pb_adj_noun += an
+        pb_noun_prep += np
+        cc_cross_clause += cc
+        pb_v_chain += vc
+
+    print(f"""\n
+det_noun: {pb_det_noun}, 
+adj_noun: {pb_adj_noun}, 
+noun_prep: {pb_noun_prep}, 
+cross_clause: {cc_cross_clause}, 
+v_chain: {pb_v_chain}""")
     
