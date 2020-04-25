@@ -17,9 +17,9 @@ def reconstruct_pos_sent(json_dict):
     for item in json_dict:
         tok_sent = " ".join(item.get('tok_before')) + "%%" + " ".join(item.get('tok_after'))
         pos_sent = " ".join(item.get('pos_before')) + "%%" + " ".join(item.get('pos_after'))
+        tag_sent = " ".joint(item.get('tag_before')) + "%%" + " ".joint(item.get('tag_after'))
 
-        sents[tok_sent] = pos_sent
-
+        sents[tok_sent] = {'pos': pos_sent, 'tags': tag_sent}
     return sents
 
 
@@ -27,10 +27,12 @@ def tagger(sents):
     DET_NOUN = r'DET ((ADJ)?){1,2}%%(1)?NOUN'
     ADJ_NOUN = r'ADJ%%((ADJ)?){1,2}NOUN|NOUN(1)?%%ADJ'
     NOUN_PREP = r'NOUN%%ADP'
-    CROSS = r'NOUN%%SCONJ'
+    CROSS = r'NOUN%%WDT|NOUN%%IN'
     V_CHAIN = r'VERB%%AUX|AUX%%VERB'
 
-    for tok_sent, pos_sent in sents.items():
+    for tok_sent, tagged_sent in sents.items():
+        pos_sent = tagged_sent['pos']
+        tag_sent = tagged_sent['tag']
         if re.search(DET_NOUN, pos_sent):
             det_noun = tok_sent.split('%%')[0] + '\n' + tok_sent.split('%%')[1] + ' pb_det_noun'
             print(det_noun)
