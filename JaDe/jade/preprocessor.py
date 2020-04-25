@@ -133,7 +133,7 @@ def get_before_after(sentences, last_words_enj, tokens_in_sent, pos_in_sent, tag
                 enj['pos_after'] = pos_in_sent[i][enj_position + 1:]
                 enj['tags_before'] = tags_in_sent[i][enj_position + 1:]
                 enj['tags_after'] = tags_in_sent[i][enj_position + 1:]
-            enjs.append(enj)
+                enjs.append(enj)
 
     return enjs
 
@@ -167,7 +167,7 @@ def build_dict(content):
     pairs = [enj_marker(textsPairs[i][1].lstrip()) + textsPairs[i + 1][1] for i in range(len(textsPairs))
              if textsPairs[i] != textsPairs[-1]]
 
-    poem = "\n".join([enj_marker(textsPairs[i][1].strip()) for i in range(len(textsPairs))])
+    poem = [enj_marker(textsPairs[i][1].strip()) for i in range(len(textsPairs))]
 
     annotPairs = re.findall(r'(\d{2,} \d{2,})(.*)', content, flags=re.MULTILINE)
     tmp = [(match[0], match[1]) for match in annotPairs]
@@ -202,8 +202,10 @@ def main():
 
             json_dict, enjs_dict = build_dict(content)
 
-            with open(str(file).replace('txt', 'json').replace(str(DIR), './data/tokenized_enj_pairs'), 'w', encoding='utf-8') as file:
-                json.dump(enjs_dict, file)
+
+            filepath = str(file).replace('txt', 'json').replace(str(DIR), './data/tokenized_enj_pairs')
+            with open(filepath, 'w', encoding='utf-8') as file:
+                json.dump(enjs_dict, file, ensure_ascii=False)
 
 if __name__ == '__main__':
     main()
