@@ -5,7 +5,7 @@ import re
 import spacy
 
 
-DIR = pathlib.Path('data/annotated_poems')
+DIR = pathlib.Path('./data/annotated_poems')
 nlp = spacy.load('en_core_web_sm')
 
 
@@ -86,8 +86,8 @@ def reconstruct_poem(marked_poem):
         if '%%' in line:
             last_words_enj.append(re.search(r'\w*(?=%%)', line).group(0))
             poem += re.sub(r'(%%|\n)', ' ', line)
-        else:
-            last_words_end.append(re.search(r'\w*(?=\W&&)', line).group(0))
+        elif '&&' in line:
+            last_words_end.append(re.search(r'\w*(?=&&)', line).group(0))
             poem += re.sub(r'(&&|\n)', ' ', line)
 
     return poem, last_words_enj, last_words_end
@@ -112,14 +112,14 @@ def get_before_after(sentences, last_words_enj, tokens_in_sent, pos_in_sent, tag
 
         Returns
         -------
-        dict
-            A dictionary. Keys include:
-            * the tokens before the enjambment
-            * the tokens after the enjambment
-            * the POS before the enjambment
-            * the POS after the enjambment
-            * the tags before the enjambment
-            * the tags after the enjambment
+            enjs: dict
+                A dictionary. Keys include:
+                * the tokens before the enjambment
+                * the tokens after the enjambment
+                * the POS before the enjambment
+                * the POS after the enjambment
+                * the tags before the enjambment
+                * the tags after the enjambment
     """
     enjs = []
     for i in range(len(sentences)):
@@ -167,11 +167,12 @@ def build_dict(content):
     pairs = [enj_marker(textsPairs[i][1].lstrip()) + textsPairs[i + 1][1] for i in range(len(textsPairs))
              if textsPairs[i] != textsPairs[-1]]
 
-    poem = [enj_marker(textsPairs[i][1].strip()) + '\n' for i in range(len(textsPairs))]
+    poem = "\n".join([enj_marker(textsPairs[i][1].strip()) for i in range(len(textsPairs))])
 
     annotPairs = re.findall(r'(\d{2,} \d{2,})(.*)', content, flags=re.MULTILINE)
     tmp = [(match[0], match[1]) for match in annotPairs]
 
+    json_dict = []
     for i in range(len(tmp)):
         tmp_dict = dict()
 
@@ -183,11 +184,11 @@ def build_dict(content):
         else:
             tmp_dict['isEnj'] = False
 
-    raw = reconstruct_poem(poem)
-    sentences, tokens_in_sent, pos_in_sent, tags_in_sent = get_sentences(raw)
-    enjs_dict = get_before_after(sentences, tokens_in_sent, pos_in_sent, tags_in_sent)
+        json_dict.append(tmp_dict)
 
-    json_dict.append(tmp_dict)
+    raw, last_words_enj, last_words_end = reconstruct_poem(poem)
+    sentences, tokens_in_sent, pos_in_sent, tags_in_sent = get_sentences(raw)
+    enjs_dict = get_before_after(sentences, last_words_enj, tokens_in_sent, pos_in_sent, tags_in_sent)
 
     return json_dict, enjs_dict
 
@@ -198,11 +199,11 @@ def main():
             filename = str(file)[21:-4].replace(',', '').replace('\'', '').replace('.', '').replace(' ', '_')\
                 .replace(':', '').replace('?', '').lower()
             content = curfile.read()
-            json_dict, poem = build_dict(content)
-            reconstructed, last_words_enj, last_words_end = reconstruct_poem(poem)
-            # sentences, tokens_in_sent, pos_in_sent, tags_in_sent = get_sentences(reconstructed)
-            # writer(json_dict, filename, poem)
 
+            json_dict, enjs_dict = build_dict(content)
+
+            with open(str(file).replace('txt', 'json').replace(str(DIR), './data/tokenized_enj_pairs'), 'w', encoding='utf-8') as file:
+                json.dump(enjs_dict, file)
 
 if __name__ == '__main__':
     main()
