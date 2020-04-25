@@ -131,7 +131,7 @@ def get_before_after(sentences, last_words_enj, tokens_in_sent, pos_in_sent, tag
                 enj['pos_before'] = pos_in_sent[i][:enj_position + 1]
                 enj['tok_after'] = tokens_in_sent[i][enj_position + 1:]
                 enj['pos_after'] = pos_in_sent[i][enj_position + 1:]
-                enj['tags_before'] = tags_in_sent[i][enj_position + 1:]
+                enj['tags_before'] = tags_in_sent[i][:enj_position + 1]
                 enj['tags_after'] = tags_in_sent[i][enj_position + 1:]
                 enjs.append(enj)
 
