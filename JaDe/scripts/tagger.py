@@ -14,10 +14,10 @@ def load_file(filepath):
 
 def reconstruct_pos_sent(json_dict):
     sents = {}
-    for item in json_dict:
-        tok_sent = " ".join(item.get('tok_before')) + "%%" + " ".join(item.get('tok_after'))
-        pos_sent = " ".join(item.get('pos_before')) + "%%" + " ".join(item.get('pos_after'))
-        tag_sent = " ".joint(item.get('tag_before')) + "%%" + " ".joint(item.get('tag_after'))
+    for enj_pair in json_dict:
+        tok_sent = " ".join(enj_pair.get('tok_before')) + "%%" + " ".join(enj_pair.get('tok_after'))
+        pos_sent = " ".join(enj_pair.get('pos_before')) + "%%" + " ".join(enj_pair.get('pos_after'))
+        tag_sent = " ".join(enj_pair.get('tags_before')) + "%%" + " ".join(enj_pair.get('tags_after'))
 
         sents[tok_sent] = {'pos': pos_sent, 'tags': tag_sent}
     return sents
@@ -30,35 +30,62 @@ def tagger(sents):
     CROSS = r'NOUN%%WDT|NOUN%%IN'
     V_CHAIN = r'VERB%%AUX|AUX%%VERB'
 
+    pb_det_noun = 0
+    pb_adj_noun = 0
+    pb_noun_prep = 0
+    cc_cross_clause = 0
+    pb_v_chain = 0
+
     for tok_sent, tagged_sent in sents.items():
         pos_sent = tagged_sent['pos']
-        tag_sent = tagged_sent['tag']
+        tag_sent = tagged_sent['tags']
+        
         if re.search(DET_NOUN, pos_sent):
             det_noun = tok_sent.split('%%')[0] + '\n' + tok_sent.split('%%')[1] + ' pb_det_noun'
             print(det_noun)
+            pb_det_noun += 1
 
         if re.search(ADJ_NOUN, pos_sent):
             adj_noun = tok_sent.split('%%')[0] + '\n' + tok_sent.split('%%')[1] + ' pb_adj_noun'
             print(adj_noun)
+            pb_adj_noun += 1
 
         if re.search(NOUN_PREP, pos_sent):
             noun_prep = tok_sent.split('%%')[0] + '\n' + tok_sent.split('%%')[1] + ' pb_noun_prep'
             print(noun_prep)
+            pb_noun_prep += 1
 
-        if re.search(CROSS, pos_sent):
+        if re.search(CROSS, tag_sent):
             cross = tok_sent.split('%%')[0] + '\n' + tok_sent.split('%%')[1] + ' cc_cross_clause'
             print(cross)
+            cc_cross_clause += 1
 
         if re.search(V_CHAIN, pos_sent):
             v_chain = tok_sent.split('%%')[0] + '\n' + tok_sent.split('%%')[1] + ' pb_v_chain'
             print(v_chain)
+            pb_v_chain += 1
+
+        return pb_det_noun, pb_adj_noun, pb_noun_prep, cc_cross_clause, pb_v_chain
 
 if __name__ == '__main__':
     dir = 'data/tokenized_enj_pairs'
+    pb_det_noun = 0
+    pb_adj_noun = 0
+    pb_noun_prep = 0
+    cc_cross_clause = 0
+    pb_v_chain = 0
 
     for filepath in pathlib.Path(dir).iterdir():
         print(str(filepath))
         json_dict = load_file(str(filepath))
         sents = reconstruct_pos_sent(json_dict)
         if sents is not None:
-            test = tagger(sents)
+            dn, an, np, cc, vc = tagger(sents)
+            pb_det_noun += dn
+            pb_adj_noun += an
+            pb_noun_prep += np
+            cc_cross_clause += cc_cross_clause
+            pb_v_chain += vc
+        
+    print(pb_det_noun, pb_adj_noun, pb_noun_prep, cc_cross_clause, pb_v_chain)
+    
