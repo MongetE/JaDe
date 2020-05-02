@@ -1,0 +1,9 @@
+so much depends []
+upon []
+a red wheel []
+barrow [pb_noun_prep ,pb_noun_noun]
+glazed with rain [pb_noun_prep ,pb_noun_noun]
+water [pb_noun_prep ,pb_noun_noun]
+beside the white [pb_noun_prep ,pb_noun_noun]
+chickens.
+ []
