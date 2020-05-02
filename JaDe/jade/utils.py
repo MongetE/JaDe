@@ -33,7 +33,7 @@ def dump_dict(filepath, dictname):
         json.dump(dictname, file, ensure_ascii=False)
 
 
-def get_tag(sentence):
+def get_type(sentence):
     """
         Retrieve the type of enjambment present in a sentence. 
 
@@ -49,54 +49,59 @@ def get_tag(sentence):
 
         Returns
         -------
-            tags: list
+            types: list
                 A list of the enjambment found in the sentence. 
 
     """
-
-    print(sentence)
 
     DET_NOUN = r'DET SPACE NOUN'
     NOUN_NOUN = r'NOUN SPACE NOUN'
     ADJ_NOUN = r'ADJ SPACE NOUN|NOUN SPACE ADJ'
     ADJ_ADJ = r'ADJ SPACE ADJ'
     NOUN_PREP = r'NOUN SPACE ADP'
-    CROSS = r'NN SPACE WDT'
+    CROSS = r'NN SP_ WDT'
     V_CHAIN = r'VERB SPACE AUX|AUX SPACE VERB'
     ADV_ADV = r'ADV SPACE ADV'
     VERB_ADV = r'ADV SPACE VERB|VERB SPACE ADV'
     ADJ_ADV = r'ADV SPACE ADJ'
+    
+    types = []
+    tag = ""
+    pos = ""
 
-    tags = []
+    for token in sentence: 
+        pos += token[1] + " "
+        tag += token[2] + " "
 
-    if re.search(DET_NOUN, sentence[1]):
-        tags.append('pb_det_noun')
+    if re.search(DET_NOUN, pos):
+        types.append('pb_det_noun')
 
-    if re.search(ADJ_NOUN, sentence[1]):
-        tags.append('pb_adj_noun')
+    if re.search(ADJ_NOUN, pos):
+        types.append('pb_adj_noun')
 
-    if re.search(ADJ_ADV, sentence[1]):
-        tags.append('pb_adj_adv')
+    if re.search(ADJ_ADV, pos):
+        types.append('pb_adj_adv')
 
-    if re.search(VERB_ADV, sentence[1]):
-        tags.append('pb_verb_adv')
+    if re.search(VERB_ADV, pos):
+        types.append('pb_verb_adv')
 
-    if re.search(ADV_ADV, sentence[1]):
-        tags.append('pb_adv_adv')
+    if re.search(ADV_ADV, pos):
+        types.append('pb_adv_adv')
 
-    if re.search(ADJ_ADJ, sentence[1]):
-        tags.append('pb_adj_noun')
+    if re.search(ADJ_ADJ, pos):
+        types.append('pb_adj_noun')
 
-    if re.search(NOUN_PREP, sentence[1]):
-        tags.append('pb_noun_prep')
+    if re.search(NOUN_PREP, pos):
+        types.append('pb_noun_prep')
 
-    if re.search(NOUN_NOUN, sentence[1]):
-        tags.append('pb_noun_noun')
+    if re.search(NOUN_NOUN, pos):
+        types.append('pb_noun_noun')
 
-    if re.search(CROSS, sentence[2]):
-        tags.append('cc_cross_clause')
+    if tag != "":
+        if re.search(CROSS, tag):
+            types.append('cc_cross_clause')
 
-    if re.search(V_CHAIN, sentence[1]):
-        tags.append('pb_v_chain')
+    if re.search(V_CHAIN, pos):
+        types.append('pb_v_chain')
 
-    return tags
+    return types
