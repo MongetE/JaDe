@@ -1,6 +1,0 @@
-Name: Pope
-Fname: Alexander
-Birth: 21/05/1688, London (UK)
-Death: 30/05/1744, Twickenham (UK)
-Century: 17/18th
-Nationality: British

@@ -1,7 +1,0 @@
-Name: Dickinson
-Fname: Emily
-Birth: 10/12/1830, Amherst (US)
-Death: 15/5/1886, Amherst (US)
-Century: 20th
-Nationality: American
-

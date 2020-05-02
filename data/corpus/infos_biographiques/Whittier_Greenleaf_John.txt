@@ -1,6 +1,0 @@
-Name: Greenleaf Whittier
-Fname: John
-Birth: 17/12/1807, Haverhill (US)
-Death: 7/9/1892, Hampton Falls (US)
-Century: 19th
-Nationality: American

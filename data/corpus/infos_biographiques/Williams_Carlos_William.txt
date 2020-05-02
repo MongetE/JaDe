@@ -1,6 +1,0 @@
-Name: Williams
-Fname: William Carlos
-Birth: 17/9/1883, Rutherford (US)
-Death: 4/3/1963, Rutherford (US)
-Century: 19/20th
-Nationality: American

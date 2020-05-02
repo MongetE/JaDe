@@ -1,6 +1,0 @@
-Name: Owen
-Fname: Wilfred
-Birth: 18/3/1893, Oswestry (UK)
-Death: 4/11/1918, Canal de la Sambre (FR)
-Century: 20th
-Nationality: British 

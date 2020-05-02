@@ -1,6 +1,0 @@
-Name: Thomas
-Fname: Dylan
-Birth: 27/10/1914, Swansea (UK)
-Death: 9/11/1953, NYC (US)
-Century: 20th
-Nationality: Welsh

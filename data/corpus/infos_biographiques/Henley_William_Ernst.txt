@@ -1,6 +1,0 @@
-Name: Henley
-Fname: William Ernst
-Birth: 23/8/1849, Gloucester (UK) 
-Death: 11/7/1903, Woking (UK)
-Century: 19th
-Nationality: British

@@ -1,6 +1,0 @@
-Name: Auden
-Fname: Wystan Hugh
-Birth: 21/2/1907, York (UK)
-Death: 29/9/1973, Vienna (AT)
-Century: 20th
-Nationality: British/American

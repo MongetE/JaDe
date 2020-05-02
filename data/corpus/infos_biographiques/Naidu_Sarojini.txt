@@ -1,6 +1,0 @@
-Name: Naidu
-Fname: Sarojini
-Birth: 13/2/1879, Hyberabad (IN)
-Death: 2/3/1949, Lucknow (IN)
-Century: 19/20th
-Nationality: British Indian ? 

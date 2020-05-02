@@ -1,6 +1,0 @@
-Name: Hardy
-Fname: Thomas
-Birth: 2/6/1840, Stinsford (UK)
-Death: 11/1/1928, Dorchester (UK)
-Century: 19/20th
-Nationality: British

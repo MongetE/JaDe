@@ -1,6 +1,0 @@
-Name: Shakespeare
-Fname: William
-Birth: 26/4/1564, Stradford-upon-Avon (UK)
-Death: 3/5/1616
-Century: 16/17th
-Nationality: British

@@ -1,6 +1,0 @@
-Name: Dahl
-Fname: Roald
-Birth: 13/9/1916, Cardiff (UK)
-Death: 23/11/1990, Oxford (UK)
-Century: 20th
-Nationality: Welsh

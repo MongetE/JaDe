@@ -1,6 +1,0 @@
-Name: Whitman
-Fname: Walt
-Birth: 31/5/1819, NYC (US)
-Death: 26/3/1892, Camden (US)
-Century: 19th
-Nationality: American

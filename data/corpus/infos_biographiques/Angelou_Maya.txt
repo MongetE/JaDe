@@ -1,6 +1,0 @@
-Name: Angelou
-Fname: Maya
-Birth: 4/4/1928, St Louis (US)
-Death: 28/5/2014, Winston-Salem (US)
-Century: 20/21th 
-Nationality: American

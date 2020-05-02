@@ -1,6 +1,0 @@
-Name: Nash
-Fname: Ogden
-Birth: 19/8/1902, NYC (US)
-Death: 19/5/1971, Baltimore (US)
-Century: 20th
-Nationality: American

@@ -1,6 +1,0 @@
-Name: McKay
-Fname: Claude
-Birth: 15/9/1889, Clarendon Parish (JM)
-Death: 22/5/1948, Chicago (US)
-Century: 19/20th
-Nationality: Jamaican
