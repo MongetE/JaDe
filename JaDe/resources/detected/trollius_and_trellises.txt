@@ -121,4 +121,3 @@ found []
 as the fire sings [pb_det_noun ,pb_v_chain]
 through the [pb_det_noun ,pb_v_chain]
 trees.
- []

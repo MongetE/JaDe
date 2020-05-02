@@ -14,7 +14,7 @@ nlp = spacy.load('en_core_web_sm')
 def get_poem_lines(poem):
     return poem.split('\n')
 
-def is_enjambement(line):
+def is_enjambment(line):
     """
         Take a line and return whether it is end-stopped or enjambed.
         
@@ -33,23 +33,68 @@ def is_enjambement(line):
 
     return True
 
-def get_enjambement_sentence(enjambement_line, poem_sentences):
+def get_enjambment_sentence(enjambment_line, poem_sentences):
+    """
+        Try to match a line to the sentence where it occurs. 
+
+        Parameters
+        ----------
+            enjambment_line: str
+                An enjambed line according to is_enjambment
+            sentences: list
+                The list of the poem sentences
+        Returns
+        -------
+            sentence: str
+                The sentence in which occurs the enjambment
+    """
     for sentence in poem_sentences:
-        if '(' in enjambement_line or ')' in enjambement_line:
-            enjambement_line = re.sub(r'[\(\)]', '', enjambement_line)
-            sentence = re.sub(r'[\(\)]', '', enjambement_line)
-        if re.search(enjambement_line, sentence):
+        if '(' in enjambment_line or ')' in enjambment_line:
+            enjambment_line = re.sub(r'[\(\)]', '', enjambment_line)
+            sentence = re.sub(r'[\(\)]', '', enjambment_line)
+        if re.search(enjambment_line, sentence):
             return sentence
 
 
-def fuzzy_enjambment_matching(enjambement_line, poem_sentences): 
+def fuzzy_enjambment_matching(enjambment_line, poem_sentences): 
+    """
+        If match by regex fails, try to establish whether or not
+        a given line is present in the sentence. 
+
+        Fuzzy matching is done using the set_token_ration method,
+        so that the length of the string doest not really matter. 
+
+        Parameters
+        ----------
+            enjambment_line: str
+                An enjambed line according to is_enjambment
+            sentences: list
+                The list of the poem sentences
+        Returns
+        -------
+            sentence: str
+                The sentence in which occurs the enjambment
+    """
     for sentence in poem_sentences:
-        ratio = fuzz.token_set_ratio(enjambement_line, sentence)
+        ratio = fuzz.token_set_ratio(enjambment_line, sentence)
         if ratio > 75:
             return sentence
 
 
 def remove_annotations(poem):
+    """
+        Get poem from annotated poem.
+
+        Parameters
+        ----------
+            poem: str
+                An annotated poem 
+
+        Returns
+        -------
+            text: str
+                The text of the poem
+    """
     lines = re.findall(r'(^\d{1,}\. )(.*)', poem, flags=re.MULTILINE)
     text = ""
     for line in lines:
@@ -58,6 +103,9 @@ def remove_annotations(poem):
     return text
 
 def main():
+    """
+        Execute the whole preprocessing module. 
+    """
     if not os.path.exists(OUT_DIR): 
         os.makedirs(OUT_DIR)
 
@@ -76,22 +124,23 @@ def main():
             transformed_lines = []
 
             for line in poem_lines:
-                if is_enjambement(line):
-                    sentence = get_enjambement_sentence(line, poem_sentences)
-                    if sentence is None: 
-                        sentence = fuzzy_enjambment_matching(line, poem_sentences)
-                    
-                    if sentence is not None:
-                        tagged_sentence = nlp(sentence)
-                        sentence_part_of_speech = [(token, str(token.pos_), str(token.tag_)) 
-                                                    for token in tagged_sentence]
+                if len(line) > 1:
+                    if is_enjambment(line):
+                        sentence = get_enjambment_sentence(line, poem_sentences)
+                        if sentence is None: 
+                            sentence = fuzzy_enjambment_matching(line, poem_sentences)
+                        
+                        if sentence is not None:
+                            tagged_sentence = nlp(sentence)
+                            sentence_part_of_speech = [(token, str(token.pos_), str(token.tag_)) 
+                                                        for token in tagged_sentence]
 
-                        # print([(token, str(token.pos_)) for token in tagged_sentence])
-                        types = get_type(sentence_part_of_speech)
+                            # print([(token, str(token.pos_)) for token in tagged_sentence])
+                            types = get_type(sentence_part_of_speech)
 
-                        line += ' [' + str(' ,'.join(types)) + ']'
+                            line += ' [' + str(' ,'.join(types)) + ']'
 
-                transformed_lines.append(line)
+                    transformed_lines.append(line)
                 
             # Merge lines together back so that we have something readable
             poem = '\n'.join(transformed_lines)
