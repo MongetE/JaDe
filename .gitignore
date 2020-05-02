@@ -1,0 +1,7 @@
+data
+venv
+.idea
+JaDe/jade/__pycache__
+Jade/jade/scripts
+JaDe
+requirements.txt
