@@ -1,7 +1,2 @@
-requests==2.23.0
 spacy==2.2.4
-beautifulsoup4==4.9.0
-bokeh==2.0.1
-pandas==1.0.3
-selenium==3.141.0
-stanfordnlp==0.2.0
+fuzzywuzzy==0.18.0
