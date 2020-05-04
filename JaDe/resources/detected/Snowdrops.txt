@@ -5,9 +5,9 @@ I did not expect to survive,
 earth suppressing me. I didn't expect []
 to waken again, to feel []
 in damp earth my body []
-able to respond again, remembering [pb_adj_noun ,pb_verb_adv ,pb_noun_prep]
-after so long how to open again [pb_adj_noun ,pb_verb_adv ,pb_noun_prep]
-in the cold light [pb_adj_noun ,pb_verb_adv ,pb_noun_prep]
+able to respond again, remembering [pb_noun_adj ,pb_verb_adv ,pb_noun_prep]
+after so long how to open again [pb_noun_adj ,pb_verb_adv ,pb_noun_prep]
+in the cold light [pb_noun_adj ,pb_verb_adv ,pb_noun_prep]
 of earliest spring--
 afraid, yes, but among you again []
 crying yes risk joy [pb_verb_adv ,pb_noun_prep]

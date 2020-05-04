@@ -6,7 +6,7 @@ Little wreaths of gilded grass,
 Little brigs of whittled oak []
 Bottled painfully in glass;
 These are made by lonely folk.
-Lonely folk have lines of days [pb_adj_noun]
+Lonely folk have lines of days [pb_noun_adj]
 Long and faltering and thin;
 Therefore -- little wax bouquets,
 Prayers cut upon a pin,
