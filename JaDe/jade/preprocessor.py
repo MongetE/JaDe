@@ -111,8 +111,7 @@ def main():
 
     for file in DATA_DIR.iterdir():
         with open(str(file), 'r', encoding='utf-8') as curfile:
-            filename = str(file)[31:].replace(',', '').replace('\'', '').replace(' ', '_')\
-                .replace(':', '').replace('?', '').lower()
+            filename = str(file)[31:]
             print(filename)
 
             poem = curfile.read()

@@ -77,7 +77,7 @@ def get_type(sentence):
         types.append('pb_det_noun')
 
     if re.search(ADJ_NOUN, pos):
-        types.append('pb_adj_noun')
+        types.append('pb_noun_adj')
 
     if re.search(ADJ_ADV, pos):
         types.append('pb_adj_adv')
