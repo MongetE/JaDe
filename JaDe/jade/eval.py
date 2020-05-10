@@ -118,7 +118,7 @@ if __name__ == "__main__":
             fscore.append(detection_fscore)
 
     print(f"detection_precision\t\tdetection_recall\t\tdetection_fscore\n\
-{statistics.mean(precision)}\t\t{statistics.mean(recall)}\t\t{statistics.mean(fscore)}")
+{statistics.mean(precision):.2f}\t\t\t\t{statistics.mean(recall):.2f}\t\t\t\t{statistics.mean(fscore):.2f}")
 
 
     manual_annotations = global_['true']
