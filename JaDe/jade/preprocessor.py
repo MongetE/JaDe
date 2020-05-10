@@ -137,7 +137,10 @@ def main():
                                                         for token in tagged_sentence]
                             # print([(token, str(token.pos_)) for token in tagged_sentence])
                             types = get_type(sentence_part_of_speech)
-                            line += ' [' + str(' ,'.join(types)) + ']'
+                            if len(types) > 0:
+                                line += ' [' + str(' ,'.join(types)) + ']'
+                            else: 
+                                line += ' [?]'
                     transformed_lines.append(line)
 
                     

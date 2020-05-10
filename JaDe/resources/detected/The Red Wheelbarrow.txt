@@ -1,8 +1,8 @@
-so much depends []
-upon []
+so much depends [?]
+upon [?]
 a red wheel [pb_noun_noun]
-barrow []
+barrow [?]
 glazed with rain [pb_noun_noun]
 water [pb_noun_prep]
-beside the white []
+beside the white [?]
 chickens.
