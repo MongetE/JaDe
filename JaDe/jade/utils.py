@@ -54,16 +54,17 @@ def get_type(sentence):
 
     """
 
-    DET_NOUN = r'DET SPACE NOUN'
+    DET_NOUN = r'DET (ADJ )?SPACE (1)? NOUN'
     NOUN_NOUN = r'NOUN SPACE NOUN'
     ADJ_NOUN = r'ADJ SPACE NOUN|NOUN SPACE ADJ'
     ADJ_ADJ = r'ADJ SPACE ADJ'
-    NOUN_PREP = r'NOUN SPACE ADP'
+    NOUN_PREP = r'NOUN SPACE ADP|ADP SPACE (ADJ|DET)? NOUN'
     CROSS = r'NN SP_ WDT'
     V_CHAIN = r'VERB SPACE AUX|AUX SPACE VERB'
     ADV_ADV = r'ADV SPACE ADV'
     VERB_ADV = r'ADV SPACE VERB|VERB SPACE ADV'
     ADJ_ADV = r'ADV SPACE ADJ'
+    VERB_TO = r'TO SP_ VB'
     
     types = []
     tag = ""
@@ -100,6 +101,9 @@ def get_type(sentence):
     if tag != "":
         if re.search(CROSS, tag):
             types.append('cc_cross_clause')
+
+        if re.search(VERB_TO, tag):
+            types.append('pb_to_verb')
 
     if re.search(V_CHAIN, pos):
         types.append('pb_v_chain')
