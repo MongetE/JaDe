@@ -11,7 +11,7 @@
 9. If you pluck out the heart
 10. To find what makes it move,
 11. You'll halt the clock
-12. That syncopates our love. 
+12. That syncopates our love.
 
 01 02 [ex_verb_adjunct_goal] [smooth] [retro]
 02 03 [] [] []
