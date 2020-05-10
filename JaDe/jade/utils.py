@@ -106,6 +106,6 @@ def get_type(sentence):
             types.append('pb_to_verb')
 
     if re.search(V_CHAIN, pos):
-        types.append('pb_v_chain')
+        types.append('pb_verb_chain')
 
     return types
