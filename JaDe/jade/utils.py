@@ -89,7 +89,7 @@ def get_type(sentence):
         types.append('pb_adv_adv')
 
     if re.search(ADJ_ADJ, pos):
-        types.append('pb_adj_noun')
+        types.append('pb_noun_adj')
 
     if re.search(NOUN_PREP, pos):
         types.append('pb_noun_prep')

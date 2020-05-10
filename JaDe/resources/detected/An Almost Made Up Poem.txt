@@ -1,5 +1,5 @@
-I see you drinking at a fountain with tiny [pb_adj_noun]
-blue hands, no, your hands are not tiny [pb_adj_noun]
+I see you drinking at a fountain with tiny [pb_noun_adj]
+blue hands, no, your hands are not tiny [pb_noun_adj]
 they are small, and the fountain is in France []
 where you wrote me that last letter and []
 I answered and never heard from you again.
