@@ -2,6 +2,7 @@ import os
 import re
 import sys
 import pathlib
+import statistics
 from sklearn.metrics import classification_report
 
 ANNOT_DIR = r'JaDe/resources/annotated_poems'
@@ -81,16 +82,45 @@ if __name__ == "__main__":
         for tag in tmp_true[i]:
             global_['true'].append(tag)
 
-    # for poem, enjambments in annotations.items():
-    #     print(poem)
-    #     manual_annotations = enjambments[0]
-    #     automatic_annotations = enjambments[1]
-    #     print(classification_report(manual_annotations, automatic_annotations, digits=3))
-    #     print()
-        # for i in range(len(manual_annotations)):
-        #     if len(automatic_annotations[i]) == len(manual_annotations[i]):
-        #         print('detected: ', automatic_annotations[i], '\tmanual: ', manual_annotations[i])
+    true_positive = 0
+    true_negative = 0 
+    false_positive = 0 
+    false_negative = 0 
+    precision = []
+    recall = []
+    fscore = []
+    for poem, enjambments in annotations.items():
+        #print(poem)
+        manual_annotations = enjambments[0]
+        automatic_annotations = enjambments[1]
+        # print(classification_report(manual_annotations, automatic_annotations, digits=3))
+        # print()
+        for i in range(len(manual_annotations)):
+            if manual_annotations[i] != "[]" and automatic_annotations[i] != '[]':
+                true_positive += 1
+            elif automatic_annotations[i] == "[]" and manual_annotations[i] != "[]":
+                false_negative += 1
+            elif manual_annotations[i] == "[]" and automatic_annotations[i] != "[]":
+                false_positive += 1
+            else : 
+                true_negative += 1
+
+            #print('detected: ', automatic_annotations[i], '\tmanual: ', manual_annotations[i])
+
+            detection_precision = true_positive/(true_positive + false_positive)
+            detection_recall = true_positive/(true_positive + false_negative)
+            detection_fscore = 2 * ((detection_precision * detection_recall)/(detection_precision + detection_recall))
+#             print(f"detection_precision\t\tdetection_recall\t\tdetection_fscore\n\
+# {detection_precision}\t\t{detection_recall}\t\t{detection_fscore}")
+
+            precision.append(detection_precision)
+            recall.append(detection_recall)
+            fscore.append(detection_fscore)
+
+    print(f"detection_precision\t\tdetection_recall\t\tdetection_fscore\n\
+{statistics.mean(precision)}\t\t{statistics.mean(recall)}\t\t{statistics.mean(fscore)}")
+
 
     manual_annotations = global_['true']
     automatic_annotations = global_['predicted']
-    print(classification_report(manual_annotations, automatic_annotations, digits=3))
+    print(classification_report(manual_annotations, automatic_annotations, digits=3, zero_division=0))
