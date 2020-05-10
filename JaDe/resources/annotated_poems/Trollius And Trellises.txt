@@ -269,7 +269,7 @@
 115 116 [ex_subj_verb] [smooth] [pro]
 116 117 [] [] []
 117 118 [] [] []
-118 119 [pb_noun_adv [smooth] [pro]
+118 119 [pb_noun_adv] [smooth] [pro]
 119 120 [pb_verb_chain] [smooth] [pro]
 120 121 [] [] []
 121 122 [] [] []
