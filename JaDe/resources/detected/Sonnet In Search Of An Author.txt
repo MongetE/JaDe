@@ -1,14 +1,14 @@
-Nude bodies like peeled logs [pb_noun_prep ,pb_noun_noun]
-sometimes give off a sweetest [pb_noun_prep ,pb_noun_noun]
-odor, man and woman [pb_noun_prep ,pb_noun_noun]
-under the trees in full excess [pb_noun_prep ,pb_noun_noun]
-matching the cushion of [pb_noun_prep ,pb_noun_noun]
-aromatic pine-drift fallen [pb_noun_prep ,pb_noun_noun]
-threaded with trailing woodbine [pb_noun_prep ,pb_noun_noun]
-a sonnet might be made of it []
-Might be made of it! odor of excess []
-odor of pine needles, odor of [pb_noun_adj]
-peeled logs, odor of no odor [pb_noun_adj]
+Nude bodies like peeled logs []
+sometimes give off a sweetest [pb_noun_noun]
+odor, man and woman [pb_noun_prep]
+under the trees in full excess []
+matching the cushion of []
+aromatic pine-drift fallen []
+threaded with trailing woodbine
+a sonnet might be made of it
+Might be made of it! odor of excess
+odor of pine needles, odor of []
+peeled logs, odor of no odor
 other than trailing woodbine that []
 has no odor, odor of a nude woman []
 sometimes, odor of a man.
