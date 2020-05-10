@@ -1,17 +1,17 @@
-of course, I may die in the next ten minutes
-and I’m ready for that
+of course, I may die in the next ten minutes []
+and I’m ready for that []
 but what I’m really worried about is []
 that my editor-publisher might retire [pb_verb_adv]
 even though he is ten years younger than []
 I.
-it was just 25 years ago (I was at that ripe
-old age of 45)
+it was just 25 years ago (I was at that ripe [pb_noun_adj]
+old age of 45) []
 when we began our unholy alliance to []
 test the literary waters,
 neither of us being much [pb_verb_adv]
 known.
 I think we had some luck and still have some []
-of same
+of same []
 yet []
 the odds are pretty fair []
 that he will opt for warm and pleasant [pb_noun_adj]
@@ -29,8 +29,8 @@ of many []
 so-called genius darlings who are []
 not.
 I won’t blame him for getting []
-out
-and hope he sends me photos of his
+out []
+and hope he sends me photos of his []
 Rose Lane, his []
 Gardenia Avenue.
 will I have to seek other [pb_noun_adj]
@@ -44,10 +44,10 @@ greasy lips?
 or will my editor-publisher []
 upon exiting for that world of Trollius and []
 trellis []
-hand over the [pb_det_noun]
+hand over the []
 machinery [pb_noun_prep]
-of his former trade to a [pb_det_noun]
-cousin, a [pb_det_noun]
+of his former trade to a []
+cousin, a []
 daughter or []
 some Poundian from Big [pb_noun_adj]
 Sur?
@@ -64,28 +64,28 @@ things:
 must now be submitted in []
 Rondo form []
 and []
-typed
+typed []
 triple-spaced on rice []
-paper.”
+paper.” []
 power corrupts,
-life aborts
-and all you
-have left
-is a [pb_det_noun]
+life aborts []
+and all you []
+have left [pb_v_chain]
+is a []
 bunch of []
 warts.
 “no, no, Mr. Chinaski:
 Rondo form!”
 “hey, man,” I’ll ask,
-“haven’t you heard of []
-the thirties?”
-“the thirties? what’s
-that?”
-my present editor-publisher
+“haven’t you heard of [pb_noun_prep]
+the thirties?” []
+“the thirties? what’s []
+that?” []
+my present editor-publisher []
 and I []
 at times []
 did discuss the thirties,
-the Depression
+the Depression []
 and []
 some of the little tricks it []
 taught us— []
@@ -93,7 +93,7 @@ like how to endure on almost []
 nothing []
 and move forward [pb_adv_adv]
 anyhow.
-well, John, if it happens enjoy your [pb_det_noun]
+well, John, if it happens enjoy your []
 divertissement to []
 plant husbandry,
 cultivate and aerate []
@@ -101,7 +101,7 @@ between []
 bushes, water only in the []
 early morning, spread []
 shredding to discourage []
-weed growth
+weed growth []
 and []
 as I do in my writing:
 use plenty of []
@@ -113,11 +113,11 @@ somewhere between []
 alcoholism and []
 madness.
 together we []
-laid down the gauntlet
+laid down the gauntlet []
 and there are takers []
 even at this late date []
 still to be [pb_v_chain]
 found []
 as the fire sings []
-through the [pb_det_noun]
+through the []
 trees.

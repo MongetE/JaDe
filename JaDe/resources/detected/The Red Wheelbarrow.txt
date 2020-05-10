@@ -1,6 +1,6 @@
 so much depends []
 upon []
-a red wheel
+a red wheel [pb_noun_noun]
 barrow []
 glazed with rain [pb_noun_noun]
 water [pb_noun_prep]

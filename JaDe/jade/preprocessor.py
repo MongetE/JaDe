@@ -125,24 +125,21 @@ def main():
             for i in range(len(poem_lines)+1):
                 if i < len(poem_lines)-1: 
                     line = poem_lines[i]
-                    if line != '\n':
-                        if is_enjambment(line):
-                            line_pair = poem_lines[i] + '\n' + poem_lines[i+1]
-                            sentence = get_enjambment_sentence(line_pair, poem_sentences)
-                            if sentence is None: 
-                                sentence = fuzzy_enjambment_matching(line_pair, poem_sentences)
+                    if is_enjambment(line):
+                        line_pair = poem_lines[i] + '\n' + poem_lines[i+1]
+                        sentence = get_enjambment_sentence(line_pair, poem_sentences)
+                        if sentence is None: 
+                            sentence = fuzzy_enjambment_matching(line_pair, poem_sentences)
 
-                            if sentence is not None:
-                                if line_pair in sentence:
-                                    tagged_sentence = nlp(line_pair)
-                                    sentence_part_of_speech = [(token, str(token.pos_), str(token.tag_)) 
-                                                                for token in tagged_sentence]
-                                    # print([(token, str(token.pos_)) for token in tagged_sentence])
-                                    types = get_type(sentence_part_of_speech)
-                                    line += ' [' + str(' ,'.join(types)) + ']'
-                        transformed_lines.append(line)
-                    else:
-                        transformed_lines.append('\n')
+                        if sentence is not None:
+                            tagged_sentence = nlp(line_pair)
+                            sentence_part_of_speech = [(token, str(token.pos_), str(token.tag_)) 
+                                                        for token in tagged_sentence]
+                            # print([(token, str(token.pos_)) for token in tagged_sentence])
+                            types = get_type(sentence_part_of_speech)
+                            line += ' [' + str(' ,'.join(types)) + ']'
+                    transformed_lines.append(line)
+
                     
             # # Merge lines together back so that we have something readable
             poem = '\n'.join(transformed_lines)
