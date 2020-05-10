@@ -57,26 +57,40 @@ def get_detected_annotations(file):
 
 if __name__ == "__main__":
     annotations = {}
+    global_ = {'true': [], 'predicted': []}
+    tmp_true = []
     for filepath in pathlib.Path(ANNOT_DIR).iterdir():
         filename = str(filepath)
         poem_name = str(filepath)[31:]
         annotations[poem_name] = []
         annotations[poem_name].append(get_manual_annotations(filename))
+        tmp_true.append(get_manual_annotations(filename))
 
+    tmp_predicted = []
     for filepath in pathlib.Path(DETECTED_DIR).iterdir():
         filename = str(filepath)
         curr_poem_name = filename[24:]
         for poem in annotations.keys():
             if poem == curr_poem_name:
                 annotations[poem].append(get_detected_annotations(filename))
+        tmp_predicted.append(get_detected_annotations(filename))
 
-    
-    for poem, enjambments in annotations.items():
-        print(poem)
-        manual_annotations = enjambments[0]
-        automatic_annotations = enjambments[1]
-        print(classification_report(manual_annotations, automatic_annotations, digits=3))
-        print()
+    for i in range(len(tmp_predicted)):
+        for tag in tmp_predicted[i]:
+            global_['predicted'].append(tag)
+        for tag in tmp_true[i]:
+            global_['true'].append(tag)
+
+    # for poem, enjambments in annotations.items():
+    #     print(poem)
+    #     manual_annotations = enjambments[0]
+    #     automatic_annotations = enjambments[1]
+    #     print(classification_report(manual_annotations, automatic_annotations, digits=3))
+    #     print()
         # for i in range(len(manual_annotations)):
         #     if len(automatic_annotations[i]) == len(manual_annotations[i]):
         #         print('detected: ', automatic_annotations[i], '\tmanual: ', manual_annotations[i])
+
+    manual_annotations = global_['true']
+    automatic_annotations = global_['predicted']
+    print(classification_report(manual_annotations, automatic_annotations, digits=3))
