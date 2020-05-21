@@ -24,10 +24,10 @@ editors, " her, print her, she' mad but she' [?]
 magic. there' no lie in her fire." I loved you [?]
 like a man loves a woman he never touches, only [pb_verb_adv]
 writes to, keeps little photographs of. I would have [pb_verb_chain]
-loved you more if I had sat in a small room rolling a [?]
+loved you more if I had sat in a small room rolling a [pb_det_noun]
 cigarette and listened to you piss in the bathroom,
 but that didn' happen. your letters got sadder.
-your lovers betrayed you. kid, I wrote back, all [?]
+your lovers betrayed you. kid, I wrote back, all [pb_det_noun]
 lovers betray. it didn' help. you said [?]
 you had a crying bench and it was by a bridge and [?]
 the bridge was over a river and you sat on the crying [pb_noun_noun]

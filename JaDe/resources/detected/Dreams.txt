@@ -1,6 +1,6 @@
 Hold fast to dreams [pb_noun_prep]
 For if dreams die [?]
-Life is a broken-winged bird [?]
+Life is a broken-winged bird [cc_cross_clause]
 That cannot fly.
 Hold fast to dreams [pb_noun_prep]
 For when dreams go [?]

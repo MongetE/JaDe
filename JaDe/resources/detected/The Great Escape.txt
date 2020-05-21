@@ -1,4 +1,4 @@
-listen, he said, you ever seen a bunch of crabs in a [?]
+listen, he said, you ever seen a bunch of crabs in a [pb_det_noun]
 bucket?
 no, I told him.
 well, what happens is that now and then one crab [?]
@@ -15,11 +15,11 @@ in the postal service!
 I believe you, I said.
 just then the supervisor walked up and said,
 you fellows were talking.
-there is no talking allowed on this [?]
+there is no talking allowed on this [pb_det_noun]
 job.
 I had been there for eleven and one-half [pb_noun_noun]
 years.
-I got up off my stool and climbed right up the [?]
+I got up off my stool and climbed right up the [pb_det_noun]
 supervisor [?]
 and then I reached up and pulled myself right [?]
 out of there.

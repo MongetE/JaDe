@@ -44,10 +44,10 @@ greasy lips?
 or will my editor-publisher [?]
 upon exiting for that world of Trollius and [?]
 trellis [?]
-hand over the [?]
+hand over the [pb_det_noun]
 machinery [pb_noun_prep]
-of his former trade to a [?]
-cousin, a [?]
+of his former trade to a [pb_det_noun]
+cousin, a [pb_det_noun]
 daughter or [?]
 some Poundian from Big [pb_noun_adj]
 Sur?
@@ -71,7 +71,7 @@ power corrupts,
 life aborts [?]
 and all you [?]
 have left [pb_verb_chain]
-is a [?]
+is a [pb_det_noun]
 bunch of [?]
 warts.
 “no, no, Mr. Chinaski:
@@ -93,7 +93,7 @@ like how to endure on almost [?]
 nothing [?]
 and move forward [pb_adv_adv]
 anyhow.
-well, John, if it happens enjoy your [?]
+well, John, if it happens enjoy your [pb_det_noun]
 divertissement to [?]
 plant husbandry,
 cultivate and aerate [?]
@@ -119,5 +119,5 @@ even at this late date [?]
 still to be [pb_verb_chain]
 found [?]
 as the fire sings [?]
-through the [?]
+through the [pb_det_noun]
 trees.
