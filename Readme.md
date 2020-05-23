@@ -17,12 +17,13 @@ The aim is to help researchers in stylistics to gather more evidence to support 
 - python3.7
 - spacy
 - fuzzywuzzy
-- python-levenshtein
+- click
+- tqdm
 
 Required libraries can be installed using `pip install -r requirements.txt`.
 
-*Note*
-Spacy requires a model. The current version of JaDe was tested with the `en_core_web_sm`, so the results
+*Note*  
+Spacy requires a language model. The current version of JaDe was tested with the `en_core_web_sm`, so the results
 prenseted below are valid with that given model. No test was done yet with spacy bigger models.  
 To install a spacy model, run `python -m spacy download "modelname"`.
 
@@ -74,7 +75,7 @@ Regarding the detection per se, the results are as follow:
 | 0.76      | 0.98   | 0.86    |
 
 These results can be obtained running `eval.py`.  
-**Please note that due to how relative import are handled in python, to run `eval.py`, it is necessary to change
+**Please note that to run `eval.py`, it is necessary to change
 `from .utils import get_type` (line 7 in `preprocessor.py`)
 to
 `from utils import get_type`.
