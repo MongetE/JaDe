@@ -1,11 +1,16 @@
 # JaDe - enJambment Detection
 
-JaDe is a tool to detect and classify enjambment in English poetry. 
-The aim is to help researchers in stylistics to gather more evidence to support their claims. 
+JaDe is a tool to detect and classify enjambment in English poetry.
+The aim is to help researchers in stylistics to gather more evidence to support their claims.
 
 ## Repository Structure
 
-to be done
+1. JaDe: contains code and resources necessary to run the tool
+    - jade: source code
+    - ressources: txt files
+        1. annotated_poem: poems used for tool evaluation
+        2. detected: poem annotated by the tool
+2. script_corpus: contains scripts used to gather the corpus
 
 ## Requirements
 
@@ -23,14 +28,30 @@ To install a spacy model, run `python -m spacy download "modelname"`.
 
 ## Run JaDe
 
-to be done
+JaDe can be run using `python run.py [OPT]`. A list of all options available is available through `python run.py --help`.
+
+Basic usage include a single file analysis or the analysis of a whole directory at once.  
+
+### Single file analysis
+
+`python run.py --file path/to/file --save False`
+This will analyse the given file and print the result in the prompt.  
+By default, the `--save` option is set to `True`, thus saving the file if the `--outfile` option is passed.
+If it is not specified but the `--save` argument is default, the analysis will be saved in the current directory.
+
+### Directory analysis
+
+`python run.py --dir path/to/dir`
+The --save option MUST be set to True as for readability's sake, the analysis won't be printed in the prompt.  
+By default, if `--outdir` is not specified, the analysed files will be saved in a `analysis` directory, created in the current
+working directory.
 
 ## Results
 
 As of JaDe 1.0, 11 types of enjambment are supported for classification. Out of these 11 types, 7 yield relatively
 satisfactory results, using only the part-of-speech tag.
 
-The results for the classification task are presented below:
+The results (curated to only show those supported) for the classification task are presented below:
 
 |              | precision | recall | F1-score | Occurrences |
 |--------------|-----------|--------|----------|-------------|
@@ -51,3 +72,10 @@ Regarding the detection per se, the results are as follow:
 | Precision | Recall | F-score |
 |-----------|--------|---------|
 | 0.76      | 0.98   | 0.86    |
+
+These results can be obtained running `eval.py`.  
+**Please note that due to how relative import are handled in python, to run `eval.py`, it is necessary to change
+`from .utils import get_type` (line 7 in `preprocessor.py`)
+to
+`from utils import get_type`.
+ To run `run.py` after running evaluation, it must then be changed to `from .utils import get_type` again.**
