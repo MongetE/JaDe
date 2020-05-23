@@ -5,12 +5,12 @@ The aim is to help researchers in stylistics to gather more evidence to support 
 
 ## Repository Structure
 
-1. JaDe: contains code and resources necessary to run the tool
-    - jade: source code
-    - ressources: txt files
-        1. annotated_poem: poems used for tool evaluation
-        2. detected: poem annotated by the tool
-2. script_corpus: contains scripts used to gather the corpus
+1. [JaDe](https://github.com/MongetE/JaDe/tree/master/JaDe): contains code and resources necessary to run the tool
+    - [jade](https://github.com/MongetE/JaDe/tree/master/JaDe/jade): source code
+    - [ressources](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/): txt files
+        1. [annotated_poems](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/annotated_poems): poems used for tool evaluation
+        2. [detected](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/detected): poem from the test corpus annotated by the tool
+2. script_corpus: contains scripts used to gather the corpus [to be added]
 
 ## Requirements
 
@@ -34,15 +34,15 @@ Basic usage include a single file analysis or the analysis of a whole directory 
 
 ### Single file analysis
 
-`python run.py --file path/to/file --save False`
+`python run.py --file path/to/file --save False`  
 This will analyse the given file and print the result in the prompt.  
 By default, the `--save` option is set to `True`, thus saving the file if the `--outfile` option is passed.
 If it is not specified but the `--save` argument is default, the analysis will be saved in the current directory.
 
 ### Directory analysis
 
-`python run.py --dir path/to/dir`
-The --save option MUST be set to True as for readability's sake, the analysis won't be printed in the prompt.  
+`python run.py --dir path/to/dir`  
+The `--save` option MUST be set to True: for readability's sake, the analysis won't be printed in the prompt.  
 By default, if `--outdir` is not specified, the analysed files will be saved in a `analysis` directory, created in the current
 working directory.
 
