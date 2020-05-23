@@ -100,13 +100,11 @@ def get_type(sentence):
     if re.search(NOUN_NOUN, pos):
         types.append('pb_noun_noun')
 
-    if tag != "":
-        if re.search(CROSS, tag):
-            print(tag)
-            types.append('cc_cross_clause')
+    if re.search(CROSS, tag):
+        types.append('cc_cross_clause')
 
-        if re.search(VERB_TO, tag):
-            types.append('pb_to_verb')
+    if re.search(VERB_TO, tag):
+        types.append('pb_to_verb')
 
     if re.search(V_CHAIN, pos):
         types.append('pb_verb_chain')
