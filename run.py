@@ -47,7 +47,6 @@ def run(dir, file, outdir, outfile, save):
             print('--save only accepts True or False.')
 
     if dir is None and file is not None: 
-        
         with open(file, 'r', encoding='utf-8') as poem_file:
             filename = re.search(r'(\w*[\/\\])+(?P<name>(\w*[ _\d]?)+)', str(file)).group('name')
 
@@ -57,6 +56,9 @@ def run(dir, file, outdir, outfile, save):
             main(poem_file, save, outfile)
 
     elif dir is not None and file is None: 
+        if not dir.endswith('/'):
+            dir += '/'
+            
         if outdir is None: 
             outdir = "analysis"
 
