@@ -1,8 +1,10 @@
+import fnmatch
 import os
 import pathlib
 import re
 import sys
 import click
+from tqdm import tqdm
 from JaDe.jade.preprocessor import main
 
 @click.command()
@@ -16,6 +18,28 @@ from JaDe.jade.preprocessor import main
             directory should be saved", default=None)
 
 def run(dir, file, outdir, outfile, save): 
+    """
+        JaDe command-line interface manager. 
+
+        The --.*dir options and the --.*file options are mutually exclusive. 
+        By default, all of them are set to None, except save, set to True.
+
+        Parameters
+        ----------
+            dir: str
+                Path to the directory to be analysed. 
+            outdir: str
+                Path to where the files should be saved after analysis. Default
+                to current working directory. 
+            file: str
+                Path to the file to be analysed
+            outfile: str
+                Path to where the file will be saved after analysis. Default to
+                filename.txt in the current working directory
+            save: bool
+                Whether or not the save is to be enabled. Can be set to False for
+                single file analysis only. 
+    """
     if save != True:
         if save.capitalize() == "False": 
             save = False
@@ -37,10 +61,11 @@ def run(dir, file, outdir, outfile, save):
             outdir = "analysis"
 
         if save:
-            for file in pathlib.Path(dir).iterdir():
-                with open(file, 'r', encoding='utf-8') as poem_file:
-                    filename = re.search(r'(\w*[\/\\])+(?P<name>(\w*[ _\d]?)+)', str(file)).group('name')
-                    print(filename)
+            files = [dir+file for file in os.listdir(dir) if fnmatch.fnmatch(file, '*.txt')]
+
+            for i in tqdm(range(len(files))):
+                with open(files[i], 'r', encoding='utf-8') as poem_file:
+                    filename = re.search(r'(\w*[\/\\])+(?P<name>(\w*[ _\d]?)+)', str(files[i])).group('name')
                     outfile = outdir + '/' + filename + '.txt'
 
                     if sys.platform.startswith('win'):
@@ -50,13 +75,20 @@ def run(dir, file, outdir, outfile, save):
                         os.mkdir(outdir)
 
                     main(poem_file, save, outfile)
+                
         else: 
             print('For readability, the -dir command can only be run when save is enabled')
             print('By default, the -save argument is set to True.')
             sys.exit(0)
-    else: 
+    elif dir is not None and file is not None: 
         print('JaDe cannot simultaneously analyze a single file and a whole directory.')
         print('Please specify either --dir or --file, not both.')
+        sys.exit(0)
+
+    else:
+        print("None of the options were recognized or passed.")
+        print("Accepted options are --file, --outfile, --dir, --outdir and --save")
+        print("Run run.py --help for further information.")
         sys.exit(0)
 
 if __name__ == "__main__":
