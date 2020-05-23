@@ -4,11 +4,8 @@ import pathlib
 import re
 from fuzzywuzzy import fuzz
 import spacy
-from utils import get_type
+from .utils import get_type
 
-
-DATA_DIR = pathlib.Path('JaDe/resources/annotated_poems')
-OUT_DIR = pathlib.Path('JaDe/resources/detected')
 nlp = spacy.load('en_core_web_sm')
 
 def get_poem_lines(poem):
@@ -52,6 +49,8 @@ def get_enjambment_sentence(enjambment_line, poem_sentences):
         if '(' in enjambment_line or ')' in enjambment_line:
             enjambment_line = re.sub(r'[\(\)]', '', enjambment_line)
             sentence = re.sub(r'[\(\)]', '', enjambment_line)
+        elif '*' in enjambment_line: 
+            enjambment_line = re.sub(r'\*', '°', enjambment_line)
         if re.search(enjambment_line, sentence, flags=re.MULTILINE):
             return sentence
 
@@ -102,54 +101,55 @@ def remove_annotations(poem):
 
     return text
 
-def main():
+def main(file, save, outfile):
     """
         Execute the whole preprocessing module. 
     """
-    if not os.path.exists(OUT_DIR): 
-        os.makedirs(OUT_DIR)
+    # filename = str(file)[31:]
 
-    for file in DATA_DIR.iterdir():
-        with open(str(file), 'r', encoding='utf-8') as curfile:
-            filename = str(file)[31:]
-            print(filename)
+    poem = file.read()
 
-            poem = curfile.read()
-            poem = remove_annotations(poem)
+    if re.findall(r'(^\d{1,}\. )(.*)', poem, flags=re.MULTILINE):
+        poem = remove_annotations(poem)
+    
+    preprocessed_poem = nlp(poem)
+    poem_lines = get_poem_lines(poem)
+    if not poem_lines[-1] == '\n':
+        poem_lines.append('\n')
+        
+    poem_sentences = [str(sent) for sent in preprocessed_poem.sents]
+    transformed_lines = []
+
+    for i in range(len(poem_lines)+1):
+        if i < len(poem_lines)-1: 
+            line = poem_lines[i].strip()
+            if len(line) > 1:
+                if is_enjambment(line):
+                    line_pair = poem_lines[i] + '\n' + poem_lines[i+1]
+                    sentence = get_enjambment_sentence(line_pair, poem_sentences)
+                    if sentence is None: 
+                        sentence = fuzzy_enjambment_matching(line_pair, poem_sentences)
+
+                    if sentence is not None:
+                        tagged_sentence = nlp(line_pair)
+                        sentence_part_of_speech = [(token, str(token.pos_), str(token.tag_)) 
+                                                    for token in tagged_sentence]
+                        # print([(token, str(token.pos_)) for token in tagged_sentence])
+                        types = get_type(sentence_part_of_speech)
+                        if len(types) > 0:
+                            line += ' [' + str(' ,'.join(types)) + ']'
+                        else: 
+                            line += ' [?]'
             
-            preprocessed_poem = nlp(poem)
-            poem_lines = get_poem_lines(poem)
-            poem_sentences = [str(sent) for sent in preprocessed_poem.sents]
-            transformed_lines = []
+            transformed_lines.append(line)
 
-            for i in range(len(poem_lines)+1):
-                if i < len(poem_lines)-1: 
-                    line = poem_lines[i]
-                    if is_enjambment(line):
-                        line_pair = poem_lines[i] + '\n' + poem_lines[i+1]
-                        sentence = get_enjambment_sentence(line_pair, poem_sentences)
-                        if sentence is None: 
-                            sentence = fuzzy_enjambment_matching(line_pair, poem_sentences)
+            
+    # # Merge lines together back so that we have something readable
+    poem = '\n'.join(transformed_lines)
 
-                        if sentence is not None:
-                            tagged_sentence = nlp(line_pair)
-                            sentence_part_of_speech = [(token, str(token.pos_), str(token.tag_)) 
-                                                        for token in tagged_sentence]
-                            # print([(token, str(token.pos_)) for token in tagged_sentence])
-                            types = get_type(sentence_part_of_speech)
-                            if len(types) > 0:
-                                line += ' [' + str(' ,'.join(types)) + ']'
-                            else: 
-                                line += ' [?]'
-                    transformed_lines.append(line)
-
-                    
-            # # Merge lines together back so that we have something readable
-            poem = '\n'.join(transformed_lines)
-            out_file = str(OUT_DIR) + '/' + filename
-
-            with open(out_file, 'w', encoding='utf-8') as file:
-                file.write(poem)
-
-if __name__ == '__main__':
-    main()
+    if save:
+        with open(outfile, 'w', encoding='utf-8') as file:
+            file.write(poem)
+        
+    else: 
+        print(poem)

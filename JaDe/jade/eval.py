@@ -4,6 +4,7 @@ import sys
 import pathlib
 import statistics
 from sklearn.metrics import classification_report
+from preprocessor import main
 
 ANNOT_DIR = r'JaDe/resources/annotated_poems'
 DETECTED_DIR = r'JaDe/resources/detected'
@@ -25,6 +26,22 @@ VERB_ADV = 'pb_verb_adv'
 ADJ_ADV = 'pb_adj_adv'
 END_STOPPED = ''
 
+
+def preprocess_annotated():
+    data_dir = pathlib.Path('JaDe/resources/annotated_poems')
+    out_dir = pathlib.Path('JaDe/resources/detected')
+    
+    if not os.path.exists(out_dir):
+        os.mkdir(out_dir)
+
+    for file in data_dir.iterdir():
+        filename = str(file)[31:]
+        print(filename)
+        out_file = str(out_dir) + '/' + filename
+
+        with open(str(file), 'r', encoding='utf-8') as curfile: 
+            main(file, True, out_file)
+            
 
 def get_manual_annotations(file): 
 
