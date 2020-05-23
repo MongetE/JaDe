@@ -4,7 +4,7 @@ import sys
 import pathlib
 import statistics
 from sklearn.metrics import classification_report
-from preprocessor import main
+from preprocessor import preprocessor
 
 ANNOT_DIR = r'JaDe/resources/annotated_poems'
 DETECTED_DIR = r'JaDe/resources/detected'
@@ -28,6 +28,9 @@ END_STOPPED = ''
 
 
 def preprocess_annotated():
+    """
+        Run the preprocessor against test data
+    """
     data_dir = pathlib.Path('JaDe/resources/annotated_poems')
     out_dir = pathlib.Path('JaDe/resources/detected')
     
@@ -40,11 +43,13 @@ def preprocess_annotated():
         out_file = str(out_dir) + '/' + filename
 
         with open(str(file), 'r', encoding='utf-8') as curfile: 
-            main(file, True, out_file)
+            preprocessor(file, True, out_file)
             
 
 def get_manual_annotations(file): 
-
+    """
+        Retrieve manual annotation
+    """
     with open(file, 'r', encoding='utf-8') as file:
         poem = file.read()
         poem_annotations = []
@@ -58,7 +63,11 @@ def get_manual_annotations(file):
 
 
 def get_detected_annotations(file):
-    
+    """
+        Retrieve automatic annotation. 
+        Since contrary to manual annotation, the [] are not added if the 
+        line is end-stopped, append dummy brackets if line is end-stopped.
+    """
     with open(file, 'r', encoding='utf-8') as file:
         poem = file.readlines()
         poem_annotations = []
@@ -74,6 +83,10 @@ def get_detected_annotations(file):
                 
 
 if __name__ == "__main__":
+    """
+        Build global dictionnary so that skickit metrics can be used 
+        and compute detection measures. 
+    """
     annotations = {}
     global_ = {'true': [], 'predicted': []}
     tmp_true = []

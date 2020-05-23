@@ -101,9 +101,19 @@ def remove_annotations(poem):
 
     return text
 
-def main(file, save, outfile):
+def preprocessor(file, save, outfile):
     """
         Execute the whole preprocessing module. 
+
+        Split the poem into lines, then check whether a line end-stopped. 
+        If not, checks if the line is contained into a given sentence, then the 
+        sentence is tagged and regex are ran against  spacy POS and tags. 
+
+        If there is a match (or several), an annotation is added to the end of the line. 
+        If no match was found and the line is not end-stopped, [?] is added to the line. 
+
+        Finally, the poem is reconstructed, unfortunately removing the blanks between stanzas 
+        (at least for now).
     """
     # filename = str(file)[31:]
 

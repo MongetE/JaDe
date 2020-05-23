@@ -5,7 +5,7 @@ import re
 import sys
 import click
 from tqdm import tqdm
-from JaDe.jade.preprocessor import main
+from JaDe.jade.preprocessor import preprocessor
 
 @click.command()
 @click.option('--dir', help="Path to the directory to analyze", default=None)
@@ -44,7 +44,7 @@ def run(dir, file, outdir, outfile, save):
         if save.capitalize() == "False": 
             save = False
         else: 
-            print('--save only accepts True or False.')
+            print('save options only accepts True or False.')
 
     if dir is None and file is not None: 
         with open(file, 'r', encoding='utf-8') as poem_file:
@@ -53,12 +53,12 @@ def run(dir, file, outdir, outfile, save):
             if outfile is None: 
                 outfile = filename + '.txt'
 
-            main(poem_file, save, outfile)
+            preprocessor(poem_file, save, outfile)
 
     elif dir is not None and file is None: 
         if not dir.endswith('/'):
             dir += '/'
-            
+
         if outdir is None: 
             outdir = "analysis"
 
@@ -76,7 +76,7 @@ def run(dir, file, outdir, outfile, save):
                     if not os.path.exists(outdir): 
                         os.mkdir(outdir)
 
-                    main(poem_file, save, outfile)
+                    preprocessor(poem_file, save, outfile)
                 
         else: 
             print('For readability, the -dir command can only be run when save is enabled')
