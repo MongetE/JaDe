@@ -73,7 +73,7 @@ The results (curated to only show those supported) for the classification task a
 | To_verb        | 0.00      | 0.00   | 0.00     | 2           |
 |  **accuracy**  |           |        | 0.553    | 952         |
 |  **macro avg** | 0.009     | 0.093  | 0.084    | 952         |
-|**weighted avg**| 0.660     | 0.553  | 0.599    | 951         |
+|**weighted avg**| 0.660     | 0.553  | 0.599    | 952         |
 
 ### en\_core\_web_md
 
@@ -92,7 +92,7 @@ The results (curated to only show those supported) for the classification task a
 |   To_verb      | 0.00      | 0.00   | 0.00     | 2           |
 |  **accuracy**  |           |        | 0.567    | 952         |
 |  **macro avg** | 0.136     | 0.112  | 0.110    | 952         |
-|**weighted avg**| 0.699     | 0.567  | 0.620    | 951         |
+|**weighted avg**| 0.699     | 0.567  | 0.620    | 952         |
 
 
 ### en\_core\_web_lg
@@ -112,7 +112,7 @@ The results (curated to only show those supported) for the classification task a
 |  To_verb       | 1.000     | 0.500  | 0.667    | 2           |
 |  **accuracy**  |           |        | 0.575    | 952         |
 |  **macro avg** | 0.173     | 0.154  | 0.143    | 952         |
-|**weighted avg**| 0.713     | 0.575  | 0.630    | 951         |
+|**weighted avg**| 0.713     | 0.575  | 0.630    | 952         |
 
 
 
