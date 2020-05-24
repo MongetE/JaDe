@@ -4,6 +4,7 @@ import re
 import sys
 import pathlib
 import statistics
+import spacy
 from sklearn.metrics import classification_report
 from preprocessor import preprocessor
 
@@ -28,10 +29,11 @@ ADJ_ADV = 'pb_adj_adv'
 END_STOPPED = ''
 
 
-def preprocess_annotated():
+def preprocess_annotated(model):
     """
         Run the preprocessor against test data
     """
+    nlp = spacy.load(model)
     data_dir = pathlib.Path('JaDe/resources/annotated_poems')
     out_dir = pathlib.Path('JaDe/resources/detected')
     
@@ -44,7 +46,7 @@ def preprocess_annotated():
         out_file = str(out_dir) + '/' + filename
 
         with open(str(file), 'r', encoding='utf-8') as curfile: 
-            preprocessor(curfile, True, out_file)
+            preprocessor(curfile, True, out_file, nlp)
             
 
 def get_manual_annotations(file): 
@@ -88,12 +90,9 @@ if __name__ == "__main__":
         Build global dictionnary so that skickit metrics can be used 
         and compute detection measures. 
     """
-    if os.path.exists(DETECTED_DIR):
-        detected_files = [DETECTED_DIR+file for file in os.listdir(DETECTED_DIR) if fnmatch.fnmatch(file, '*.txt')]
-        if len(detected_files) == 0:
-            preprocess_annotated()
-    else: 
-        preprocess_annotated()
+
+    model = input('Model to be used for evaluation:')
+    preprocess_annotated(model)
 
     annotations = {}
     global_ = {'true': [], 'predicted': []}

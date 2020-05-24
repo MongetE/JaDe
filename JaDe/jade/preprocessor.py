@@ -1,12 +1,12 @@
 import json
 import os
 import pathlib
+import sys
 import re
 from fuzzywuzzy import fuzz
 import spacy
-from utils import get_type
+from .utils import get_type
 
-nlp = spacy.load('en_core_web_lg')
 
 def get_poem_lines(poem):
     return poem.split('\n')
@@ -101,7 +101,7 @@ def remove_annotations(poem):
 
     return text
 
-def preprocessor(file, save, outfile):
+def preprocessor(file, save, outfile, nlp):
     """
         Execute the whole preprocessing module. 
 
