@@ -114,6 +114,17 @@ def preprocessor(file, save, outfile, nlp):
 
         Finally, the poem is reconstructed, unfortunately removing the blanks between stanzas 
         (at least for now).
+
+        Parameters
+        ----------
+            file: TextIOWrapper
+                poem file to process
+            save: bool
+                whether the file is to be printed to cmd or save to disk
+            outfile: str
+                path to where the result will be saved
+            nlp: 
+                spacy nlp pipeline
     """
     # filename = str(file)[31:]
 
