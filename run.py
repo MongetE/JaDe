@@ -4,6 +4,7 @@ import pathlib
 import re
 import sys
 import click
+import spacy
 from tqdm import tqdm
 from JaDe.jade.preprocessor import preprocessor
 
@@ -19,6 +20,7 @@ def get_filename(file):
 
 
 @click.command()
+@click.option('--model', help="Language model to be used", default='en_core_web_sm')
 @click.option('--dir', help="Path to the directory to analyze", default=None)
 @click.option('--file', help="Path to the file to analyze", default=None)
 @click.option('--save', help="Specify whether or not the analysis should be saved.\
@@ -27,7 +29,7 @@ def get_filename(file):
             default=None)
 @click.option('--outdir', help="Path to where the analyzed files in input\
             directory should be saved", default=None)
-def run(dir, file, outdir, outfile, save): 
+def run(model, dir, file, outdir, outfile, save): 
     """
         JaDe command-line interface manager. 
 
@@ -50,6 +52,9 @@ def run(dir, file, outdir, outfile, save):
                 Whether or not the save is to be enabled. Can be set to False for
                 single file analysis only. 
     """
+    nlp = spacy.load(model)
+
+
     if save != True:
         if save.capitalize() == "False": 
             save = False
@@ -63,7 +68,7 @@ def run(dir, file, outdir, outfile, save):
             if outfile is None: 
                 outfile = file_name + '.txt'
 
-            preprocessor(poem_file, save, outfile)
+            preprocessor(poem_file, save, outfile, nlp)
 
     elif dir is not None and file is None: 
         if not dir.endswith('/'):
@@ -87,7 +92,8 @@ def run(dir, file, outdir, outfile, save):
                     if not os.path.exists(outdir): 
                         os.mkdir(outdir)
 
-                    preprocessor(poem_file, save, outfile)
+                    preprocessor(poem_file, save, outfile, nlp)
+            print('Files have been saved to disk at', outdir)
                 
         else: 
             print('For readability, the -dir command can only be run when save is enabled')
