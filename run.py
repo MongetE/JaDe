@@ -38,6 +38,8 @@ def run(model, dir, file, outdir, outfile, save):
 
         Parameters
         ----------
+            model: str
+                language model to be used. Default to spacy smaller one.
             dir: str
                 Path to the directory to be analysed. 
             outdir: str
