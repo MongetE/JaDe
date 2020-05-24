@@ -72,7 +72,7 @@ Regarding the detection per se, the results are as follow:
 
 | Precision | Recall | F-score |
 |-----------|--------|---------|
-| 0.76      | 0.98   | 0.86    |
+| 0.90      | 0.99   | 0.93    |
 
 These results can be obtained running `eval.py`.  
 **Please note that to run `eval.py`, it is necessary to change
