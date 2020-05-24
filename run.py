@@ -7,6 +7,17 @@ import click
 from tqdm import tqdm
 from JaDe.jade.preprocessor import preprocessor
 
+
+def get_filename(file): 
+    filename = re.search(r'(\w*[\/\\])+(?P<name>(\w*[ _\d]?)+)', str(file)).group('name')
+    filename = re.sub(r'[\?:;,\'! \.]', '_', filename)
+
+    if filename.endswith('_'):
+        filename = filename[:-1]
+    
+    return filename
+
+
 @click.command()
 @click.option('--dir', help="Path to the directory to analyze", default=None)
 @click.option('--file', help="Path to the file to analyze", default=None)
@@ -16,7 +27,6 @@ from JaDe.jade.preprocessor import preprocessor
             default=None)
 @click.option('--outdir', help="Path to where the analyzed files in input\
             directory should be saved", default=None)
-
 def run(dir, file, outdir, outfile, save): 
     """
         JaDe command-line interface manager. 
@@ -48,10 +58,10 @@ def run(dir, file, outdir, outfile, save):
 
     if dir is None and file is not None: 
         with open(file, 'r', encoding='utf-8') as poem_file:
-            filename = re.search(r'(\w*[\/\\])+(?P<name>(\w*[ _\d]?)+)', str(file)).group('name')
+            file_name = get_filename(str(file))
 
             if outfile is None: 
-                outfile = filename + '.txt'
+                outfile = file_name + '.txt'
 
             preprocessor(poem_file, save, outfile)
 
@@ -67,8 +77,9 @@ def run(dir, file, outdir, outfile, save):
 
             for i in tqdm(range(len(files))):
                 with open(files[i], 'r', encoding='utf-8') as poem_file:
-                    filename = re.search(r'(\w*[\/\\])+(?P<name>(\w*[ _\d]?)+)', str(files[i])).group('name')
-                    outfile = outdir + '/' + filename + '.txt'
+                    file_name = get_filename(str(files[i]))
+
+                    outfile = outdir + '/' + file_name + '.txt'
 
                     if sys.platform.startswith('win'):
                         outfile = str(pathlib.PureWindowsPath(outfile))
