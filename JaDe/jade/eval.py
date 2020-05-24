@@ -1,3 +1,4 @@
+import fnmatch
 import os
 import re
 import sys
@@ -43,15 +44,15 @@ def preprocess_annotated():
         out_file = str(out_dir) + '/' + filename
 
         with open(str(file), 'r', encoding='utf-8') as curfile: 
-            preprocessor(file, True, out_file)
+            preprocessor(curfile, True, out_file)
             
 
 def get_manual_annotations(file): 
     """
         Retrieve manual annotation
     """
-    with open(file, 'r', encoding='utf-8') as file:
-        poem = file.read()
+    with open(file, 'r', encoding='utf-8') as poem_file:
+        poem = poem_file.read()
         poem_annotations = []
 
         all_annotations = re.findall(r'^(\d{2,} \d{2,})(.*)', poem, flags=re.MULTILINE)
@@ -87,6 +88,13 @@ if __name__ == "__main__":
         Build global dictionnary so that skickit metrics can be used 
         and compute detection measures. 
     """
+    if os.path.exists(ANNOT_DIR):
+        detected_files = [ANNOT_DIR+file for file in os.listdir(ANNOT_DIR) if fnmatch.fnmatch(file, '*.txt')]
+        if len(detected_files) == 0:
+            preprocess_annotated()
+    else: 
+        preprocess_annotated()
+
     annotations = {}
     global_ = {'true': [], 'predicted': []}
     tmp_true = []
@@ -119,14 +127,20 @@ if __name__ == "__main__":
     precision = []
     recall = []
     fscore = []
+
     for poem, enjambments in annotations.items():
-        #print(poem)
+        # print(poem)
         manual_annotations = enjambments[0]
         automatic_annotations = enjambments[1]
+        # print(manual_annotations)
+        # print(automatic_annotations)
         # print(classification_report(manual_annotations, automatic_annotations, digits=3))
         # print()
         for i in range(len(manual_annotations)):
+            # print(manual_annotations[i], automatic_annotations[i])
             if manual_annotations[i] != "[]" and automatic_annotations[i] != '[]':
+                true_positive += 1
+            elif manual_annotations[i] == automatic_annotations[i]:
                 true_positive += 1
             elif automatic_annotations[i] == "[]" and manual_annotations[i] != "[]":
                 false_negative += 1
@@ -135,20 +149,25 @@ if __name__ == "__main__":
             else : 
                 true_negative += 1
 
-            #print('detected: ', automatic_annotations[i], '\tmanual: ', manual_annotations[i])
+            # print(true_positive, true_negative, false_positive, false_negative)
 
-            detection_precision = true_positive/(true_positive + false_positive)
-            detection_recall = true_positive/(true_positive + false_negative)
-            detection_fscore = 2 * ((detection_precision * detection_recall)/(detection_precision + detection_recall))
+        detection_precision = true_positive/(true_positive + false_positive)
+        detection_recall = true_positive/(true_positive + false_negative)
+        detection_fscore = 2 * ((detection_precision * detection_recall)/(detection_precision + detection_recall))
 #             print(f"detection_precision\t\tdetection_recall\t\tdetection_fscore\n\
 # {detection_precision}\t\t{detection_recall}\t\t{detection_fscore}")
 
-            precision.append(detection_precision)
-            recall.append(detection_recall)
-            fscore.append(detection_fscore)
+        precision.append(detection_precision)
+        recall.append(detection_recall)
+        fscore.append(detection_fscore)
+
+        true_positive = 0
+        true_negative = 0 
+        false_positive = 0 
+        false_negative = 0 
 
     print(f"detection_precision\t\tdetection_recall\t\tdetection_fscore\n\
-{statistics.mean(precision):.2f}\t\t\t\t{statistics.mean(recall):.2f}\t\t\t\t{statistics.mean(fscore):.2f}")
+{statistics.mean(precision):.2f}\t\t\t\t{statistics.mean(recall):.2f}\t\t\t\t{statistics.mean(fscore):.2f}\n")
 
 
     manual_annotations = global_['true']
