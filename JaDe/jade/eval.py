@@ -88,8 +88,8 @@ if __name__ == "__main__":
         Build global dictionnary so that skickit metrics can be used 
         and compute detection measures. 
     """
-    if os.path.exists(ANNOT_DIR):
-        detected_files = [ANNOT_DIR+file for file in os.listdir(ANNOT_DIR) if fnmatch.fnmatch(file, '*.txt')]
+    if os.path.exists(DETECTED_DIR):
+        detected_files = [DETECTED_DIR+file for file in os.listdir(DETECTED_DIR) if fnmatch.fnmatch(file, '*.txt')]
         if len(detected_files) == 0:
             preprocess_annotated()
     else: 

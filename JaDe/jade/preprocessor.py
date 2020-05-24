@@ -4,9 +4,9 @@ import pathlib
 import re
 from fuzzywuzzy import fuzz
 import spacy
-from .utils import get_type
+from utils import get_type
 
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_lg')
 
 def get_poem_lines(poem):
     return poem.split('\n')
