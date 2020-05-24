@@ -54,19 +54,68 @@ satisfactory results, using only the part-of-speech tag.
 
 The results (curated to only show those supported) for the classification task are presented below:
 
-|              | precision | recall | F1-score | Occurrences |
-|--------------|-----------|--------|----------|-------------|
-| Cross_clause | 1.00      | 0.400  | 0.571    | 20          |
-| Adj_adj      | 0.00      | 0.00   | 0.00     | 6           |
-| Adj_adv      | 0.00      | 0.00   | 0.00     | 2           |
-| Noun_adj     | 0.765     | 0.382  | 0.510    | 34          |
-| Det_noun     | 1.00      | 0.550  | 0.710    | 20          |
-| Noun_noun    | 0.100     | 0.500  | 0.167    | 2           |
-| Noun_prep    | 0.511     | 0.575  | 0.541    | 40          |
-| Verb_adv     | 0.333     | 0.667  | 0.444    | 6           |
-| Verb_chain   | 0.800     | 0.800  | 0.800    | 5           |
-| Adv_adv      | 0.00      | 0.00   | 0.00     | 1           |
-| To_verb      | 0.00      | 0.00   | 0.00     | 2           |
+**NB**: the accuracy, macro and weighted averages are the overall values, ie they take into account the 21 types, not just 11 supported.
+
+### en\_core\_web_sm
+
+|                | precision | recall | F1-score | Occurrences |
+|----------------|-----------|--------|----------|-------------|
+| Cross_clause   | 1.00      | 0.400  | 0.571    | 20          |
+| Adj_adj        | 0.00      | 0.00   | 0.00     | 6           |
+| Adj_adv        | 0.00      | 0.00   | 0.00     | 2           |
+| Noun_adj       | 0.765     | 0.382  | 0.510    | 34          |
+| Det_noun       | 1.00      | 0.550  | 0.710    | 20          |
+| Noun_noun      | 0.100     | 0.500  | 0.167    | 2           |
+| Noun_prep      | 0.511     | 0.575  | 0.541    | 40          |
+| Verb_adv       | 0.333     | 0.667  | 0.444    | 6           |
+| Verb_chain     | 0.800     | 0.800  | 0.800    | 5           |
+| Adv_adv        | 0.00      | 0.00   | 0.00     | 1           |
+| To_verb        | 0.00      | 0.00   | 0.00     | 2           |
+|  **accuracy**  |           |        | 0.553    | 952         |
+|  **macro avg** | 0.009     | 0.093  | 0.084    | 952         |
+|**weighted avg**| 0.660     | 0.553  | 0.599    | 951         |
+
+### en\_core\_web_md
+
+|                | precision | recall | F1-score | Occurrences |
+|----------------|-----------|--------|----------|-------------|
+|   Cross_clause | 1.00      | 0.400  | 0.571    | 20          |
+|   Adj_adj      | 0.00      | 0.00   | 0.00     | 6           |
+|   Adj_adv      | 0.00      | 0.00   | 0.00     | 2           |
+|   Noun_adj     | 0.765     | 0.382  | 0.510    | 34          |
+|   Det_noun     | 1.00      | 0.550  | 0.710    | 20          |
+|   Noun_noun    | 0.125     | 0.500  | 0.200    | 2           |
+|   Noun_prep    | 0.511     | 0.575  | 0.541    | 40          |
+|   Verb_adv     | 0.333     | 0.667  | 0.444    | 6           |
+|   Verb_chain   | 0.800     | 0.800  | 0.800    | 5           |
+|   Adv_adv      | 0.00      | 0.00   | 0.00     | 1           |
+|   To_verb      | 0.00      | 0.00   | 0.00     | 2           |
+|  **accuracy**  |           |        | 0.567    | 952         |
+|  **macro avg** | 0.136     | 0.112  | 0.110    | 952         |
+|**weighted avg**| 0.699     | 0.567  | 0.620    | 951         |
+
+
+### en\_core\_web_lg
+
+|                | precision | recall | F1-score | Occurrences |
+|----------------|-----------|--------|----------|-------------|
+|  Cross_clause  | 1.000     | 0.200  | 0.333    | 20          |
+|  Adj_adj       | 0.000     | 0.000  | 0.000    | 6           |
+|  Adj_adv       | 0.000     | 0.000  | 0.000    | 2           |
+|  Noun_adj      | 0.700     | 0.412  | 0.519    | 34          |
+|  Det_noun      | 1.000     | 0.550  | 0.710    | 20          |
+|  Noun_noun     | 0.071     | 0.500  | 0.125    | 2           |
+|  Noun_prep     | 0.525     | 0.525  | 0.525    | 40          |
+|  Verb_adv      | 0.333     | 0.667  | 0.444    | 6           |
+|  Verb_chain    | 0.800     | 0.800  | 0.800    | 5           |
+|  Adv_adv       | 0.333     | 1.000  | 0.500    | 1           |
+|  To_verb       | 1.000     | 0.500  | 0.667    | 2           |
+|  **accuracy**  |           |        | 0.575    | 952         |
+|  **macro avg** | 0.173     | 0.154  | 0.143    | 952         |
+|**weighted avg**| 0.713     | 0.575  | 0.630    | 951         |
+
+
+
 
 Regarding the detection per se, the results are as follow:
 
