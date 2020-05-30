@@ -1,8 +1,8 @@
-I traced the Circus whose gray stones incline [pb_verb_adv]
+I traced the Circus whose gray stones incline [?]
 Where Rome and dim Etruria interjoin,
 Till came a child who showed an ancient coin [cc_cross_clause]
 That bore the image of a Constantine.
-She lightly passed; nor did she once opine [pb_verb_adv]
+She lightly passed; nor did she once opine [ex_subj_verb]
 How, better than all books, she had raised for me [?]
 In swift perspective Europe's history [pb_noun_prep]
 Through the vast years of Caesar's sceptred line.

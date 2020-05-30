@@ -2,9 +2,9 @@ A word will fill the little heart [pb_noun_prep]
 With pleasure and with pride;
 It is a harsh, a cruel thing,
 That such can be denied.
-And yet how many weary hours [?]
+And yet how many weary hours [ex_dobj_verb]
 Those joyous creatures know;
-How much of sorrow and restraint [?]
+How much of sorrow and restraint [ex_dobj_verb]
 They to their elders owe!
 How much they suffer from our faults!
 How much from our mistakes!

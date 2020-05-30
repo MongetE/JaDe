@@ -1,11 +1,13 @@
 If you dissect a bird [?]
 To diagram the tongue [?]
-You'll cut the chord [pb_noun_noun]
+You'll cut the chord [ex_dobj_verb ,pb_noun_noun]
 Articulating song.
+
 If you flay a beast [?]
 To marvel at the mane [?]
 You'll wreck the rest [pb_noun_prep]
 From which the fur began.
+
 If you pluck out the heart [?]
 To find what makes it move,
 You'll halt the clock [cc_cross_clause]

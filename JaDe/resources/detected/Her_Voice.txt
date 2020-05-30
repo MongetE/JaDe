@@ -1,9 +1,9 @@
-THE wild bee reels from bough to bough [pb_noun_prep]
+THE wild bee reels from bough to bough [pb_relword]
 With his furry coat and his gauzy wing.
 Now in a lily-cup, and now [pb_verb_adv]
 Setting a jacinth bell a-swing,
 In his wandering;
-Sit closer love: it was here I trow [?]
+Sit closer love: it was here I trow [ex_subj_verb]
 I made that vow,
 Swore that two lives should be like one [?]
 As long as the sea-gull loved the sea,
@@ -14,7 +14,7 @@ Dear friend, those times are over and done,
 Love's web is spun.
 Look upward where the poplar trees [?]
 Sway and sway in the summer air,
-Here in the valley never a breeze [?]
+Here in the valley never a breeze [ex_subj_verb]
 Scatters the thistledown, but there [pb_adj_adv]
 Great winds blow fair [?]
 From the mighty murmuring mystical seas,
@@ -28,9 +28,9 @@ We have lived our lives in a land of dreams!
 How sad it seems.
 Sweet, there is nothing left to say [?]
 But this, that love is never lost,
-Keen winter stabs the breasts of May [?]
+Keen winter stabs the breasts of May [ex_subj_verb]
 Whose crimson roses burst his frost,
-Ships tempest-tossed [?]
+Ships tempest-tossed [ex_subj_verb]
 Will find a harbour in some bay,
 And so we may.
 And there is nothing left to do [?]

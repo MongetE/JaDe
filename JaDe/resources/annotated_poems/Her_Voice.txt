@@ -74,7 +74,7 @@
 23 24 [] [] []
 24 25 [ex_verb_adjunct_location] [smooth] [retro]
 25 26 [] [] []
-26 27 [ex_dodj_verb] [smooth] [retro]
+26 27 [ex_dobj_verb] [smooth] [retro]
 27 28 [] [] []
 28 29 [] [] []
 

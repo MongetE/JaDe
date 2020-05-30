@@ -1,14 +1,14 @@
 listen, he said, you ever seen a bunch of crabs in a [pb_det_noun]
 bucket?
 no, I told him.
-well, what happens is that now and then one crab [?]
+well, what happens is that now and then one crab [ex_subj_verb]
 will climb up on top of the others [?]
 and begin to climb toward the top of the bucket,
 then, just as he's about to escape [?]
-another crab grabs him and pulls him back [pb_adv_adv]
+another crab grabs him and pulls him back [?]
 down.
 really? I asked.
-really, he said, and this job is just like that, none [pb_noun_prep]
+really, he said, and this job is just like that, none [ex_subj_verb]
 of the others want anybody to get out of [?]
 here. that's just the way it is [?]
 in the postal service!
@@ -25,7 +25,7 @@ and then I reached up and pulled myself right [?]
 out of there.
 it was so easy it was unbelievable.
 but none of the others followed me.
-and after that, whenever I had crab legs [?]
+and after that, whenever I had crab legs [ex_subj_verb]
 I thought about that place.
 I must have thought about that place [?]
 maybe 5 or 6 times [pb_noun_prep]

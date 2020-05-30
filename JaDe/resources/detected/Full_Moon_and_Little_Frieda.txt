@@ -3,10 +3,10 @@ And you listening.
 A spider's web, tense for the dew's touch.
 A pail lifted, still and brimming - mirror [?]
 To tempt a first star to a tremor.
-Cows are going home in the lane there, looping the hedges with their warm [pb_noun_adj]
+Cows are going home in the lane there, looping the hedges with their warm [pb_det_noun]
 wreaths of breath -
 A dark river of blood, many boulders,
 Balancing unspilled milk.
-'Moon!' you cry suddenly, 'Moon!  Moon!' [?]
-The moon has stepped back like an artist gazing amazed at a work [?]
+'Moon!' you cry suddenly, 'Moon!  Moon!' [ex_subj_verb]
+The moon has stepped back like an artist gazing amazed at a work [cc_cross_clause]
 That points at him amazed.

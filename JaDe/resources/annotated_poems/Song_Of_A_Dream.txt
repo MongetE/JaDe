@@ -14,7 +14,7 @@
 13. By the streams of the spirits of Peace that flow
 14. In that magical wood in the land of sleep.
 
-01 02 [pb_verb_adj] [smooth] [retro]
+01 02 [ex_verb_adjunct_manner] [smooth] [retro]
 02 03 [] [] []
 03 04 [] [] []
 04 05 [] [] []

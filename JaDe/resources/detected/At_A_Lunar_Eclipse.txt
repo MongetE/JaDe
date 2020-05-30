@@ -2,11 +2,11 @@ Thy shadow, Earth, from Pole to Central Sea,
 Now steals along upon the Moon's meek shine
 In even monochrome and curving line [pb_noun_prep]
 Of imperturbable serenity.
-How shall I link such sun-cast symmetry [pb_noun_prep]
+How shall I link such sun-cast symmetry [ex_subj_verb]
 With the torn troubled form I know as thine,
 That profile, placid as a brow divine,
 With continents of moil and misery?
-And can immense Mortality but throw [pb_verb_adv]
+And can immense Mortality but throw [ex_dobj_verb]
 So small a shade, and Heaven's high human scheme [?]
 Be hemmed within the coasts yon arc implies?
 Is such the stellar gauge of earthly show,

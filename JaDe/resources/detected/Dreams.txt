@@ -1,8 +1,8 @@
-Hold fast to dreams [pb_noun_prep]
+Hold fast to dreams [ex_subj_verb]
 For if dreams die [?]
-Life is a broken-winged bird [?]
+Life is a broken-winged bird [cc_cross_clause]
 That cannot fly.
-Hold fast to dreams [pb_noun_prep]
+Hold fast to dreams [ex_subj_verb]
 For when dreams go [?]
 Life is a barren field [pb_noun_adj]
 Frozen with snow.
