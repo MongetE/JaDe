@@ -33,7 +33,7 @@ def dump_dict(filepath, dictname):
         json.dump(dictname, file, ensure_ascii=False)
 
 
-def get_type(sentence):
+def get_pos_type(sentence):
     """
         Retrieve the type of enjambment present in a sentence. 
 
@@ -63,7 +63,7 @@ def get_type(sentence):
     V_CHAIN = r'VERB SPACE AUX|AUX SPACE VERB'
     ADV_ADV = r'ADV SPACE ADV'
     VERB_ADV = r'ADV SPACE VERB|VERB SPACE ADV'
-    ADJ_ADV = r'ADV SPACE ADJ'
+    ADJ_ADV = r'ADV SPACE ADJ|ADJ SPACE ADV'
     VERB_TO = r'TO _SP VB'
     
     types = []
@@ -92,7 +92,7 @@ def get_type(sentence):
         types.append('pb_adv_adv')
 
     if re.search(ADJ_ADJ, pos):
-        types.append('pb_noun_adj')
+        types.append('pb_adj_adj')
 
     if re.search(NOUN_PREP, pos):
         types.append('pb_noun_prep')
@@ -109,7 +109,60 @@ def get_type(sentence):
     if re.search(V_CHAIN, pos):
         types.append('pb_verb_chain')
 
-    # print(text)
-    # print(tag)
+    return types
 
+
+def get_dep_type(tokendict):
+    types = []
+    dict_as_list = list(tokendict)
+
+    if '\n' in tokendict:
+        enjambment_index = dict_as_list.index('\n')
+    
+        for token, token_info in tokendict.items(): 
+            token_index = dict_as_list.index(token)
+            if len(token_info[4]) > 0:
+                children = token_info[4]
+                if '\n' in children: 
+                    newline_index = children.index('\n')
+                    del children[newline_index]
+            
+                for child in children: 
+                    try:
+                        child_infos = tokendict[child]
+                        child_index = dict_as_list.index(child)
+
+                        if child_index > enjambment_index and token_index < enjambment_index \
+                            or child_index < enjambment_index and token_index > enjambment_index:
+
+                            if child_infos[0] == 'nmod' and child_infos[1] == 'NOUN': 
+                                types.append('pb_noun_noun')
+
+                            elif child_infos[0] == 'nmod' and child[1] == 'ADJ': 
+                                types.append('pb_noun_adj')
+
+                            elif child_infos[0] == 'dobj': 
+                                types.append('ex_dobj_verb')
+
+                            elif child_infos[0] == 'nsubj': 
+                                types.append('ex_subj_verb')
+
+                            elif child_infos[0] == 'poss':
+                                types.append('pb_det_noun')
+
+                            elif child_infos[0] == 'acl' and child_infos[1] == 'VERB':
+                                types.append('pb_noun_adj')
+
+                            elif child_infos[0] == "amod" and child_infos[1] == 'VERB' \
+                                and token[1] == 'NOUN': 
+                                types.append('cc_cross_clause')
+
+                        elif child_index == enjambment_index - 1 and token_index < child_index:
+                            if child_infos[0] == 'prep' and token_info[1] == 'NOUN': 
+                                types.append('pb_relword')
+
+                    except KeyError as err: 
+                        continue
+
+        
     return types
