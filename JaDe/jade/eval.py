@@ -42,7 +42,7 @@ def preprocess_annotated(model):
 
     for file in data_dir.iterdir():
         filename = str(file)[31:]
-        print(filename)
+        # print(filename)
         out_file = str(out_dir) + '/' + filename
 
         with open(str(file), 'r', encoding='utf-8') as curfile: 
@@ -102,7 +102,17 @@ if __name__ == "__main__":
         poem_name = str(filepath)[31:]
         annotations[poem_name] = []
         annotations[poem_name].append(get_manual_annotations(filename))
-        tmp_true.append(get_manual_annotations(filename))
+        tmp_remove_adjunct = get_manual_annotations(filename)
+        tmp_annotation_list = []
+        for annotation in tmp_remove_adjunct:
+            if not annotation.startswith('[ex_verb_adjunct') \
+                and not annotation.startswith('[ex_adjunct_verb'):
+                tmp_annotation_list.append(annotation)
+            else: 
+                tmp_annotation_list.append('[?]')
+        # print(tmp_annotation_list)
+        tmp_true.append(tuple(tmp_annotation_list))
+
 
     tmp_predicted = []
     for filepath in pathlib.Path(DETECTED_DIR).iterdir():
@@ -119,6 +129,7 @@ if __name__ == "__main__":
         for tag in tmp_true[i]:
             global_['true'].append(tag)
 
+    
     true_positive = 0
     true_negative = 0 
     false_positive = 0 
@@ -171,4 +182,10 @@ if __name__ == "__main__":
 
     manual_annotations = global_['true']
     automatic_annotations = global_['predicted']
+
+    # for i in range(len(manual_annotations)): 
+    #     print(type(automatic_annotations[i]), type(manual_annotations[i]))
+    #     print(manual_annotations[i])
+    #     print(automatic_annotations[i])
+
     print(classification_report(manual_annotations, automatic_annotations, digits=3, zero_division=0))
