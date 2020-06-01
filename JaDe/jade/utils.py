@@ -116,15 +116,15 @@ def get_dep_type(tokendict):
     types = []
     dict_as_list = list(tokendict)
 
-    if '\n' in tokendict:
-        enjambment_index = dict_as_list.index('\n')
+    if '\t' in tokendict:
+        enjambment_index = dict_as_list.index('\t')
     
         for token, token_info in tokendict.items(): 
             token_index = dict_as_list.index(token)
             if len(token_info[4]) > 0:
                 children = token_info[4]
-                if '\n' in children: 
-                    newline_index = children.index('\n')
+                if '\t' in children: 
+                    newline_index = children.index('\t')
                     del children[newline_index]
             
                 for child in children: 
@@ -153,10 +153,15 @@ def get_dep_type(tokendict):
                             elif child_infos[0] == 'acl' and child_infos[1] == 'VERB':
                                 types.append('pb_noun_adj')
 
-                            elif child_infos[0] == "amod" and child_infos[1] == 'VERB' \
-                                and token[1] == 'NOUN': 
-                                types.append('cc_cross_clause')
+                            elif child_infos[0] == 'prt' and token_info[1] == 'VERB':
+                                types.append('pb_phrasal_verb')
 
+                            elif child_infos[0] == 'prep' and token_info[1] == 'VERB': 
+                                types.append('pb_verb_prep')
+                                
+                            elif child_infos[0] == 'compound' and token_info[1] == 'NOUN': 
+                                types.append('pb_noun_noun')
+                            
                         elif child_index == enjambment_index - 1 and token_index < child_index:
                             if child_infos[0] == 'prep' and token_info[1] == 'NOUN': 
                                 types.append('pb_relword')
