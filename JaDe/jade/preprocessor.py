@@ -156,12 +156,15 @@ def preprocessor(file, save, outfile, nlp):
                         sentence = fuzzy_enjambment_matching(line_pair, poem_sentences)
 
                     if sentence is not None:
+                        line_pair = line_pair.replace('\n', '\t')
                         tagged_sentence = nlp(line_pair.lower())
                         sentence_part_of_speech = [(token, str(token.pos_), str(token.tag_)) for token in tagged_sentence]
+                        # print(sentence_part_of_speech)
                         dependency_dict = {token.text : (str(token.dep_), str(token.pos_), token.head.text, token.head.pos_, 
                                     [str(child) for child in token.children]) for token in tagged_sentence}
                         pos_types = get_pos_type(sentence_part_of_speech)
                         dep_types = get_dep_type(dependency_dict)
+                        #print(dependency_dict)
 
                         # print(line_pair)
                         # print(dependency_dict)
@@ -189,7 +192,6 @@ def preprocessor(file, save, outfile, nlp):
                                         if i < len(dep_types) - 1:
                                             if dep_types[i] == dep_types[i+1]: 
                                                 del(dep_types[i])
-
                     
                         # TODO: choose between pos and dep tag if both are > 0 ?
                         if len(pos_types) > 0 and len(dep_types) == 0:
@@ -197,7 +199,7 @@ def preprocessor(file, save, outfile, nlp):
                         elif len(dep_types) > 0 and len(pos_types) == 0: 
                             line += ' [' + str(', '.join(dep_types)) + ']'
                         elif len(dep_types) > 0 and len(pos_types) > 0:
-                            line += ' [' + str(', '.join(dep_types)) + ']'
+                            line += ' [' + str(', '.join(pos_types)) + ']'
                         else: 
                             line += ' [?]'
             
