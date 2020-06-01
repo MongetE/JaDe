@@ -3,12 +3,12 @@ Now, whilst the sun rests on the mountains, light [?]
 Thy bright torch of love; thy radiant crown [ex_subj_verb]
 Put on, and smile upon our evening bed!
 Smile on our loves, and while thou drawest the [ex_dobj_verb]
-Blue curtains of the sky, scatter thy silver dew [?]
-On every flower that shuts its sweet eyes [pb_noun_prep]
+Blue curtains of the sky, scatter thy silver dew [pb_verb_prep]
+On every flower that shuts its sweet eyes [pb_verb_prep]
 In timely sleep. Let thy west wing sleep on [pb_det_noun]
 The lake; speak silence with thy glimmering eyes,
 And wash the dusk with silver. Soon, full soon,
 Dost thou withdraw; then the wolf rages wide,
 And the lion glares through the dun forest.
-The fleeces of our flocks are covered with [?]
+The fleeces of our flocks are covered with [pb_verb_prep]
 Thy sacred dew; protect with them with thine influence.

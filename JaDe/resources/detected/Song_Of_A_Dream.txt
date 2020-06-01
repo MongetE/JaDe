@@ -3,12 +3,12 @@ Lone in the light of a magical wood,
 Soul-deep in visions that poppy-like sprang;
 And spirits of Truth were the birds that sang,
 And spirits of Love were the stars that glowed,
-And spirits of Peace were the streams that flowed [?]
+And spirits of Peace were the streams that flowed [pb_verb_prep]
 In that magical wood in the land of sleep.
 Lone in the light of that magical grove,
-I felt the stars of the spirits of Love [pb_noun_noun]
+I felt the stars of the spirits of Love [ex_subj_verb]
 Gather and gleam round my delicate youth,
 And I heard the song of the spirits of Truth;
-To quench my longing I bent me low [?]
-By the streams of the spirits of Peace that flow [?]
+To quench my longing I bent me low [pb_verb_prep]
+By the streams of the spirits of Peace that flow [pb_verb_prep]
 In that magical wood in the land of sleep.

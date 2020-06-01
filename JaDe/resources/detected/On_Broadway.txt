@@ -1,7 +1,7 @@
-About me young careless feet [?]
+About me young careless feet [ex_subj_verb]
 Linger along the garish street;
 Above, a hundred shouting signs [ex_subj_verb]
-Shed down their bright fantastic glow [?]
+Shed down their bright fantastic glow
 Upon the merry crowd and lines [pb_noun_prep]
 Of moving carriages below.
 Oh wonderful is Broadway -- only [ex_subj_verb]
@@ -11,6 +11,6 @@ Goes trutting by in brazen fashion;
 From playhouse, cabaret and inn [?]
 The rainbow lights of Broadway blaze [?]
 All gay without, all glad within;
-As in a dream I stand and gaze [?]
-At Broadway, shining Broadway -- only [?]
+As in a dream I stand and gaze [pb_verb_prep]
+At Broadway, shining Broadway -- only [ex_subj_verb]
 My heart, my heart is lonely.

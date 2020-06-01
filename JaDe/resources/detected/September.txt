@@ -7,10 +7,10 @@ Behind the eye a star,
 Under the silk of the wrist a sea, tell [?]
 Time is nowhere.
 We stand; leaves have not timed the summer.
-No clock now needs [?]
+No clock now needs [ex_dobj_verb]
 Tell we have only what we remember:
 Minutes uproaring with our heads [?]
 Like an unfortunate King's and his Queen's [pb_det_noun]
 When the senseless mob rules;
-And quietly the trees casting their crowns [pb_noun_prep]
+And quietly the trees casting their crowns [pb_verb_prep]
 Into the pools.

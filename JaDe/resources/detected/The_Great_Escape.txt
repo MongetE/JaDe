@@ -2,7 +2,7 @@ listen, he said, you ever seen a bunch of crabs in a [pb_det_noun]
 bucket?
 no, I told him.
 well, what happens is that now and then one crab [ex_subj_verb]
-will climb up on top of the others [?]
+will climb up on top of the others [pb_verb_prep]
 and begin to climb toward the top of the bucket,
 then, just as he's about to escape [?]
 another crab grabs him and pulls him back [?]
@@ -21,7 +21,7 @@ I had been there for eleven and one-half [pb_noun_noun]
 years.
 I got up off my stool and climbed right up the [pb_det_noun]
 supervisor [?]
-and then I reached up and pulled myself right [?]
+and then I reached up and pulled myself right [pb_verb_prep]
 out of there.
 it was so easy it was unbelievable.
 but none of the others followed me.

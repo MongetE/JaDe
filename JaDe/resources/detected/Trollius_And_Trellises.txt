@@ -11,24 +11,24 @@ test the literary waters,
 neither of us being much [pb_verb_adv]
 known.
 I think we had some luck and still have some [?]
-of same [pb_adj_adv]
+of same [?]
 yet [?]
 the odds are pretty fair [?]
 that he will opt for warm and pleasant [pb_noun_adj]
 afternoons [pb_noun_prep]
 in the garden [?]
 long before I.
-writing is its own intoxication
+writing is its own intoxication [?]
 while publishing and editing,
 attempting to collect bills [?]
 carries its own [pb_det_noun]
 attrition [?]
 which also includes dealing with the [?]
-petty bitchings and demands [?]
+petty bitchings and demands [pb_noun_prep]
 of many [pb_adj_adv]
 so-called genius darlings who are [?]
 not.
-I won’t blame him for getting [?]
+I won’t blame him for getting [pb_phrasal_verb]
 out [?]
 and hope he sends me photos of his [?]
 Rose Lane, his [pb_det_noun]
@@ -37,26 +37,26 @@ will I have to seek other [ex_dobj_verb]
 promulgators?
 that fellow in the Russian [pb_noun_adj]
 fur hat?
-or that beast in the East [?]
+or that beast in the East [pb_noun_prep]
 with all that hair [pb_noun_prep]
 in his ears, with those wet and [?]
 greasy lips?
 or will my editor-publisher [?]
 upon exiting for that world of Trollius and [?]
-trellis [ex_subj_verb]
+trellis [pb_noun_noun]
 hand over the [pb_det_noun]
-machinery [pb_noun_prep]
+machinery [?]
 of his former trade to a [pb_det_noun]
 cousin, a [pb_det_noun]
 daughter or [?]
 some Poundian from Big [?]
 Sur?
-or will he just pass the legacy on [?]
+or will he just pass the legacy on [pb_verb_prep]
 to the [pb_det_noun]
 Shipping Clerk [?]
 who will rise like [?]
 Lazarus,
-fingering new-found [ex_dobj_verb]
+fingering new-found [?]
 importance?
 one can imagine terrible [ex_dobj_verb]
 things:
@@ -65,7 +65,7 @@ must now be submitted in [?]
 Rondo form [?]
 and [?]
 typed [?]
-triple-spaced on rice [?]
+triple-spaced on rice [pb_noun_noun]
 paper.” [?]
 power corrupts,
 life aborts [?]
@@ -75,28 +75,28 @@ is a [pb_det_noun]
 bunch of [pb_relword]
 warts.
 “no, no, Mr. Chinaski:
-Rondo form!”
+Rondo form!” [?]
 “hey, man,” I’ll ask,
-“haven’t you heard of [pb_noun_prep]
+“haven’t you heard of [ex_dobj_verb]
 the thirties?” [?]
 “the thirties? what’s [ex_subj_verb]
 that?” [?]
 my present editor-publisher [?]
 and I [?]
-at times [?]
+at times [pb_verb_prep]
 did discuss the thirties,
 the Depression [?]
 and [?]
 some of the little tricks it [ex_subj_verb]
-taught us— [?]
+taught us— [pb_verb_prep]
 like how to endure on almost [?]
 nothing [?]
 and move forward [pb_adv_adv]
 anyhow.
-well, John, if it happens enjoy your [pb_det_noun]
-divertissement to [pb_relword]
+well, John, if it happens enjoy your [pb_verb_prep, pb_det_noun]
+divertissement to [?]
 plant husbandry,
-cultivate and aerate [?]
+cultivate and aerate [pb_verb_prep]
 between [?]
 bushes, water only in the [ex_subj_verb]
 early morning, spread [?]
@@ -106,7 +106,7 @@ and [?]
 as I do in my writing:
 use plenty of [pb_relword]
 manure.
-and thank you [?]
+and thank you [pb_verb_prep]
 for locating me there at [?]
 5124 DeLongpre Avenue [?]
 somewhere between [?]
@@ -118,6 +118,6 @@ and there are takers [?]
 even at this late date [?]
 still to be [pb_verb_chain]
 found [?]
-as the fire sings [?]
+as the fire sings [pb_verb_prep]
 through the [pb_det_noun]
 trees.

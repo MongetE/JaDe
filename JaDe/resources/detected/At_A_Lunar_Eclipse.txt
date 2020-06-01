@@ -2,7 +2,7 @@ Thy shadow, Earth, from Pole to Central Sea,
 Now steals along upon the Moon's meek shine
 In even monochrome and curving line [pb_noun_prep]
 Of imperturbable serenity.
-How shall I link such sun-cast symmetry [ex_subj_verb]
+How shall I link such sun-cast symmetry [pb_verb_prep]
 With the torn troubled form I know as thine,
 That profile, placid as a brow divine,
 With continents of moil and misery?
