@@ -91,7 +91,7 @@ if __name__ == "__main__":
         and compute detection measures. 
     """
 
-    model = input('Model to be used for evaluation: ')
+    model = input('Model to be used for evaluation [en_core_web_sm]: ') or "en_core_web_sm"
     preprocess_annotated(model)
 
     annotations = {}
