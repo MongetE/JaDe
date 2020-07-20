@@ -79,34 +79,34 @@ def get_pos_type(sentence):
     if re.search(DET_NOUN, pos):
         types.append('pb_det_noun')
 
-    if re.search(ADJ_NOUN, pos):
+    elif re.search(ADJ_NOUN, pos):
         types.append('pb_noun_adj')
 
-    if re.search(ADJ_ADV, pos):
+    elif re.search(ADJ_ADV, pos):
         types.append('pb_adj_adv')
 
-    if re.search(VERB_ADV, pos):
+    elif re.search(VERB_ADV, pos):
         types.append('pb_verb_adv')
 
-    if re.search(ADV_ADV, pos):
+    elif re.search(ADV_ADV, pos):
         types.append('pb_adv_adv')
 
-    if re.search(ADJ_ADJ, pos):
+    elif re.search(ADJ_ADJ, pos):
         types.append('pb_adj_adj')
 
-    if re.search(NOUN_PREP, pos):
+    elif re.search(NOUN_PREP, pos):
         types.append('pb_noun_prep')
 
-    if re.search(NOUN_NOUN, pos):
+    elif re.search(NOUN_NOUN, pos):
         types.append('pb_noun_noun')
 
-    if re.search(CROSS, tag):
+    elif re.search(CROSS, tag):
         types.append('cc_cross_clause')
 
-    if re.search(VERB_TO, tag):
+    elif re.search(VERB_TO, tag):
         types.append('pb_to_verb')
 
-    if re.search(V_CHAIN, pos):
+    elif re.search(V_CHAIN, pos):
         types.append('pb_verb_chain')
 
     return types
@@ -121,8 +121,8 @@ def get_dep_type(tokendict):
     
         for token, token_info in tokendict.items(): 
             token_index = dict_as_list.index(token)
-            if len(token_info[4]) > 0:
-                children = token_info[4]
+            if len(token_info[5]) > 0:
+                children = token_info[5]
                 if '\t' in children: 
                     newline_index = children.index('\t')
                     del children[newline_index]
@@ -131,15 +131,14 @@ def get_dep_type(tokendict):
                     try:
                         child_infos = tokendict[child]
                         child_index = dict_as_list.index(child)
-
+                        # if child_index >= (enjambment_index - 2) and token_index <= (enjambment_index + 2) \
+                        #     or child_index <= (enjambment_index + 2) and token_index >= (enjambment_index - 2) :
                         if child_index > enjambment_index and token_index < enjambment_index \
                             or child_index < enjambment_index and token_index > enjambment_index:
 
                             if child_infos[0] == 'nmod' and child_infos[1] == 'NOUN': 
                                 types.append('pb_noun_noun')
 
-                            elif child_infos[0] == 'nmod' and child[1] == 'ADJ': 
-                                types.append('pb_noun_adj')
 
                             elif child_infos[0] == 'dobj': 
                                 types.append('ex_dobj_verb')
@@ -161,7 +160,12 @@ def get_dep_type(tokendict):
                                 
                             elif child_infos[0] == 'compound' and token_info[1] == 'NOUN': 
                                 types.append('pb_noun_noun')
+
+                            # elif child_infos[0] == 'advmod':
+                            #     if token_info[2] == 'VBN' or 'JJ' in token_info[2]: 
+                            #         types.append('pb_adj_adv')
                             
+                    
                         elif child_index == enjambment_index - 1 and token_index < child_index:
                             if child_infos[0] == 'prep' and token_info[1] == 'NOUN': 
                                 types.append('pb_relword')

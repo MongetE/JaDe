@@ -1,4 +1,4 @@
-THE wild bee reels from bough to bough [?]
+THE wild bee reels from bough to bough [pb_noun_prep]
 With his furry coat and his gauzy wing.
 Now in a lily-cup, and now [pb_verb_adv]
 Setting a jacinth bell a-swing,
@@ -8,7 +8,7 @@ I made that vow,
 Swore that two lives should be like one [?]
 As long as the sea-gull loved the sea,
 As long as the sunflower sought the sun,--
-It shall be, I said, for eternity [pb_verb_prep]
+It shall be, I said, for eternity [?]
 'Twixt you and me!
 Dear friend, those times are over and done,
 Love's web is spun.

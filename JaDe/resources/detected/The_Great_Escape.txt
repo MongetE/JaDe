@@ -8,7 +8,7 @@ then, just as he's about to escape [?]
 another crab grabs him and pulls him back [?]
 down.
 really? I asked.
-really, he said, and this job is just like that, none [ex_subj_verb]
+really, he said, and this job is just like that, none [pb_noun_prep]
 of the others want anybody to get out of [?]
 here. that's just the way it is [?]
 in the postal service!
@@ -21,12 +21,12 @@ I had been there for eleven and one-half [pb_noun_noun]
 years.
 I got up off my stool and climbed right up the [pb_det_noun]
 supervisor [?]
-and then I reached up and pulled myself right [pb_verb_prep]
+and then I reached up and pulled myself right [?]
 out of there.
 it was so easy it was unbelievable.
 but none of the others followed me.
 and after that, whenever I had crab legs [ex_subj_verb]
 I thought about that place.
-I must have thought about that place [?]
+I must have thought about that place [pb_verb_prep]
 maybe 5 or 6 times [pb_noun_prep]
 before I switched to lobster.

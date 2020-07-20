@@ -150,58 +150,56 @@ def preprocessor(file, save, outfile, nlp):
                         line_pair = poem_lines[i] + '\n' + poem_lines[i+1]
                     else:
                         line_pair = poem_lines[i] + '\n' + poem_lines[i+2]
-                    sentence = get_enjambment_sentence(line_pair, poem_sentences)
                     
-                    if sentence is None: 
-                        sentence = fuzzy_enjambment_matching(line_pair, poem_sentences)
+                    line_break = line_pair.index('\n')
+                    last_word_before_enjambment = line_break - 1
+                    line_pair = line_pair.replace('\n', '\t')
+                    tagged_sentence = nlp(line_pair.lower())
+                    sentence_part_of_speech = [(token, str(token.pos_), str(token.tag_)) for token in tagged_sentence]
+                    # print(sentence_part_of_speech)
+                    dependency_dict = {token.text : (str(token.dep_), str(token.pos_), str(token.tag_), token.head.text, token.head.pos_, 
+                                [str(child) for child in token.children]) for token in tagged_sentence}
+                    pos_types = get_pos_type(sentence_part_of_speech)
+                    dep_types = list(set(get_dep_type(dependency_dict)))
+                    #print(dependency_dict)
 
-                    if sentence is not None:
-                        line_pair = line_pair.replace('\n', '\t')
-                        tagged_sentence = nlp(line_pair.lower())
-                        sentence_part_of_speech = [(token, str(token.pos_), str(token.tag_)) for token in tagged_sentence]
-                        # print(sentence_part_of_speech)
-                        dependency_dict = {token.text : (str(token.dep_), str(token.pos_), token.head.text, token.head.pos_, 
-                                    [str(child) for child in token.children]) for token in tagged_sentence}
-                        pos_types = get_pos_type(sentence_part_of_speech)
-                        dep_types = get_dep_type(dependency_dict)
-                        #print(dependency_dict)
+                    # print(line_pair)
+                    # print(dependency_dict)
+                    if len(dep_types) > 1:
+                        if 'ex_dobj_verb' in dep_types and 'ex_subj_verb' in dep_types:
+                            del dep_types[dep_types.index('ex_dobj_verb')]
+                            if len(dep_types) > 1:
+                                del dep_types[dep_types.index('ex_subj_verb')]
 
-                        # print(line_pair)
-                        # print(dependency_dict)
-                        if len(dep_types) > 1:
-                                if 'ex_dobj_verb' in dep_types and 'ex_subj_verb' in dep_types:
-                                    del dep_types[dep_types.index('ex_subj_verb')]
-                                    if len(dep_types) > 1:
-                                        del dep_types[dep_types.index('ex_dobj_verb')]
+                        elif 'ex_dobj_verb' in dep_types: 
+                            del dep_types[dep_types.index('ex_dobj_verb')]
+                            if len(dep_types) == 0: 
+                                del dep_types[dep_types.index('ex_dobj_verb')]
 
-                                elif 'ex_dobj_verb' in dep_types: 
-                                    del dep_types[dep_types.index('ex_dobj_verb')]
-                                    if len(dep_types) == 0: 
-                                        del dep_types[dep_types.index('ex_dobj_verb')]
-
-                                elif 'ex_subj_verb' in dep_types:
-                                    del dep_types[dep_types.index('ex_subj_verb')]
-                                    if len(dep_types) == 0: 
-                                        del dep_types[dep_types.index('ex_subj_verb')]
-                                
-                                elif 'pb_relword' in dep_types:
-                                    del dep_types[dep_types.index('pb_relword')]
-                                
-                                else:
-                                    for i in range(len(dep_types)): 
-                                        if i < len(dep_types) - 1:
-                                            if dep_types[i] == dep_types[i+1]: 
-                                                del(dep_types[i])
+                        elif 'ex_subj_verb' in dep_types:
+                            del dep_types[dep_types.index('ex_subj_verb')]
+                            if len(dep_types) == 0: 
+                                del dep_types[dep_types.index('ex_subj_verb')]
+                        
+                        elif 'pb_relword' in dep_types:
+                            del dep_types[dep_types.index('pb_relword')]
+                        
+                        else:
+                            for i in range(len(dep_types)): 
+                                if i < len(dep_types) - 1:
+                                    if dep_types[i] == dep_types[i+1]: 
+                                        del(dep_types[i])
                     
-                        # TODO: choose between pos and dep tag if both are > 0 ?
-                        if len(pos_types) > 0 and len(dep_types) == 0:
-                            line += ' [' + str(','.join(pos_types)) + ']'
-                        elif len(dep_types) > 0 and len(pos_types) == 0: 
-                            line += ' [' + str(', '.join(dep_types)) + ']'
-                        elif len(dep_types) > 0 and len(pos_types) > 0:
-                            line += ' [' + str(', '.join(pos_types)) + ']'
-                        else: 
-                            line += ' [?]'
+                
+                    # TODO: choose between pos and dep tag if both are > 0 ?
+                    if len(pos_types) > 0 and len(dep_types) == 0:
+                        line += ' [' + str(','.join(pos_types)) + ']'
+                    elif len(dep_types) > 0 and len(pos_types) == 0: 
+                        line += ' [' + str(', '.join(dep_types)) + ']'
+                    elif len(dep_types) > 0 and len(pos_types) > 0:
+                        line += ' [' + str(', '.join(pos_types)) + ']'
+                    else: 
+                        line += ' [?]'
             
             transformed_lines.append(line)
 

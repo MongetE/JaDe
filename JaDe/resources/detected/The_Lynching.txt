@@ -6,7 +6,7 @@ All night a bright and solitary star [?]
 (Perchance the one that ever guided him,
 Yet gave him up at last to Fate's wild whim) [?]
 Hung pitifully o'er the swinging char.
-Day dawned, and soon the mixed crowds came to view [?]
+Day dawned, and soon the mixed crowds came to view [ex_dobj_verb]
 The ghastly body swaying in the sun:
 The women thronged to look, but never a one [ex_subj_verb]
 Showed sorrow in her eyes of steely blue;

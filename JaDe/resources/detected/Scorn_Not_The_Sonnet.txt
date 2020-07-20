@@ -1,14 +1,14 @@
 Scorn not the Sonnet; Critic, you have frowned,
 Mindless of its just honours; with this key [pb_verb_prep]
-Shakspeare unlocked his heart; the melody [ex_subj_verb]
+Shakspeare unlocked his heart; the melody [pb_noun_prep]
 Of this small lute gave ease to Petrarch's wound;
 A thousand times this pipe did Tasso sound;
 With it Camoens soothed an exile's grief;
-The Sonnet glittered a gay myrtle leaf [pb_verb_prep]
-Amid the cypress with which Dante crowned [?]
+The Sonnet glittered a gay myrtle leaf [pb_noun_prep]
+Amid the cypress with which Dante crowned [ex_dobj_verb]
 His visionary brow: a glow-worm lamp,
 It cheered mild Spenser, called from Faery-land [?]
 To struggle through dark ways; and when a damp [ex_subj_verb]
-Fell round the path of Milton, in his hand [pb_verb_prep]
+Fell round the path of Milton, in his hand [?]
 The Thing became a trumpet; whence he blew [ex_dobj_verb]
 Soul-animating strains--alas, too few!

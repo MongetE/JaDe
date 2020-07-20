@@ -9,6 +9,6 @@ They may not dream how thou'st distinguished me.
 That my weak hand may equal my firm faith [pb_det_noun]
 And my life practice what my tongue saith [pb_det_noun]
 That my low conduct may not show [pb_det_noun]
-Nor my relenting lines [?]
-That I thy purpose did not know [?]
+Nor my relenting lines [pb_noun_adj]
+That I thy purpose did not know [pb_noun_noun]
 Or overrated thy designs.

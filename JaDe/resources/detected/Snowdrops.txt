@@ -4,8 +4,8 @@ winter should have meaning for you.
 I did not expect to survive,
 earth suppressing me. I didn't expect [?]
 to waken again, to feel [pb_verb_prep]
-in damp earth my body [ex_subj_verb]
-able to respond again, remembering [?]
+in damp earth my body [pb_noun_adj]
+able to respond again, remembering [pb_verb_prep]
 after so long how to open again [pb_verb_prep]
 in the cold light [pb_noun_prep]
 of earliest spring--
