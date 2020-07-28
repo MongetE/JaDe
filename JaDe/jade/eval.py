@@ -105,11 +105,15 @@ if __name__ == "__main__":
         tmp_remove_adjunct = get_manual_annotations(filename)
         tmp_annotation_list = []
         for annotation in tmp_remove_adjunct:
-            if not annotation.startswith('[ex_verb_adjunct') \
+            if re.search(r'(noun_adv|adj_prep|comp|lex)', annotation):
+                tmp_annotation_list.append('[]')
+            elif not annotation.startswith('[ex_verb_adjunct') \
                 and not annotation.startswith('[ex_adjunct_verb'):
                 tmp_annotation_list.append(annotation)
-            else: 
-                tmp_annotation_list.append('[?]')
+            elif re.search('a[jd]*unct', annotation): 
+                tmp_annotation_list.append('[ex_verb_adjunct]')
+            
+                # tmp_annotation_list.append('[?]')
         # print(tmp_annotation_list)
         tmp_true.append(tuple(tmp_annotation_list))
 
@@ -182,10 +186,5 @@ if __name__ == "__main__":
 
     manual_annotations = global_['true']
     automatic_annotations = global_['predicted']
-
-    # for i in range(len(manual_annotations)): 
-    #     print(type(automatic_annotations[i]), type(manual_annotations[i]))
-    #     print(manual_annotations[i])
-    #     print(automatic_annotations[i])
 
     print(classification_report(manual_annotations, automatic_annotations, digits=3, zero_division=0))

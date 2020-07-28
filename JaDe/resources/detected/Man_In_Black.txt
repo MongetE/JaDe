@@ -1,13 +1,13 @@
 Where the three magenta [pb_noun_noun]
-Breakwaters take the shove [?]
-And suck of the grey sea [pb_verb_prep]
+Breakwaters take the shove
+And suck of the grey sea
 To the left, and the wave [pb_noun_noun]
-Unfists against the dun [?]
+Unfists against the dun
 Barb-wired headland of [pb_relword]
 The Deer Island prison [pb_noun_prep]
 With its trim piggeries,
-Hen huts and cattle green [?]
-To the right, and March ice [ex_subj_verb]
+Hen huts and cattle green
+To the right, and March ice
 Glazes the rock pools yet,
 Snuff-colored sand cliffs rise [pb_verb_prep]
 Over a great stone spit [pb_noun_adj]

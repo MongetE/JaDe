@@ -17,7 +17,7 @@
 14. in the raw wind of the new world.
 
 01 02 [ex_dobj_verb] [abrupt] [retro]
-02 03 [pb_relword] [smooth] [pro]
+02 03 [] [smooth] [pro]
 03 04 [] [] []
 
 04 05 [] [] []

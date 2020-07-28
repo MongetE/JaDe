@@ -1,5 +1,5 @@
 so much depends [pb_verb_prep]
-upon [?]
+upon
 a red wheel [pb_noun_noun]
 barrow [ex_subj_verb]
 glazed with rain [pb_noun_noun]

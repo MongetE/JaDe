@@ -6,9 +6,9 @@ And next in value, which thy kindness lends,
 That I may greatly disappoint my friends,
 Howe'er they think or hope that it may be,
 They may not dream how thou'st distinguished me.
-That my weak hand may equal my firm faith [pb_det_noun]
-And my life practice what my tongue saith [pb_det_noun]
-That my low conduct may not show [pb_det_noun]
-Nor my relenting lines [pb_noun_adj]
-That I thy purpose did not know [pb_noun_noun]
+That my weak hand may equal my firm faith
+And my life practice what my tongue saith
+That my low conduct may not show [ex_dobj_verb]
+Nor my relenting lines
+That I thy purpose did not know
 Or overrated thy designs.

@@ -1,121 +1,121 @@
 of course, I may die in the next ten minutes [ex_subj_verb]
 and I’m ready for that [ex_dobj_verb]
-but what I’m really worried about is [?]
+but what I’m really worried about is [pb_verb_prep]
 that my editor-publisher might retire [pb_verb_adv]
-even though he is ten years younger than [?]
+even though he is ten years younger than
 I.
 it was just 25 years ago (I was at that ripe [pb_adj_adj]
-old age of 45) [?]
+old age of 45)
 when we began our unholy alliance to [pb_to_verb]
 test the literary waters,
-neither of us being much [pb_verb_adv]
+neither of us being much [pb_adj_adv]
 known.
-I think we had some luck and still have some [?]
+I think we had some luck and still have some
 of same [pb_adj_adv]
-yet [?]
-the odds are pretty fair [?]
+yet
+the odds are pretty fair
 that he will opt for warm and pleasant [pb_noun_adj]
 afternoons [pb_noun_prep]
-in the garden [?]
+in the garden
 long before I.
-writing is its own intoxication [?]
+writing is its own intoxication
 while publishing and editing,
-attempting to collect bills [?]
+attempting to collect bills
 carries its own [pb_noun_adj]
-attrition [?]
-which also includes dealing with the [?]
+attrition [cc_cross_clause]
+which also includes dealing with the
 petty bitchings and demands [pb_noun_prep]
 of many [pb_adj_adv]
-so-called genius darlings who are [?]
+so-called genius darlings who are
 not.
 I won’t blame him for getting [pb_phrasal_verb]
-out [?]
-and hope he sends me photos of his [?]
-Rose Lane, his [pb_det_noun]
+out
+and hope he sends me photos of his [pb_verb_adv]
+Rose Lane, his
 Gardenia Avenue.
 will I have to seek other [pb_noun_adj]
 promulgators?
 that fellow in the Russian [pb_noun_adj]
 fur hat?
-or that beast in the East [?]
+or that beast in the East
 with all that hair [pb_noun_prep]
-in his ears, with those wet and [?]
+in his ears, with those wet and [pb_relword]
 greasy lips?
-or will my editor-publisher [?]
-upon exiting for that world of Trollius and [?]
+or will my editor-publisher
+upon exiting for that world of Trollius and [pb_relword]
 trellis [ex_subj_verb]
 hand over the [pb_det_noun]
 machinery [pb_noun_prep]
 of his former trade to a [pb_det_noun]
 cousin, a [pb_det_noun]
-daughter or [?]
-some Poundian from Big [?]
+daughter or
+some Poundian from Big [ex_verb_adjunct]
 Sur?
-or will he just pass the legacy on [pb_verb_prep]
+or will he just pass the legacy on
 to the [pb_det_noun]
-Shipping Clerk [?]
-who will rise like [?]
+Shipping Clerk [cc_cross_clause]
+who will rise like
 Lazarus,
 fingering new-found [ex_dobj_verb]
 importance?
 one can imagine terrible [pb_noun_adj]
 things:
-“Mr. Chinaski, all your work [?]
-must now be submitted in [?]
-Rondo form [?]
-and [?]
-typed [?]
-triple-spaced on rice [?]
-paper.” [?]
+“Mr. Chinaski, all your work
+must now be submitted in
+Rondo form
+and
+typed
+triple-spaced on rice
+paper.”
 power corrupts,
-life aborts [?]
+life aborts
 and all you [ex_subj_verb]
 have left [pb_verb_chain]
 is a [pb_det_noun]
 bunch of [pb_relword]
 warts.
 “no, no, Mr. Chinaski:
-Rondo form!” [?]
+Rondo form!”
 “hey, man,” I’ll ask,
-“haven’t you heard of [pb_noun_prep]
-the thirties?” [?]
+“haven’t you heard of [ex_dobj_pverb]
+the thirties?”
 “the thirties? what’s [ex_subj_verb]
-that?” [?]
-my present editor-publisher [?]
-and I [?]
-at times [pb_verb_prep]
+that?”
+my present editor-publisher
+and I
+at times
 did discuss the thirties,
-the Depression [?]
-and [?]
-some of the little tricks it [ex_subj_verb]
-taught us— [pb_verb_prep]
-like how to endure on almost [?]
-nothing [?]
+the Depression
+and
+some of the little tricks it [cc_cross_clause]
+taught us—
+like how to endure on almost
+nothing
 and move forward [pb_adv_adv]
 anyhow.
 well, John, if it happens enjoy your [pb_det_noun]
 divertissement to [pb_relword]
 plant husbandry,
 cultivate and aerate [pb_verb_prep]
-between [?]
+between
 bushes, water only in the [ex_subj_verb]
-early morning, spread [?]
+early morning, spread [pb_verb_adv]
 shredding to discourage [ex_dobj_verb]
-weed growth [?]
-and [?]
+weed growth
+and
 as I do in my writing:
 use plenty of [pb_relword]
 manure.
-and thank you [pb_verb_prep]
-for locating me there at [?]
-5124 DeLongpre Avenue [?]
-somewhere between [?]
-alcoholism and [?]
+and thank you
+for locating me there at
+5124 DeLongpre Avenue
+somewhere between
+alcoholism and [pb_relword]
 madness.
 together we [ex_subj_verb]
-laid down the gauntlet [?]
-and there are takers [?]
-even at this late date [?]
+laid down the gauntlet
+and there are takers
+even at this late date
 still to be [pb_verb_chain]
 found [pb_verb_prep]
 as the fire sings [pb_verb_prep]

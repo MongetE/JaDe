@@ -54,7 +54,7 @@
 21 22 [] [] []
 22 23 [pb_det_noun] [smooth] [pro]
 23 24 [] [] []
-24 25 [pb_dobj_pverb] [smooth] [retro]
+24 25 [ex_dobj_pverb] [smooth] [retro]
 25 26 [] [] []
 26 27 [] [] []
 27 28 [] [] []

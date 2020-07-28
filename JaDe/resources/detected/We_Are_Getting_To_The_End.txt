@@ -2,11 +2,11 @@ We are getting to the end of visioning [ex_dobj_verb]
 The impossible within this universe,
 Such as that better whiles may follow worse,
 And that our race may mend by reasoning.
-We know that even as larks in cages sing [?]
-Unthoughtful of deliverance from the curse [?]
+We know that even as larks in cages sing [ex_verb_adjunct]
+Unthoughtful of deliverance from the curse [ex_verb_adjunct]
 That holds them lifelong in a latticed hearse,
 We ply spasmodically our pleasuring.
-And that when nations set them to lay waste [pb_verb_prep]
+And that when nations set them to lay waste [ex_dobj_verb]
 Their neighbours' heritage by foot and horse,
 And hack their pleasant plains in festering seams,
 They may again, - not warily, or from taste,

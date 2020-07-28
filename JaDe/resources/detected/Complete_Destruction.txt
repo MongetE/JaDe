@@ -1,7 +1,7 @@
 It was an icy day.
 We buried the cat,
-then took her box [?]
-and set fire to it [pb_verb_prep]
+then took her box
+and set fire to it
 in the back yard.
 Those fleas that escaped [ex_dobj_verb]
 earth and fire [ex_subj_verb]

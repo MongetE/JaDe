@@ -1,7 +1,7 @@
 As Hermes once took to his feathers light,
 When lulled Argus, baffled, swooned and slept,
 So on a Delphic reed, my idle spright [ex_subj_verb]
-So played, so charmed, so conquered, so bereft [?]
+So played, so charmed, so conquered, so bereft
 The dragon-world of all its hundred eyes;
 And seeing it asleep, so fled away--
 Not to pure Ida with its snow-cold skies,
@@ -10,5 +10,5 @@ But to that second circle of sad Hell,
 Where in the gust, the whirlwind, and the flaw [pb_noun_prep]
 Of rain and hail-stones, lovers need not tell [ex_dobj_verb]
 Their sorrows. Pale were the sweet lips I saw,
-Pale were the lips I kissed, and fair the form [pb_verb_prep]
+Pale were the lips I kissed, and fair the form [cc_cross_clause]
 I floated with, about that melancholy storm.
