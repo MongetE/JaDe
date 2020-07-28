@@ -31,8 +31,8 @@
 09 10 [] [] []
 10 11 [ex_dobj_verb] [smooth] [pro]
 11 12 [] [] [] 
-12 13 [ex_verb_adjunct_manner] [smooth] [retro]
+12 13 [ex_verb_adjunct] [smooth] [retro]
 
-13 14 [ex_verb_adjunct_time] [smooth] [retro]
+13 14 [ex_verb_adjunct] [smooth] [retro]
 14 15 [] [] []
-15 16 [ex_verb_adjunct_location] [smooth] [retro]
+15 16 [ex_verb_adjunct] [smooth] [retro]

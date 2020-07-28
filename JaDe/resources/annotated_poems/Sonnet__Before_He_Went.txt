@@ -25,4 +25,4 @@
 10 11 [] [] []
 11 12 [ex_dobj_verb] [smooth] [pro]
 12 13 [ex_subj_verb] [smooth] [pro]
-13 14 [ex_verb_adjunct_manner] [smooth] [retro]
+13 14 [ex_verb_adjunct] [smooth] [retro]

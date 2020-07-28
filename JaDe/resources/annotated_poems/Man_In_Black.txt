@@ -40,7 +40,7 @@
 
 10 11 [ex_subj_verb] [smooth] [pro]
 11 12 [] [] []
-12 13 [ex_verb_adjunct_location] [smooth] [retro]
+12 13 [ex_verb_adjunct] [smooth] [retro]
 
 13 14 [pb_noun_adj] [smooth] [retro]
 14 15 [] [] []

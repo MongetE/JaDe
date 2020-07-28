@@ -14,8 +14,8 @@
 14. And bind my brow forever with a thorn.
 
 01 02 [] [] []
-02 03 [ex_verb_adjunct_reason] [smooth] [retro] | [ex_verb_adjunct_time] [smooth] [retro]
-03 04 [ex_verb_adjunct_manner] [abrupt] [retro]
+02 03 [ex_verb_adjunct] [smooth] [retro] | [ex_verb_adjunct] [smooth] [retro]
+03 04 [ex_verb_adjunct] [abrupt] [retro]
 04 05 [] [] []
 05 06 [ex_dobj_verb] [smooth] [pro]
 06 07 [] [] []

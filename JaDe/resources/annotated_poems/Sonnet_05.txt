@@ -18,7 +18,7 @@
 03 04 [ex_dobj_verb] [abrupt] [pro]
 04 05 [ex_dobj_verb] [smooth] [retro]
 05 06 [] [] []
-06 07 [ex_verb_adjunct_location] [smooth] [retro]
+06 07 [ex_verb_adjunct] [smooth] [retro]
 07 08 [ex_subj_verb] [smooth] [pro]
 08 09 [] [] []
 09 10 [] [] []

@@ -25,10 +25,10 @@
 06 07 [ex_dobj_verb] [smooth] [retro]
 07 08 [pb_noun_adj] [abrupt] [retro]
 08 09 [ex_dobj_verb] [smooth] [pro]
-09 10 [ex_verb_adjunct_location] [smooth] [retro]
+09 10 [ex_verb_adjunct] [smooth] [retro]
 10 11 [pb_noun_prep] [smooth] [retro]
 11 12 [] [] []
 
 12 13 [] [] []
-13 14 [ex_verb_adjunct_location] [smooth] [retro]
+13 14 [ex_verb_adjunct] [smooth] [retro]
 

@@ -17,7 +17,7 @@
 14. Heroes, and women fairer than the skies?
 
 01 02 [] [] []
-02 03 [ex_verb_adjunct_manner] [smooth] [retro]
+02 03 [ex_verb_adjunct] [smooth] [retro]
 03 04 [pb_noun_prep] [smooth] [retro]
 04 05 [] [] []
 

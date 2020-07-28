@@ -14,7 +14,7 @@
 13. And floats forever in a moon-green pool,
 14. Held in the arms of rhythm and of sleep.
 
-01 02 [ex_verb_adjunct_location] [abrupt] [retro]
+01 02 [ex_verb_adjunct] [abrupt] [retro]
 02 03 [] [] []
 03 04 [] [] []
 04 05 [] [] []

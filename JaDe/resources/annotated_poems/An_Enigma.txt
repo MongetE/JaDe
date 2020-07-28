@@ -15,7 +15,7 @@
 
 01 02 [] [] []
 02 03 [] [] []
-03 04 [ex_verb_adjunct_manner] [smooth] [retro]
+03 04 [ex_verb_adjunct] [smooth] [retro]
 04 05 [] [] []
 05 06 [] [] []
 06 07 [] [] []

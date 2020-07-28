@@ -20,7 +20,7 @@
 03 04 [] [] []
 04 05 [] [] []
 
-05 06 [ex_verb_adjunct_manner] [smooth] [retro]
+05 06 [ex_verb_adjunct] [smooth] [retro]
 06 07 [cc_cross_clause] [smooth] [retro]
 07 08 [] [] []
 08 09 [] [] []

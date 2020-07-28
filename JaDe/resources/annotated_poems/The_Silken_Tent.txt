@@ -13,7 +13,7 @@
 13. In the capriciousness of summer air
 14. Is of the slightlest bondage made aware.
 
-01 02 [ex_verb_adjunct_time] [smooth] [retro]
+01 02 [ex_verb_adjunct] [smooth] [retro]
 02 03 [ex_subj_verb] [smooth] [pro]
 03 04 [] [] []
 04 05 [] [] []
@@ -24,5 +24,5 @@
 09 10 [pb_verb_prep] [smooth] [retro]
 10 11 [pb_noun_prep] [smooth] [retro]
 11 12 [] [] []
-12 13 [ex_verb_adjunct_location] [smooth] [pro]
+12 13 [ex_verb_adjunct] [smooth] [pro]
 13 14 [] [] []

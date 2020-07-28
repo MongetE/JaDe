@@ -22,7 +22,7 @@
 07 08 [] [] []
 08 09 [ex_dobj_verb] [abrupt] [pro]
 09 10 [] [] []
-10 11 [ex_verb_adjunct_location] [abrupt] [retro]
+10 11 [ex_verb_adjunct] [abrupt] [retro]
 11 12 [] [] []
 12 13 [] [] []
 13 14 [] [] []

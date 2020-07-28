@@ -27,4 +27,4 @@
 10 11 [pb_noun_adj] [abrupt] [pro]
 11 12 [] [] []
 12 13 [] [] []
-13 14 [ex_verb_adjunct_goal] [smooth] [retro]
+13 14 [ex_verb_adjunct] [smooth] [retro]

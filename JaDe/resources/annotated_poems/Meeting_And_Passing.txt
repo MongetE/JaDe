@@ -15,7 +15,7 @@
 
 01 02 [] [] []
 02 03 [ex_dobj_verb] [smooth] [retro]
-03 04 [ex_verb_adjunct_time] [smooth] [retro]
+03 04 [ex_verb_adjunct] [smooth] [retro]
 04 05 [pb_det_noun] [smooth] [pro]
 05 06 [pb_noun_adj] [smooth] [pro]
 06 07 [ex_dobj_verb] [smooth] [pro]
@@ -25,4 +25,4 @@
 10 11 [ex_dobj_verb] [smooth] [pro]
 11 12 [] [] []
 12 13 [] [] []
-13 14 [ex_verb_adjunct_time] [smooth] [retro]
+13 14 [ex_verb_adjunct] [smooth] [retro]

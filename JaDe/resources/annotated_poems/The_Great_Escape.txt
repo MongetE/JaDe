@@ -43,7 +43,7 @@
 10 11 [] [] []
 11 12 [pb_noun_prep] [smooth] [pro] 
 12 13 [ex_dobj_pverb] [abrupt] [pro]
-13 14 [ex_verb_adjunct_location] [smooth] [retro]
+13 14 [ex_verb_adjunct] [smooth] [retro]
 14 15 [] [] []
 15 16 [] [] []
 16 17 [] [] []
