@@ -30,7 +30,7 @@ Sweet, there is nothing left to say
 But this, that love is never lost,
 Keen winter stabs the breasts of May
 Whose crimson roses burst his frost,
-Ships tempest-tossed [ex_subj_verb]
+Ships tempest-tossed [pb_comp]
 Will find a harbour in some bay,
 And so we may.
 And there is nothing left to do

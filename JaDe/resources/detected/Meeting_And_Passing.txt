@@ -4,7 +4,7 @@ And had just turned from when I first saw you
 As you came up the hill. We met. But all [ex_subj_verb]
 We did that day was mingle great and small [pb_noun_adj]
 Footprints in summer dust as if we drew [ex_dobj_verb]
-The figure of our being less than two
+The figure of our being less than two [pb_comp]
 But more than one as yet. Your parasol [ex_subj_verb]
 Pointed the decimal off with one deep thrust.
 And all the time we talked you seemed to see [ex_dobj_verb]

@@ -2,7 +2,7 @@ of course, I may die in the next ten minutes [ex_subj_verb]
 and I’m ready for that [ex_dobj_verb]
 but what I’m really worried about is [pb_verb_prep]
 that my editor-publisher might retire [pb_verb_adv]
-even though he is ten years younger than
+even though he is ten years younger than [pb_comp]
 I.
 it was just 25 years ago (I was at that ripe [pb_adj_adj]
 old age of 45)
