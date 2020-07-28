@@ -10,23 +10,7 @@ from preprocessor import preprocessor
 
 ANNOT_DIR = r'JaDe/resources/annotated_poems'
 DETECTED_DIR = r'JaDe/resources/detected'
-DETECTED_TYPES = [
-                    'pb_noun_prep', 'pb_noun_noun', 'cc_cross_clause', 'pb_verb_adv',
-                    'pb_det_noun', 'pb_v_chain', 'pb_noun_adj', 'pb_adj_adj', 
-                    'pb_adv_adv', 'pb_adj_adv'
-                ]
 
-DET_NOUN = 'pb_det_noun'
-NOUN_NOUN = 'pb_noun_noun'
-ADJ_NOUN = 'pb_noun_adj'
-ADJ_ADJ = 'pb_adj_adj'
-NOUN_PREP = 'pb_noun_prep'
-CROSS = 'cc_cross_clause'
-V_CHAIN = 'pb_v_chain'
-ADV_ADV = 'pb_adv_adv'
-VERB_ADV = 'pb_verb_adv'
-ADJ_ADV = 'pb_adj_adv'
-END_STOPPED = ''
 
 
 def preprocess_annotated(model):
@@ -105,16 +89,10 @@ if __name__ == "__main__":
         tmp_remove_adjunct = get_manual_annotations(filename)
         tmp_annotation_list = []
         for annotation in tmp_remove_adjunct:
-            if re.search(r'(noun_adv|adj_prep|comp|lex)', annotation):
+            if re.search(r'(lex)', annotation):
                 tmp_annotation_list.append('[]')
-            elif not annotation.startswith('[ex_verb_adjunct') \
-                and not annotation.startswith('[ex_adjunct_verb'):
+            else:
                 tmp_annotation_list.append(annotation)
-            elif re.search('a[jd]*unct', annotation): 
-                tmp_annotation_list.append('[ex_verb_adjunct]')
-            
-                # tmp_annotation_list.append('[?]')
-        # print(tmp_annotation_list)
         tmp_true.append(tuple(tmp_annotation_list))
 
 

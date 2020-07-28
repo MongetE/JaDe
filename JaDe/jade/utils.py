@@ -58,6 +58,8 @@ def get_pos_type(sentence):
     NOUN_NOUN = r'NOUN SPACE NOUN'
     ADJ_NOUN = r'ADJ SPACE NOUN|NOUN SPACE ADJ'
     ADJ_ADJ = r'ADJ SPACE ADJ'
+    # ADJ_PREP = r'ADJ SPACE ADP'
+    # JJ_PREP = r'JJ _SP IN'
     NOUN_PREP = r'NOUN SPACE ADP|ADP SPACE (ADJ|DET)? NOUN'
     CROSS = r'NN _SP WDT'
     V_CHAIN = r'VERB SPACE AUX|AUX SPACE VERB'
@@ -68,6 +70,7 @@ def get_pos_type(sentence):
     VERB_TO = r'TO _SP VB'
     CPREP = r'VB _SP TO'
     VERB_PREP = r'VB.? _SP IN'
+    COMP = r'(RB|JJ)[RS]( \w*){0,3} _SP( \w*){0,4}((JJ|RB)[RS]|IN)?'
     
     types = []
     tag = ""
@@ -117,6 +120,12 @@ def get_pos_type(sentence):
 
     elif re.search(VERB_PREP, tag):
         types.append('pb_verb_prep')
+
+    elif re.search(COMP, tag): 
+        types.append('pb_comp')
+
+    # elif re.search(ADJ_PREP, pos) or re.search(JJ_PREP, tag): 
+    #     types.append('pb_adj_prep')
 
     return types
 
@@ -180,7 +189,9 @@ def get_dep_type(tokendict):
 
                             elif child_infos[0] == 'relcl' and 'NN' in token_info[2]:
                                 types.append('cc_cross_clause')
-                        
+
+                            elif child_infos[0] in ['xcomp'] and token_info[1] == 'ADJ': 
+                                types.append('pb_adj_prep')
                                     
                         elif child_index == enjambment_index - 1 and token_index < child_index:
                             if child_infos[0] == 'prep' and token_info[1] == 'NOUN' or child_infos[0] == 'cc': 
