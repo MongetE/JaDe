@@ -7,6 +7,7 @@ import statistics
 import click
 import spacy
 from sklearn.metrics import classification_report
+from tqdm import tqdm
 from JaDe.jade.preprocessor import preprocessor
 
 ANNOT_DIR = r'JaDe/resources/annotated_poems'
@@ -21,6 +22,17 @@ dependency_rules = ['[pb_noun_noun]', '[pb_det_noun]', '[pb_noun_adj]', '[pb_ver
 pdict = ['[pb_phrasal_verb]', '[ex_dobj_pverb]']
 
 
+def get_filename(file): 
+    filename = re.search(r'(\w*[\/\\])+(?P<name>(\w*[ _\-\d]?)+)', str(file)).group('name')
+    filename = re.sub(r'[\?:;,\'! \.]', '_', filename)
+    filename = filename + '.txt'
+
+    if filename.endswith('_'):
+        filename = filename[:-1]
+    
+    return filename
+
+
 def preprocess_annotated(model):
     """
         Run the preprocessor against test data
@@ -32,12 +44,12 @@ def preprocess_annotated(model):
     if not os.path.exists(out_dir):
         os.mkdir(out_dir)
 
-    for file in data_dir.iterdir():
-        filename = str(file)[31:]
-        # print(filename)
-        out_file = str(out_dir) + '/' + filename
+    files = [str(data_dir)+'/'+file for file in os.listdir(data_dir) if fnmatch.fnmatch(file, '*.txt')]
 
-        with open(str(file), 'r', encoding='utf-8') as curfile: 
+    for i in tqdm(range(len(files))):
+        with open(files[i], 'r', encoding='utf-8') as curfile:
+            file_name = get_filename(str(files[i]))
+            out_file = str(out_dir) + '/' + file_name
             preprocessor(curfile, True, out_file, nlp)
             
 
@@ -141,7 +153,7 @@ def build_classification_report(classifier):
     tmp_true = []
     for filepath in pathlib.Path(ANNOT_DIR).iterdir():
         filename = str(filepath)
-        poem_name = str(filepath)[31:]
+        poem_name = filename[31:]
         annotations[poem_name] = []
         annotations[poem_name].append(get_manual_annotations(filename, classifier))
         tmp_true.append(tuple(get_manual_annotations(filename, classifier)))
@@ -217,17 +229,15 @@ def build_classification_report(classifier):
 @click.command()
 @click.option('--model', help="Language model to be used", default='en_core_web_sm')
 @click.option('--classifier', help="Classifier to evaluate", default="all", 
-            type=click.Choice(['all', 'dependencies', 'regex', 'dictionary', 'dep', 'dict'], 
+            type=click.Choice(['all', 'dependencies', 'regex', 'dictionary'], 
                             case_sensitive=False))
 @click.option('--annotate', help="If set to True, run JaDe to annotate test data", default=False)
 def run(model, classifier, annotate): 
     """
         Evaluation command-line interface. 
-
         The evaluation can be run on each classifier separately or on all 3.
         The automatic annotation can be updated if necessary (set --annotate 
         to True). 
-
         Parameters
         ----------
             model: str
@@ -246,3 +256,4 @@ def run(model, classifier, annotate):
 
 if __name__ == "__main__":
     run()
+    

@@ -5,7 +5,7 @@ import sys
 import re
 from fuzzywuzzy import fuzz
 import spacy
-from utils import get_pos_type, get_dep_type, detect_phrasal_verb
+from .utils import get_pos_type, get_dep_type, detect_phrasal_verb
 
 
 def get_poem_lines(poem):
