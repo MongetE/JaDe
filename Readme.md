@@ -114,9 +114,3 @@ Regarding the detection per se, the results are as follow:
 | 0.96      | 0.90   | 0.93    |
 
 These results can be obtained by running `run_eval.py`.
-
-**Please note that to run `run_eval.py` with `--annotate True`, it is necessary
-to change `from .utils import get_type` (line 7 in `JaDe/jade/preprocessor.py`)
-to `from utils import get_type`.
-To run `run.py` after running evaluation, it must then be changed to
-`from .utils import get_type` again.**
