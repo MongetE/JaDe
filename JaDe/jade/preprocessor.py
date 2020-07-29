@@ -101,7 +101,7 @@ def remove_annotations(poem):
 
     return text
 
-def preprocessor(file, save, outfile, nlp):
+def preprocessor(file, save, outfile, nlp, classifier='all'):
     """
         Execute the whole preprocessing module. 
 
@@ -195,20 +195,29 @@ def preprocessor(file, save, outfile, nlp):
                                     if dep_types[i] == dep_types[i+1]: 
                                         del(dep_types[i])
                     
+                    if classifier == 'all':
+                        # TODO: choose between pos and dep tag if both are > 0 ?
+                        if len(phrasal) > 0:
+                            line += ' [' + str(', '.join(phrasal)) + ']'
+                        elif len(pos_types) > 0 and len(dep_types) == 0:
+                            line += ' [' + str(','.join(pos_types)) + ']'
+                        elif len(dep_types) > 0 and len(pos_types) == 0: 
+                            line += ' [' + str(', '.join(dep_types)) + ']'
+                        elif len(dep_types) > 0 and len(pos_types) > 0:
+                            line += ' [' + str(', '.join(pos_types)) + ']'
                         
-                    # TODO: choose between pos and dep tag if both are > 0 ?
-                    if len(phrasal) > 0:
-                        line += ' [' + str(', '.join(phrasal)) + ']'
-                    elif len(pos_types) > 0 and len(dep_types) == 0:
-                        line += ' [' + str(','.join(pos_types)) + ']'
-                    elif len(dep_types) > 0 and len(pos_types) == 0: 
-                        line += ' [' + str(', '.join(dep_types)) + ']'
-                    elif len(dep_types) > 0 and len(pos_types) > 0:
-                        line += ' [' + str(', '.join(pos_types)) + ']'
-                    
-                    # else: 
-                    #     line += ' [?]'
-            
+                    elif classifier == 'dependencies': 
+                        if len(dep_types) > 0:
+                            line += ' [' + str(', '.join(dep_types)) + ']'
+
+                    elif classifier == 'regex': 
+                        if len(pos_types) > 0:
+                            line += ' [' + str(','.join(pos_types)) + ']'
+
+                    elif classifier == 'dictionary': 
+                        if len(phrasal) > 0:
+                            line += ' [' + str(','.join(phrasal)) + ']'
+                            
             transformed_lines.append(line)
 
             

@@ -15,7 +15,7 @@ DETECTED_DIR = r'JaDe/resources/detected'
 
 regex_types = ['[cc_cross_clause]', '[pb_adj_adj]', '[pb_noun_adj]', '[pb_det_noun]', '[pb_noun_noun]', '[pb_noun_prep]',
                 '[pb_verb_adv]', '[pb_verb_chain]', '[pb_verb_prep]', '[pb_adv_adv]', '[pb_to_verb]', '[pb_verb_cprep]', 
-                '[pb_comp]']
+                '[pb_comp]', '[pb_adj_adv]']
 dependency_rules = ['[pb_noun_noun]', '[pb_det_noun]', '[pb_noun_adj]', '[pb_verb_prep]', '[pb_verb_chain]', '[pb_adj_adv]', '[pb_verb_adv]', 
                 '[ex_dobj_verb]', '[ex_subj_verb]', '[pb_phrasal_verb]', '[cc_cross_clause]', '[pb_adj_prep]', '[pb_relword]', 
                 '[ex_verb_adjunct]']
@@ -33,7 +33,7 @@ def get_filename(file):
     return filename
 
 
-def preprocess_annotated(model):
+def preprocess_annotated(model, classifier):
     """
         Run the preprocessor against test data
     """
@@ -50,7 +50,7 @@ def preprocess_annotated(model):
         with open(files[i], 'r', encoding='utf-8') as curfile:
             file_name = get_filename(str(files[i]))
             out_file = str(out_dir) + '/' + file_name
-            preprocessor(curfile, True, out_file, nlp)
+            preprocessor(curfile, True, out_file, nlp, classifier)
             
 
 def get_manual_annotations(file, classifier): 
@@ -250,7 +250,7 @@ def run(model, classifier, annotate):
                 Default to False. 
     """
     if annotate:
-        preprocess_annotated(model)
+        preprocess_annotated(model, classifier)
     build_classification_report(classifier)
 
 
