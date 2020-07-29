@@ -3,3 +3,4 @@ venv
 .idea
 JaDe/jade/__pycache__
 Jade/jade/scripts
+annotation_cleaner.py
