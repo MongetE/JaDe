@@ -168,6 +168,9 @@ def get_dep_type(tokendict):
                             elif 'aux' in child_infos[0]: 
                                 types.append('pb_verb_chain')
 
+                            elif child_infos[0] in ['nmod', 'prep'] and token_info[1] == 'NOUN': 
+                                types.append('pb_noun_prep')
+
                             elif 'adv' in child_infos[0]:
                                 if token_info[2] == 'VBN' or 'JJ' in token_info[2]: 
                                     types.append('pb_adj_adv')

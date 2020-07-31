@@ -41,7 +41,7 @@ or that beast in the East
 with all that hair [pb_noun_prep]
 in his ears, with those wet and [pb_relword]
 greasy lips?
-or will my editor-publisher
+or will my editor-publisher [pb_noun_prep]
 upon exiting for that world of Trollius and [pb_relword]
 trellis [ex_subj_verb]
 hand over the [pb_det_noun]
@@ -65,7 +65,7 @@ must now be submitted in
 Rondo form
 and
 typed
-triple-spaced on rice
+triple-spaced on rice [pb_noun_prep]
 paper.”
 power corrupts,
 life aborts
