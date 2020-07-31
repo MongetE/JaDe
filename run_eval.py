@@ -6,7 +6,10 @@ import pathlib
 import statistics
 import click
 import spacy
-from sklearn.metrics import classification_report
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sn
+from sklearn.metrics import classification_report, confusion_matrix
 from tqdm import tqdm
 from JaDe.jade.preprocessor import preprocessor
 
@@ -221,9 +224,15 @@ def build_classification_report(classifier):
 
     manual_annotations = global_['true']
     automatic_annotations = global_['predicted']
+    labels = (list(set(dependency_rules + regex_types + pdict)))
 
     print(classification_report(manual_annotations, automatic_annotations, digits=3, zero_division=0))
-
+    
+    if confusion: 
+        df = pd.DataFrame(global_, columns=['true', 'predicted'])
+        confusion_matrix = pd.crosstab(df['true'], df['predicted'], rownames=['actual'], colnames=['predicted'])
+        sn.heatmap(confusion_matrix, annot=False, vmax=30)
+        plt.show()
 
 
 @click.command()
@@ -231,6 +240,7 @@ def build_classification_report(classifier):
 @click.option('--classifier', help="Classifier to evaluate", default="all", 
             type=click.Choice(['all', 'dependencies', 'regex', 'dictionary'], 
                             case_sensitive=False))
+@click.option('--confusion', help="Display confusion matrix in new window", default=False)
 @click.option('--annotate', help="If set to True, run JaDe to annotate test data", default=False)
 def run(model, classifier, annotate): 
     """
@@ -248,6 +258,9 @@ def run(model, classifier, annotate):
             annotate: bool
                 whether JaDe should be run to update automatic test data. 
                 Default to False. 
+            confusion: bool
+                whether the confusion matrix should be displayed (in a new window). 
+                Default to False
     """
     if annotate:
         preprocess_annotated(model, classifier)
