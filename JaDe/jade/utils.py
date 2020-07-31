@@ -225,9 +225,9 @@ def detect_phrasal_verb(line_pair):
         phrasal = ing_verb + ' '.join(split_phrasal[1:])
         
         if re.search(object_pattern, phrasal): 
-            ex_verb_pattern_1 = split_phrasal[0] + r'(.?ing|d)( \\w*){0,3}' + re.sub(object_pattern, r'\\t( ?\\w*){0,3}', 
+            ex_verb_pattern_1 = split_phrasal[0] + r'(.?ing|d|t)( \\w*){0,3}' + re.sub(object_pattern, r'\\t( ?\\w*){0,3}', 
                                                                                     ' '.join(split_phrasal[1:]))
-            ex_verb_pattern_2 = split_phrasal[0] + r'(.?ing|d)' + ' ' + re.sub(object_pattern, r'\\t( ?\\w*){0,3}', 
+            ex_verb_pattern_2 = split_phrasal[0] + r'(.?ing|d|t)' + ' ' + re.sub(object_pattern, r'\\t( ?\\w*){0,3}', 
                                                                         ' '.join((split_phrasal[1:]))) 
             ex_verb_pattern_2 = ex_verb_pattern_2.replace(' \\t', '\\t')
             ex_verb_pattern_1 = ex_verb_pattern_1.replace( ' \\t', '\\t')
