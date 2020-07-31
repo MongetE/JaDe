@@ -19,9 +19,9 @@ DETECTED_DIR = r'JaDe/resources/detected'
 regex_types = ['[cc_cross_clause]', '[pb_adj_adj]', '[pb_noun_adj]', '[pb_det_noun]', '[pb_noun_noun]', '[pb_noun_prep]',
                 '[pb_verb_adv]', '[pb_verb_chain]', '[pb_verb_prep]', '[pb_adv_adv]', '[pb_to_verb]', '[pb_verb_cprep]', 
                 '[pb_comp]', '[pb_adj_adv]']
-dependency_rules = ['[pb_noun_noun]', '[pb_det_noun]', '[pb_noun_adj]', '[pb_verb_prep]', '[pb_verb_chain]', '[pb_adj_adv]', '[pb_verb_adv]', 
-                '[ex_dobj_verb]', '[ex_subj_verb]', '[pb_phrasal_verb]', '[cc_cross_clause]', '[pb_adj_prep]', '[pb_relword]', 
-                '[ex_verb_adjunct]']
+dependency_rules = ['[pb_noun_noun]', '[pb_det_noun]', '[pb_noun_adj]', '[pb_verb_prep]', '[pb_verb_chain]', '[pb_adj_adv]',
+                     '[pb_verb_adv]', '[ex_dobj_verb]', '[ex_subj_verb]', '[pb_phrasal_verb]', '[cc_cross_clause]', 
+                     '[pb_adj_prep]', '[pb_relword]', '[ex_verb_adjunct]', '[pb_noun_prep]']
 pdict = ['[pb_phrasal_verb]', '[ex_dobj_pverb]']
 
 
@@ -144,7 +144,7 @@ def get_detected_annotations(file, classifier):
     return tuple(poem_annotations)
 
 
-def build_classification_report(classifier):
+def build_classification_report(classifier, confusion):
     """
         Build global dictionnary so that skickit metrics can be used 
         and compute detection measures. Compute precision, recall and f1-score
@@ -242,7 +242,7 @@ def build_classification_report(classifier):
                             case_sensitive=False))
 @click.option('--confusion', help="Display confusion matrix in new window", default=False)
 @click.option('--annotate', help="If set to True, run JaDe to annotate test data", default=False)
-def run(model, classifier, annotate): 
+def run(model, classifier, annotate, confusion): 
     """
         Evaluation command-line interface. 
         The evaluation can be run on each classifier separately or on all 3.
@@ -264,7 +264,7 @@ def run(model, classifier, annotate):
     """
     if annotate:
         preprocess_annotated(model, classifier)
-    build_classification_report(classifier)
+    build_classification_report(classifier, confusion)
 
 
 if __name__ == "__main__":
