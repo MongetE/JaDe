@@ -58,7 +58,7 @@ won't be printed in the prompt.
 By default, if `--outdir` is not specified, the analysed files will be saved in
 a `analysis` directory, created in the current working directory.
 
-## Results
+## Results (to be updated soon)
 
 The evaluation was perfomed with all three spaCy models. However, they did not
 significantly improved as the model got bigger. Thus, only the results obtained
@@ -114,3 +114,19 @@ Regarding the detection per se, the results are as follow:
 | 0.96      | 0.90   | 0.93    |
 
 These results can be obtained by running `run_eval.py`.
+
+## Running evaluation
+
+Evaluation can be performed on the system as a whole or on a specific classifier.
+However, a change in evaluation mode (overall vs specific), the `--annotate`
+argument MUST be set to `True`. Otherwise, the evaluation will be performed
+on the annotations obtained for the previous mode. For example, if the evaluation
+was run with `--classifier all` and `--classifier dependencies` is run after 
+without `annotate True`, then the results would also includes the annotations
+made by the regex classifier.
+For instance, `cross-clause` results are :
+|              | precision | recall | f1-score | support |
+|--------------|-----------|--------|----------|---------|
+| overall      | 0.833     | 0.714  | 0.769    | 14      |
+| regex        | 1.000     | 0.875  | 0.933    | 8       |
+| dependencies | 0.667     | 0.714  | 0.690    | 14      |
