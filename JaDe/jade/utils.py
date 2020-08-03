@@ -159,7 +159,7 @@ def get_dep_type(tokendict):
                             if child_infos[0] == 'poss':
                                 types.append('pb_det_noun')
                             
-                            elif child_infos[0] == 'acl' and child_infos[1] == 'VERB':
+                            elif child_infos[0] == 'acl':
                                 types.append('pb_noun_adj')
                                 
                             elif child_infos[0] == 'prep' and token_info[1] == 'VERB': 
@@ -168,7 +168,7 @@ def get_dep_type(tokendict):
                             elif 'aux' in child_infos[0]: 
                                 types.append('pb_verb_chain')
 
-                            elif child_infos[0] in ['nmod', 'prep'] and token_info[1] == 'NOUN': 
+                            elif child_infos[0] == 'nmod' or child_infos[0] == 'prep' and token_info[1] == 'NOUN': 
                                 types.append('pb_noun_prep')
 
                             elif 'adv' in child_infos[0]:
@@ -187,7 +187,7 @@ def get_dep_type(tokendict):
                             elif child_infos[0] == 'nsubj': 
                                 types.append('ex_subj_verb')
 
-                            elif child_infos[0] == 'prt' and token_info[1] == 'VERB':
+                            elif child_infos[0] == 'prt':
                                 types.append('pb_phrasal_verb')
 
                             elif child_infos[0] == 'relcl' and 'NN' in token_info[2]:
