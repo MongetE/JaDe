@@ -25,7 +25,7 @@ resources necessary to run the tool
 - click
 - tqdm
 - matplotlib
-- pandas 
+- pandas
 - seaborn
 
 Required libraries can be installed using `pip install -r requirements.txt`.
@@ -109,7 +109,6 @@ slightly biased because of this class.
 - When evaluating each classifier separately, a [?] class appears. This class
 stands for enjambment context that are not supported by the evaluated classifier.
 
-
 Regarding the detection per se, the results are as follow:
 
 | Precision | Recall | F-score |
@@ -124,7 +123,7 @@ Evaluation can be performed on the system as a whole or on a specific classifier
 However, a change in evaluation mode (overall vs specific), the `--annotate`
 argument MUST be set to `True`. Otherwise, the evaluation will be performed
 on the annotations obtained for the previous mode. For example, if the evaluation
-was run with `--classifier all` and `--classifier dependencies` is run after 
+was run with `--classifier all` and `--classifier dependencies` is run after
 without `annotate True`, then the results would also includes the annotations
 made by the regex classifier.
 For instance, `cross-clause` results are :
