@@ -78,24 +78,18 @@ def get_manual_annotations(file, classifier):
             elif classifier == 'dependencies': 
                 if wanted in dependency_rules: 
                     poem_annotations.append(wanted)
-                elif len(wanted) > 2:
-                        poem_annotations.append('[?]')
                 else: 
                     poem_annotations.append('[]')
 
             elif classifier == 'regex': 
                 if wanted in regex_types: 
                     poem_annotations.append(wanted)
-                elif len(wanted) > 2:
-                        poem_annotations.append('[?]')
                 else: 
                     poem_annotations.append('[]')
 
             elif classifier == 'dictionary': 
                 if wanted in pdict: 
                     poem_annotations.append(wanted)
-                elif len(wanted) > 2:
-                        poem_annotations.append('[?]')
                 else: 
                     poem_annotations.append('[]')
 
@@ -177,57 +171,26 @@ def build_classification_report(classifier, confusion):
         for tag in tmp_true[i]:
             global_['true'].append(tag)
 
-    
-    true_positive = 0
-    true_negative = 0 
-    false_positive = 0 
-    false_negative = 0 
-    precision = []
-    recall = []
-    fscore = []
-
-    for poem, enjambments in annotations.items():
-        manual_annotations = enjambments[0]
-        automatic_annotations = enjambments[1]
-        for i in range(len(manual_annotations)):
-            if manual_annotations[i] != "[]" and automatic_annotations[i] != '[]':
-                true_positive += 1
-            elif manual_annotations[i] == automatic_annotations[i]:
-                true_positive += 1
-            elif automatic_annotations[i] == "[]" and manual_annotations[i] != "[]":
-                false_negative += 1
-            elif manual_annotations[i] == "[]" and automatic_annotations[i] != "[]":
-                false_positive += 1
-            else : 
-                true_negative += 1
-
-            # print(true_positive, true_negative, false_positive, false_negative)
-
-        detection_precision = true_positive/(true_positive + false_positive)
-        detection_recall = true_positive/(true_positive + false_negative)
-        detection_fscore = 2 * ((detection_precision * detection_recall)/(detection_precision + detection_recall))
-#             print(f"detection_precision\t\tdetection_recall\t\tdetection_fscore\n\
-# {detection_precision}\t\t{detection_recall}\t\t{detection_fscore}")
-
-        precision.append(detection_precision)
-        recall.append(detection_recall)
-        fscore.append(detection_fscore)
-
-        true_positive = 0
-        true_negative = 0 
-        false_positive = 0 
-        false_negative = 0 
-
-    print(f"detection_precision\t\tdetection_recall\t\tdetection_fscore\n\
-{statistics.mean(precision):.2f}\t\t\t\t{statistics.mean(recall):.2f}\t\t\t\t{statistics.mean(fscore):.2f}\n")
-
 
     manual_annotations = global_['true']
     automatic_annotations = global_['predicted']
     labels = (list(set(dependency_rules + regex_types + pdict)))
-
+   
+    both = list(zip(manual_annotations, automatic_annotations))
+    # ignore empty labels
+    both_filtered = [x for x in both if x[0] != '[]' and x[1] != '[]']
+    manual_annotations_filt = [x[0] for x in both_filtered]
+    automatic_annotations_filt = [x[1] for x in both_filtered]
+    automatic_annotations = automatic_annotations_filt
+    manual_annotations = manual_annotations_filt
     print(classification_report(manual_annotations, automatic_annotations, digits=3, zero_division=0))
     
+    # evaluating detection with scikit
+    automatic_annotations = [0  if x == '[]' else 1 for x in global_['predicted']]
+    manual_annotations = [0 if x == '[]' else 1 for x in global_['true']]
+    print(classification_report(manual_annotations, automatic_annotations, digits=3, zero_division=0))
+
+
     if confusion: 
         df = pd.DataFrame(global_, columns=['true', 'predicted'])
         confusion_matrix = pd.crosstab(df['true'], df['predicted'], rownames=['actual'], colnames=['predicted'])
@@ -262,6 +225,14 @@ def run(model, classifier, annotate, confusion):
                 whether the confusion matrix should be displayed (in a new window). 
                 Default to False
     """
+    bool_true = ['true', 'True']
+    if annotate in bool_true or confusion in bool_true:
+        annotate == True
+        confusion == True
+    else:
+        annotate == False
+        confusion == False
+        
     if annotate:
         preprocess_annotated(model, classifier)
     build_classification_report(classifier, confusion)
@@ -269,4 +240,3 @@ def run(model, classifier, annotate, confusion):
 
 if __name__ == "__main__":
     run()
-    
