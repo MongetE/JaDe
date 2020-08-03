@@ -209,8 +209,9 @@ def run(model, classifier, annotate, confusion):
     """
         Evaluation command-line interface. 
         The evaluation can be run on each classifier separately or on all 3.
-        The automatic annotation can be updated if necessary (set --annotate 
-        to True). 
+        The automatic annotation can be updated if necessary, for example when 
+        evaluating another classifier (set --annotate to True). 
+        
         Parameters
         ----------
             model: str
