@@ -175,20 +175,25 @@ def build_classification_report(classifier, confusion):
     manual_annotations = global_['true']
     automatic_annotations = global_['predicted']
     labels = (list(set(dependency_rules + regex_types + pdict)))
-   
+
+    # evaluating detection with scikit
+    print("\t####### DETECTION #######")
+    automatic_annotations_detection = [0  if x == '[]' else 1 for x in automatic_annotations]
+    manual_annotations_detection = [0 if x == '[]' else 1 for x in manual_annotations]
+    print(classification_report(manual_annotations_detection, automatic_annotations_detection, digits=3, zero_division=0))
+
     both = list(zip(manual_annotations, automatic_annotations))
     # ignore empty labels
     both_filtered = [x for x in both if x[0] != '[]' and x[1] != '[]']
     manual_annotations_filt = [x[0] for x in both_filtered]
     automatic_annotations_filt = [x[1] for x in both_filtered]
+
+    print("\n\t###### CLASSIFICATION ######")
     automatic_annotations = automatic_annotations_filt
     manual_annotations = manual_annotations_filt
     print(classification_report(manual_annotations, automatic_annotations, digits=3, zero_division=0))
     
-    # evaluating detection with scikit
-    automatic_annotations = [0  if x == '[]' else 1 for x in global_['predicted']]
-    manual_annotations = [0 if x == '[]' else 1 for x in global_['true']]
-    print(classification_report(manual_annotations, automatic_annotations, digits=3, zero_division=0))
+    
 
 
     if confusion: 
@@ -211,7 +216,7 @@ def run(model, classifier, annotate, confusion):
         The evaluation can be run on each classifier separately or on all 3.
         The automatic annotation can be updated if necessary, for example when 
         evaluating another classifier (set --annotate to True). 
-        
+
         Parameters
         ----------
             model: str
