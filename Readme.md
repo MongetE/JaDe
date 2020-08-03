@@ -24,6 +24,9 @@ resources necessary to run the tool
 - fuzzywuzzy
 - click
 - tqdm
+- matplotlib
+- pandas 
+- seaborn
 
 Required libraries can be installed using `pip install -r requirements.txt`.
 
