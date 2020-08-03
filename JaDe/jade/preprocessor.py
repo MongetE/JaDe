@@ -101,6 +101,7 @@ def remove_annotations(poem):
 
     return text
 
+#TODO: keep blank lines between stanzas
 def preprocessor(file, save, outfile, nlp, classifier='all'):
     """
         Execute the whole preprocessing module. 
@@ -110,7 +111,6 @@ def preprocessor(file, save, outfile, nlp, classifier='all'):
         sentence is tagged and regex are ran against  spacy POS and tags. 
 
         If there is a match (or several), an annotation is added to the end of the line. 
-        If no match was found and the line is not end-stopped, [?] is added to the line. 
 
         Finally, the poem is reconstructed, unfortunately removing the blanks between stanzas 
         (at least for now).
