@@ -18,7 +18,7 @@ DETECTED_DIR = r'JaDe/resources/detected'
 
 regex_types = ['[cc_cross_clause]', '[pb_adj_adj]', '[pb_noun_adj]', '[pb_det_noun]', '[pb_noun_noun]', '[pb_noun_prep]',
                 '[pb_verb_adv]', '[pb_verb_chain]', '[pb_verb_prep]', '[pb_adv_adv]', '[pb_to_verb]', '[pb_verb_cprep]', 
-                '[pb_comp]', '[pb_adj_adv]']
+                '[pb_comp]', '[pb_adj_adv]', '[ex_subj_verb]', '[ex_dobj_verb]']
 dependency_rules = ['[pb_noun_noun]', '[pb_det_noun]', '[pb_noun_adj]', '[pb_verb_prep]', '[pb_verb_chain]', '[pb_adj_adv]',
                      '[pb_verb_adv]', '[ex_dobj_verb]', '[ex_subj_verb]', '[pb_phrasal_verb]', '[cc_cross_clause]', 
                      '[pb_adj_prep]', '[pb_relword]', '[ex_verb_adjunct]', '[pb_noun_prep]']
@@ -116,22 +116,21 @@ def get_detected_annotations(file, classifier):
                 elif classifier == 'dependencies': 
                     if annotation in dependency_rules: 
                         poem_annotations.append(annotation)
-                    elif len(annotation) > 2:
-                        poem_annotations.append('[?]')
+                    else:
+                        poem_annotations.append('[]')
+
                 
                 elif classifier == 'regex': 
                     if annotation in regex_types: 
                         poem_annotations.append(annotation)
-                    elif len(annotation) > 2:
-                        poem_annotations.append('[?]')
-
+                    else:
+                        poem_annotations.append('[]')
                 
                 elif classifier == 'dictionary': 
                     if annotation in pdict: 
                         poem_annotations.append(annotation)
-                    elif len(annotation) > 2:
-                        poem_annotations.append('[?]')
-                
+                    else:
+                        poem_annotations.append('[]')
             else: 
                 poem_annotations.append('[]')
                 
