@@ -5,7 +5,7 @@ Put on, and smile upon our evening bed!
 Smile on our loves, and while thou drawest the [ex_dobj_verb]
 Blue curtains of the sky, scatter thy silver dew
 On every flower that shuts its sweet eyes [pb_noun_prep]
-In timely sleep. Let thy west wing sleep on [pb_noun_prep]
+In timely sleep. Let thy west wing sleep on [pb_relword]
 The lake; speak silence with thy glimmering eyes,
 And wash the dusk with silver. Soon, full soon,
 Dost thou withdraw; then the wolf rages wide,

@@ -1,10 +1,10 @@
 Light-winged Smoke, Icarian bird,
 Melting thy pinions in thy upward flight,
-Lark without song, and messenger of dawn [ex_subj_verb]
+Lark without song, and messenger of dawn [cc_cross_clause]
 Circling above the hamlets as they nest;
 Or else, departing dream, and shadowy form [pb_noun_prep]
 Of midnight vision, gathering up thy skirts;
-By night star-veiling, and by day
+By night star-veiling, and by day [cc_cross_clause]
 Darkening the light and blotting out the sun;
 Go thou my incense upward from this hearth,
 And ask the gods to pardon this clear flame.

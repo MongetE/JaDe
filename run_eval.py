@@ -70,7 +70,7 @@ def get_manual_annotations(file, classifier):
             wanted = line_annotation[1]
 
             if classifier == 'all':
-                if not 'lex' in wanted:
+                if not 'lex' in wanted and len(wanted) > 2:
                     poem_annotations.append(wanted)
                 else: 
                     poem_annotations.append('[]')
@@ -175,6 +175,8 @@ def build_classification_report(classifier, confusion):
     automatic_annotations = global_['predicted']
     labels = (list(set(dependency_rules + regex_types + pdict)))
 
+   
+
     # evaluating detection with scikit
     print("\t####### DETECTION #######")
     automatic_annotations_detection = [0  if x == '[]' else 1 for x in automatic_annotations]
@@ -183,22 +185,32 @@ def build_classification_report(classifier, confusion):
 
     both = list(zip(manual_annotations, automatic_annotations))
     # ignore empty labels
-    both_filtered = [x for x in both if x[0] != '[]' and x[1] != '[]']
+    # both_filtered = [x for x in both if x[0] != '[]' and x[1] != '[]']
+    both_filtered = []
+    for x in both: 
+        x = list(x)
+        if x[0] != '[]': 
+            if x[1] == '[]':
+                x[1] = 'None'
+            both_filtered.append(x)
+    
     manual_annotations_filt = [x[0] for x in both_filtered]
     automatic_annotations_filt = [x[1] for x in both_filtered]
-
+   
     print("\n\t###### CLASSIFICATION ######")
     automatic_annotations = automatic_annotations_filt
     manual_annotations = manual_annotations_filt
-    print(classification_report(manual_annotations, automatic_annotations, digits=3, zero_division=0))
+    labels = list(set(manual_annotations))
+    print(classification_report(manual_annotations, automatic_annotations, labels=labels, digits=3, zero_division=0))
     
     
-
-
+    manual_annotations_filt = [x[0] for x in both_filtered]
+    automatic_annotations_filt = [x[1] for x in both_filtered]
+    data = {'true': manual_annotations_filt, 'predicted': automatic_annotations_filt} 
     if confusion: 
-        df = pd.DataFrame(global_, columns=['true', 'predicted'])
+        df = pd.DataFrame(data, columns=['true', 'predicted'])
         confusion_matrix = pd.crosstab(df['true'], df['predicted'], rownames=['actual'], colnames=['predicted'])
-        sn.heatmap(confusion_matrix, annot=False, vmax=30)
+        sn.heatmap(confusion_matrix, annot=True, vmax=27)
         plt.show()
 
 

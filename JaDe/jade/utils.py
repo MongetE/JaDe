@@ -58,10 +58,8 @@ def get_pos_type(sentence):
     NOUN_NOUN = r'NOUN SPACE NOUN'
     ADJ_NOUN = r'ADJ SPACE NOUN|NOUN SPACE ADJ'
     ADJ_ADJ = r'ADJ SPACE ADJ'
-    # ADJ_PREP = r'ADJ SPACE ADP'
-    # JJ_PREP = r'JJ _SP IN'
-    NOUN_PREP = r'NOUN SPACE ADP|ADP SPACE (ADJ|DET)? NOUN'
-    CROSS = r'NN _SP WDT'
+    NOUN_PREP = r'NOUN SPACE ADP'
+    CROSS = r'NN _SP (WDT|VBG)'
     V_CHAIN = r'VERB SPACE AUX|AUX SPACE VERB'
     ADV_ADV = r'ADV SPACE ADV'
     VERB_ADV = r'ADV SPACE VERB|VERB SPACE ADV'
@@ -71,7 +69,12 @@ def get_pos_type(sentence):
     CPREP = r'VB _SP TO'
     VERB_PREP = r'VB.? _SP IN'
     COMP = r'(RB|JJ)[RS]( \w*){0,3} _SP( \w*){0,4}((JJ|RB)[RS]|IN)?'
-    
+    SUB_VERB_tag  = r'NN[PS]?.? _SP VB[PZD]'
+    DOB_VERB = r'VB[DPZ] _SP (\w*){0,2} NN[PS]?.?'
+
+
+    # ADJ_PREP = r'ADJ SPACE ADP'
+    # JJ_PREP = r'JJ _SP IN'
     types = []
     tag = ""
     pos = ""
@@ -123,6 +126,12 @@ def get_pos_type(sentence):
 
     elif re.search(COMP, tag): 
         types.append('pb_comp')
+
+    elif re.search(SUB_VERB_tag, tag): 
+        types.append('ex_subj_verb')
+
+    elif re.search(DOB_VERB, tag): 
+        types.append('ex_dobj_verb')
 
     # elif re.search(ADJ_PREP, pos) or re.search(JJ_PREP, tag): 
     #     types.append('pb_adj_prep')

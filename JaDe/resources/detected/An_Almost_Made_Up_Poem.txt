@@ -12,7 +12,7 @@ because we' never met. we got close once in
 New Orleans, one half block, but never met, never [pb_verb_adv]
 touched. so you went with the famous and wrote [pb_verb_prep]
 about the famous, and, of course, what you found out [ex_subj_verb]
-is that the famous are worried about [pb_noun_prep]
+is that the famous are worried about
 their fame -  not the beautiful young girl in bed [pb_noun_prep]
 with them, who gives them that, and then awakens [pb_verb_prep]
 in the morning to write upper case poems about [pb_relword]
@@ -30,7 +30,7 @@ but that didn' happen. your letters got sadder.
 your lovers betrayed you. kid, I wrote back, all [pb_det_noun]
 lovers betray. it didn' help. you said [ex_subj_verb]
 you had a crying bench and it was by a bridge and [ex_subj_verb]
-the bridge was over a river and you sat on the crying
+the bridge was over a river and you sat on the crying [ex_subj_verb]
 bench every night and wept for the lovers who had [pb_verb_chain]
 hurt and forgotten you. I wrote back but never [pb_verb_adv]
 heard again. a friend wrote me of your suicide

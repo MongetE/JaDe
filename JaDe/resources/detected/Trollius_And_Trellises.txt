@@ -20,7 +20,7 @@ in the garden
 long before I.
 writing is its own intoxication
 while publishing and editing,
-attempting to collect bills
+attempting to collect bills [ex_subj_verb]
 carries its own [pb_noun_adj]
 attrition [cc_cross_clause]
 which also includes dealing with the
@@ -83,7 +83,7 @@ the thirties?”
 that?”
 my present editor-publisher
 and I
-at times
+at times [ex_subj_verb]
 did discuss the thirties,
 the Depression
 and

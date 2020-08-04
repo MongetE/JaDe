@@ -1,5 +1,5 @@
 She is as in a field a silken tent [pb_noun_prep]
-At midday when the sunny summer breeze [cc_cross_clause]
+At midday when the sunny summer breeze [ex_subj_verb]
 Has dried the dew and all its ropes relent,
 So that in guys it gently sways at ease,
 And its supporting central cedar pole,
@@ -10,5 +10,5 @@ But strictly held by none, is loosely bound [pb_verb_prep]
 By countless silken ties of love and thought [pb_verb_prep]
 To every thing on earth the compass round,
 And only by one's going slightly taut
-In the capriciousness of summer air
+In the capriciousness of summer air [ex_subj_verb]
 Is of the slightlest bondage made aware.
