@@ -63,7 +63,7 @@ def get_pos_type(sentence):
     V_CHAIN = r'VERB SPACE AUX|AUX SPACE VERB'
     ADV_ADV = r'ADV SPACE ADV'
     VERB_ADV = r'ADV SPACE VERB|VERB SPACE ADV'
-    ADJ_ADV = r'ADV SPACE ADJ|ADJ SPACE ADV'
+    ADJ_ADV = r'ADV SPACE ADJ'
     VBN_ADV = r'RB.? _SP VBN|VBN _SP RB.?'
     VERB_TO = r'TO _SP VB'
     CPREP = r'VB _SP TO'
