@@ -8,7 +8,7 @@ Who break the crystal of a poet's heart,
 That small and sickly eyes may glare or gloat.
 Is it not said, that many years ago,
 In a far Eastern town some soldiers ran [pb_verb_prep]
-With torches through the midnight, and began
+With torches through the midnight, and began [pb_verb_cprep]
 To wrangle for mean raiment, and to throw [ex_dobj_verb]
 Dice for the garments of a wretched man,
 Not knowing the God's wonder, or his woe?

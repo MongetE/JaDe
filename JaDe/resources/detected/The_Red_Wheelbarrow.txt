@@ -1,8 +1,11 @@
 so much depends [pb_verb_prep]
 upon
+
 a red wheel [pb_noun_noun]
 barrow [ex_subj_verb]
+
 glazed with rain [pb_noun_noun]
 water [pb_noun_prep]
+
 beside the white [pb_noun_adj]
 chickens.

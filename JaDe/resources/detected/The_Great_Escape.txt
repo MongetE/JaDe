@@ -4,7 +4,7 @@ no, I told him.
 well, what happens is that now and then one crab [ex_subj_verb]
 will climb up on top of the others
 and begin to climb toward the top of the bucket,
-then, just as he's about to escape
+then, just as he's about to escape [ex_dobj_verb]
 another crab grabs him and pulls him back
 down.
 really? I asked.

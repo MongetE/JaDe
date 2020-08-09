@@ -1,6 +1,6 @@
 I thought once how Theocritus had sung [pb_verb_prep]
 Of the sweet years, the dear and wished-for years,
-Who each one in a gracious hand appears
+Who each one in a gracious hand appears [pb_verb_cprep]
 To bear a gift for mortals, old or young:
 And, as I mused it in his antique tongue,
 I saw, in gradual vision through my tears,

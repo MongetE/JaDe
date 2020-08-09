@@ -1,14 +1,17 @@
 Do you know what I was, how I lived?  You know [ex_dobj_verb]
 what despair is; then
 winter should have meaning for you.
+
 I did not expect to survive,
 earth suppressing me. I didn't expect [pb_verb_cprep]
 to waken again, to feel [pb_verb_prep]
-in damp earth my body [pb_noun_adj]
+in damp earth my body [ex_subj_verb]
 able to respond again, remembering [pb_verb_prep]
 after so long how to open again
 in the cold light [pb_noun_prep]
 of earliest spring--
+
 afraid, yes, but among you again [pb_verb_adv]
 crying yes risk joy [pb_noun_prep]
+
 in the raw wind of the new world.

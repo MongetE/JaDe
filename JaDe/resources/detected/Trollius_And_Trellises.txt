@@ -10,14 +10,16 @@ when we began our unholy alliance to [pb_to_verb]
 test the literary waters,
 neither of us being much [pb_adj_adv]
 known.
+
 I think we had some luck and still have some
-of same [pb_adj_adv]
+of same
 yet
 the odds are pretty fair
 that he will opt for warm and pleasant [pb_noun_adj]
 afternoons [pb_noun_prep]
 in the garden
 long before I.
+
 writing is its own intoxication
 while publishing and editing,
 attempting to collect bills [ex_subj_verb]
@@ -25,14 +27,16 @@ carries its own [pb_noun_adj]
 attrition [cc_cross_clause]
 which also includes dealing with the
 petty bitchings and demands [pb_noun_prep]
-of many [pb_adj_adv]
+of many
 so-called genius darlings who are
 not.
+
 I won’t blame him for getting [pb_phrasal_verb]
 out
-and hope he sends me photos of his [pb_verb_adv]
+and hope he sends me photos of his [ex_subj_verb]
 Rose Lane, his
 Gardenia Avenue.
+
 will I have to seek other [pb_noun_adj]
 promulgators?
 that fellow in the Russian [pb_noun_adj]
@@ -41,6 +45,7 @@ or that beast in the East
 with all that hair [pb_noun_prep]
 in his ears, with those wet and [pb_relword]
 greasy lips?
+
 or will my editor-publisher [pb_noun_prep]
 upon exiting for that world of Trollius and [pb_relword]
 trellis [ex_subj_verb]
@@ -49,8 +54,9 @@ machinery [pb_noun_prep]
 of his former trade to a [pb_det_noun]
 cousin, a [pb_det_noun]
 daughter or
-some Poundian from Big [ex_verb_adjunct]
+some Poundian from Big [pb_noun_adj]
 Sur?
+
 or will he just pass the legacy on
 to the [pb_det_noun]
 Shipping Clerk [cc_cross_clause]
@@ -58,15 +64,17 @@ who will rise like
 Lazarus,
 fingering new-found [ex_dobj_verb]
 importance?
+
 one can imagine terrible [pb_noun_adj]
 things:
-“Mr. Chinaski, all your work
+“Mr. Chinaski, all your work [ex_subj_verb]
 must now be submitted in
 Rondo form
 and
 typed
 triple-spaced on rice [pb_noun_prep]
 paper.”
+
 power corrupts,
 life aborts
 and all you [ex_subj_verb]
@@ -74,27 +82,32 @@ have left [pb_verb_chain]
 is a [pb_det_noun]
 bunch of [pb_relword]
 warts.
+
 “no, no, Mr. Chinaski:
 Rondo form!”
+
 “hey, man,” I’ll ask,
 “haven’t you heard of [ex_dobj_pverb]
 the thirties?”
+
 “the thirties? what’s [ex_subj_verb]
 that?”
+
 my present editor-publisher
 and I
 at times [ex_subj_verb]
 did discuss the thirties,
 the Depression
 and
-some of the little tricks it [cc_cross_clause]
+some of the little tricks it [ex_subj_verb]
 taught us—
 like how to endure on almost
 nothing
 and move forward [pb_adv_adv]
 anyhow.
+
 well, John, if it happens enjoy your [pb_det_noun]
-divertissement to [pb_relword]
+divertissement to [ex_subj_verb]
 plant husbandry,
 cultivate and aerate [pb_verb_prep]
 between
@@ -106,12 +119,14 @@ and
 as I do in my writing:
 use plenty of [pb_relword]
 manure.
+
 and thank you
 for locating me there at
 5124 DeLongpre Avenue
 somewhere between
 alcoholism and [pb_relword]
 madness.
+
 together we [ex_subj_verb]
 laid down the gauntlet
 and there are takers
