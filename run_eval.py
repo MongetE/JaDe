@@ -11,7 +11,7 @@ import pandas as pd
 import seaborn as sn
 from sklearn.metrics import classification_report, confusion_matrix
 from tqdm import tqdm
-from JaDe.jade.preprocessor import preprocessor
+from JaDe.jade.processing import processor
 
 ANNOT_DIR = r'JaDe/resources/annotated_poems'
 DETECTED_DIR = r'JaDe/resources/detected'
@@ -36,9 +36,9 @@ def get_filename(file):
     return filename
 
 
-def preprocess_annotated(model, classifier):
+def process_annotated(model, classifier):
     """
-        Run the preprocessor against test data
+        Run the processor against test data
     """
     nlp = spacy.load(model)
     data_dir = pathlib.Path('JaDe/resources/annotated_poems')
@@ -53,7 +53,7 @@ def preprocess_annotated(model, classifier):
         with open(files[i], 'r', encoding='utf-8') as curfile:
             file_name = get_filename(str(files[i]))
             out_file = str(out_dir) + '/' + file_name
-            preprocessor(curfile, True, out_file, nlp, classifier)
+            processor(curfile, True, out_file, nlp, classifier)
             
 
 def get_manual_annotations(file, classifier): 
@@ -107,33 +107,34 @@ def get_detected_annotations(file, classifier):
         poem_annotations = []
         i = 1
         for i in range(len(poem) - 1): 
-            if re.search(r'\[.*?\]', poem[i]):
-                annotation = re.search(r'\[.*?\]', poem[i]).group(0)
+            if len(poem[i]) > 1:
+                if re.search(r'\[.*?\]', poem[i]):
+                    annotation = re.search(r'\[.*?\]', poem[i]).group(0)
 
-                if classifier == 'all':
-                    poem_annotations.append(annotation)
-                
-                elif classifier == 'dependencies': 
-                    if annotation in dependency_rules: 
+                    if classifier == 'all':
                         poem_annotations.append(annotation)
-                    else:
-                        poem_annotations.append('[]')
+                    
+                    elif classifier == 'dependencies':  
+                        if annotation in dependency_rules: 
+                            poem_annotations.append(annotation)
+                        else:
+                            poem_annotations.append('[]')
 
-                
-                elif classifier == 'regex': 
-                    if annotation in regex_types: 
-                        poem_annotations.append(annotation)
-                    else:
-                        poem_annotations.append('[]')
-                
-                elif classifier == 'dictionary': 
-                    if annotation in pdict: 
-                        poem_annotations.append(annotation)
-                    else:
-                        poem_annotations.append('[]')
-            else: 
-                poem_annotations.append('[]')
-                
+                    
+                    elif classifier == 'regex': 
+                        if annotation in regex_types: 
+                            poem_annotations.append(annotation)
+                        else:
+                            poem_annotations.append('[]')
+                    
+                    elif classifier == 'dictionary': 
+                        if annotation in pdict: 
+                            poem_annotations.append(annotation)
+                        else:
+                            poem_annotations.append('[]')
+                else: 
+                    poem_annotations.append('[]')
+                    
     return tuple(poem_annotations)
 
 
@@ -175,8 +176,6 @@ def build_classification_report(classifier, confusion):
     automatic_annotations = global_['predicted']
     labels = (list(set(dependency_rules + regex_types + pdict)))
 
-   
-
     # evaluating detection with scikit
     print("\t####### DETECTION #######")
     automatic_annotations_detection = [0  if x == '[]' else 1 for x in automatic_annotations]
@@ -185,7 +184,6 @@ def build_classification_report(classifier, confusion):
 
     both = list(zip(manual_annotations, automatic_annotations))
     # ignore empty labels
-    # both_filtered = [x for x in both if x[0] != '[]' and x[1] != '[]']
     both_filtered = []
     for x in both: 
         x = list(x)
@@ -207,10 +205,11 @@ def build_classification_report(classifier, confusion):
     manual_annotations_filt = [x[0] for x in both_filtered]
     automatic_annotations_filt = [x[1] for x in both_filtered]
     data = {'true': manual_annotations_filt, 'predicted': automatic_annotations_filt} 
+    
     if confusion: 
         df = pd.DataFrame(data, columns=['true', 'predicted'])
         confusion_matrix = pd.crosstab(df['true'], df['predicted'], rownames=['actual'], colnames=['predicted'])
-        sn.heatmap(confusion_matrix, annot=True, vmax=27)
+        sn.heatmap(confusion_matrix, annot=False, robust=True)
         plt.show()
 
 
@@ -243,17 +242,22 @@ def run(model, classifier, annotate, confusion):
                 Default to False
     """
     bool_true = ['true', 'True']
-    if annotate in bool_true or confusion in bool_true:
-        annotate == True
-        confusion == True
+    if annotate in bool_true:
+        annotate = True
     else:
-        annotate == False
-        confusion == False
-        
+        annotate = False
+
+    if confusion in bool_true:
+        confusion = True
+    else:
+        confusion = False
+    
     if annotate:
-        preprocess_annotated(model, classifier)
+        process_annotated(model, classifier)
     build_classification_report(classifier, confusion)
 
 
 if __name__ == "__main__":
     run()
+
+
