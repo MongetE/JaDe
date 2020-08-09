@@ -6,7 +6,7 @@ import sys
 import click
 import spacy
 from tqdm import tqdm
-from JaDe.jade.preprocessor import preprocessor
+from JaDe.jade.processing import processor
 
 
 def get_filename(file): 
@@ -70,7 +70,7 @@ def run(model, dir, file, outdir, outfile, save):
             if outfile is None: 
                 outfile = file_name + '.txt'
 
-            preprocessor(poem_file, save, outfile, nlp)
+            processor(poem_file, save, outfile, nlp)
 
     elif dir is not None and file is None: 
         if not dir.endswith('/'):
@@ -94,7 +94,7 @@ def run(model, dir, file, outdir, outfile, save):
                     if not os.path.exists(outdir): 
                         os.mkdir(outdir)
 
-                    preprocessor(poem_file, save, outfile, nlp)
+                    processor(poem_file, save, outfile, nlp)
             print('Files have been saved to disk at', outdir)
                 
         else: 
