@@ -94,15 +94,51 @@ def remove_annotations(poem):
             text: str
                 The text of the poem
     """
-    lines = re.findall(r'(^\d{1,}\. )(.*)', poem, flags=re.MULTILINE)
+    lines = re.findall(r'(^\d{1,}\. )(.*)(\n\n)?', poem, flags=re.MULTILINE)
     text = ""
-    for line in lines:
+    for line in lines: 
         text += line[1] + '\n'
+        if '\n\n' in line: 
+            text += '\n'
 
     return text
 
-#TODO: keep blank lines between stanzas
-def preprocessor(file, save, outfile, nlp, classifier='all'):
+
+def handle_multiclassification(dependency_types):
+    if 'ex_dobj_verb' in dependency_types and 'ex_subj_verb' in dependency_types:
+        del dependency_types[dependency_types.index('ex_subj_verb')]
+        if len(dependency_types) > 1:
+            del dependency_types[dependency_types.index('ex_dobj_verb')]
+    
+    if 'ex_dobj_verb' in dependency_types and 'ex_verb_adjunct' in dependency_types \
+        or 'ex_subj_verb' in dependency_types and 'ex_verb_adjunct' in dependency_types:
+        del dependency_types[dependency_types.index('ex_verb_adjunct')]
+
+    if 'ex_dobj_verb' in dependency_types: 
+        del dependency_types[dependency_types.index('ex_dobj_verb')]
+
+    if 'ex_subj_verb' in dependency_types:
+        del dependency_types[dependency_types.index('ex_subj_verb')]
+
+    if 'ex_verb_adjunct' in dependency_types:
+        # if 'pb_verb_prep' in dependency_types:
+        #     del dependency_types[dependency_types.index('pb_verb_prep')]
+        # else:
+        del dependency_types[dependency_types.index('ex_verb_adjunct')]
+    
+    if 'pb_relword' in dependency_types:
+        del dependency_types[dependency_types.index('pb_relword')]
+
+    else:
+        for i in range(len(dependency_types)): 
+            if i < len(dependency_types) - 1:
+                if dependency_types[i] == dependency_types[i+1]: 
+                    del(dependency_types[i])
+
+    return dependency_types
+                        
+
+def processor(file, save, outfile, nlp, classifier='all'):
     """
         Execute the whole preprocessing module. 
 
@@ -126,7 +162,7 @@ def preprocessor(file, save, outfile, nlp, classifier='all'):
             nlp: 
                 spacy nlp pipeline
     """
-    # filename = str(file)[31:]
+    filename = str(file)[31:]
 
     poem = file.read()
 
@@ -144,18 +180,22 @@ def preprocessor(file, save, outfile, nlp, classifier='all'):
     for i in range(len(poem_lines)+1):
         if i < len(poem_lines)-1: 
             line = poem_lines[i].strip()
+            is_end_of_stanza = False
+
             if len(line) > 1:
+
                 if is_enjambment(line):
                     if poem_lines[i+1] != '':
                         line_pair = poem_lines[i] + '\n' + poem_lines[i+1]
                     else:
                         line_pair = poem_lines[i] + '\n' + poem_lines[i+2]
+                        is_end_of_stanza = True
                     
                     line_break = line_pair.index('\n')
                     last_word_before_enjambment = line_break - 1
                     line_pair = line_pair.replace('\n', '\t')
                     phrasal = detect_phrasal_verb(line_pair)
-
+    
 
                     # better results were obtained with only the line-pair part of the sentence
                     # so it is used instead of the whole sentence
@@ -168,44 +208,22 @@ def preprocessor(file, save, outfile, nlp, classifier='all'):
                     dep_types = list(set(get_dep_type(dependency_dict)))
 
                     if len(dep_types) > 1:
-                        if 'ex_dobj_verb' in dep_types and 'ex_subj_verb' in dep_types:
-                            del dep_types[dep_types.index('ex_subj_verb')]
-                            if len(dep_types) > 1:
-                                del dep_types[dep_types.index('ex_dobj_verb')]
-                        
-                        elif 'ex_dobj_verb' in dep_types and 'ex_verb_adjunct' in dep_types \
-                            or 'ex_subj_verb' in dep_types and 'ex_verb_adjunct' in dep_types:
-                            del dep_types[dep_types.index('ex_verb_adjunct')]
-
-                        if 'ex_dobj_verb' in dep_types: 
-                            del dep_types[dep_types.index('ex_dobj_verb')]
-
-                        if 'ex_subj_verb' in dep_types:
-                            del dep_types[dep_types.index('ex_subj_verb')]
-
-                        if 'ex_verb_adjunct' in dep_types:
-                            del dep_types[dep_types.index('ex_verb_adjunct')]
-                        
-                        if 'pb_relword' in dep_types:
-                            del dep_types[dep_types.index('pb_relword')]
-
-                        else:
-                            for i in range(len(dep_types)): 
-                                if i < len(dep_types) - 1:
-                                    if dep_types[i] == dep_types[i+1]: 
-                                        del(dep_types[i])
+                        dep_types = handle_multiclassification(dep_types)
                     
                     if classifier == 'all':
                         # TODO: choose between pos and dep tag if both are > 0 ?
                         if len(phrasal) > 0:
                             line += ' [' + str(', '.join(phrasal)) + ']'
                         elif len(pos_types) > 0 and len(dep_types) == 0:
-                            line += ' [' + str(','.join(pos_types)) + ']'
+                            if 'pb_verb_prep' in pos_types and 'ex_verb_adjunct' in dep_types: 
+                                line += '[' + str(', '.join(dep_types))
+                            else:
+                                line += ' [' + str(','.join(pos_types)) + ']'
                         elif len(dep_types) > 0 and len(pos_types) == 0: 
                             line += ' [' + str(', '.join(dep_types)) + ']'
                         elif len(dep_types) > 0 and len(pos_types) > 0:
                             line += ' [' + str(', '.join(pos_types)) + ']'
-                        
+
                     elif classifier == 'dependencies': 
                         if len(dep_types) > 0:
                             line += ' [' + str(', '.join(dep_types)) + ']'
@@ -217,12 +235,24 @@ def preprocessor(file, save, outfile, nlp, classifier='all'):
                     elif classifier == 'dictionary': 
                         if len(phrasal) > 0:
                             line += ' [' + str(','.join(phrasal)) + ']'
+                
+                    if is_end_of_stanza: 
+                        line += '\n'
+                    
                             
             transformed_lines.append(line)
 
             
     # # Merge lines together back so that we have something readable
     poem = '\n'.join(transformed_lines)
+    if poem.endswith('\n\n\n'): 
+        poem = poem[:-3] + poem[-3:].replace('\n\n\n', '\n')
+        
+    elif poem.endswith('\n\n'): 
+        poem = poem[:-2] + poem[-2:].replace('\n\n', '\n')
+    
+    
+    poem = poem.replace('\n\n\n', '\n\n')
 
     if save:
         with open(outfile, 'w', encoding='utf-8') as file:
