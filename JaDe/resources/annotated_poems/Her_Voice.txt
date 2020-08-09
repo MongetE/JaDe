@@ -46,7 +46,7 @@
 41. One world was not enough for two
 42. Like me and you.
 
-01 02 [pb_verb_prep] [smooth] [retro]
+01 02 [ex_verb_adjunct] [smooth] [retro]
 02 03 [] [] []
 03 04 [pb_verb_adv] [smooth] [pro]
 04 05 [] [] []

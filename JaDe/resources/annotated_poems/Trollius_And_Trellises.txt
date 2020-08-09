@@ -242,7 +242,7 @@
 91 92 [] [] []
 92 93 [] [smooth] [pro]
 93 94 [] [] []
-94 95 [] [] []
+94 95 [pb_adv_adv] [smooth] [retro]
 95 96 [pb_verb_adv] [smooth] [retro]
 
 96 97 [pb_det_noun] [smooth] [pro]
