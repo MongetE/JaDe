@@ -56,21 +56,21 @@ def get_pos_type(sentence):
 
     DET_NOUN = r'DET SPACE NOUN'
     NOUN_NOUN = r'NOUN SPACE NOUN'
-    ADJ_NOUN = r'ADJ SPACE NOUN|NOUN SPACE ADJ'
+    ADJ_NOUN = r'ADJ SPACE NOUN'
+    VBN_NOUN = r'VBN _SP NOUN'
     ADJ_ADJ = r'ADJ SPACE ADJ'
     NOUN_PREP = r'NOUN SPACE ADP'
     CROSS = r'NN _SP (WDT|VBG)'
     V_CHAIN = r'VERB SPACE AUX|AUX SPACE VERB'
     ADV_ADV = r'ADV SPACE ADV'
     VERB_ADV = r'ADV SPACE VERB|VERB SPACE ADV'
-    ADJ_ADV = r'ADV SPACE ADJ'
-    VBN_ADV = r'RB.? _SP VBN|VBN _SP RB.?'
-    VERB_TO = r'TO _SP VB'
-    CPREP = r'VB _SP TO'
+    VBN_ADV = r'RB.? _SP (JJ.?|VBN)'
+    VERB_TO = r'TO _SP VB.?'
+    CPREP = r'VB.? _SP TO'
     VERB_PREP = r'VB.? _SP IN'
     COMP = r'(RB|JJ)[RS]( \w*){0,3} _SP( \w*){0,4}((JJ|RB)[RS]|IN)?'
-    SUB_VERB_tag  = r'NN[PS]?.? _SP VB[PZD]'
-    DOB_VERB = r'VB[DPZ] _SP (\w*){0,2} NN[PS]?.?'
+    SUB_VERB_tag  = r'NN(.+)? _SP VB[^NG].?'
+    DOB_VERB = r'VB.? _SP (\w+ ){0,2}NN(.+)?'
 
 
     # ADJ_PREP = r'ADJ SPACE ADP'
@@ -88,10 +88,10 @@ def get_pos_type(sentence):
     if re.search(DET_NOUN, pos):
         types.append('pb_det_noun')
 
-    elif re.search(ADJ_NOUN, pos):
+    elif re.search(ADJ_NOUN, pos) or re.search(VBN_NOUN, tag):
         types.append('pb_noun_adj')
 
-    elif re.search(ADJ_ADV, pos) or re.search(VBN_ADV, tag):
+    elif re.search(VBN_ADV, tag):
         types.append('pb_adj_adv')
 
     elif re.search(VERB_ADV, pos):
@@ -165,10 +165,10 @@ def get_dep_type(tokendict):
                             if child_infos[0] == 'compound' and child_infos[1] == 'NOUN': 
                                 types.append('pb_noun_noun')
 
-                            if child_infos[0] == 'poss':
+                            elif child_infos[0] in ['poss', 'det']:
                                 types.append('pb_det_noun')
                             
-                            elif child_infos[0] == 'acl':
+                            elif child_infos[0] in ['acl', 'amod', 'nummod']:
                                 types.append('pb_noun_adj')
                                 
                             elif child_infos[0] == 'prep' and token_info[1] == 'VERB': 
@@ -190,10 +190,10 @@ def get_dep_type(tokendict):
                         if child_index > enjambment_index  and token_index < enjambment_index  \
                             or child_index < enjambment_index and token_index > enjambment_index:
 
-                            if child_infos[0] == 'dobj': 
+                            if child_infos[0] in ['dobj', 'agent']: 
                                 types.append('ex_dobj_verb')
-
-                            elif child_infos[0] == 'nsubj': 
+                            
+                            elif 'nsubj' in child_infos[0]: 
                                 types.append('ex_subj_verb')
 
                             elif child_infos[0] == 'prt':
@@ -202,7 +202,7 @@ def get_dep_type(tokendict):
                             elif child_infos[0] == 'relcl' and 'NN' in token_info[2]:
                                 types.append('cc_cross_clause')
 
-                            elif child_infos[0] in ['xcomp'] and token_info[1] == 'ADJ': 
+                            elif child_infos[0] in ['xcomp'] and token_info[2] in ['JJ', 'VBN', 'JJR', 'JJS']: 
                                 types.append('pb_adj_prep')
                                     
                         elif child_index == enjambment_index - 1 and token_index < child_index:
@@ -212,7 +212,6 @@ def get_dep_type(tokendict):
                         elif child_index > token_index and token_index - child_index <= 3: 
                             if child_infos[0] in ['conj', 'prep', 'mark'] and child_infos[2] == 'IN':
                                 if child.lower() in ['although', 'while', 'from', 'though', 'after', 'before','because'] :
-                                    # print(child_infos, token_info)
                                     types.append('ex_verb_adjunct')
  
                     except KeyError as err: 
