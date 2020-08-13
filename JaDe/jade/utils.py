@@ -2,37 +2,6 @@ import json
 import re
 
 
-def load_dict(filepath):
-    """
-        Load json file. 
-
-        Parameters:
-        -----------
-            filepath: str
-                Path to the file to be read
-    """
-    with open(filepath, 'r', encoding='utf-8') as file:
-        dict_ = json.load(file)
-
-    return dict_
-
-
-def dump_dict(filepath, dictname):
-    """
-        Dump python dictionary into a json file.
-
-        Parameters
-        ----------
-            filepath: str
-                Path where the dictionary will be saved
-
-            dictname: dict
-                Dictionary to dump
-    """
-    with open(filepath, 'w', encoding='utf-8') as file:
-        json.dump(dictname, file, ensure_ascii=False)
-
-
 def get_pos_type(sentence):
     """
         Retrieve the type of enjambment present in a sentence. 
@@ -206,7 +175,9 @@ def get_dep_type(tokendict):
                                 types.append('pb_adj_prep')
                                     
                         elif child_index == enjambment_index - 1 and token_index < child_index:
-                            if child_infos[0] == 'prep' and token_info[1] == 'NOUN' or child_infos[0] == 'cc': 
+                            if child_infos[0] == 'prep' and token_info[0] == 'pobj' \
+                                or child_infos[0] == 'prep' and token_info[1] in  ['NOUN', 'PRON'] \
+                                or child_infos[0] == 'cc': 
                                 types.append('pb_relword')
 
                         elif child_index > token_index and token_index - child_index <= 3: 
