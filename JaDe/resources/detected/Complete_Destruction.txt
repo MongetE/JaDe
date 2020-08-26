@@ -1,6 +1,6 @@
 It was an icy day.
 We buried the cat,
-then took her box
+then took her box [ex_verb_adjunct]
 and set fire to it
 in the back yard.
 Those fleas that escaped [ex_dobj_verb]
