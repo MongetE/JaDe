@@ -1,3 +1,24 @@
+"""
+   JaDe is a command-line tool to automatically detect enjambment in English 
+   poetry. This file contains the rules used to classify enjambment. Details on
+   the annotations' meaning can be found : <https://zenodo.org/record/3992703>.  
+
+    Copyright (C) 2020  Eulalie Monget
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+"""
+
 import json
 import re
 
@@ -181,9 +202,9 @@ def get_dep_type(tokendict):
                                 types.append('pb_relword')
 
                         if token_index > enjambment_index:
-                            if child_index > token_index and token_index - child_index <= 3: 
+                            if child_index > token_index and token_index - child_index < 3: 
                                 if child_infos[0] in ['conj', 'prep', 'mark'] and child_infos[2] == 'IN':
-                                    if child.lower() in ['although', 'while', 'from', 'though', 'after', 'before','because'] :
+                                    if child.lower() in ['although', 'while', 'from', 'though', 'after', 'before','because', 'as', 'to'] :
                                         types.append('ex_verb_adjunct')
  
                     except KeyError as err: 
