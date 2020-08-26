@@ -15,7 +15,8 @@ resources necessary to run the tool
         2. [detected](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/detected):
         poem from the test corpus annotated by the tool
         3. phrasal_verbs.txt: list of phrasal verbs supported by the classifier
-2. script_corpus: contains scripts used to gather the corpus [to be added]
+2. [corpus](https://github.com/MongetE/JaDe/tree/master/JaDe/corpus): contains
+        scripts and list of urls used to gather the corpus.
 
 ## Requirements
 
@@ -61,7 +62,7 @@ won't be printed in the prompt.
 By default, if `--outdir` is not specified, the analysed files will be saved in
 a `analysis` directory, created in the current working directory.
 
-## Results (to be updated soon)
+## Results
 
 The evaluation was perfomed with all three spaCy models. However, they did not
 significantly improved as the model got bigger. Thus, only the results obtained
