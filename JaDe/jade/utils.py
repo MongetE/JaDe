@@ -180,10 +180,11 @@ def get_dep_type(tokendict):
                                 or child_infos[0] == 'cc': 
                                 types.append('pb_relword')
 
-                        elif child_index > token_index and token_index - child_index <= 3: 
-                            if child_infos[0] in ['conj', 'prep', 'mark'] and child_infos[2] == 'IN':
-                                if child.lower() in ['although', 'while', 'from', 'though', 'after', 'before','because'] :
-                                    types.append('ex_verb_adjunct')
+                        if token_index > enjambment_index:
+                            if child_index > token_index and token_index - child_index <= 3: 
+                                if child_infos[0] in ['conj', 'prep', 'mark'] and child_infos[2] == 'IN':
+                                    if child.lower() in ['although', 'while', 'from', 'though', 'after', 'before','because'] :
+                                        types.append('ex_verb_adjunct')
  
                     except KeyError as err: 
                         continue
