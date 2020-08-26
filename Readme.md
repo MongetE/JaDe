@@ -6,7 +6,7 @@ their claims.
 
 ## Repository Structure
 
-1. [JaDe](https://github.com/MongetE/JaDe/tree/master/JaDe): contains code and
+[JaDe](https://github.com/MongetE/JaDe/tree/master/JaDe): contains code and
 resources necessary to run the tool
     - [jade](https://github.com/MongetE/JaDe/tree/master/JaDe/jade): source code
     - [ressources](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/): txt files
@@ -15,8 +15,11 @@ resources necessary to run the tool
         2. [detected](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/detected):
         poem from the test corpus annotated by the tool
         3. phrasal_verbs.txt: list of phrasal verbs supported by the classifier
-2. [corpus](https://github.com/MongetE/JaDe/tree/master/JaDe/corpus): contains
+<<<<<<< HEAD
+=======
+2. [corpus](https://github.com/MongetE/JaDe/tree/master/corpus): contains
         scripts and list of urls used to gather the corpus.
+>>>>>>> df18e4312f30589295e375cf7bdc90cf971b6b9f
 
 ## Requirements
 
