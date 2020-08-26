@@ -67,53 +67,40 @@ The evaluation was perfomed with all three spaCy models. However, they did not
 significantly improved as the model got bigger. Thus, only the results obtained
 with the smallest model are presented below:
 
-|                   | precision | recall | f1-score | support |
+| type              | precision | recall | f1-score | support |
 |-------------------|-----------|--------|----------|---------|
-| []                | 0.836     | 0.936  | 0.883    | 598     |
-| [cc_cross_clause] | 0.833     | 0.500  | 0.625    | 20      |
-| [ex_dobj_pverb]   | 1.000     | 0.333  | 0.500    | 3       |
-| [ex_dobj_verb]    | 0.718     | 0.459  | 0.560    | 61      |
-| [ex_subj_verb]    | 0.388     | 0.442  | 0.413    | 43      |
-| [ex_verb_adjunct] | 0.400     | 0.035  | 0.065    | 57      |
-| [pb_adj_adj]      | 1.000     | 0.500  | 0.667    | 6       |
-| [pb_adj_adv]      | 0.200     | 0.500  | 0.286    | 2       |
-| [pb_adj_prep]     | 1.000     | 0.167  | 0.286    | 6       |
-| [pb_adv_adv]      | 0.000     | 0.000  | 0.000    | 1       |
-| [pb_comp]         | 0.286     | 0.667  | 0.400    | 3       |
-| [pb_det_noun]     | 0.923     | 0.600  | 0.727    | 20      |
-| [pb_noun_adj]     | 0.958     | 0.676  | 0.793    | 34      |
-| [pb_noun_noun]    | 0.091     | 0.500  | 0.154    | 2       |
-| [pb_noun_prep]    | 0.556     | 0.625  | 0.588    | 40      |
-| [pb_phrasal_verb] | 1.000     | 0.167  | 0.286    | 6       |
-| [pb_relword]      | 0.778     | 0.318  | 0.452    | 22      |
+| [pb_verb_adv]     | 0.571     | 0.667  | 0.615    | 6       |
 | [pb_to_verb]      | 1.000     | 0.500  | 0.667    | 2       |
-| [pb_verb_adv]     | 0.400     | 0.667  | 0.500    | 6       |
+| [pb_phrasal_verb] | 1.000     | 0.167  | 0.286    | 6       |
+| [pb_adj_adj]      | 1.000     | 0.500  | 0.667    | 6       |
+| [pb_det_noun]     | 0.857     | 0.600  | 0.706    | 20      |
+| [ex_subj_verb]    | 0.569     | 0.674  | 0.617    | 43      |
+| [pb_adv_adv]      | 0.500     | 0.500  | 0.500    | 2       |
 | [pb_verb_chain]   | 0.800     | 0.800  | 0.800    | 5       |
-| [pb_verb_cprep]   | 0.500     | 0.125  | 0.200    | 8       |
-| [pb_verb_prep]    | 0.081     | 0.429  | 0.136    | 7       |
-| **accuracy**      |           |        | 0.745    | 952     |
-| **macro_avg**     | 0.625     | 0.452  | 0.454    | 952     |
-| **weighted_avg**  | 0.762     | 0.745  | 0.728    | 952     |
+| [pb_noun_prep]    | 0.676     | 0.625  | 0.649    | 40      |
+| [pb_noun_adj]     | 1.000     | 0.559  | 0.717    | 34      |
+| [pb_verb_cprep]   | 0.500     | 0.250  | 0.333    | 8       |
+| [ex_verb_adjunct] | 0.500     | 0.017  | 0.032    | 60      |
+| [ex_dobj_verb]    | 0.846     | 0.541  | 0.660    | 61      |
+| [pb_verb_prep]    | 0.061     | 1.000  | 0.114    | 2       |
+| [pb_adj_adv]      | 1.000     | 0.500  | 0.667    | 2       |
+| [pb_adj_prep]     | 1.000     | 0.167  | 0.286    | 6       |
+| [pb_noun_noun]    | 0.125     | 0.500  | 0.200    | 2       |
+| [pb_comp]         | 0.333     | 0.667  | 0.444    | 3       |
+| [cc_cross_clause] | 1.000     | 0.600  | 0.750    | 20      |
+| [pb_relword]      | 0.800     | 0.364  | 0.500    | 22      |
+| [ex_dobj_pverb]   | 1.000     | 0.333  | 0.500    | 3       |
+| **micro_avg**     | 0.634     | 0.462  | 0.534    | 353     |
+| **macro_avg**     | 0.721     | 0.501  | 0.510    | 353     |
 
-**NB**:
-
-- the evaluation of the classification work is done using scikit. When
-running the evaluation module, the classification report gives the measures for
-a ‘[]’ class. This ‘[]’ is normally used to indicated that there is an
-end-stopped line. However, for evaluation purposes, some types (such as the
-lexical one) are replaced by this class. As a consequence, these measures cannot
-account for the precision, recall and f1-score for the detection task. So far,
-any attempt to remove this class from the classification report resulted in the
-report failure. What's more, the accuracy, macro_avg and weighted_avg are
-slightly biased because of this class.
-- When evaluating each classifier separately, a [?] class appears. This class
-stands for enjambment context that are not supported by the evaluated classifier.
 
 Regarding the detection per se, the results are as follow:
 
-| Precision | Recall | F-score |
-|-----------|--------|---------|
-| 0.96      | 0.90   | 0.93    |
+|           | precision | recall | f1-score | support |
+|-----------|-----------|--------|----------|---------|
+| accuracy  |           |        | 0.857    | 952     |
+| macro_avg | 0.859     | 0.831  | 0.841    | 952     |
+| micro_avg | 0.858     | 0.857  | 0.854    | 952     |
 
 These results can be obtained by running `run_eval.py`.
 
@@ -126,9 +113,10 @@ on the annotations obtained for the previous mode. For example, if the evaluatio
 was run with `--classifier all` and `--classifier dependencies` is run after
 without `annotate True`, then the results would also includes the annotations
 made by the regex classifier.
+
 For instance, `cross-clause` results are :
 |              | precision | recall | f1-score | support |
 |--------------|-----------|--------|----------|---------|
-| overall      | 0.833     | 0.714  | 0.769    | 14      |
-| regex        | 1.000     | 0.875  | 0.933    | 8       |
-| dependencies | 0.667     | 0.714  | 0.690    | 14      |
+| overall      | 1.000     | 0.600  | 0.750    | 20      |
+| regex        | 1.000     | 0.450  | 0.621    | 20      |
+| dependencies | 0.667     | 0.500  | 0.571    | 20      |
