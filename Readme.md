@@ -15,7 +15,7 @@ resources necessary to run the tool
         2. [detected](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/detected):
         poem from the test corpus annotated by the tool
         3. phrasal_verbs.txt: list of phrasal verbs supported by the classifier
-2. [corpus](https://github.com/MongetE/JaDe/tree/master/JaDe/corpus): contains
+2. [corpus](https://github.com/MongetE/JaDe/tree/master/corpus): contains
         scripts and list of urls used to gather the corpus.
 
 ## Requirements
