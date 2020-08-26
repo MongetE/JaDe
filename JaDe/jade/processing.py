@@ -25,7 +25,7 @@ def is_enjambment(line):
         bool
     """
 
-    if re.search(r'[\.,\!\?;\-:]$', line):
+    if re.search(r'[\.,\!\?;\-:\(\)—]$', line):
         return False
 
     return True
@@ -121,10 +121,10 @@ def handle_multiclassification(dependency_types):
         del dependency_types[dependency_types.index('ex_subj_verb')]
 
     if 'ex_verb_adjunct' in dependency_types:
-        # if 'pb_verb_prep' in dependency_types:
-        #     del dependency_types[dependency_types.index('pb_verb_prep')]
-        # else:
-        del dependency_types[dependency_types.index('ex_verb_adjunct')]
+        if 'pb_verb_prep' in dependency_types:
+            del dependency_types[dependency_types.index('pb_verb_prep')]
+        else:
+            del dependency_types[dependency_types.index('ex_verb_adjunct')]
     
     if 'pb_relword' in dependency_types:
         del dependency_types[dependency_types.index('pb_relword')]
@@ -146,9 +146,11 @@ def processor(file, save, outfile, nlp, classifier='all'):
         If not, checks if the line is contained into a given sentence, then the 
         sentence is tagged and regex are ran against  spacy POS and tags. 
 
-        If there is a match (or several), an annotation is added to the end of the line. 
+        If there is a match (or several), an annotation is added to the end of 
+        the line. 
 
-        Finally, the poem is reconstructed, unfortunately removing the blanks between stanzas 
+        Finally, the poem is reconstructed, unfortunately removing the blanks 
+        between stanzas 
         (at least for now).
 
         Parameters
@@ -183,7 +185,6 @@ def processor(file, save, outfile, nlp, classifier='all'):
             is_end_of_stanza = False
 
             if len(line) > 1:
-
                 if is_enjambment(line):
                     if poem_lines[i+1] != '':
                         line_pair = poem_lines[i] + '\n' + poem_lines[i+1]
@@ -196,10 +197,10 @@ def processor(file, save, outfile, nlp, classifier='all'):
                     line_pair = line_pair.replace('\n', '\t')
                     phrasal = detect_phrasal_verb(line_pair)
     
-
                     # better results were obtained with only the line-pair part of the sentence
                     # so it is used instead of the whole sentence
                     tagged_sentence = nlp(line_pair.lower())
+                    #TODO: change list to dict so that it is easier to read utils (/!\ effets de bord dans utils)
                     sentence_part_of_speech = [(token, str(token.pos_), str(token.tag_)) for token in tagged_sentence]
                     dependency_dict = {token.text : (str(token.dep_), str(token.pos_), str(token.tag_), token.head.text,
                                                     token.head.pos_, [str(child) for child in token.children]) 
@@ -239,19 +240,18 @@ def processor(file, save, outfile, nlp, classifier='all'):
                     if is_end_of_stanza: 
                         line += '\n'
                     
-                            
             transformed_lines.append(line)
 
             
-    # # Merge lines together back so that we have something readable
+    # Merge lines together back so that we have something readable
     poem = '\n'.join(transformed_lines)
+    # because we keep stanzas, some file ends with multiple \n; messing with eval
     if poem.endswith('\n\n\n'): 
         poem = poem[:-3] + poem[-3:].replace('\n\n\n', '\n')
         
     elif poem.endswith('\n\n'): 
         poem = poem[:-2] + poem[-2:].replace('\n\n', '\n')
-    
-    
+    # same but between stanzas
     poem = poem.replace('\n\n\n', '\n\n')
 
     if save:
