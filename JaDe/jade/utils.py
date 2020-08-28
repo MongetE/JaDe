@@ -19,28 +19,35 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-import json
 import re
 
 
 def get_pos_type(sentence):
     """
-        Retrieve the type of enjambment present in a sentence. 
+        Retrieve the type of enjambment present in a sentence based on regex 
+        patterns. 
 
-        The sentence is formatted according to its original form 
-        in the poem, meaning that the newline character is 
-        still present.  
+        In general, these patterns only look at the last word before the break 
+        and the first word after the break. This behavior is based on the 
+        assumption that most of enjambment occurrences can be captured with such
+        a configuration and that these occurrences tend to be stronger that way.
+        This can be easily changed by adding {0,x} after the desired POS, where
+        x is the number of POS that can be inserted between the two explicitly
+        expressed in the regular exession. 
+        Furthermore, when allowing for broader range in regular expression search, 
+        you might want to change if/elif to if/if. Doing so will allow 
+        multi-classification, which is bound to happen at some point when making
+        the patterns more flexible. 
 
         Parameters
         ----------
             sentence: list
-                The tokenized sentence. Each object in the sentence is 
-                a tuple (token, pos, tag)
+                list of tokens, spacy's pos and spacy's tags
 
         Returns
-        -------
+        ------- 
             types: list
-                A list of the enjambment found in the sentence. 
+                list of detected types
 
     """
 
@@ -62,9 +69,6 @@ def get_pos_type(sentence):
     SUB_VERB_tag  = r'NN(.+)? _SP VB[^NG].?'
     DOB_VERB = r'VB.? _SP (\w+ ){0,2}NN(.+)?'
 
-
-    # ADJ_PREP = r'ADJ SPACE ADP'
-    # JJ_PREP = r'JJ _SP IN'
     types = []
     tag = ""
     pos = ""
@@ -123,13 +127,31 @@ def get_pos_type(sentence):
     elif re.search(DOB_VERB, tag): 
         types.append('ex_dobj_verb')
 
-    # elif re.search(ADJ_PREP, pos) or re.search(JJ_PREP, tag): 
-    #     types.append('pb_adj_prep')
-
     return types
 
 
 def get_dep_type(tokendict):
+    """
+        Retrieve the type of enjambment present in a sentence based on a 
+        combination of dependency relationships and POS.
+
+        Most rules are concerned only with the last word before the break 
+        and the first one afterward, based on the assumption that most of
+        enjambment occurrences can be captured with such a configuration. This
+        can be changed by adjusting the first if in the try clause: instead of 
+        enjambment +/- 1, change 1 to the desired scale. Be aware that doing so
+        will cause multiclassification. 
+
+        Parameters
+        ----------
+            tokendict: dict
+                {token: [dep, pos, tag, token_head_text, token_head_pos, 
+                token_children]}
+        Returns
+        -------
+            types: list
+                list of detected types
+    """
     types = []
     dict_as_list = list(tokendict)
 
@@ -215,6 +237,19 @@ def get_dep_type(tokendict):
 
 
 def detect_phrasal_verb(line_pair): 
+    """
+        Retrieve the type of enjambment present in a sentence based on a list
+        of phrasal verbs. 
+
+        Parameters
+        ----------
+            line_pair: str
+                line pair as found in the poem 
+        Returns
+        -------
+            types: list
+                detected types
+    """
     types =  []
     with open('JaDe/resources/phrasal_verbs.txt', 'r', encoding='utf-8') as file: 
         phrasal_verbs = file.readlines()

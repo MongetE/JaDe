@@ -33,7 +33,7 @@ def get_poem_lines(poem):
 
 def is_enjambment(line):
     """
-        Take a line and return whether it is end-stopped or enjambed.
+        Take a line and return whether it is end-stopped or run-on.
         
         Parameters
         ----------
@@ -125,6 +125,21 @@ def remove_annotations(poem):
 
 
 def handle_multiclassification(dependency_types):
+    """
+        In case of multiclassification by the dependency classifier, give priority
+        to presumably strongest type. This is especially useful for evaluation 
+        given that the reference corpus is annoatated with only one type per line
+        pair. Non-exhaustive.
+
+        Parameters
+        ----------
+            dependency_types: list
+                list of types retrieved by the dependency classifier
+        Returns
+        -------
+            dependency_types: list
+                cleaned list of types.
+    """
     if 'ex_dobj_verb' in dependency_types and 'ex_subj_verb' in dependency_types:
         del dependency_types[dependency_types.index('ex_subj_verb')]
         if len(dependency_types) > 1:
