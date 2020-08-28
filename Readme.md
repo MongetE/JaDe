@@ -15,14 +15,7 @@ resources necessary to run the tool
         2. [detected](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/detected):
         poem from the test corpus annotated by the tool
         3. phrasal_verbs.txt: list of phrasal verbs supported by the classifier
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-2. [corpus](https://github.com/MongetE/JaDe/tree/master/corpus): contains
-        scripts and list of urls used to gather the corpus.
->>>>>>> df18e4312f30589295e375cf7bdc90cf971b6b9f
-=======
->>>>>>> cee63af09e8e40b3c84ba48a351e8eb3e12cae98
+
 
 ## Requirements
 
@@ -99,7 +92,6 @@ with the smallest model are presented below:
 | [ex_dobj_pverb]   | 1.000     | 0.333  | 0.500    | 3       |
 | **micro_avg**     | 0.634     | 0.462  | 0.534    | 353     |
 | **macro_avg**     | 0.721     | 0.501  | 0.510    | 353     |
-
 
 Regarding the detection per se, the results are as follow:
 
