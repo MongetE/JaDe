@@ -18,7 +18,7 @@ resources necessary to run the tool
     3. phrasal_verbs.txt: list of phrasal verbs supported by the classifier
 - [jane](https://github.com/MongetE/JaDe/tree/master/JaDe/jane): examples for
     enjambment analysis. Jane includes a `run.py` file, which is a basic example
-    on how to use JaDe and [charmak](https://github.com/MongetE/JaDe/tree/master/JaDe/jane/charmak) for enjambment analysis. It also includes a ipynb file, also found [here](https://nbviewer.jupyter.org/github/MongetE/JaDe/blob/master/JaDe/jane/jane.ipynb),
+    on how to use JaDe and [charmak](https://github.com/MongetE/JaDe/tree/master/JaDe/jane/charmak) for enjambment analysis. It also includes a ipynb file, also found [here](https://nbviewer.jupyter.org/github/MongetE/JaDe/blob/develop/JaDe/jane/jane.ipynb?flush_cache=true),
     which explains how to build multibars plot (see [here](https://github.com/MongetE/JaDe/blob/master/JaDe/jane/img/no_provided.png) for an example) so as to carry
     out a **comparative** analysis.
 
