@@ -1,10 +1,10 @@
 data
 venv
 .idea
-JaDe/jade/__pycache__
-Jade/jade/scripts
+__pycache__
 annotation_cleaner.py
-Jade/jane/__pycache__
+JaDe/jade/__pycache__/
+Jade/jade/scripts
+Jade/jane/__pycache__/
 JaDe/jane/.ipynb_checkpoints
-__pychache__
-JaDe/jane/charmark/__pycache__
+JaDe/jane/charmak/__pycache__
