@@ -4,3 +4,7 @@ venv
 JaDe/jade/__pycache__
 Jade/jade/scripts
 annotation_cleaner.py
+Jade/jane/__pycache__
+JaDe/jane/.ipynb_checkpoints
+__pychache__
+JaDe/jane/charmark/__pycache__
