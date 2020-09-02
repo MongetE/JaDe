@@ -1,0 +1,97 @@
+you haven't lived [pb_verb_prep]
+until you've been in a [pb_det_noun]
+flophouse [pb_noun_prep]
+with nothing but one
+light bulb
+and 56 men [ex_subj_verb]
+squeezed together
+on cots [pb_noun_prep]
+with everybody [cc_cross_clause]
+snoring [pb_verb_prep]
+at once
+and some of those [pb_det_noun]
+snores
+so [pb_adj_adv]
+deep and
+gross and [pb_relword]
+unbelievable-
+dark [pb_adj_adj]
+snotty
+gross<b r="">subhuman [pb_noun_noun]
+wheezings [pb_noun_prep]
+from hell
+itself.
+your mind [ex_subj_verb]
+almost breaks [pb_verb_prep]
+under those [pb_det_noun]
+death-like [ex_subj_verb]
+sounds
+and the [pb_det_noun]
+intermingling [ex_dobj_verb]
+odors:
+hard [pb_adj_adv]
+unwashed socks [pb_noun_adj]
+pissed and [pb_relword]
+shitted [pb_noun_adj]
+underwear
+and over it all [ex_subj_verb]
+slowly circulating [ex_dobj_verb]
+air
+much like that [ex_verb_adjunct]
+emanating from
+uncovered [pb_noun_adj]
+garbage [pb_noun_noun]
+cans.
+and those [pb_det_noun]
+bodies [pb_noun_prep]
+in the dark [pb_noun_adj]
+fat and [pb_relword]
+thin
+and
+bent [pb_noun_adj]
+some [pb_det_noun]
+legless
+armless
+some [pb_det_noun]
+mindless
+and worst of [pb_comp]
+all:
+the total [pb_noun_adj]
+absence of [pb_relword]
+hope
+it shrouds [ex_dobj_verb]
+them [ex_dobj_verb]
+covers them
+totally.
+it's not [pb_adj_adv]
+bearable.
+you get [pb_phrasal_verb]
+up [pb_verb_prep]
+go out
+walk the [pb_det_noun]
+streets [pb_phrasal_verb]
+up and [pb_relword]
+down
+sidewalks
+past buildings [pb_noun_prep]
+around the [pb_det_noun]
+corner
+and back [pb_phrasal_verb]
+up
+the samestreet [pb_noun_noun]
+thinking [ex_dobj_verb]
+those men [ex_subj_verb]
+were all [pb_det_noun]
+children
+once
+what has happened [pb_verb_cprep]
+to
+them?
+and what has [pb_verb_chain]
+happened [pb_verb_cprep]
+to
+me?
+it's dark
+and cold [pb_phrasal_verb]
+out
+here.</b>

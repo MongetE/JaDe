@@ -1,0 +1,29 @@
+she died of alcoholism [pb_noun_adj]
+wrapped in a blanket [pb_noun_prep]
+on a deck chair [pb_noun_prep]
+on an ocean [pb_noun_noun]
+steamer.
+
+all her books of [pb_relword]
+terrified loneliness
+
+all her books about [pb_relword]
+the cruelty [pb_noun_prep]
+of loveless love [ex_subj_verb]
+
+were all that was left [pb_verb_prep]
+of her
+
+as the strolling vacationer [ex_subj_verb]
+discovered her body [ex_subj_verb]
+
+notified the captain
+
+and she was quickly dispatched [pb_verb_cprep]
+to somewhere else
+on the ship
+
+as everything [ex_subj_verb]
+continued just
+as
+she had written it

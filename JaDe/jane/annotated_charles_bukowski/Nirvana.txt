@@ -1,0 +1,105 @@
+not much chance,
+completely cut loose from
+purpose,
+he was a young man [cc_cross_clause]
+riding a bus [pb_noun_prep]
+through North Carolina
+on the wat to somewhere
+and it began to snow [ex_dobj_verb]
+and the bus stopped [pb_verb_prep]
+at a little cafe [pb_noun_prep]
+in the hills
+and the passengers [ex_subj_verb]
+entered.
+he sat at the counter [pb_noun_prep]
+with the others,
+he ordered and the [pb_det_noun]
+food arived.
+the meal was
+particularly [pb_adj_adv]
+good
+and the [pb_det_noun]
+coffee.
+the waitress was [pb_verb_prep]
+unlike the women
+he had [pb_verb_chain]
+known.
+she was unaffected,
+there was a natural [pb_noun_adj]
+humor which came [pb_verb_prep]
+from her.
+the fry cook said [ex_dobj_verb]
+crazy things.
+the dishwasher.
+in back,
+laughed, a good [pb_adj_adj]
+clean [pb_adj_adj]
+pleasant [pb_noun_adj]
+laugh.
+the young man watched [ex_dobj_verb]
+the snow through the [pb_det_noun]
+windows.
+he wanted to stay [pb_verb_prep]
+in that cafe
+forever.
+the curious feeling
+swam through him
+that everything [ex_subj_verb]
+was
+beautiful [pb_adj_adv]
+there,
+that it would always [pb_verb_adv]
+stay beautiful
+there.
+then the bus driver [ex_subj_verb]
+told the passengers
+that it was time [cc_cross_clause]
+to board.
+the young man [ex_subj_verb]
+thought, I’ll just sit [pb_verb_adv]
+here, I’ll just stay [pb_verb_adv]
+here.
+but then
+he rose and followed [ex_dobj_verb]
+the others into the [pb_det_noun]
+bus.
+he found his seat
+and looked at the cafe [pb_noun_prep]
+through the bus [pb_noun_noun]
+window.
+then the bus moved [pb_phrasal_verb]
+off, down a curve,
+downward, out of
+the hills.
+the young man [ex_subj_verb]
+looked straight [pb_noun_adj]
+foreward.
+he heard the other [pb_noun_adj]
+passengers [pb_noun_adj]
+speaking [pb_verb_prep]
+of other things,
+or they were [pb_verb_chain]
+reading
+or
+attempting to [pb_to_verb]
+sleep.
+they had not [pb_adj_adv]
+noticed
+the [pb_det_noun]
+magic.
+the young man [ex_subj_verb]
+put his head to
+one side,
+closed his [pb_det_noun]
+eyes,
+pretended to [pb_to_verb]
+sleep.
+there was nothing [cc_cross_clause]
+else to do-
+just to listen to the [pb_det_noun]
+sound of the [pb_det_noun]
+engine,
+the sound of the [pb_det_noun]
+tires [pb_noun_prep]
+in the [pb_det_noun]
+snow.

@@ -1,0 +1,55 @@
+at one stage in my life
+I met a man who claimed to have [pb_verb_chain]
+visited Pound at St. Elizabeths.
+
+then I met a woman who not only [pb_verb_adv]
+claimed to have visited [ex_dobj_verb]
+E.P.
+but also to have made love [pb_noun_prep]
+to him—she even showed [ex_dobj_verb]
+me
+certain sections in the [pb_det_noun]
+Cantos [cc_cross_clause]
+where Ezra was supposed to have [pb_verb_chain]
+mentioned [ex_dobj_verb]
+her.
+
+so there was this man and [pb_relword]
+this woman [ex_subj_verb]
+and the woman told me
+that Pound had never [pb_adj_adv]
+mentioned a visit from this [pb_det_noun]
+man [ex_subj_verb]
+and the man claimed that the [pb_det_noun]
+lady had had nothing to do [pb_verb_prep]
+with the [pb_det_noun]
+master
+that she was a [pb_det_noun]
+charlatan
+
+and since I wasn't a
+Poundian scholar
+I didn't know who to [pb_to_verb]
+believe [ex_dobj_verb]
+but one thing I do [pb_verb_chain]
+know: when a man is [pb_verb_chain]
+living [ex_dobj_verb]
+many claim relationships
+that are hardly [pb_adv_adv]
+so
+and after he dies, well,
+then it's everybody's [pb_det_noun]
+party.
+
+my guess is that Pound [ex_subj_verb]
+knew neither the lady or the [pb_relword]
+gentleman
+
+or if he knew [pb_noun_adj]
+one
+or if he knew
+both
+
+it was a shameful waste of [pb_relword]
+madhouse
+time.

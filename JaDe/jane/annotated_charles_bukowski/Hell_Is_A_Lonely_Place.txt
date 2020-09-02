@@ -1,0 +1,92 @@
+he was 65, his wife was 66, had [ex_dobj_verb]
+Alzheimer's disease.
+
+he had cancer of the [pb_det_noun]
+mouth.
+there were [ex_dobj_verb]
+operations, radiation [pb_noun_noun]
+treatments [cc_cross_clause]
+which decayed the bones in his [pb_det_noun]
+jaw [cc_cross_clause]
+which then had to be [pb_verb_chain]
+wired.
+
+daily he put his wife in
+rubber diapers [pb_noun_prep]
+like a [pb_det_noun]
+baby.
+
+unable to drive in his [pb_det_noun]
+condition
+he had to take a taxi to [ex_dobj_verb]
+the medical [pb_noun_adj]
+center,
+had difficulty speaking,
+had to [pb_to_verb]
+write the directions [pb_noun_prep]
+down.
+
+on his last visit
+they informed him
+there would be another [pb_det_noun]
+operation: a bit more [pb_verb_adv]
+left [ex_dobj_verb]
+cheek and a bit more [pb_comp]
+tongue.
+
+when he returned [pb_verb_adv]
+he changed his wife's [ex_dobj_verb]
+diapers [ex_subj_verb]
+put on the tv [pb_noun_noun]
+dinners, watched the [pb_det_noun]
+evening news [ex_subj_verb]
+then went to the bedroom, got the [pb_det_noun]
+gun, put it to her [pb_det_noun]
+temple, fired.
+
+she fell to the
+left, he sat upon the [pb_det_noun]
+couch [ex_subj_verb]
+put the gun into his [pb_det_noun]
+mouth, pulled the [pb_det_noun]
+trigger.
+
+the shots didn't arouse [ex_dobj_verb]
+the neighbors.
+
+later
+the burning tv dinners [ex_subj_verb]
+did.
+
+somebody arrived, pushed [ex_dobj_verb]
+the door open, saw [ex_dobj_verb]
+it.
+
+soon
+the police arrived and [ex_subj_verb]
+went through their [pb_det_noun]
+routine, found [ex_dobj_verb]
+some items:
+
+a closed savings [pb_noun_noun]
+account and [pb_relword]
+a checkbook with a [pb_det_noun]
+balance of [pb_relword]
+$1.
+suicide, they [ex_subj_verb]
+deduced.
+
+in three weeks
+there were two
+new tenants:
+a computer engineer [pb_noun_adj]
+named [ex_dobj_verb]
+Ross
+and his wife
+Anatana [cc_cross_clause]
+who studied [ex_dobj_verb]
+ballet.
+
+they looked like another
+upwardly mobile [pb_noun_adj]
+pair.

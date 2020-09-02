@@ -1,0 +1,35 @@
+Van Gogh writing his brother for paints
+Hemingway testing his shotgun [pb_noun_noun]
+Celine going broke as a doctor of medicine [ex_dobj_verb]
+the impossibility of being human [pb_noun_adj]
+Villon expelled from Paris for being a thief [pb_noun_noun]
+Faulkner drunk in the gutters of his town
+the impossibility of being human [pb_noun_adj]
+Burroughs killing his wife with a gun [pb_noun_noun]
+Mailer stabbing his [ex_dobj_verb]
+the impossibility of being human [pb_noun_adj]
+Maupassant going mad in a rowboat [pb_noun_noun]
+Dostoyevsky lined up against a wall to be shot [ex_dobj_verb]
+Crane off the back of a boat into the propeller [ex_dobj_verb]
+the impossibility
+Sylvia with her head in the oven like a baked potato
+Harry Crosby leaping into that Black Sun [pb_noun_noun]
+Lorca murdered in the road by Spanish troops
+the impossibility [pb_noun_adj]
+Artaud sitting on a madhouse bench
+Chatterton drinking rat poison [ex_subj_verb]
+Shakespeare a plagiarist [pb_noun_adj]
+Beethoven with a horn stuck into his head against deafness [ex_dobj_verb]
+the impossibility the impossibility [pb_noun_noun]
+Nietzsche gone totally mad [ex_dobj_verb]
+the impossibility of being human [pb_adj_adv]
+all too human
+this breathing [pb_noun_prep]
+in and out [pb_adv_adv]
+out and in
+these punks [ex_dobj_verb]
+these cowards
+these champions
+these mad dogs of glory [cc_cross_clause]
+moving this little bit of light toward us
+impossibly.

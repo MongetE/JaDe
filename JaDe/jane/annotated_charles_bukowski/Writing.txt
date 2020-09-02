@@ -1,0 +1,9 @@
+often it is the only [pb_noun_adj]
+thing [pb_noun_prep]
+between you and [pb_relword]
+impossibility.
+no drink,
+no woman's love,
+no wealth [ex_subj_verb]
+can [pb_verb_chain]
+match it.

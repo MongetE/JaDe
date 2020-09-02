@@ -1,0 +1,56 @@
+the illusion is that you are simply [pb_verb_adv]
+reading this poem.
+the reality is that this is
+more than a [pb_det_noun]
+poem.
+this is a beggar's knife.
+this is a tulip.
+this is a soldier marching [pb_verb_prep]
+through Madrid.
+this is you on your [pb_det_noun]
+death bed.
+this is Li Po laughing [pb_verb_adv]
+underground.
+this is not a god-damned [pb_noun_adj]
+poem.
+this is a horse asleep.
+a butterfly in [pb_relword]
+your brain.
+this is the devil's
+circus.
+you are not reading this
+on a page.
+the page is reading [ex_dobj_verb]
+you.
+feel it?
+it's like a cobra. it's a hungry eagle circling the room.
+
+this is not a poem. poems are dull,
+they make you sleep.
+
+these words force you
+to a new [pb_noun_adj]
+madness.
+
+you have been blessed, you have been pushed into a
+blinding area of [pb_relword]
+light.
+
+the elephant dreams [pb_verb_prep]
+with you
+now.
+the curve of space [pb_noun_noun]
+bends and [pb_relword]
+laughs.
+
+you can die now.
+you can die now as
+people were meant to [pb_to_verb]
+die:
+great,
+victorious,
+hearing the music,
+being the music,
+roaring,
+roaring,
+roaring.

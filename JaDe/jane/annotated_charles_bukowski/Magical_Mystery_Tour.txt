@@ -1,0 +1,50 @@
+I am in this low-slung sports car [ex_subj_verb]
+painted a deep, rich yellow [pb_noun_adj]
+driving under an Italian sun.
+I have a British accent.
+I'm wearing dark shades
+an expensive silk shirt.
+there's no dirt under my [pb_det_noun]
+fingernails.
+the radio plays Vivaldi
+and there are two women with [pb_relword]
+me
+one with raven hair
+the other a blonde.
+they have small breasts and [pb_relword]
+beautiful legs
+and they laugh at everything I [ex_subj_verb]
+say.
+
+as we drive up a steep road
+the blonde squeezes my leg
+and nestles closer [pb_comp]
+while raven hair [ex_subj_verb]
+leans across and nibbles my [pb_det_noun]
+ear.
+
+we stop for lunch at a quaint
+rustic inn.
+there is more laughter [pb_noun_prep]
+before lunch [pb_noun_prep]
+during lunch and after
+lunch.
+
+after lunch we will have a [ex_dobj_verb]
+flat tire on the other side of [pb_relword]
+the mountain
+and the blonde will change the [pb_det_noun]
+tire
+while
+raven hair [ex_subj_verb]
+photographs me
+lighting my pipe [cc_cross_clause]
+leaning against a tree [ex_dobj_verb]
+the perfect background
+perfectly at peace [pb_noun_prep]
+with
+sunlight [pb_noun_noun]
+flowers [pb_noun_noun]
+clouds [pb_noun_noun]
+birds
+everywhere.

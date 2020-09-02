@@ -1,0 +1,23 @@
+from my bed
+I watch [ex_dobj_verb]
+3 birds [pb_noun_prep]
+on a telephone [pb_noun_noun]
+wire.
+one flies [pb_phrasal_verb]
+off.
+then
+another.
+one is left,
+then
+it too [ex_subj_verb]
+is gone.
+my typewriter is
+tombstone [pb_adv_adv]
+still.
+and I am [pb_verb_chain]
+reduced to bird [cc_cross_clause]
+watching.
+just thought I'd [pb_verb_chain]
+let you [ex_subj_verb]
+know,
+fucker.

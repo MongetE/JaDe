@@ -1,0 +1,106 @@
+he lives in a house with a swimming pool
+and says the job is [pb_verb_chain]
+killing him.
+he is 27. I am 44. I can’t seem to [pb_to_verb]
+get rid of
+him. his novels keep coming [pb_verb_adv]
+back. “what do you expect me to do?” he screams
+“go to New York and pump the hands of the [pb_det_noun]
+publishers?”
+“no,” I tell him, “but quit your job, go into a
+small room and do the [pb_det_noun]
+thing.”
+“but I need ASSURANCE, I need something to [pb_to_verb]
+go by, some word, some sign!”
+“some men did not think that way:
+Van Gogh, Wagner—” [ex_subj_verb]
+“oh hell, Van Gogh had a brother who gave him [ex_dobj_verb]
+paints whenever he [ex_subj_verb]
+needed them!”
+
+
+“look,” he said, “I’m over at this broad’s house today and [pb_relword]
+this guy walks in. a salesman. you know [pb_verb_adv]
+how they talk. drove up in this new [pb_noun_adj]
+car. talked about his vacation. said he went to
+Frisco—saw Fidelio up there but forgot who [ex_subj_verb]
+wrote it. now this guy is 54 years [pb_adj_adv]
+old. so I told him: ‘Fidelio is Beethoven’s only
+opera.’ and then I told [ex_dobj_verb]
+him: ‘you’re a jerk!’ ‘whatcha mean?’ he [ex_subj_verb]
+asked. ‘I mean, you’re a jerk, you’re 54 years old and [ex_subj_verb]
+you don’t know anything!’”
+
+
+“what happened [pb_verb_adv]
+then?”
+“I walked out.”
+“you mean you left him there with
+her?”
+“yes.”
+
+
+“I can’t quit my job,” he said. “I always have trouble getting a [pb_det_noun]
+job. I walk in, they look at me, listen to me talk and [ex_subj_verb]
+they think right away, ah ha! he’s too intelligent for [ex_subj_verb]
+this job, he won’t stay [pb_verb_adv]
+so there’s really no sense in hiring [ex_dobj_verb]
+him.
+now, YOU walk into a place and you don’t have any trouble:
+you look like an old wino, you look like a guy who needs a [pb_det_noun]
+job and they look at you and they think:
+ah ha!: now here’s a guy who really needs work! if we hire [ex_dobj_verb]
+him he’ll stay a long time and work [pb_verb_adv]
+HARD!”
+
+
+“do any of those people,” he asks “know you are a [pb_det_noun]
+writer, that you write poetry?”
+“no.”
+“you never talk about
+it. not even to
+me! if I hadn’t seen you in that magazine I’d [pb_verb_chain]
+have never known.”
+“that’s right.”
+“still, I’d like to tell these people that you are a [pb_det_noun]
+writer.”
+“I’d still like to [pb_to_verb]
+tell them.”
+“why?”
+“well, they talk about you. they think you are just a [pb_det_noun]
+horseplayer and a drunk.”
+“I am both of those.”
+“well, they talk about you. you have odd ways. you travel alone.
+I’m the only friend you [ex_subj_verb]
+have.”
+“yes.”
+“they talk you down. I’d like to defend you. I’d like to tell
+them you write [ex_dobj_verb]
+poetry.”
+“leave it alone. I work here like they [ex_subj_verb]
+do. we’re all the same.” [ex_dobj_verb]
+“well, I’d like to do it for myself then. I want them to know why [ex_subj_verb]
+I travel with [ex_subj_verb]
+you. I speak 7 languages, I know my music—”
+“forget it.”
+“all right, I’ll respect your [pb_det_noun]
+wishes. but there’s something else—”
+“what?”
+“I’ve been thinking about getting a [pb_det_noun]
+piano. but then I’ve been thinking about getting a [pb_det_noun]
+violin too but I can’t make up my [pb_det_noun]
+mind!”
+“buy a piano.”
+“you think [pb_verb_adv]
+so?”
+“yes.”
+
+
+he walks away [pb_verb_adv]
+thinking about
+it.
+
+I was thinking about it [ex_subj_verb]
+too: I figure he can always come over with his [pb_det_noun]
+violin and more [pb_adj_adv]
+sad music.

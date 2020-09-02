@@ -1,0 +1,26 @@
+with an Apple Macintosh
+you can't run Radio Shack programs [pb_noun_prep]
+in its disc drive.
+nor can a Commodore [pb_noun_noun]
+drive read a file [cc_cross_clause]
+you have created on an
+IBM Personal Computer.
+both Kaypro and Osborne computers use [ex_dobj_verb]
+the CP/M operating system
+but can't read each other's [ex_dobj_verb]
+handwriting
+for they format (write [pb_verb_prep]
+on) discs in different [pb_noun_adj]
+ways.
+the Tandy 2000 runs MS-DOS but
+can't use most programs produced for [pb_comp]
+the IBM Personal Computer [pb_noun_prep]
+unless certain [pb_noun_adj]
+bits and bytes are [pb_verb_chain]
+altered [ex_dobj_verb]
+but the wind still blows over
+Savannah
+and in the Spring
+the turkey buzzard struts and [pb_relword]
+flounces before his [pb_det_noun]
+hens.

@@ -1,0 +1,6 @@
+Van Gogh cut off his ear [ex_subj_verb]
+gave it to a [pb_det_noun]
+prostitute [cc_cross_clause]
+who flung it away in
+extreme [pb_adj_adj]
+disgust.

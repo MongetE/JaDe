@@ -1,0 +1,51 @@
+we are always asked [pb_verb_cprep]
+to understand the other person's [ex_dobj_verb]
+viewpoint
+no matter how [pb_adv_adv]
+out-dated [pb_noun_adj]
+foolish or [pb_relword]
+obnoxious.
+
+one is asked [pb_verb_cprep]
+to view [ex_dobj_verb]
+their total error
+their life-waste [pb_noun_prep]
+with
+kindliness,
+especially if they are
+aged.
+
+but age is the total of [pb_relword]
+our doing.
+they have aged [pb_verb_adv]
+badly
+because they have [pb_verb_chain]
+lived [pb_verb_prep]
+out of focus,
+they have refused to [pb_to_verb]
+see.
+
+not their fault?
+
+whose fault?
+mine?
+
+I am asked to hide [ex_dobj_verb]
+my viewpoint [pb_noun_prep]
+from them
+for fear of their [pb_det_noun]
+fear.
+
+age is no crime
+
+but the shame [pb_noun_prep]
+of a deliberately [pb_adj_adv]
+wasted [ex_dobj_verb]
+life [pb_noun_prep]
+
+among so many
+deliberately [pb_adj_adv]
+wasted [ex_dobj_verb]
+lives [ex_subj_verb]
+
+is.

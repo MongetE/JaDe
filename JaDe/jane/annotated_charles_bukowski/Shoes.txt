@@ -1,0 +1,18 @@
+when you're young
+a pair of [pb_relword]
+female [pb_adj_adj]
+high-heeled shoes
+just sitting [pb_verb_adv]
+alone
+in the closet
+can fire your [pb_det_noun]
+bones;
+when you're old
+it's just
+a pair of shoes [pb_noun_prep]
+without
+anybody
+in them
+and
+just as
+well.

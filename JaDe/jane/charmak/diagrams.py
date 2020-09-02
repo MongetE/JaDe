@@ -155,64 +155,75 @@ def classic_barplot(x, x_name, y, y_name, source, title, height=750, plot_width=
     return bar_figure
 
 
-def multibars_plot(dictionary, labels, title, orientation, width=1000, colors=None):
+def multibars_plot(data, title, orientation, width=1000, colors=None, y_margin=0, legend_location='top_right'):
     """
         Build multibars plot in a jiffy. 
         `Example of multibar plot <https://docs.bokeh.org/en/latest/docs/gallery/bar_nested_colormapped.html>`_
 
         Parameters
         ----------
-            dictionary: dict
+            data: dict
                 data from which the chart will be build. Should look like: 
                 {enjambment_types: [types], compared_value_1: [0,1,2.], 
                 compared_value_2: [3,4,5]}
-            labels: list
-                names of the x axis data
             title: str
                 title of the chart
             orientation: str
-                orientation of the x axis labels (horizontal or vertical)
+                orientation of the x axis labels (horizontal or vertical). See
+                https://docs.bokeh.org/en/latest/docs/user_guide/styling.html?highlight=x_axis%20major_label_orientation
+                for more information on valid inputs.
             width: int
                 width of the plot
             colors: list
                 colors to be used for the bars
+            y_margin: int
+                Used to compute maximum value for y axis. If default (0), y_max 
+                is equal to max(y), else to max(y) + y_margin. Default to 0.
+            legend_location: str
+                where the legend should be displayed. Default to top_right. See
+                https://docs.bokeh.org/en/latest/docs/reference/core/enums.html#bokeh.core.enums.LegendLocation
+                for a list of valid values.
 
         Returns
         -------
             A Bokeh mutlibars figure.
     """
     potential_max = []
-    for item, value in dictionary.items():
-        if item != 'types':
+    for item, value in data.items():
+        if 'types' not in item:
             potential_max.append(max(value))
+        else:
+            labels = value
 
     rounded_max = round(max(potential_max), -1)
     if rounded_max > max(potential_max): 
         y_range = rounded_max
     else: 
-        y_range = max(potential_max) + 2
+        y_range = max(potential_max) + y_margin
         
-    source = ColumnDataSource(data=dictionary)
+    source = ColumnDataSource(data=data)
     bar_figure = figure(x_range=labels, y_range=(0,y_range), plot_height=500, plot_width=width, 
                         toolbar_location=None, title=title)
 
-    for i in range(len(dictionary.keys())):
-        key = list(dictionary.keys())[i]
-        position_range = (len(dictionary) * 0.25)/2
+    for i in range(len(data.keys())):
+        key = list(data.keys())[i]
+        position_range = (len(data) * 0.25)/2
         positions = [i for i in numpy.arange(-position_range, position_range, 0.25)]
-        number_of_colors = len(dictionary.keys())
+        number_of_colors = len(data.keys())
         
         if colors is None:
             colors = random_colors(number_of_colors)
 
-        if key != 'types':
-            bar_figure.vbar(x=dodge('types', positions[i], range=bar_figure.x_range), 
+        if 'types' in key:
+            x_dodge = key
+        else:
+            bar_figure.vbar(x=dodge(x_dodge, positions[i], range=bar_figure.x_range), 
                             top=key, width=0.2, source=source, color=colors[i], legend_label=key)
 
     bar_figure.x_range.range_padding = 0
     bar_figure.xgrid.grid_line_color = None
     bar_figure.xaxis.major_label_orientation = orientation
-    bar_figure.legend.location = "top_right"
+    bar_figure.legend.location = legend_location
     bar_figure.legend.orientation = "horizontal"
 
     return bar_figure

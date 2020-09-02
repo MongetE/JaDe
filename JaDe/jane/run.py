@@ -27,12 +27,10 @@ import sys
 from bokeh.io import show
 from bokeh.layouts import gridplot
 from bokeh.models import ColumnDataSource
-from bokeh.plotting import figure
 from bokeh.palettes import cividis
-
 from charmak.diagrams import classic_barplot
 
-def get_annotation_number(directory): 
+def get_annotation(directory): 
     """
         Retrieve JaDe's annotations in a given directory. 
 
@@ -117,9 +115,10 @@ def run(working_dir, title):
             '[ex_verb_adjunct]', '[pb_noun_prep]', '[pb_phrasal_verb]', '[ex_dobj_pverb]', '[lex_lexical]']
 
     types = sorted(list(set(types)))
+    print(types)
 
     working_path = pathlib.Path(working_dir)
-    annotations = get_annotation_number(working_path)
+    annotations = get_annotation(working_path)
 
     chart_data = {}
     
@@ -138,7 +137,9 @@ def run(working_dir, title):
 
     source = ColumnDataSource(data=dict(enjambment_type=x_axis, number_of_occurrences=y_axis))
     chart = classic_barplot(x_axis, x_name, y_axis, y_name, source=source, title=title, orientation='vertical', y_margin=5)
-    show(chart)
+    # show(chart)
+    grid = gridplot([[chart]])
+    show(grid)
 
 
 if __name__ == "__main__":

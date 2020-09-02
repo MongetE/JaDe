@@ -1,0 +1,27 @@
+I was always a natural slob [ex_subj_verb]
+I liked to lay upon the bed [pb_noun_prep]
+in undershirt (stained, of
+course) (and with cigarette [pb_noun_noun]
+holes)
+shoes off [pb_relword]
+beerbottle in hand [cc_cross_clause]
+trying to shake off a [ex_dobj_verb]
+difficult night, say with a [pb_det_noun]
+woman still around [pb_verb_adv]
+walking the floor [cc_cross_clause]
+complaining about this and
+that,
+and I'd work up a [pb_det_noun]
+belch and say, "HEY, YOU DON'T [ex_subj_verb]
+LIKE IT? THEN GET YOUR ASS
+OUT OF HERE!"
+
+I really loved myself, I [ex_dobj_verb]
+really loved my slob-
+self, and [pb_relword]
+they seemed to also:
+always leaving
+but almost [pb_adv_adv]
+always [pb_verb_adv]
+coming [pb_verb_adv]
+back.
