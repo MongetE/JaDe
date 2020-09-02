@@ -62,66 +62,101 @@ def run(model, dir, file, outdir, outfile, save):
             model: str
                 language model to be used. Default to spacy smaller one.
             dir: str
-                Path to the directory to be analysed. 
+                Path to the directories to be analysed. To analyse a batch of 
+                directories, use a comma to separate each path. Eg
+                `--dir ../sylvia_plath,../oscar_wilde`. Please note that if
+                there is a space in your path, you need to wrap it around double
+                quotes `--dir "../oscar wilde".
             outdir: str
                 Path to where the files should be saved after analysis. Default
-                to current working directory. 
+                to current working directory. Please note that if
+                there is a space in your path, you need to wrap it around double
+                quotes `--dir "../oscar wilde". It can accept several outdirs, 
+                as long as they are separated by commas, eg 
+                `--outdir ../annotated_oscar_wilde,../annotated_sylvia_plath`.
             file: str
-                Path to the file to be analysed
+                Path to the files to be analysed. Several files can be analysed
+                at the same time if their path is comma-separated, eg 
+                `--file sylvia_plath/Admonition.txt,sylvia_plath/Amnesiac.txt`.
+                Please note that if there is a space in your path, you need to 
+                wrap it around double quotes `--file "../sylvia plath/Admonition.txt"
             outfile: str
                 Path to where the file will be saved after analysis. Default to
-                filename.txt in the current working directory
+                *filename*.txt in the current working directory. Several outfiles
+                can be provided (if several files are provided as well), eg
+                `--outfile annotated_Admonition.txt,annotated_Amnesiac.txt`.
+                Please note that if there is a space in your path, you need to 
+                wrap it around double quotes 
+                `--outfile "../sylvia plath/annotated Admonition.txt"
             save: bool
                 Whether or not the save is to be enabled. Can be set to False for
                 single file analysis only. 
     """
     nlp = spacy.load(model)
 
-
-    if save != True:
-        if save.capitalize() == "False": 
-            save = False
-        else: 
-            print('save options only accepts True or False.')
+    if str(save).capitalize() == "False": 
+        save = False
+    elif str(save).capitalize() == "True": 
+        save = True
+    else: 
+        print('save options only accepts True or False.')
 
     if dir is None and file is not None: 
-        with open(file, 'r', encoding='utf-8') as poem_file:
-            file_name = get_filename(str(file))
+        files = file.split(',')
+        
+        if len(files) > 1:
+            print('For ease of reading, output will be saved in your working directory. It will be preceded by `annotated`.')
+            save = True
+                
+        for i in range(len(files)):
+            file = files[i]
+            with open(file, 'r', encoding='utf-8') as poem_file:
+                file_name = get_filename(str(file))
 
-            if outfile is None: 
-                outfile = file_name + '.txt'
+                try: 
+                    outfiles = outfile.split(',')
+                    outfile = outfiles[i]
+                except (IndexError, AttributeError):
+                    outfile = 'annotated_ ' + file_name + '.txt'
 
-            processor(poem_file, save, outfile, nlp)
+                processor(poem_file, save, outfile, nlp)
 
     elif dir is not None and file is None: 
-        if not dir.endswith('/'):
-            dir += '/'
+        dirs = dir.split(',')
+        
+        for j in range(len(dirs)): 
+            dir = dirs[j]
+            if not dir.endswith('/'):
+                dir += '/'
+            try: 
+                outdirs = outdir.split(',')
+                outdir = outdirs[j]
+            except (IndexError, AttributeError):
+                outdir = 'annotated_' + re.search(r'(.*\/)(?P<name>(\d*\w*-?)+)', dir[:-1]).group('name')
 
-        if outdir is None: 
-            outdir = "analysis"
+            if save:
+                files = [dir+file for file in os.listdir(dir) if fnmatch.fnmatch(file, '*.txt')]
 
-        if save:
-            files = [dir+file for file in os.listdir(dir) if fnmatch.fnmatch(file, '*.txt')]
+                for i in tqdm(range(len(files))):
+                    with open(files[i], 'r', encoding='utf-8') as poem_file:
+                        file_name = get_filename(str(files[i]))
 
-            for i in tqdm(range(len(files))):
-                with open(files[i], 'r', encoding='utf-8') as poem_file:
-                    file_name = get_filename(str(files[i]))
+                        outfile = outdir + '/' + file_name + '.txt'
 
-                    outfile = outdir + '/' + file_name + '.txt'
+                        if sys.platform.startswith('win'):
+                            outfile = str(pathlib.PureWindowsPath(outfile))
 
-                    if sys.platform.startswith('win'):
-                        outfile = str(pathlib.PureWindowsPath(outfile))
+                        if not os.path.exists(outdir): 
+                            os.mkdir(outdir)
 
-                    if not os.path.exists(outdir): 
-                        os.mkdir(outdir)
-
-                    processor(poem_file, save, outfile, nlp)
-            print('Files have been saved to disk at', outdir)
+                        processor(poem_file, save, outfile, nlp)
+                print('Files have been saved to disk at', outdir)
                 
-        else: 
-            print('For readability, the -dir command can only be run when save is enabled')
-            print('By default, the -save argument is set to True.')
-            sys.exit(0)
+            else: 
+                print('For readability, the -dir command can only be run when save is enabled')
+                print('By default, the -save argument is set to True.')
+                sys.exit(0)
+
     elif dir is not None and file is not None: 
         print('JaDe cannot simultaneously analyze a single file and a whole directory.')
         print('Please specify either --dir or --file, not both.')

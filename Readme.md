@@ -8,16 +8,19 @@ their claims.
 
 [JaDe](https://github.com/MongetE/JaDe/tree/master/JaDe): contains code and
 resources necessary to run the tool
-    - [jade](https://github.com/MongetE/JaDe/tree/master/JaDe/jade): source code
-    - [ressources](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/): txt files
-        1. [annotated_poems](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/annotated_poems):
-        poems used for tool evaluation
-        2. [detected](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/detected):
-        poem from the test corpus annotated by the tool
-        3. phrasal_verbs.txt: list of phrasal verbs supported by the classifier
-    - [jane](https://github.com/MongetE/JaDe/tree/master/JaDe/jane): example for 
-        enjambment analysis. ipynb file can be found here.
 
+- [jade](https://github.com/MongetE/JaDe/tree/master/JaDe/jade): source code
+- [ressources](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/): txt files
+    1. [annotated_poems](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/annotated_poems):
+    poems used for tool evaluation
+    2. [detected](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/detected):
+    poem from the test corpus annotated by the tool
+    3. phrasal_verbs.txt: list of phrasal verbs supported by the classifier
+- [jane](https://github.com/MongetE/JaDe/tree/master/JaDe/jane): examples for
+    enjambment analysis. Jane includes a `run.py` file, which is a basic example
+    on how to use JaDe and [charmak](https://github.com/MongetE/JaDe/tree/master/JaDe/jane/charmak) for enjambment analysis. It also includes a ipynb file, also found [here](https://nbviewer.jupyter.org/github/MongetE/JaDe/blob/master/JaDe/jane/jane.ipynb),
+    which explains how to build multibars plot (see [here](https://github.com/MongetE/JaDe/blob/master/JaDe/jane/img/no_provided.png) for an example) so as to carry
+    out a **comparative** analysis.
 
 ## Requirements
 
@@ -29,6 +32,9 @@ resources necessary to run the tool
 - matplotlib
 - pandas
 - seaborn
+- bokeh
+- scikit_learn
+- numpy
 
 Required libraries can be installed using `pip install -r requirements.txt`.
 
