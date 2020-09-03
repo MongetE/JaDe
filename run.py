@@ -129,7 +129,6 @@ def run(model, dir, file, outdir, outfile, save):
     elif dir is not None and file is None: 
         for j in range(len(dir)): 
             curr_dir = dir[j].replace(' ', '_')
-            print(curr_dir)
             
             if not curr_dir.endswith('\\') and sys.platform.startswith('win') and '\\' in curr_dir: 
                     curr_dir = curr_dir + r'\\'
@@ -141,7 +140,6 @@ def run(model, dir, file, outdir, outfile, save):
                 curr_outdir = outdir[j]
             except (IndexError, AttributeError, TypeError):
                 curr_outdir = 'annotated_' + re.search(r'.*[\\\/](?P<name>(\w*[ _]?)+)(?=[\\\/]$)',  curr_dir).group('name')
-                print(curr_dir)
 
             if save:
                 files = [curr_dir+file for file in os.listdir(curr_dir) if fnmatch.fnmatch(file, '*.txt')]
