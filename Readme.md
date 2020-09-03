@@ -115,7 +115,7 @@ Regarding the detection per se, the results are as follow:
 | macro_avg | 0.859     | 0.831  | 0.841    | 952     |
 | micro_avg | 0.858     | 0.857  | 0.854    | 952     |
 
-These results can be obtained by running `run_eval.py`.
+These results can be obtained by running `evaluation.py`.
 
 ### Running evaluation
 
