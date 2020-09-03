@@ -124,18 +124,27 @@ def run(model, dir, file, outdir, outfile, save):
                     curr_outfile = 'annotated_' + file_name + '.txt'
 
                 processor(poem_file, save, curr_outfile, nlp)
+                print("File has been saved to disk at", curr_outfile)
 
     elif dir is not None and file is None: 
         for j in range(len(dir)): 
             curr_dir = dir[j].replace(' ', '_')
+            print(curr_dir)
+            
+            if not curr_dir.endswith('\\') and sys.platform.startswith('win') and '\\' in curr_dir: 
+                    curr_dir = curr_dir + r'\\'
+                    curr_dir = curr_dir[:-1]
+            elif not curr_dir.endswith('/'):
+                curr_dir = curr_dir + '/'
 
             try: 
                 curr_outdir = outdir[j]
             except (IndexError, AttributeError, TypeError):
-                curr_outdir = 'annotated_' + re.search(r'(.*\/)(?P<name>(\w*[ \\_]?)+)(?=\/$)',  curr_dir).group('name')
+                curr_outdir = 'annotated_' + re.search(r'.*[\\\/](?P<name>(\w*[ _]?)+)(?=[\\\/]$)',  curr_dir).group('name')
+                print(curr_dir)
 
             if save:
-                files = [dir[j]+file for file in os.listdir(dir[j]) if fnmatch.fnmatch(file, '*.txt')]
+                files = [curr_dir+file for file in os.listdir(curr_dir) if fnmatch.fnmatch(file, '*.txt')]
 
                 for i in tqdm(range(len(files))):
                     with open(files[i], 'r', encoding='utf-8') as poem_file:
