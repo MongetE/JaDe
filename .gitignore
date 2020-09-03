@@ -1,6 +1,7 @@
 data
 venv
 .idea
+.vscode
 __pycache__
 annotation_cleaner.py
 JaDe/jade/__pycache__/
