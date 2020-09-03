@@ -107,15 +107,6 @@ def run(working_dir, title):
             title: str
                 title of the chart to be built 
     """
-    types = ['[cc_cross_clause]', '[pb_adj_adj]', '[pb_noun_adj]', '[pb_det_noun]', '[pb_noun_noun]', '[pb_noun_prep]',
-            '[pb_verb_adv]', '[pb_verb_chain]', '[pb_verb_prep]', '[pb_adv_adv]', '[pb_to_verb]', '[pb_verb_cprep]', 
-            '[pb_comp]', '[pb_adj_adv]', '[ex_subj_verb]', '[ex_dobj_verb]', '[pb_noun_noun]', '[pb_det_noun]', 
-            '[pb_noun_adj]', '[pb_verb_prep]', '[pb_verb_chain]', '[pb_adj_adv]', '[pb_verb_adv]', '[ex_dobj_verb]', 
-            '[ex_subj_verb]', '[pb_phrasal_verb]', '[cc_cross_clause]', '[pb_adj_prep]', '[pb_relword]', 
-            '[ex_verb_adjunct]', '[pb_noun_prep]', '[pb_phrasal_verb]', '[ex_dobj_pverb]', '[lex_lexical]']
-
-    types = sorted(list(set(types)))
-    print(types)
 
     working_path = pathlib.Path(working_dir)
     annotations = get_annotation(working_path)
@@ -132,12 +123,11 @@ def run(working_dir, title):
 
     x_axis = list(chart_data.keys())
     y_axis = list(chart_data.values())
-    x_name = 'enjambment_type'
+    x_name = 'enjambment_types'
     y_name = 'number_of_occurrences'
 
-    source = ColumnDataSource(data=dict(enjambment_type=x_axis, number_of_occurrences=y_axis))
+    source = ColumnDataSource(data=dict(enjambment_types=x_axis, number_of_occurrences=y_axis))
     chart = classic_barplot(x_axis, x_name, y_axis, y_name, source=source, title=title, orientation='vertical', y_margin=5)
-    # show(chart)
     grid = gridplot([[chart]])
     show(grid)
 
