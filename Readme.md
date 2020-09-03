@@ -1,4 +1,4 @@
-# JaDe - enJambment Detection
+# JaDe - en**Ja**mbment **De**tection
 
 JaDe is a tool to detect and classify enjambment in English poetry.
 The aim is to help researchers in stylistics to gather more evidence to support
@@ -17,10 +17,11 @@ resources necessary to run the tool
     poem from the test corpus annotated by the tool
     3. phrasal_verbs.txt: list of phrasal verbs supported by the classifier
 - [jane](https://github.com/MongetE/JaDe/tree/master/JaDe/jane): examples for
-    enjambment analysis. Jane includes a `run.py` file, which is a basic example
-    on how to use JaDe and [charmak](https://github.com/MongetE/JaDe/tree/master/JaDe/jane/charmak) for enjambment analysis. It also includes a ipynb file, also found [here](https://nbviewer.jupyter.org/github/MongetE/JaDe/blob/develop/JaDe/jane/jane.ipynb?flush_cache=true),
+    en**Ja**mbment a**N**alysis. Jane includes a `run.py` file, which is a basic example
+    on how to use JaDe and [charmak](https://github.com/MongetE/JaDe/tree/master/JaDe/jane/charmak)
+    for enjambment analysis. It also includes a ipynb file, also found [here](https://nbviewer.jupyter.org/github/MongetE/JaDe/blob/master/JaDe/jane/jane.ipynb?flush_cache=true),
     which explains how to build multibars plot (see [here](https://github.com/MongetE/JaDe/blob/master/JaDe/jane/img/no_provided.png) for an example) so as to carry
-    out a **comparative** analysis.
+    out a ***comparative*** analysis.
 
 ## Requirements
 
@@ -44,13 +45,15 @@ Spacy requires a language model. By default, the model used is  the
 
 To install a spacy model, run `python -m spacy download "modelname"`.
 
+See [spaCy English models page](https://spacy.io/models/en) for further information on the different models that can be used with JaDe.
+
 ## Run JaDe
 
 JaDe can be run using `python run.py [OPT]`. A list of all options available is
 available through `python run.py --help`.
 
 Basic usage include a single file analysis or the analysis of a whole directory
-at once.  
+at once. See [How do I run it](https://github.com/MongetE/JaDe/wiki/Home-&-FAQ#how-do-i-run-it-) for details on how to run JaDe on several directories or files at a time. 
 
 ### Single file analysis
 
@@ -65,9 +68,9 @@ be saved in the current directory.
 
 `python run.py --dir path/to/dir`  
 The `--save` option MUST be set to True: for readability's sake, the analysis
-won't be printed in the prompt.  
+won't be printed in the prompt. If not passed, `--save` is set to True by default.   
 By default, if `--outdir` is not specified, the analysed files will be saved in
-a `analysis` directory, created in the current working directory.
+a `annotated_[original_directory_name]` directory, created in the working directory.
 
 ## Results
 
@@ -100,6 +103,7 @@ with the smallest model are presented below:
 | [ex_dobj_pverb]   | 1.000     | 0.333  | 0.500    | 3       |
 | **micro_avg**     | 0.634     | 0.462  | 0.534    | 353     |
 | **macro_avg**     | 0.721     | 0.501  | 0.510    | 353     |
+| **weighted_avg**  | 0.738     | 0.462  | 0.522    | 353     |
 
 Regarding the detection per se, the results are as follow:
 
