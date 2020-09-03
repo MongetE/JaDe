@@ -42,14 +42,14 @@ def get_filename(file):
 
 @click.command()
 @click.option('--model', help="Language model to be used", default='en_core_web_sm')
-@click.option('--dir', help="Path to the directory to analyze", default=None)
-@click.option('--file', help="Path to the file to analyze", default=None)
+@click.option('--dir', help="Path to the directory to analyze", default=None, multiple=True)
+@click.option('--file', help="Path to the file to analyze", default=None, multiple=True)
 @click.option('--save', help="Specify whether or not the analysis should be saved.\
             Only works at file level.", default=True)
 @click.option('--outfile', help="Path to where the analyzed file should be saved",
-            default=None)
+            default=None, multiple=True)
 @click.option('--outdir', help="Path to where the analyzed files in input\
-            directory should be saved", default=None)
+            directory should be saved", default=None, multiple=True)
 def run(model, dir, file, outdir, outfile, save): 
     """
         JaDe command-line interface manager. 
@@ -94,6 +94,12 @@ def run(model, dir, file, outdir, outfile, save):
     """
     nlp = spacy.load(model)
 
+    if len(file) == 0:
+        file = None
+
+    if len(dir) == 0: 
+        dir = None
+
     if str(save).capitalize() == "False": 
         save = False
     elif str(save).capitalize() == "True": 
@@ -102,59 +108,53 @@ def run(model, dir, file, outdir, outfile, save):
         print('save options only accepts True or False.')
 
     if dir is None and file is not None: 
-        files = file.split(',')
         
-        if len(files) > 1:
+        if len(file) > 1:
             print('For ease of reading, output will be saved in your working directory. It will be preceded by `annotated`.')
             save = True
                 
-        for i in range(len(files)):
-            file = files[i]
-            with open(file, 'r', encoding='utf-8') as poem_file:
-                file_name = get_filename(str(file))
+        for i in range(len(file)):
+            curr_file = file[i]
+            with open(curr_file, 'r', encoding='utf-8') as poem_file:
+                file_name = get_filename(str(curr_file))
 
                 try: 
-                    outfiles = outfile.split(',')
-                    outfile = outfiles[i]
-                except (IndexError, AttributeError):
-                    outfile = 'annotated_ ' + file_name + '.txt'
+                    curr_outfile = outfile[i]
+                except (IndexError, AttributeError, TypeError):
+                    curr_outfile = 'annotated_' + file_name + '.txt'
 
-                processor(poem_file, save, outfile, nlp)
+                processor(poem_file, save, curr_outfile, nlp)
 
     elif dir is not None and file is None: 
-        dirs = dir.split(',')
-        
-        for j in range(len(dirs)): 
-            dir = dirs[j]
-            if not dir.endswith('/'):
-                dir += '/'
+        for j in range(len(dir)): 
+            curr_dir = dir[j].replace(' ', '_')
+
             try: 
-                outdirs = outdir.split(',')
-                outdir = outdirs[j]
-            except (IndexError, AttributeError):
-                outdir = 'annotated_' + re.search(r'(.*\/)(?P<name>(\d*\w*-?)+)', dir[:-1]).group('name')
+                curr_outdir = outdir[j]
+            except (IndexError, AttributeError, TypeError):
+                curr_outdir = 'annotated_' + re.search(r'(.*\/)(?P<name>(\w*[ \\_]?)+)(?=\/$)',  curr_dir).group('name')
 
             if save:
-                files = [dir+file for file in os.listdir(dir) if fnmatch.fnmatch(file, '*.txt')]
+                files = [dir[j]+file for file in os.listdir(dir[j]) if fnmatch.fnmatch(file, '*.txt')]
 
                 for i in tqdm(range(len(files))):
                     with open(files[i], 'r', encoding='utf-8') as poem_file:
                         file_name = get_filename(str(files[i]))
 
-                        outfile = outdir + '/' + file_name + '.txt'
+                        outfile = curr_outdir + '/' + file_name + '.txt'
 
                         if sys.platform.startswith('win'):
                             outfile = str(pathlib.PureWindowsPath(outfile))
 
-                        if not os.path.exists(outdir): 
-                            os.mkdir(outdir)
+                        if not os.path.exists(curr_outdir): 
+                            os.mkdir(curr_outdir)
 
                         processor(poem_file, save, outfile, nlp)
-                print('Files have been saved to disk at', outdir)
+                print('Files have been saved to disk at', curr_outdir)
                 
             else: 
-                print('For readability, the -dir command can only be run when save is enabled')
-                print('By default, the -save argument is set to True.')
+                print('For readability, the --dir command can only be run when save is enabled')
+                print('By default, the --save argument is set to True.')
                 sys.exit(0)
 
     elif dir is not None and file is not None: 

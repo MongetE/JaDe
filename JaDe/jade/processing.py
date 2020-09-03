@@ -292,6 +292,8 @@ def processor(file, save, outfile, nlp, classifier='all'):
     if save:
         with open(outfile, 'w', encoding='utf-8') as file:
             file.write(poem)
+        print('Files has been saved to disk at', outfile)
+
         
     else: 
         print(poem)
