@@ -23,7 +23,9 @@ resources necessary to run the tool
     which explains how to build multibars plot (see [here](https://github.com/MongetE/JaDe/blob/master/JaDe/jane/img/no_provided.png) for an example) so as to carry
     out a ***comparative*** analysis.
 
-## Requirements
+## Getting started
+
+### Requirements
 
 - python3.7
 - spacy
@@ -40,20 +42,20 @@ resources necessary to run the tool
 Required libraries can be installed using `pip install -r requirements.txt`.
 
 *Note*  
-Spacy requires a language model. By default, the model used is  the
+Spacy requires a language model. By default, the model used in this project is  the
 `en_core_web_sm` one.
 
 To install a spacy model, run `python -m spacy download "modelname"`.
 
 See [spaCy English models page](https://spacy.io/models/en) for further information on the different models that can be used with JaDe.
 
-## Run JaDe
+### Quickstart
 
 JaDe can be run using `python run.py [OPT]`. A list of all options available is
 available through `python run.py --help`.
 
 Basic usage include a single file analysis or the analysis of a whole directory
-at once. See [How do I run it](https://github.com/MongetE/JaDe/wiki/Home-&-FAQ#how-do-i-run-it-) for details on how to run JaDe on several directories or files at a time. 
+at once. See [Running JaDe](https://github.com/MongetE/JaDe/wiki/Running-JaDe) for details on how to run JaDe on several directories or files at a time. 
 
 ### Single file analysis
 
@@ -115,7 +117,7 @@ Regarding the detection per se, the results are as follow:
 
 These results can be obtained by running `run_eval.py`.
 
-## Running evaluation
+### Running evaluation
 
 Evaluation can be performed on the system as a whole or on a specific classifier.
 However, a change in evaluation mode (overall vs specific), the `--annotate`
@@ -123,7 +125,7 @@ argument MUST be set to `True`. Otherwise, the evaluation will be performed
 on the annotations obtained for the previous mode. For example, if the evaluation
 was run with `--classifier all` and `--classifier dependencies` is run after
 without `annotate True`, then the results would also includes the annotations
-made by the regex classifier.
+made by the regex classifier. 
 
 For instance, `cross-clause` results are :
 |              | precision | recall | f1-score | support |
@@ -131,3 +133,6 @@ For instance, `cross-clause` results are :
 | overall      | 1.000     | 0.600  | 0.750    | 20      |
 | regex        | 1.000     | 0.450  | 0.621    | 20      |
 | dependencies | 0.667     | 0.500  | 0.571    | 20      |
+
+See [here](https://github.com/MongetE/JaDe/wiki/Evaluation)
+for more information on the different options to evaluate JaDe
