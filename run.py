@@ -63,31 +63,32 @@ def run(model, dir, file, outdir, outfile, save):
                 language model to be used. Default to spacy smaller one.
             dir: str
                 Path to the directories to be analysed. To analyse a batch of 
-                directories, use a comma to separate each path. Eg
-                `--dir ../sylvia_plath,../oscar_wilde`. Please note that if
-                there is a space in your path, you need to wrap it around double
+                directories, indicate `--dir` before each path. Eg
+                `--dir ../sylvia_plath --dir ../oscar_wilde`. Please note that if
+                there is a space in your path, you need to wrap it with double
                 quotes `--dir "../oscar wilde".
             outdir: str
                 Path to where the files should be saved after analysis. Default
                 to current working directory. Please note that if
-                there is a space in your path, you need to wrap it around double
+                there is a space in your path, you need to wrap it with double
                 quotes `--dir "../oscar wilde". It can accept several outdirs, 
-                as long as they are separated by commas, eg 
-                `--outdir ../annotated_oscar_wilde,../annotated_sylvia_plath`.
+                as long as the `--outdir` argument is passed before path, eg 
+                `--outdir ../annotated_oscar_wilde --outdir ../annotated_sylvia_plath`.
             file: str
                 Path to the files to be analysed. Several files can be analysed
-                at the same time if their path is comma-separated, eg 
-                `--file sylvia_plath/Admonition.txt,sylvia_plath/Amnesiac.txt`.
+                at the same time if `--file` is passed before each filepath, eg 
+                `--file sylvia_plath/Admonition.txt --file sylvia_plath/Amnesiac.txt`.
                 Please note that if there is a space in your path, you need to 
-                wrap it around double quotes `--file "../sylvia plath/Admonition.txt"
+                wrap it with double quotes `--file "../sylvia plath/Admonition.txt"
             outfile: str
                 Path to where the file will be saved after analysis. Default to
                 *filename*.txt in the current working directory. Several outfiles
                 can be provided (if several files are provided as well), eg
-                `--outfile annotated_Admonition.txt,annotated_Amnesiac.txt`.
+                `--outfile annotated_Admonition.txt --outfile annotated_Amnesiac.txt`.
                 Please note that if there is a space in your path, you need to 
-                wrap it around double quotes 
-                `--outfile "../sylvia plath/annotated Admonition.txt"
+                wrap it with double quotes 
+                `--outfile "../sylvia plath/annotated Admonition.txt" or escape
+                white-space.
             save: bool
                 Whether or not the save is to be enabled. Can be set to False for
                 single file analysis only. 
@@ -124,18 +125,25 @@ def run(model, dir, file, outdir, outfile, save):
                     curr_outfile = 'annotated_' + file_name + '.txt'
 
                 processor(poem_file, save, curr_outfile, nlp)
+                print("File has been saved to disk at", curr_outfile)
 
     elif dir is not None and file is None: 
         for j in range(len(dir)): 
             curr_dir = dir[j].replace(' ', '_')
+            
+            if not curr_dir.endswith('\\') and sys.platform.startswith('win') and '\\' in curr_dir: 
+                    curr_dir = curr_dir + r'\\'
+                    curr_dir = curr_dir[:-1]
+            elif not curr_dir.endswith('/'):
+                curr_dir = curr_dir + '/'
 
             try: 
                 curr_outdir = outdir[j]
             except (IndexError, AttributeError, TypeError):
-                curr_outdir = 'annotated_' + re.search(r'(.*\/)(?P<name>(\w*[ \\_]?)+)(?=\/$)',  curr_dir).group('name')
+                curr_outdir = 'annotated_' + re.search(r'.*[\\\/](?P<name>(\w*[ _]?)+)(?=[\\\/]$)',  curr_dir).group('name')
 
             if save:
-                files = [dir[j]+file for file in os.listdir(dir[j]) if fnmatch.fnmatch(file, '*.txt')]
+                files = [curr_dir+file for file in os.listdir(curr_dir) if fnmatch.fnmatch(file, '*.txt')]
 
                 for i in tqdm(range(len(files))):
                     with open(files[i], 'r', encoding='utf-8') as poem_file:

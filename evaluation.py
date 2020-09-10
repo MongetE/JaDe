@@ -1,7 +1,7 @@
 """
    JaDe is a command-line tool to automatically detect enjambment in English 
    poetry. This file should be used to evaluate JaDe. Further information on 
-   how to run it can be found using `python run_eval.py --help"
+   how to run it can be found using `python evaluation.py --help"
 
     Copyright (C) 2020  Eulalie Monget
 
@@ -254,7 +254,7 @@ def run(model, classifier, annotate, confusion):
                 language model to be used. Default to spaCy smaller model.
             classifier: str
                 classifier on which evaluation is to be performed. Default to all.
-                See run_eval.py --help for a list of accepted values.
+                See evaluation.py --help for a list of accepted values.
             annotate: bool
                 whether JaDe should be run to update automatic test data. 
                 Default to False. 
