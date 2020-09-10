@@ -260,24 +260,30 @@ def detect_phrasal_verb(line_pair):
         object_pattern = r'some\w*'
 
         split_phrasal = phrasal.split(' ')
-        ing_verb = split_phrasal[0] + '(.?ing|d)? '
+        if re.sub(object_pattern, '', " ".join(split_phrasal[1:])):
+            particle = re.sub(object_pattern, '', " ".join(split_phrasal[1:])).strip()
+        else: 
+            particle  = split_phrasal[1]
+        verb = split_phrasal[0]
+        ing_verb = verb + '(.?ing|e?d|t)? '
         phrasal = ing_verb + ' '.join(split_phrasal[1:])
         
         if re.search(object_pattern, phrasal): 
-            ex_verb_pattern_1 = split_phrasal[0] + r'(.?ing|e?d|t)( \\w*){1,3}' + re.sub(object_pattern, r'\\t( ?\\w*){1,3}', 
-                                                                                    ' '.join(split_phrasal[1:]))
-            ex_verb_pattern_2 = split_phrasal[0] + r'(.?ing|e?d|t)' + ' ' + re.sub(object_pattern, r'\\t( ?\\w*){1,3}', 
-                                                                        ' '.join((split_phrasal[1:]))) 
+            ex_verb_pattern_1 = verb + r'(.?ing|e?d|t)?( \w*){1,3}' + r'\t( ?\w*){0,3} ' + particle
+            ex_verb_pattern_2 = verb + r'(.?ing|e?d|t)?' + ' ' + particle + r'\t( ?\w*){1,3}'
+            ex_verb_pattern_3 = verb + r'(.?ing|e?d|t)?( \w*){0,3}' + r'\t( ?\w*){1,3} ' + particle
+
             ex_verb_pattern_2 = ex_verb_pattern_2.replace(' \\t', '\\t')
             ex_verb_pattern_1 = ex_verb_pattern_1.replace( ' \\t', '\\t')
 
-            if re.search(ex_verb_pattern_1, line_pair, flags=re.MULTILINE) or re.search(ex_verb_pattern_2, line_pair, 
-                                                                                        flags=re.MULTILINE):
+            if re.search(ex_verb_pattern_1, line_pair, flags=re.MULTILINE) \
+                or re.search(ex_verb_pattern_2, line_pair, flags=re.MULTILINE):
                 types.append('ex_dobj_pverb')
             
         else: 
             pb_phrasal = ing_verb + '\\t' + ' '.join(split_phrasal[1:])
             pb_phrasal = pb_phrasal.replace(' \\t', '\\t')
+            pb_phrasal = re.sub(object_pattern+' ', '', pb_phrasal)
 
             if re.search(pb_phrasal, line_pair, flags=re.MULTILINE): 
                 types.append('pb_phrasal_verb')
