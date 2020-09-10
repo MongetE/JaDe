@@ -149,7 +149,7 @@ def run(model, dir, file, outdir, outfile, save):
                         if not os.path.exists(curr_outdir): 
                             os.mkdir(curr_outdir)
 
-                        processor(poem_file, save, outfile, nlp)
+                        processor(poem_file, save, outfile, nlp, is_dir=True)
                 print('Files have been saved to disk at', curr_outdir)
                 
             else: 

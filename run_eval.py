@@ -74,7 +74,7 @@ def process_annotated(model, classifier):
         with open(files[i], 'r', encoding='utf-8') as curfile:
             file_name = get_filename(str(files[i]))
             out_file = str(out_dir) + '/' + file_name
-            processor(curfile, True, out_file, nlp, classifier)
+            processor(curfile, True, out_file, nlp, classifier=classifier, is_eval=True)
             
 
 def get_manual_annotations(file, classifier): 

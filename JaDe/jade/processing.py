@@ -173,7 +173,7 @@ def handle_multiclassification(dependency_types):
     return dependency_types
                         
 
-def processor(file, save, outfile, nlp, classifier='all'):
+def processor(file, save, outfile, nlp, classifier='all', is_eval=False, is_dir=False):
     """
         Execute the whole preprocessing module. 
 
@@ -292,8 +292,8 @@ def processor(file, save, outfile, nlp, classifier='all'):
     if save:
         with open(outfile, 'w', encoding='utf-8') as file:
             file.write(poem)
-        print('Files has been saved to disk at', outfile)
+        if not is_eval and not is_dir:
+            print('Files has been saved to disk at', outfile)
 
-        
     else: 
         print(poem)
