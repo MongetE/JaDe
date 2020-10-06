@@ -14,9 +14,9 @@ resources necessary to run the tool
 - [jade](https://github.com/MongetE/JaDe/tree/master/JaDe/jade): source code
 - [ressources](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/): txt files
     1. [annotated_poems](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/annotated_poems):
-    poems used for tool evaluation
+    manually annotated poems used for tool evaluation
     2. [detected](https://github.com/MongetE/JaDe/tree/master/JaDe/resources/detected):
-    poem from the test corpus annotated by the tool
+    poems from the test corpus annotated by the tool
     3. phrasal_verbs.txt: list of phrasal verbs supported by the classifier
 - [jane](https://github.com/MongetE/JaDe/tree/master/JaDe/jane): examples for
     en**Ja**mbment a**N**alysis. Jane includes a `run.py` file, which is a basic example
@@ -44,12 +44,13 @@ resources necessary to run the tool
 Required libraries can be installed using `pip install -r requirements.txt`.
 
 *Note*  
-Spacy requires a language model. By default, the model used in this project is  the
+Spacy requires a language model. By default, the model used in this project is the
 `en_core_web_sm` one.
 
 To install a spacy model, run `python -m spacy download "modelname"`.
 
-See [spaCy English models page](https://spacy.io/models/en) for further information on the different models that can be used with JaDe.
+See [spaCy English models page](https://spacy.io/models/en) for further
+information on the different models that can be used with JaDe.
 
 ### Quickstart
 
@@ -57,7 +58,8 @@ JaDe can be run using `python run.py [OPT]`. A list of all options available is
 available through `python run.py --help`.
 
 Basic usage include a single file analysis or the analysis of a whole directory
-at once. See [Running JaDe](https://github.com/MongetE/JaDe/wiki/Running-JaDe) for details on how to run JaDe on several directories or files at a time. 
+at once. See [Running JaDe](https://github.com/MongetE/JaDe/wiki/Running-JaDe)
+for details on how to run JaDe on several directories or files at a time.
 
 ### Single file analysis
 
@@ -72,7 +74,7 @@ be saved in the current directory.
 
 `python run.py --dir path/to/dir`  
 The `--save` option MUST be set to True: for readability's sake, the analysis
-won't be printed in the prompt. If not passed, `--save` is set to True by default.   
+won't be printed in the prompt. If not passed, `--save` is set to True by default.
 By default, if `--outdir` is not specified, the analysed files will be saved in
 a `annotated_[original_directory_name]` directory, created in the working directory.
 
@@ -127,7 +129,7 @@ argument MUST be set to `True`. Otherwise, the evaluation will be performed
 on the annotations obtained for the previous mode. For example, if the evaluation
 was run with `--classifier all` and `--classifier dependencies` is run after
 without `annotate True`, then the results would also includes the annotations
-made by the regex classifier. 
+made by the regex classifier.
 
 For instance, `cross-clause` results are :
 |              | precision | recall | f1-score | support |
