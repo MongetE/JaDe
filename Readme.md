@@ -2,7 +2,7 @@
 
 JaDe is a tool to detect and classify enjambment in English poetry.
 The aim is to help researchers in stylistics to gather more evidence to support
-their claims.
+their claims. A web app to play around is available [there](https://enjambment-detection.herokuapp.com/).
 
 Don't forget to visit the [wiki](https://github.com/MongetE/JaDe/wiki).
 
